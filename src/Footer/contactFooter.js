@@ -7,7 +7,7 @@ const ContactFooter = () => (
 
 
         <div className="infor-contact">
-            <img className="logo-footer" src={logocontact}></img>
+            <img className="logo-footer" src={logocontact} alt="nice"/>
             <div className="contact-address">
                 <div className="contact-header">Thông tin liên hệ</div>
                 <div className="contact-body">
@@ -25,7 +25,7 @@ const ContactFooter = () => (
                 </div>
             </div>
             <div className="like-facebook">
-                    <img src={facebookfooter}></img>
+                    <img src={facebookfooter} alt="loi anh"></img>
             </div>
             <div className="shadow-contact"></div>
         </div>
