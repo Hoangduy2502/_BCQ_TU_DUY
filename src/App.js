@@ -1,14 +1,16 @@
 import logo from './logo.svg';
 import Header from './Header/Header';
-import body from './Body/index.js'
+import Index from './Body/index';
+import Footer from './Footer';
 function App() {
   return (
     <>
       <Header/>
-      <index/>
+      <Index/>
+      <Footer />
     </>
   );
 }
-import index from './Body';
+
 
 export default App;
