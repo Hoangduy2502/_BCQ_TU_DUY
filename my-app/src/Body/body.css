@@ -1,0 +1,99 @@
+@media (min-width: 1200px) and (max-width: 1600px) {
+    .Gioithieu{
+        background-image: url("./img/Nen.png");
+        width: 100%;
+        z-index: -1;
+        height: 1067px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .maket
+    {
+        background:  0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 6px #00000029;
+        border-radius: 10px;
+        opacity: 1;
+        left: 230px;
+        width: 418px;
+        height: 275px;
+        z-index: 1;
+        position: relative;
+        top: -200px;
+    }
+    .anhtet
+    {
+        position: relative;
+        top: -110px;
+        left: 260px;
+        width: 650px;
+        height: 463px;
+        background:  0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 6px #00000029;
+        border-radius: 10px;
+        opacity: 1;
+    }
+    .Street{
+        position: relative;
+        background:  0% 0% no-repeat padding-box;
+        box-shadow: -5px 5px 0px #00000012;
+        border-radius: 10px;
+        opacity: 1;
+        margin-left: 200px;
+        width: 272px;
+        height: 421px;
+        margin-top:-100px
+        
+    }
+    
+}
+@media (min-width: 1600px)  {
+    .Gioithieu{
+        
+        background-image: url("./img/Nen.png");
+        width: 100%;
+        z-index: -1;
+        height: 1067px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .maket
+    {
+        background:  0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 6px #00000029;
+        border-radius: 10px;
+        opacity: 1;
+        left: 382px;
+        width: 418px;
+        height: 275px;
+        z-index: 1;
+        position: relative;
+        top: -100px;
+    }
+    .anhtet
+    {
+        position: relative;
+        top: -100px;
+        left: 427px;
+        width: 704px;
+        height: 463px;
+        background:  0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 6px #00000029;
+        border-radius: 10px;
+        opacity: 1;
+    }
+    .Street{
+       position: relative;
+        background:  0% 0% no-repeat padding-box;
+        box-shadow: -5px 5px 0px #00000012;
+        border-radius: 10px;
+        opacity: 1;
+        margin-left: 230px;
+        width: 272px;
+        height: 421px;
+        margin-top:-120px;
+        
+    }
+}
+
+
+
