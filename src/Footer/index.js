@@ -2,7 +2,7 @@ import React from 'react';
 import ContentFooter from './contentFooter';
 import Rating from './rating';
 const Footer = () => (
-            <div>
+            <div style={{position: 'relative'}}>
                 <Rating />
                 <ContentFooter />
             </div>
