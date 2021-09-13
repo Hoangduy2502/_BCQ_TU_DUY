@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import carousel01 from './img/carousel01.png'
 import './footer.css'
+import prebtn from './img/preicon.png'
+import nextbtn from './img/nexticon.png'
 const BreakingNews = (props) => {
     const {DataTT}=props
     var list=[]
@@ -35,7 +36,7 @@ const BreakingNews = (props) => {
     })
    console.log("TEST",listItems)
     return(
-       
+        
         <div className="d-flex justify-content-center">
         <div id="carouselExampleControls" className="carousel slide breaking-news" data-ride="carousel" data-interval="false">
             <div className="carousel-inner container-fluid">
@@ -51,12 +52,10 @@ const BreakingNews = (props) => {
                 </div>
             </div>
             <a className="carousel-control-prev mybtn-pre" href="#carouselExampleControls" role="button" data-slide="prev">
-                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span className="sr-only">Previous</span>
+                <img src={prebtn} href=""></img>
             </a>
             <a className="carousel-control-next mybtn-next" href="#carouselExampleControls" role="button" data-slide="next">
-                <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                <span className="sr-only">Next</span>
+            <img src={nextbtn} href=""></img>
             </a>
         </div>
     </div>
