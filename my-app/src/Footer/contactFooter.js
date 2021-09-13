@@ -4,8 +4,6 @@ import logocontact from './img/logocontact.png'
 import facebookfooter from './img/facebookfooter.png'
 const ContactFooter = () => (
     <div className="contactFooter">
-
-
         <div className="infor-contact">
             <img className="logo-footer" src={logocontact} alt="nice"/>
             <div className="contact-address">
