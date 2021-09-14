@@ -44,6 +44,18 @@
         margin-top:-100px
         
     }
+    .test
+    {
+        margin-bottom: -100px;
+        margin-left: 625px;
+    }
+    .banhcuon
+    {
+        width: 200px;
+        height: 30px;
+        opacity: 1;
+        margin-top: -1100px;
+    }
     
 }
 @media (min-width: 1600px)  {
@@ -93,6 +105,19 @@
         margin-top:-120px;
         
     }
+    .test
+    {
+        margin-bottom: -200px;
+        margin-left: 700px;
+    }
+    .banhcuon
+    {
+        width: 250px;
+        height: 38px;
+        opacity: 1;
+        margin-top: -1200px;
+    }
+   
 }
 
 

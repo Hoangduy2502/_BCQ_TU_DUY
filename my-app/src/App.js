@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import Header from './Header/Header';
-import Index from './Body/index.js';
+import Index from './Body/bodyHome/index';
 import Footer from './Footer';
 function App() {
   return (
@@ -8,6 +8,7 @@ function App() {
       <Header/>
       <Index/>
       <Footer />
+      
     </>
   );
 }
