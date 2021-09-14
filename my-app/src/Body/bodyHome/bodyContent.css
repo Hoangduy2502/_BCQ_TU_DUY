@@ -1,0 +1,143 @@
+.Content{
+    background: #FFFAF0 0% 0% no-repeat padding-box;
+    width: 100%;
+    position: relative;
+}
+.ct-logo{
+    position: absolute;
+    height: 482px;
+    width: 780px;
+    top: -375px;
+    right: 230px;
+}
+.ct-logo .logo{
+    margin-left: 120px;
+}
+.ct-logo .logo-quyen{
+    margin-top: 13px;
+}
+.ct-logo .contenthv{
+    text-align: center;
+    width: 351px;
+    height: 63px;
+    background: #FFBE00 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    margin: auto;
+}
+.ct-logo .logo-huongvi{
+    position: relative;
+    margin-left: 256px;
+    width: 371px;
+    height: 83px;
+    display: flex;
+}
+.ct-logo .contenthv > span{
+    
+    font: normal normal normal 53px/65px UTM Alter Gothic;
+    letter-spacing: 0px;
+    color: #840C16;
+}
+.ct-logo .text-title{
+    margin-top: 25px;
+    display: block;
+    text-align: left;
+    font: normal normal normal 18px/30px Montserrat Regular;
+    letter-spacing: 0px;
+    color: #392A00;
+}
+.ct-logo .badoibanhcuon{
+    position: absolute;
+    display: block;
+    font: normal normal bold 30px/37px Montserrat bold;
+    letter-spacing: 0px;
+    color: #840C16;
+    width: 427px;
+    height: 74px;
+    bottom: -26px;
+    right: 11px;
+}
+.ct-boss{
+    padding-top: 180px;
+    height: 1000px;
+    text-align: center;
+    width: 1370px;
+    margin-left: auto;
+}
+.ct-multiRow{
+    
+    height: 200px;
+}
+.ct-boss .textboss1{
+    display: block;
+    width: 252px;
+    height: 327px;
+    text-align: left;
+    font: normal normal normal 18px/30px Montserrat Regular;
+    letter-spacing: 0px;
+    color: #392A00;
+}
+.ct-boss .textboss2{
+    display: block;
+    width: 441px;
+    height: 502px;
+    text-align: left;
+    font: normal normal normal 18px/30px Montserrat Regular;
+    letter-spacing: 0px;
+    color: #392A00;
+}
+.ct-boss .imgboss{
+    position: relative;
+}
+.ct-boss .bossbr01{
+    top: 52px;
+    left: 0;
+    position: absolute;
+    z-index: 1;
+
+}
+.ct-boss .bossbr02{
+    top: 52px;
+    left: 0;
+    position: absolute;
+    z-index: 0;
+    
+}
+.ct-boss .bossshape{
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 2;
+}
+.ct-boss .boss1946{
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    z-index: 3;
+    text-align: left;
+    font: normal normal normal 366px/457px UTM Alter Gothic;
+    letter-spacing: -18.3px;
+    color: #840C16;
+    text-shadow: -50px -50px 0px #00000014;
+    opacity: 0.89;
+}
+.ct-boss .nameboss{
+    display: block;
+    font: normal normal bold 25px/31px Muli;
+    letter-spacing: 3.75px;
+    color: #FFFFFF;
+}
+.ct-boss .titleboss{
+    display: block;
+    font: normal normal normal 20px/25px Muli;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 0.57;
+}
+.ct-boss .textboss{
+    width: 319px;
+    position: absolute;
+    top: 612px;
+    right: 121px;
+    z-index: 3;
+}

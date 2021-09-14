@@ -15,7 +15,7 @@ const ContactFooter = () => (
                 </div>
             </div>
             <div className="shop2">
-                <div className="contact-header">Cửa hàng số 2</div>
+                <div className="contact-header" style={{lineHeight: '37px'}}>Cửa hàng số 2</div>
                 <div className="contact-body">
                     <span className="contact-rowtext"><span className="strong-text">ĐC:</span> Số 345 Đà Nặng, quận Ngô Quyền thành phố Hải Phòng</span>
                     <span className="contact-rowtext" style={{ margin: '10px 0' }}><span className="strong-text">ĐT:</span> 0225.987.654</span>
