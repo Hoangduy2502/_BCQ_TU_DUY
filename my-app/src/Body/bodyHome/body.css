@@ -1,0 +1,332 @@
+@media (min-width: 1200px) and (max-width: 1600px) {
+    .Gioithieu{
+        background-image: url("./img/Nen.png");
+        width: 100%;
+        z-index: -1;
+        height: 1067px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .maket
+    {
+        background:  0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 6px #00000029;
+        border-radius: 10px;
+        opacity: 1;
+        left: 230px;
+        width: 418px;
+        height: 275px;
+        z-index: 1;
+        position: relative;
+        top: -200px;
+    }
+    .anhtet
+    {
+        position: relative;
+        top: -110px;
+        left: 260px;
+        width: 650px;
+        height: 463px;
+        background:  0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 6px #00000029;
+        border-radius: 10px;
+        opacity: 1;
+    }
+    .Street{
+        position: relative;
+        background:  0% 0% no-repeat padding-box;
+        box-shadow: -5px 5px 0px #00000012;
+        border-radius: 10px;
+        opacity: 1;
+        margin-left: 200px;
+        width: 272px;
+        height: 421px;
+        margin-top:-100px
+        
+    }
+    .test
+    {
+        margin-bottom: -100px;
+        margin-left: 625px;
+    }
+    .banhcuon
+    {
+        width: 200px;
+        height: 30px;
+        opacity: 1;
+        margin-top: -1100px;
+    }
+    .Menu
+    {
+        position: relative;
+        background-repeat: no-repeat;
+        width: 1500px;
+        height: 700px;
+        opacity: 1;
+        left: 270px;
+        right: 303px;
+        background-image: url("./img/Path26.png");
+        
+    }
+    
+    .Trayproduct
+    {
+        position: absolute;
+        /* margin-left: 185px; */
+        top:40px;
+        right: 662px;
+        width: 1066px;
+        height: 655px;
+        box-shadow: -50px 0px 6px #00000014;
+        opacity: 1;
+    }
+    .Logo{
+        position: absolute;
+        top:50px;
+        left: 600px;
+        width: 390px;
+        height: 390px;
+        opacity: 1;
+    }
+   .Banhcuon
+   {
+        position: relative;
+        top:-40px;
+        right: 270px;
+        width: 17px;
+        height: 17px;
+        opacity: 1;
+   }
+   .Cha
+   {
+        position: relative;
+        top:-200px;
+        right: 50px;
+        width: 17px;
+        height: 17px;
+        opacity: 1;
+   }
+   .Nuocham
+   {
+        position: relative;
+        top :0px;
+        left: 90px;
+        width: 17px;
+        height: 17px;
+        opacity: 1;
+   }
+   .Hanh
+   {
+        position: relative;
+        top :165px;
+        /* left: 360px; */
+        left: 55px;
+        width: 17px;
+        height: 17px;
+        opacity: 1;
+
+   }
+   .Rau
+   {
+        position: relative;
+        
+        top:-120px;
+        left: 200px;
+        width: 17px;
+        height: 17px;
+        opacity: 1;
+   }
+  .Hoa{
+      position: relative;
+      top:130px;
+      right:450px
+  }
+  .Icon
+  {
+    position: relative;
+    top:150px;
+    right:440px
+  }
+
+    
+}
+@media (min-width: 1600px)  {
+    .Gioithieu{
+        
+        background-image: url("./img/Nen.png");
+        width: 100%;
+        z-index: -1;
+        height: 1067px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .maket
+    {
+        background:  0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 6px #00000029;
+        border-radius: 10px;
+        opacity: 1;
+        left: 382px;
+        width: 418px;
+        height: 275px;
+        z-index: 1;
+        position: relative;
+        top: -100px;
+    }
+    .anhtet
+    {
+        position: relative;
+        top: -100px;
+        left: 427px;
+        width: 704px;
+        height: 463px;
+        background:  0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 6px #00000029;
+        border-radius: 10px;
+        opacity: 1;
+    }
+    .Street{
+       position: relative;
+        background:  0% 0% no-repeat padding-box;
+        box-shadow: -5px 5px 0px #00000012;
+        border-radius: 10px;
+        opacity: 1;
+        margin-left: 230px;
+        width: 272px;
+        height: 421px;
+        margin-top:-120px;
+        
+    }
+    .test
+    {
+        margin-bottom: -200px;
+        margin-left: 700px;
+    }
+    .banhcuon
+    {
+        width: 250px;
+        height: 38px;
+        opacity: 1;
+        margin-top: -1200px;
+    }
+    .Menu
+    {
+        position: relative;
+        background-repeat: no-repeat;
+        width: 1500px;
+        height: 700px;
+        opacity: 1;
+        left: 550px;
+        right: 303px;
+        background-image: url("./img/Path26.png");
+        
+    }
+
+    .Trayproduct
+    {
+        position: absolute;
+        /* margin-left: 185px; */
+        top:40px;
+        right: 662px;
+        width: 1066px;
+        height: 655px;
+        box-shadow: -50px 0px 6px #00000014;
+        opacity: 1;
+    }
+    .Logo{
+        position: absolute;
+        top:60px;
+        left: 550px;
+        width: 390px;
+        height: 390px;
+        opacity: 1;
+    }
+    .Banhcuon
+    {
+         position: relative;
+         top:-40px;
+         right: 270px;
+         width: 17px;
+         height: 17px;
+         opacity: 1;
+    }
+    .Cha
+    {
+         position: relative;
+         top:-200px;
+         right: 50px;
+         width: 17px;
+         height: 17px;
+         opacity: 1;
+    }
+    .Nuocham
+    {
+         position: relative;
+         top :0px;
+         left: 90px;
+         width: 17px;
+         height: 17px;
+         opacity: 1;
+    }
+    .Hanh
+    {
+         position: relative;
+         top :165px;
+         /* left: 360px; */
+         left: 55px;
+         width: 17px;
+         height: 17px;
+         opacity: 1;
+ 
+    }
+    .Rau
+    {
+         position: relative;
+         
+         top:-120px;
+         left: 200px;
+         width: 17px;
+         height: 17px;
+         opacity: 1;
+    }
+   .Hoa{
+       position: relative;
+       top:130px;
+       right:450px
+   }
+   .Icon
+   {
+     position: relative;
+     top:150px;
+     right:440px
+   }
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    background-color:#FFCB08 ;
+    border-color: #FFCB08;
+    text-align: left;
+    font: normal normal normal 25px/31px UTM Alter Gothic Regular;
+    letter-spacing: 0px;
+    color: #840C16;
+    opacity: 1;
+    
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link
+{
+    color: var(--unnamed-color-392a00);
+    text-align: left;
+    font: normal normal normal 25px/31px UTM Alter Gothic Regular;
+    letter-spacing: 0px;
+    color: #392A00;
+    opacity: 1;
+}
+.Tab
+{
+    left: 0px;
+    width: 100%;
+    height: auto;
+    background: #EFE5D4 0% 0% no-repeat padding-box;
+    
+}
+
