@@ -60,6 +60,9 @@
     letter-spacing: var(--unnamed-character-spacing-0);
     color: var(--unnamed-color-840c16);
 }
+.Footer{
+    height: 0;
+}
 .contentfooter{
     background-image: url(./img/backgroundFooter.png);
     background-repeat: no-repeat;
@@ -138,6 +141,7 @@
     margin-bottom: 21px;
 }
 .shop2 > .contact-header{
+    height: 37px;
     text-align: left;
     font: normal normal normal 20px/25px UTM Alter Gothic;
     letter-spacing: 0px;

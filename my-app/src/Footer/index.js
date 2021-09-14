@@ -7,7 +7,7 @@ const Footer = ()=>{
     const data=Data1.Data
     console.log("TEST",data)
     return(
-    <div>
+    <div className="Footer">
         <Rating />
         <ContentFooter DataTT={data}/>
     </div>)
