@@ -9,7 +9,7 @@
     height: 482px;
     width: 780px;
     top: -375px;
-    right: 0;
+    right: 77px;
 }
 .ct-logo .logo{
     margin-left: 120px;
@@ -49,7 +49,7 @@
 .ct-logo .badoibanhcuon{
     position: absolute;
     display: block;
-    font: normal normal bold 30px/37px Montserrat bold;
+    font: normal normal bold 30px/37px Montserrat ExtraBold;
     letter-spacing: 0px;
     color: #840C16;
     width: 427px;
@@ -74,6 +74,7 @@
     font: normal normal normal 18px/30px Montserrat Regular;
     letter-spacing: 0px;
     color: #392A00;
+    margin-bottom: 15px;
 }
 .ct-boss .textboss2{
     display: block;
@@ -86,6 +87,22 @@
 }
 .ct-boss .imgboss{
     position: relative;
+}
+.ct-boss .nameboss{
+    display: block;
+    font: normal normal bold 25px/31px Muli;
+    letter-spacing: 3.75px;
+    color: #FFFFFF;
+    text-align: left;
+}
+.ct-boss .titleboss{
+    display: block;
+    font: normal normal normal 20px/25px Muli;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 0.57;
+    text-align: right;
 }
 .ct-boss .bossbr01{
     top: 52px;
@@ -119,31 +136,17 @@
     text-shadow: -50px -50px 0px #00000014;
     opacity: 0.89;
 }
-.ct-boss .nameboss{
-    display: block;
-    font: normal normal bold 25px/31px Muli;
-    letter-spacing: 3.75px;
-    color: #FFFFFF;
-}
-.ct-boss .titleboss{
-    display: block;
-    font: normal normal normal 20px/25px Muli;
-    letter-spacing: 0px;
-    color: #FFFFFF;
-    text-transform: uppercase;
-    opacity: 0.57;
-}
+
 .ct-boss .textboss{
     width: 319px;
     position: absolute;
     top: 612px;
-    right: 121px;
+    right: 184px;
     z-index: 3;
 }
 .wrap-boss{
     max-width: 1423px;
     position: relative;
-    border: 1px solid blue;
     margin: 0px auto;
     height: 1245px;
     overflow: hidden;
@@ -170,14 +173,20 @@
      height: 46px;
      border-top: 5px solid #840C16;
      border-left: 5px solid #840C16;
-     border-right: 5px solid transparent;
-     border-bottom: 5px solid transparent;
-     border-top-left-radius: 5px 5px;
-     border-bottom-right-radius: 5px 5px;
+    border-top-left-radius: 5px 5px;
+}
+.ct-boss .borderboxbottom{
+    position: absolute;
+     bottom: 0;
+     right: 0;
+     width: 57px;
+     height: 46px;
+     border-bottom: 5px solid #840C16;
+     border-right: 5px solid #840C16;
+    border-bottom-right-radius: 5px 5px;
 }
 .ct-multiRow{
     width: 100%;
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
 }
@@ -217,4 +226,96 @@
     font: normal normal bold 30px/37px Montserrat;
     letter-spacing: 0px;
     color: #840C16;
+}
+.textboxboss > span{
+    display: block;
+    width: 341px;
+    height: 371px;
+    padding-top: 23px;
+    padding-left: 32px;
+}
+.ct-intro-body{
+    margin-top: 74px;
+}
+.ct-intro-body .textrow1{
+    margin-left: 29px;
+    margin-bottom: 32px;
+    width: 257px;
+}
+.textrow1 > span ,.textrow2 > span{
+    display: block;
+}
+.textrow1-head{
+    text-align: left;
+    letter-spacing: 0px;
+    color: #392A00;
+}
+.textrow1-body{
+    text-align: left;
+    font: normal normal normal 40px/50px UTM Alter Gothic;
+    letter-spacing: 0px;
+    color: #840C16;
+}
+.textrow1-foot{
+    text-align: left;
+    font: normal normal normal 13px/20px Montserrat Regular;
+    letter-spacing: 0px;
+    color: #392A00;
+}
+.ct-intro-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 97px;
+}
+.footer-row1{
+    text-align: center;
+    font: normal normal 30px/37px Montserrat ExtraBold;
+    font-weight: 900;
+    letter-spacing: 0px;
+    color: #840C16;
+}
+.footer-row2{
+    display: block;
+    text-align: center;
+    font: normal normal normal 13px/20px Montserrat Regular;
+    letter-spacing: 0px;
+    color: #392A00;
+}
+.footer-row2{
+    margin-top: 16px;
+}
+.mycarouselimg{
+    /* background: #191200 0% 0% no-repeat padding-box; */
+    border-radius: 5px;
+    width: 817px;
+    height: 105px;
+    position: absolute;
+    bottom: 16px;
+    left: 79px;
+}
+#carouselimg{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.myinnerimg{
+    position: absolute;
+    top: 15px;
+    width: unset;
+    left: 10px;
+    height: 77px;
+}
+.pre-btncarimg{
+    position: absolute;
+    left: -18px;
+    width: 0;
+}
+.next-btncarimg{
+    position: absolute;
+    right: -18px;
+    width: 0;
+}
+.slide-box > img{
+    padding: 0 4px;
 }

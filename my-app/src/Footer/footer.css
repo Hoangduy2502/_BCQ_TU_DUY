@@ -62,7 +62,7 @@
 }
 .Footer{
     margin-top: 91px;
-    height: 0;
+    height: calc(100% - 471px);
 }
 .contentfooter{
     background-image: url(./img/backgroundFooter.png);
