@@ -18,12 +18,12 @@
         height: 275px;
         z-index: 1;
         position: relative;
-        top: -200px;
+        top: -130px;
     }
     .anhtet
     {
         position: relative;
-        top: -110px;
+        top: -130px;
         left: 260px;
         width: 650px;
         height: 463px;
@@ -41,7 +41,7 @@
         margin-left: 200px;
         width: 272px;
         height: 421px;
-        margin-top:-100px
+        margin-top:-110px
         
     }
     .test
@@ -56,6 +56,7 @@
         opacity: 1;
         margin-top: -1100px;
     }
+    
     .Menu
     {
         position: relative;
@@ -97,6 +98,7 @@
         height: 17px;
         opacity: 1;
    }
+ 
    .Cha
    {
         position: relative;
@@ -147,7 +149,12 @@
     top:150px;
     right:440px
   }
-
+  .Nav_Tab
+   {
+    position: relative;
+    left: 15px;
+   }
+   
     
 }
 @media (min-width: 1600px)  {
@@ -171,12 +178,12 @@
         height: 275px;
         z-index: 1;
         position: relative;
-        top: -100px;
+        top: -130px;
     }
     .anhtet
     {
         position: relative;
-        top: -100px;
+        top: -130px;
         left: 427px;
         width: 704px;
         height: 463px;
@@ -191,10 +198,10 @@
         box-shadow: -5px 5px 0px #00000012;
         border-radius: 10px;
         opacity: 1;
-        margin-left: 230px;
+        margin-left: 250px;
         width: 272px;
         height: 421px;
-        margin-top:-120px;
+        margin-top:-130px;
         
     }
     .test
@@ -230,9 +237,12 @@
         right: 662px;
         width: 1066px;
         height: 655px;
-        box-shadow: -50px 0px 6px #00000014;
+        /* box-shadow: -50px 0px 6px #00000014; */
         opacity: 1;
     }
+    /* .Trayproduct:hover{
+        display: none;
+    } */
     .Logo{
         position: absolute;
         top:60px;
@@ -242,21 +252,23 @@
         opacity: 1;
     }
     .Banhcuon
-    {
-         position: relative;
+    {   cursor: pointer;
+        position: relative;
          top:-40px;
          right: 270px;
-         width: 17px;
-         height: 17px;
+         width: 27px;
+         height: 27px;
          opacity: 1;
+         z-index: 10000;
     }
+    
     .Cha
     {
          position: relative;
          top:-200px;
          right: 50px;
-         width: 17px;
-         height: 17px;
+         width: 27px;
+         height: 27px;
          opacity: 1;
     }
     .Nuocham
@@ -264,8 +276,8 @@
          position: relative;
          top :0px;
          left: 90px;
-         width: 17px;
-         height: 17px;
+         width: 27px;
+         height: 27px;
          opacity: 1;
     }
     .Hanh
@@ -274,8 +286,8 @@
          top :165px;
          /* left: 360px; */
          left: 55px;
-         width: 17px;
-         height: 17px;
+         width: 27px;
+         height: 27px;
          opacity: 1;
  
     }
@@ -285,21 +297,36 @@
          
          top:-120px;
          left: 200px;
-         width: 17px;
-         height: 17px;
+         width: 27px;
+         height: 27px;
          opacity: 1;
     }
    .Hoa{
        position: relative;
        top:130px;
-       right:450px
+       right:500px
    }
    .Icon
    {
      position: relative;
-     top:150px;
-     right:440px
+     top:160px;
+     right:480px
    }
+   .Nav_Tab
+   {
+    position: relative;
+    left: 300px;
+    
+   }
+   
+ 
+.duy{
+    width: 200px;
+    height: 200px;
+     background-color: red;
+    cursor: 'pointer';
+    
+}
 }
 
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
@@ -320,13 +347,17 @@
     letter-spacing: 0px;
     color: #392A00;
     opacity: 1;
+    
 }
 .Tab
 {
+    position: relative;
     left: 0px;
     width: 100%;
     height: auto;
     background: #EFE5D4 0% 0% no-repeat padding-box;
     
+    
 }
+
 
