@@ -1,32 +1,34 @@
 import Banhcuon1 from "../../img/BC1.png"
+import Cha from "../../img/Cha.png"
+import NuocCham from "../../img/NuocCham.png"
+import Hanh from "../../img/Hanh.png"
 export default {
-    "Banh Cuon":{
-        BC1:Banhcuon1,
-        BC2:Banhcuon1,
-        BC3:Banhcuon1,
-        BC4:Banhcuon1,
-        BC5:Banhcuon1,
-    },
-    "Cha Thit":
-    {
-        BC1:Banhcuon1,
-        BC2:Banhcuon1,
-        BC3:Banhcuon1,
-        BC4:Banhcuon1,
-        BC5:Banhcuon1,
-    },
-    "Nuoc Mam":{
-        BC1:Banhcuon1,
-        BC2:Banhcuon1,
-        BC3:Banhcuon1,
-        BC4:Banhcuon1,
-        BC5:Banhcuon1,
-    },
-    "Hanh Phi":{
-        BC1:Banhcuon1,
-        BC2:Banhcuon1,
-        BC3:Banhcuon1,
-        BC4:Banhcuon1,
-        BC5:Banhcuon1,
-    }
+    1:[
+        Banhcuon1,
+        Banhcuon1,
+        Banhcuon1,
+        Banhcuon1,
+        Banhcuon1,
+    ],
+    2:[
+        Cha,
+        Cha,
+        Cha,
+        Cha,
+        Cha,
+    ],
+    3:[
+        NuocCham,
+        NuocCham,
+        NuocCham,
+        NuocCham,
+        NuocCham,
+    ],
+    4:[
+        Hanh,
+        Hanh,
+        Hanh,
+        Hanh,
+        Hanh,
+    ]
 }
