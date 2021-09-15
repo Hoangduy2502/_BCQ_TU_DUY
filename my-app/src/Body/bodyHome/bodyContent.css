@@ -2,13 +2,14 @@
     background: #FFFAF0 0% 0% no-repeat padding-box;
     width: 100%;
     position: relative;
+    margin-bottom: 150px;
 }
 .ct-logo{
     position: absolute;
     height: 482px;
     width: 780px;
     top: -375px;
-    right: 230px;
+    right: 0;
 }
 .ct-logo .logo{
     margin-left: 120px;
@@ -57,15 +58,13 @@
     right: 11px;
 }
 .ct-boss{
+    top: 0;
+    left: 131px;
+    position: absolute;
     padding-top: 180px;
     height: 1000px;
     text-align: center;
     width: 1370px;
-    margin-left: auto;
-}
-.ct-multiRow{
-    
-    height: 200px;
 }
 .ct-boss .textboss1{
     display: block;
@@ -140,4 +139,82 @@
     top: 612px;
     right: 121px;
     z-index: 3;
+}
+.wrap-boss{
+    max-width: 1423px;
+    position: relative;
+    border: 1px solid blue;
+    margin: 0px auto;
+    height: 1245px;
+    overflow: hidden;
+}
+.textboxboss{
+    background: #FCDE9E 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 0.82;
+    height: 400px;
+    width: 376px;
+    position: absolute;
+    top: 18px;
+    left: 15px;
+    text-align: left;
+    font: normal normal normal 35px/44px UTM Alter Gothic;
+    letter-spacing: 0px;
+    color: #840C16;
+}
+.ct-boss .borderboxtop{
+    position: absolute;
+     top: 0;
+     left: 0;
+     width: 57px;
+     height: 46px;
+     border-top: 5px solid #840C16;
+     border-left: 5px solid #840C16;
+     border-right: 5px solid transparent;
+     border-bottom: 5px solid transparent;
+     border-top-left-radius: 5px 5px;
+     border-bottom-right-radius: 5px 5px;
+}
+.ct-multiRow{
+    width: 100%;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+}
+.ct-multiRow .fisrtimgs{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.ct-multiRow .secondimgs{
+    display: flex;
+    justify-content: space-between;
+}
+.ct-intro-head{
+    margin-top: 67px;
+    text-align: left;
+    font: normal normal normal 18px/30px Montserrat;
+    letter-spacing: 0px;
+    color: #392A00;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ct-intro-head .upper{
+    text-align: left;
+    font: normal normal 600 18px/30px Montserrat;
+    letter-spacing: 0px;
+    color: #840C16;
+}
+.ct-intro-head .huongvidicung{
+    position: absolute;
+    top: 30px;
+    left: 23px;
+    display: block;
+    width: 369px;
+    height: 74px;
+    text-align: left;
+    font: normal normal bold 30px/37px Montserrat;
+    letter-spacing: 0px;
+    color: #840C16;
 }

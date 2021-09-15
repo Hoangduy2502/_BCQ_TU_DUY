@@ -38,7 +38,7 @@ const BreakingNews = (props) => {
     return(
         
         <div className="d-flex justify-content-center">
-        <div id="carouselExampleControls" className="carousel slide breaking-news" data-ride="carousel" data-interval="false">
+        <div id="tintucmoinhat" className="carousel slide breaking-news" data-ride="carousel" data-interval="false">
             <div className="carousel-inner container-fluid">
                 <div className="carousel-item my-inner active">
                     <div className="d-flex ml-3">
@@ -51,10 +51,10 @@ const BreakingNews = (props) => {
                     </div>
                 </div>
             </div>
-            <a className="carousel-control-prev mybtn-pre" href="#carouselExampleControls" role="button" data-slide="prev">
+            <a className="carousel-control-prev mybtn-pre" href="#tintucmoinhat" role="button" data-slide="prev">
                 <img src={prebtn} href=""></img>
             </a>
-            <a className="carousel-control-next mybtn-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <a className="carousel-control-next mybtn-next" href="#tintucmoinhat" role="button" data-slide="next">
             <img src={nextbtn} href=""></img>
             </a>
         </div>
