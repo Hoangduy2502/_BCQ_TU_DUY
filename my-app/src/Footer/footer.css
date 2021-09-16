@@ -1,65 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,600&display=swap');
-:root {
 
-    /* Colors: */
-    --unnamed-color-392a00: #392A00;
-    --unnamed-color-ffbe00: #FFBE00;
-    --unnamed-color-840c16: #840C16;
-    --back: #FCDE9E;
-    
-    /* Font/text values */
-    --unnamed-font-family-montserrat: Montserrat;
-    --unnamed-font-family-utm-alter-gothic: UTM Alter Gothic;
-    --unnamed-font-family-sfu-futura: SFU Futura;
-    --unnamed-font-style-normal: normal;
-    --unnamed-font-weight-600: 600px;
-    --unnamed-font-weight-normal: normal;
-    --unnamed-font-size-16: 16px;
-    --unnamed-font-size-18: 18px;
-    --unnamed-font-size-53: 53px;
-    --unnamed-character-spacing-0: 0px;
-    --unnamed-line-spacing-22: 22px;
-    --unnamed-line-spacing-30: 30px;
-    --unnamed-line-spacing-66: 66px;
-    }
-    
-    /* Character Styles */
-    .unnamed-character-style-1 {
-    font-family: var(--unnamed-font-family-utm-alter-gothic);
-    font-style: var(--unnamed-font-style-normal);
-    font-weight: var(--unnamed-font-weight-normal);
-    font-size: var(--unnamed-font-size-53);
-    line-height: var(--unnamed-line-spacing-66);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--unnamed-color-840c16);
-    }
-    .unnamed-character-style-2 {
-    font-family: var(--unnamed-font-family-montserrat);
-    font-style: var(--unnamed-font-style-normal);
-    font-weight: var(--unnamed-font-weight-600);
-    font-size: var(--unnamed-font-size-18);
-    line-height: var(--unnamed-line-spacing-30);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--unnamed-color-840c16);
-    }
-    .unnamed-character-style-3 {
-    font-family: var(--unnamed-font-family-montserrat);
-    font-style: var(--unnamed-font-style-normal);
-    font-weight: var(--unnamed-font-weight-normal);
-    font-size: var(--unnamed-font-size-18);
-    line-height: var(--unnamed-line-spacing-30);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--unnamed-color-392a00);
-    }
-    .unnamed-character-style-4 {
-    font-family: var(--unnamed-font-family-sfu-futura);
-    font-style: var(--unnamed-font-style-normal);
-    font-weight: var(--unnamed-font-weight-normal);
-    font-size: var(--unnamed-font-size-16);
-    line-height: var(--unnamed-line-spacing-22);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--unnamed-color-840c16);
-}
 .Footer{
     margin-top: 91px;
     height: 0;
@@ -244,4 +184,7 @@
     opacity: 1;
     margin-bottom: 46px;
     margin-left: 32px;
+}
+.contact-rowtext > span{
+    display: inline;
 }

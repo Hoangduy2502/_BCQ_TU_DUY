@@ -239,12 +239,17 @@
     margin-top: 74px;
 }
 .ct-intro-body .textrow1{
-    margin-left: 29px;
-    margin-bottom: 32px;
-    width: 260px;
+    
+    min-width: 260px;
+}
+span{
+    display: block;
 }
 .textrow1 > span ,.textrow2 > span{
     display: block;
+}
+.textrow2{
+    
 }
 .textrow1-head{
     text-align: left;
@@ -260,7 +265,7 @@
 }
 .textrow1-foot{
     text-align: left;
-    font: normal normal normal 13px/20px Montserrat-Regular;
+    font: normal normal normal 15px/20px Montserrat-Regular;
     letter-spacing: 0px;
     color: #392A00;
 }
@@ -277,6 +282,12 @@
     letter-spacing: 0px;
     color: #840C16;
 }
+.text-title span{
+    display: inline;
+}
+.footer-row1 span{
+    display: inline;
+}
 .footer-row2{
     display: block;
     text-align: center;
@@ -288,13 +299,13 @@
     margin-top: 16px;
 }
 .mycarouselimg{
-    /* background: #191200 0% 0% no-repeat padding-box; */
     border-radius: 5px;
     width: 817px;
     height: 105px;
     position: absolute;
     bottom: 16px;
-    left: 79px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 #carouselimg{
     width: 100%;
@@ -320,4 +331,39 @@
 }
 .slide-box > img{
     padding: 0 4px;
+}
+.ct-intro-body .body-row1{
+    align-items: flex-end;
+}
+.body-row2{
+    
+}
+.wrap-textrow1{
+    margin-left: 26px;
+    margin-bottom: 26px;
+}
+.textrow1-head .custom-text{
+    font: normal normal 600 15px/30px Montserrat-SemiBold;
+}
+.ct-intro-head span{
+    display: inline;
+}
+@media (max-width: 1200px) {
+    .wrap-textrow1{
+        width: 69%;
+    }
+    .textrow1-head, .textrow1-body, .textrow1-foot, .textrow1-head .custom-text{
+        font-size: 13px;
+    }
+    .mycarouselimg{
+        width: 645px;
+    }
+    .myinnerimg{
+        left: 6px;
+    }
+    .textrow1-body{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    
 }
