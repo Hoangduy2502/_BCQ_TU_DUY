@@ -11,7 +11,12 @@ import Icon70 from "../img/Icon70.png"
 import Ellip from "../img/Ellipse.png"
 import Icon79 from "../img/Icon79.png"
 import TabMenu from './TabMenu';
+import Text from './Text';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
 
+AOS.init();
 const Menu =(props) => {
     const {Product,activeTab1s,activeTab2s,activeTab3s,activeTab4s}=props
     const [link1, setLink1] = useState("nav-link active")
@@ -73,8 +78,7 @@ const Menu =(props) => {
   
     return (
         <div className="Tong" >
-           
-            <div className="Menu ">
+            <div className="Menu " >
                 <div className="ElipS">
                     <img className="Elipse" src={Ellip} style={{position:"relative", top:-100+"px", left:550+"px"}}></img>
                     <img className="icon79" src={Icon79} style={{position:"relative", top:-100+"px", left:450+"px"}} />
@@ -82,18 +86,37 @@ const Menu =(props) => {
                 
                 <img className="Icon70" src={Icon70} style={{position:"relative", top:-300+"px", left:250+"px"}}/>
                 <img className="Logo" src={Logo}/>
-                <img className="Trayproduct" src={Trayproduct}/>
-                <img className="Banhcuon" onClick={()=>onClick(1)} src={Button} />
-                <div className="duy">Bánh Cuốn Chay</div>
-                <img className="Cha" onClick={()=>onClick(2)} src={Button}/>
-                <img className="Nuocham" onClick={()=>onClick(3)} src={Button}/>
-                <img className="Hanh" onClick={()=>onClick(4)} src={Button}/>
-                <img className="Rau" src={Button}/>
+                <img className="Trayproduct" src={Trayproduct} />
+                <div className='Banhcuon' onClick={()=>onClick(1)}>
+                    <div className="TextBc row  ">
+                       <Text/>   
+                    </div>
+                </div>
+                <div className='Cha' onClick={()=>onClick(2)}>
+                    <div className="TextCha">
+                        
+                        <Text/>  
+                        
+                    </div>
+                </div>
+                <div className='Nuocham' onClick={()=>onClick(3)}>
+                    <div className="TextMam"> 
+                        <Text/>  
+                    </div>
+                </div>
+                <div className='Hanh' onClick={()=>onClick(4)}>
+                    <div className="TextHanh">
+                    <Text/>  
+                    </div>
+                </div>
+                <div className='Rau'>
+                    <div className="TextRau">
+                    <Text/> 
+                    </div>
+                </div>
                 <img className="Hoa" src={Hoa}/>
                 <img className="Icon" src={Icon}/>
-                
             </div>
-               
                 <TabMenu Product={Product} activeTab1s={activeTab1s} 
                 activeTab2s={activeTab2s}
                 activeTab3s={activeTab3s}

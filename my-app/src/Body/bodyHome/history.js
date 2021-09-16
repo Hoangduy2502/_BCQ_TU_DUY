@@ -7,9 +7,11 @@ import Dathang from "../../Header/img/Dathang.png"
 const History = () => {
     return (
         <>
-        <div className="Gioithieu" >
-            <div className=" d-flex">
-                <img className="maket" src={maket}/>
+        <div className="GT" >
+            <div className="Gioithieu">
+            </div>
+            <div className=" d-flex" >
+                <img  className="maket" src={maket}/>
                 <img className="anhtet" src={tet}/>
             </div>
             <img className="Street" src={street} />
