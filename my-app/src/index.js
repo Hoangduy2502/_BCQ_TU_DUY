@@ -1,4 +1,10 @@
 import React from 'react';
+import './fonts/UTMAlterGothic.ttf'
+import './fonts/Montserrat-Regular.ttf'
+import './fonts/Montserrat-SemiBold.ttf'
+import './fonts/Montserrat-Bold.ttf'
+import './fonts/SFUFuturaBold.TTF'
+import './fonts/SFUFuturaBook.TTF'
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';

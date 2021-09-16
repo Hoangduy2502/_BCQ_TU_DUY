@@ -30,7 +30,7 @@ const Header = () => {
                                 <a style={{ color: "white" }} className="nav-link " href="#">Tin tức</a>
                             </li>
                             <li className="nav-item">
-                                <a style={{ color: "white" }} className="nav-link " href="#">liên Hệ</a>
+                                <a style={{ color: "white" }} className="nav-link " href="#">Liên hệ</a>
                             </li>
                         </ul>
                     </div>

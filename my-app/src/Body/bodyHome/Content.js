@@ -46,7 +46,7 @@ const Content = () => {
                             <div className="box2hv" style={{ position: 'absolute', bottom: '0', right: '0', width: '41px', height: '33px', borderBottom: '3px solid #FCDE9E', borderRight: '3px solid #FCDE9E' }}></div>
 
                         </div>
-                        <span className="text-title">Nhắc đến <span style={{ font: 'normal normal 600 18px/30px Montserrat Semibold', color: '#840C16' }}>Bánh cuốn Quyên</span>, có thể người ta sẽ nghĩ tới một “bà Quyên” nào đó làm chủ gánh bánh cuốn mang tên mình. Nhưng với người dân đất Cảng hay những vị thực khách quen thuộc, nhắc đến Bánh cuốn Quyên là nhắc tới một thương hiệu bánh cuốn gia truyền cùng câu chuyện</span>
+                        <span className="text-title">Nhắc đến <span style={{ font: 'normal normal 600 18px/30px Montserrat-Semibold', color: '#840C16' }}>Bánh cuốn Quyên</span>, có thể người ta sẽ nghĩ tới một “bà Quyên” nào đó làm chủ gánh bánh cuốn mang tên mình. Nhưng với người dân đất Cảng hay những vị thực khách quen thuộc, nhắc đến Bánh cuốn Quyên là nhắc tới một thương hiệu bánh cuốn gia truyền cùng câu chuyện</span>
                     </div>
                     <span className="badoibanhcuon">&nbsp;&nbsp;&nbsp;&nbsp;"Ba đời làm bánh cuốn<br /> đều là đàn ông"</span>
 
@@ -149,7 +149,7 @@ const Content = () => {
                         </div>
                         <img src={ctend02}></img>
                         <div className="textrow1">
-                            <span className="textrow1-head">Từ một <span style={{ font: 'normal normal 600 15px/30px Montserrat' }}>quán nhỏ vỉa hè</span>, giờ đây là</span>
+                            <span className="textrow1-head">Từ một <span style={{ font: 'normal normal 600 15px/30px Montserrat-SemiBold' }}>quán nhỏ vỉa hè</span>, giờ đây là</span>
                             <span className="textrow1-body">Cửa hàng mặt tiền khang trang</span>
                             <span className="textrow1-foot">Sed ut perspiciatis unde omnis iste na tus error sit voluptatem acc usan tium do lor emque laudantium</span>
                         </div>
@@ -164,7 +164,7 @@ const Content = () => {
                             </div>
                         </div>
                         <img src={ctend03} href="" ></img>
-                        <div className="textrow2" style={{ minWidth: '200px', maxWidth: '200px', margin: '0 34px' }}>
+                        <div className="textrow2" style={{width: '200px', margin: '0 34px' }}>
                             <span className="textrow1-head">Phương châm làm nghề</span>
                             <span className="textrow1-body">Phát triển để phục vụ khách hàng</span>
                         </div>
@@ -176,7 +176,7 @@ const Content = () => {
                 </div>
                 <div className="ct-intro-footer">
                     <img src={ctend05} style={{ marginBottom: '39px' }}></img>
-                    <span className="footer-row1">"Để làm nên một món bánh cuốn ngon, không chỉ cần nguyên<br /> liệu tốt mà còn cần cả <span style={{ font: 'normal normal bold 40px/37px Montserrat ExtraBold', color: '#FFBE00' }}>tâm của người làm bánh</span>"</span>
+                    <span className="footer-row1">"Để làm nên một món bánh cuốn ngon, không chỉ cần nguyên<br /> liệu tốt mà còn cần cả <span style={{ font: 'normal normal bold 40px/37px Montserrat-Bold', color: '#FFBE00' }}>tâm của người làm bánh</span>"</span>
                     <span className="footer-row2">Bánh cuốn thơm dịu, mềm mướt, không hàn the; nước chấm sánh quyện, đậm đà vị xương; dùng kèm miếng<br /> chả thơm bùi không pha bột, làm từ thịt lợn sạch.</span>
                 </div>
             </div>

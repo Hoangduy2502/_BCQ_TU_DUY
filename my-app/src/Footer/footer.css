@@ -127,7 +127,7 @@
     margin-top: 46px;
     margin-bottom: 57px;
     text-align: left;
-    font: normal normal 600 18px/30px Montserrat;
+    font: normal normal 600 18px/30px Montserrat-Regular;
     letter-spacing: 0px;
     color: #FCDE9E;
     text-transform: uppercase;
@@ -135,7 +135,7 @@
 }
 .contact-address > .contact-header{
     text-align: left;
-    font: normal normal normal 30px/38px UTM Alter Gothic;
+    font: normal normal normal 30px/38px UTMAlterGothic;
     letter-spacing: 0px;
     color: #840C16;
     opacity: 1;
@@ -144,7 +144,7 @@
 .shop2 > .contact-header{
     height: 37px;
     text-align: left;
-    font: normal normal normal 20px/25px UTM Alter Gothic;
+    font: normal normal normal 20px/25px UTMAlterGothic;
     letter-spacing: 0px;
     color: #840C16;
     opacity: 1;
@@ -156,13 +156,13 @@
 }
 .strong-text{
     text-align: left;
-    font: normal normal bold 15px/21px SFU Futura;
+    font: normal normal bold 15px/21px SFUFuturaBold;
     letter-spacing: 0px; 
     color: #392A00;
 }
 .contact-rowtext {
     text-align: left;
-    font: normal normal normal 15px/21px SFU Futura;
+    font: normal normal normal 15px/21px SFUFuturaBook;
     letter-spacing: 0px;
     color: #392A00;
 }
@@ -193,7 +193,7 @@
     height: 100%;
     max-height: 139px; 
     text-align: left;
-    font: normal normal normal 13px/20px Montserrat;
+    font: normal normal normal 13px/20px Montserrat-Regular;
     letter-spacing: 0px;
     color: #392A00;
 }
@@ -208,19 +208,19 @@
     right: -81px;
 }
 .text-news-header{
-    font: normal normal normal 20px/25px UTM Alter Gothic;
+    font: normal normal normal 20px/25px UTMAlterGothic;
     letter-spacing: 0px;
     color: #840C16;
 }
 .text-news-body{
     margin-top: 6px;
     margin-bottom: 9px;
-    font: normal normal normal 13px/20px Montserrat;
+    font: normal normal normal 13px/20px Montserrat-Regular;
     letter-spacing: 0px;
     color: #392A00;
 }
 .text-news-date{
-    font: normal normal bold 13px/20px Montserrat;
+    font: normal normal bold 13px/20px Montserrat-Bold;
     letter-spacing: 0px;
     color: #FCDE9E;
 }
@@ -234,4 +234,14 @@
 .rating-card img {
     width: 100%;
     height: 100%;
+}
+.tintucmoinhat{
+    color: var(--unnamed-color-840c16);
+    text-align: left;
+    font: normal normal normal 53px/66px UTMAlterGothic;
+    letter-spacing: 0px;
+    color: #840C16;
+    opacity: 1;
+    margin-bottom: 46px;
+    margin-left: 32px;
 }

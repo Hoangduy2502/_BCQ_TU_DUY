@@ -1,3 +1,39 @@
+@font-face {
+  font-family: "UTMAlterGothic";
+  src: local("UTMAlterGothic"),
+    url("./fonts/UTMAlterGothic.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: local("Montserrat-Regular"),
+    url("./fonts/Montserrat-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  src: local("Montserrat-SemiBold"),
+    url("./fonts/Montserrat-SemiBold.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: local("Montserrat-Bold"),
+    url("./fonts/Montserrat-Bold.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "SFUFuturaBold";
+  src: local("SFUFuturaBold"),
+    url("./fonts/SFUFuturaBold.TTF") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "SFUFuturaBook";
+  src: local("SFUFuturaBook"),
+    url("./fonts/SFUFuturaBook.TTF") format("truetype");
+  font-weight: normal;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

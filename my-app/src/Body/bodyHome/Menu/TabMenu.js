@@ -41,9 +41,9 @@ const TabMenu = (props) => {
             <div className="Nav_Tab">
                 <ul className="nav nav-tabs">
                     <li className="nav-item" onClick={()=>{onClick(1)}}><a data-toggle="tab" className={link1} >Bánh Cuốn</a></li>
-                    <li className="nav-item" onClick={()=>{onClick(2)}}><a data-toggle="tab" className={link2} >Chả</a></li>
-                    <li className="nav-item" onClick={()=>{onClick(3)}}><a data-toggle="tab" className={link3} >Nước Chấm</a></li>
-                    <li className="nav-item" onClick={()=>{onClick(4)}}><a data-toggle="tab" className={link4} >Hành</a></li>
+                    <li className="nav-item" onClick={()=>{onClick(2)}}><a data-toggle="tab" className={link2} >Chả Thịt</a></li>
+                    <li className="nav-item" onClick={()=>{onClick(3)}}><a data-toggle="tab" className={link3} >Nước Mắm Chấm</a></li>
+                    <li className="nav-item" onClick={()=>{onClick(4)}}><a data-toggle="tab" className={link4} >Hành Phi</a></li>
                 </ul>
                 <div className="tab-content" id="ex1-content">
                     <div className={activeTab1s.activeTab1}  id="BanhCuon" role="tabpanel" aria-labelledby="ex1-tab-1">

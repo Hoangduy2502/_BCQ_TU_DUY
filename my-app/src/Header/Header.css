@@ -34,7 +34,7 @@
 {
     position: fixed;
     z-index:1000;
-    font: normal normal normal 16px/21px SFU Futura;
+    font: normal normal normal 16px/21px SFUFuturaBook;
     color: #FFFFFF;
     opacity: 1;
     font-size: 20px;
@@ -50,7 +50,7 @@
     font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 33px/50px var(--unnamed-font-family-montserrat);
     letter-spacing: var(--unnamed-character-spacing-0);
     text-align: left;
-    font: normal normal normal 33px/50px Montserrat Regular;
+    font: normal normal normal 33px/50px Montserrat-Regular;
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
@@ -58,9 +58,9 @@
 }
 .text
 {
-    
+    margin-top: 27px;
     text-align: left;
-    font: normal normal normal 15px/30px Montserrat Light;
+    font: normal normal normal 15px/30px Montserrat-Regular;
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;

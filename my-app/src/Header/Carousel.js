@@ -7,15 +7,15 @@ const Carousel = () => {
             <div className="carousel-inner">
                 <div class="carousel-item active">
                     <label className="history">Chặng đường hơn 70 năm tồn tại và phát triển của Bánh Cuốn Quyên</label>
-                    <label className="text">Bánh cuốn Quyên là một trong những cửa hàng bánh cuốn lâu đời nhất tại Hải Phòng.</label>
+                    <label className="text">Bánh cuốn Quyên là một trong những cửa hàng bánh cuốn lâu đời<br/> nhất tại Hải Phòng.</label>
                 </div>
                 <div class="carousel-item">
                 <label className="history">Chặng đường hơn 70 năm tồn tại và phát triển của Bánh Cuốn Quyên</label>
-                    <label className="text">Bánh cuốn Quyên là một trong những cửa hàng bánh cuốn lâu đời nhất tại Hải Phòng.</label>
+                    <label className="text">Bánh cuốn Quyên là một trong những cửa hàng bánh cuốn lâu đời<br/> nhất tại Hải Phòng.</label>
                 </div>
                 <div class="carousel-item">
                 <label className="history">Chặng đường hơn 70 năm tồn tại và phát triển của Bánh Cuốn Quyên</label>
-                    <label className="text">Bánh cuốn Quyên là một trong những cửa hàng bánh cuốn lâu đời nhất tại Hải Phòng.</label>
+                    <label className="text">Bánh cuốn Quyên là một trong những cửa hàng bánh cuốn lâu đời<br/> nhất tại Hải Phòng.</label>
                 </div>
             </div>
             {/* <ul className="carousel-indicators ">

@@ -33,8 +33,7 @@
     display: flex;
 }
 .ct-logo .contenthv > span{
-    
-    font: normal normal normal 53px/65px UTM Alter Gothic;
+    font: normal normal normal 53px/65px UTMAlterGothic;
     letter-spacing: 0px;
     color: #840C16;
 }
@@ -42,14 +41,14 @@
     margin-top: 25px;
     display: block;
     text-align: left;
-    font: normal normal normal 18px/30px Montserrat Regular;
+    font: normal normal normal 18px/30px Montserrat-Regular;
     letter-spacing: 0px;
     color: #392A00;
 }
 .ct-logo .badoibanhcuon{
     position: absolute;
     display: block;
-    font: normal normal bold 30px/37px Montserrat ExtraBold;
+    font: normal normal bold 30px/37px Montserrat-Bold;
     letter-spacing: 0px;
     color: #840C16;
     width: 427px;
@@ -71,7 +70,7 @@
     width: 252px;
     height: 327px;
     text-align: left;
-    font: normal normal normal 18px/30px Montserrat Regular;
+    font: normal normal normal 18px/30px Montserrat-Regular;
     letter-spacing: 0px;
     color: #392A00;
     margin-bottom: 15px;
@@ -81,7 +80,7 @@
     width: 441px;
     height: 502px;
     text-align: left;
-    font: normal normal normal 18px/30px Montserrat Regular;
+    font: normal normal normal 18px/30px Montserrat-Regular;
     letter-spacing: 0px;
     color: #392A00;
 }
@@ -161,7 +160,7 @@
     top: 18px;
     left: 15px;
     text-align: left;
-    font: normal normal normal 35px/44px UTM Alter Gothic;
+    font: normal normal normal 35px/44px UTMAlterGothic;
     letter-spacing: 0px;
     color: #840C16;
 }
@@ -202,7 +201,7 @@
 .ct-intro-head{
     margin-top: 67px;
     text-align: left;
-    font: normal normal normal 18px/30px Montserrat;
+    font: normal normal normal 18px/30px Montserrat-Regular;
     letter-spacing: 0px;
     color: #392A00;
     display: flex;
@@ -211,7 +210,7 @@
 }
 .ct-intro-head .upper{
     text-align: left;
-    font: normal normal 600 18px/30px Montserrat;
+    font: normal normal 600 18px/30px Montserrat-SemiBold;
     letter-spacing: 0px;
     color: #840C16;
 }
@@ -223,7 +222,7 @@
     width: 369px;
     height: 74px;
     text-align: left;
-    font: normal normal bold 30px/37px Montserrat;
+    font: normal normal bold 30px/37px Montserrat-Bold;
     letter-spacing: 0px;
     color: #840C16;
 }
@@ -240,7 +239,7 @@
 .ct-intro-body .textrow1{
     margin-left: 29px;
     margin-bottom: 32px;
-    width: 257px;
+    width: 260px;
 }
 .textrow1 > span ,.textrow2 > span{
     display: block;
@@ -249,16 +248,17 @@
     text-align: left;
     letter-spacing: 0px;
     color: #392A00;
+    font: normal normal normal 15px/30px Montserrat-Regular;
 }
 .textrow1-body{
     text-align: left;
-    font: normal normal normal 40px/50px UTM Alter Gothic;
+    font: normal normal normal 40px/50px UTMAlterGothic;
     letter-spacing: 0px;
     color: #840C16;
 }
 .textrow1-foot{
     text-align: left;
-    font: normal normal normal 13px/20px Montserrat Regular;
+    font: normal normal normal 13px/20px Montserrat-Regular;
     letter-spacing: 0px;
     color: #392A00;
 }
@@ -270,7 +270,7 @@
 }
 .footer-row1{
     text-align: center;
-    font: normal normal 30px/37px Montserrat ExtraBold;
+    font: normal normal 30px/37px Montserrat-Bold;
     font-weight: 900;
     letter-spacing: 0px;
     color: #840C16;
@@ -278,7 +278,7 @@
 .footer-row2{
     display: block;
     text-align: center;
-    font: normal normal normal 13px/20px Montserrat Regular;
+    font: normal normal normal 13px/20px Montserrat-Regular;
     letter-spacing: 0px;
     color: #392A00;
 }
