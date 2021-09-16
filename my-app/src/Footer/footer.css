@@ -185,3 +185,6 @@
     margin-bottom: 46px;
     margin-left: 32px;
 }
+.contact-rowtext > span{
+    display: inline;
+}

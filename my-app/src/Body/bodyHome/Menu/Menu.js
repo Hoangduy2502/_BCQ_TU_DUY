@@ -12,11 +12,9 @@ import Ellip from "../img/Ellipse.png"
 import Icon79 from "../img/Icon79.png"
 import TabMenu from './TabMenu';
 import Text from './Text';
-import AOS from 'aos';
-import 'aos/dist/aos.css'; // You can also use <link> for styles
-// ..
 
-AOS.init();
+
+
 const Menu =(props) => {
     const {Product,activeTab1s,activeTab2s,activeTab3s,activeTab4s}=props
     const [link1, setLink1] = useState("nav-link active")

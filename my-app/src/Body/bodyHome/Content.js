@@ -93,7 +93,7 @@ const Content = () => {
                     </div>
                 </div>
                 <div className="ct-intro-head">
-                    <span style={{ display: 'block', width: "1143px", height: "145px" }}>
+                    <span style={{width: "1143px", height: "145px" }}>
                         Hơn <span className="upper">70 năm</span> tồn tại và phát triển, Bánh cuốn Quyên tự hào đi cùng lịch sử thành phố Hải Phòng xuyên suốt 3 thế hệ. Gánh bánh cuốn nhỏ mưu sinh ngày ấy nay đã trở thành tiệm ăn khang trang tiếp nối cơ nghiệp của gia đình, và đĩa bánh cuốn ngon miệng ngày nào nay cũng thấm đẫm những câu chuyện về văn hoá, lịch sử. Để rồi người dân Hải Phòng không ai là không biết, hay cả những người yêu ẩm thực từ những vùng miền khác khi đến với Hải Phòng đều ít nhiều từng nghe tới <span className="upper">Bánh cuốn Quyên.</span>
                     </span>
                     <div style={{ position: "relative" }}>
@@ -103,8 +103,16 @@ const Content = () => {
                 </div>
                 <div className="ct-intro-body">
                     <div className="body-row1 row flex-nowrap">
-                        <div className="col-7 p-0 m-0" >
-                            <img src={ctend01} style={{ width: '100%' }} href=""></img>
+                        <div className="col-7 p-0 m-0" style={{position: 'relative', top: '6px'}}>
+                            <iframe src='https://www.youtube.com/embed/x4NpBzIlOM8'
+                                width = "100%"
+                                height= "517px"
+                                frameborder='0'
+                                allow='autoplay; encrypted-media'
+                                allowfullscreen
+                                title='video'
+                            />
+                            {/* <img src={ctend01} style={{ width: '100%' }} href=""></img> */}
                             <div className="mycarouselimg">
                                 <div id="carouselimg" className="carousel slide" data-ride="carousel">
 
@@ -166,35 +174,34 @@ const Content = () => {
 
                     </div>
                     <div className="body-row2 row flex-nowrap">
-                        <div className="col-7 p-0 m-0 " style={{}} >
-                            <div className="row">
-                                <div className="col-7 p-0 m-0 d-flex align-items-center">
-                                    <div style={{ paddingRight: '30px' }}>
+                        <div className="col-7 row p-0 m-0 " style={{ textAlign: 'end', justifyContent: 'flex-end' }} >
 
-                                        <span className="textrow1-head" style={{ textAlign: 'right' }}>Bánh cuốn Quyên gìn giữ nét truyền thống trong đời sống hiện đại</span>
-                                        <span className="textrow1-body" style={{ textAlign: 'right' }}>Bánh cuốn Quyên mang đến trải nghiệm <span style={{}}> thưởng thức ẩm thực an toàn</span></span>
-                                        <span className="textrow1-foot" style={{ textAlign: 'right' }}>Khách hàng vừa có thể thưởng thức bánh cuốn trong không gian thoải mái, sạch sẽ tại cửa hàng, lại vừa có thể thuận tiện mang về hoặc ăn tại nơi làm việc mà không lo bất tiện nhờ quy cách đóng hàng.</span>
+                            <div className="col-7 p-0 m-0 d-flex align-items-center" style={{ position: 'relative', left: '18px' }}>
+                                <div style={{ paddingTop: '14px' }}>
 
-                                    </div>
+                                    <span className="textrow1-head" style={{ textAlign: 'right' }}>Bánh cuốn Quyên gìn giữ nét truyền thống trong đời sống hiện đại</span>
+                                    <span className="textrow1-body" style={{ textAlign: 'right' }}>Bánh cuốn Quyên mang đến trải nghiệm <span style={{}}> thưởng thức ẩm thực an toàn</span></span>
+                                    <span className="textrow1-foot" style={{ textAlign: 'right' }}>Khách hàng vừa có thể thưởng thức bánh cuốn trong không gian thoải mái, sạch sẽ tại cửa hàng, lại vừa có thể thuận tiện mang về hoặc ăn tại nơi làm việc mà không lo bất tiện nhờ quy cách đóng hàng.</span>
+
                                 </div>
-                                <div className="col-5">
-                                    <img src={ctend03} href="" style={{ width: '100%' }}></img>
-                                </div>
+                            </div>
+                            <div className="col-5 p-0 m-0">
+                                <img src={ctend03} href="" style={{ width: '85.5%' }}></img>
                             </div>
                         </div>
-                        <div className="col-5 m-0 p-0" style={{}}>
-                            <div className="row d-flex flex-nowrap p-0 m-0">
-                                <div className="col p-0 m-0 d-flex">
-                                    <div className="" style={{margin: 'auto', padding: "25px"}}>
-                                        <span className="textrow1-head">Phương châm làm nghề</span>
-                                        <span className="textrow1-body">Phát triển để phục vụ khách hàng</span>
-                                    </div>
-                                </div>
+                        <div className="col-5 m-0 p-0 row" style={{}}>
 
-                                <div className="col p-0 m-0">
-                                    <img src={ctend04} href="" style={{ width: '100%' }}></img>
+                            <div className="col p-0 m-0 d-flex">
+                                <div className="" style={{ margin: 'auto', padding: "25px" }}>
+                                    <span className="textrow1-head">Phương châm làm nghề</span>
+                                    <span className="textrow1-body">Phát triển để phục vụ khách hàng</span>
                                 </div>
                             </div>
+
+                            <div className="col p-0 m-0">
+                                <img src={ctend04} href="" style={{ width: '100%' }}></img>
+                            </div>
+
 
                         </div>
 

@@ -282,6 +282,12 @@ span{
     letter-spacing: 0px;
     color: #840C16;
 }
+.text-title span{
+    display: inline;
+}
+.footer-row1 span{
+    display: inline;
+}
 .footer-row2{
     display: block;
     text-align: center;
@@ -339,11 +345,12 @@ span{
 .textrow1-head .custom-text{
     font: normal normal 600 15px/30px Montserrat-SemiBold;
 }
+.ct-intro-head span{
+    display: inline;
+}
 @media (max-width: 1200px) {
     .wrap-textrow1{
         width: 69%;
-        margin-left: 15px;
-        margin-bottom: 11px;
     }
     .textrow1-head, .textrow1-body, .textrow1-foot, .textrow1-head .custom-text{
         font-size: 13px;
