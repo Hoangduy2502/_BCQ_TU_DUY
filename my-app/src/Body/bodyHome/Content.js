@@ -106,7 +106,7 @@ const Content = () => {
                         <div className="col-7 p-0 m-0" style={{position: 'relative', top: '6px'}}>
                             <iframe src='https://www.youtube.com/embed/x4NpBzIlOM8'
                                 width = "100%"
-                                height= "517px"
+                                height= "516px"
                                 frameborder='0'
                                 allow='autoplay; encrypted-media'
                                 allowfullscreen
