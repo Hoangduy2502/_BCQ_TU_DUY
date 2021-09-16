@@ -37,7 +37,7 @@ const TabMenu = (props) => {
     })
    
     return (
-        <div className="Tab " style={{paddingLeft:"110px",paddingTop:"50px",paddingBottom:"50px"}}>
+        <div className="Tab justify-content-center" style={{paddingLeft:"110px",paddingTop:"50px",paddingBottom:"50px"}}>
             <div className="Nav_Tab">
                 <ul className="nav nav-tabs">
                     <li className="nav-item" onClick={()=>{onClick(1)}}><a data-toggle="tab" className={link1} >Bánh Cuốn</a></li>

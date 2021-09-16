@@ -72,7 +72,7 @@ const Menu =(props) => {
 
   
     return (
-        <div >
+        <div className="Tong" >
            
             <div className="Menu ">
                 <div className="ElipS">

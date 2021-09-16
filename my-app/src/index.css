@@ -43,7 +43,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: #FFFAF0 0% 0% no-repeat padding-box;
 }
-
+@media (min-width :1200px) and (max-width:1600px) {
+  html{
+    zoom:80%;
+  }
+}
 #root{
   overflow-x: hidden;
 }
