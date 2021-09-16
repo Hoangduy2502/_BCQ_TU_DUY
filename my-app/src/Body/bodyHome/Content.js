@@ -102,13 +102,13 @@ const Content = () => {
                     </div>
                 </div>
                 <div className="ct-intro-body">
-                    <div style={{ display: 'flex', alignItems: 'flex-end' }}>
-                        <div style={{ position: 'relative' }}>
+                    <div className="body-row1">
+                        <div className="col-8" style={{ position: 'relative' }}>
                             <img src={ctend01} href=""></img>
                             <div className="mycarouselimg">
                                 <div id="carouselimg" className="carousel slide" data-ride="carousel">
 
-                                    <div style={{position:'absolute', background: '#191200 0% 0% no-repeat padding-box',width:'100%',height:'100%',opacity: '0.61',borderRadius: '5px' }}>
+                                    <div style={{ position: 'absolute', background: '#191200 0% 0% no-repeat padding-box', width: '100%', height: '100%', opacity: '0.61', borderRadius: '5px' }}>
 
                                     </div>
                                     <div className="carousel-inner myinnerimg">
@@ -147,8 +147,11 @@ const Content = () => {
                                 </div>
                             </div>
                         </div>
-                        <img src={ctend02}></img>
-                        <div className="textrow1">
+
+                        <div className="col-2">
+                            <img src={ctend02}></img>
+                        </div>
+                        <div className="textrow1 col-2">
                             <span className="textrow1-head">Từ một <span style={{ font: 'normal normal 600 15px/30px Montserrat-SemiBold' }}>quán nhỏ vỉa hè</span>, giờ đây là</span>
                             <span className="textrow1-body">Cửa hàng mặt tiền khang trang</span>
                             <span className="textrow1-foot">Sed ut perspiciatis unde omnis iste na tus error sit voluptatem acc usan tium do lor emque laudantium</span>
@@ -164,7 +167,7 @@ const Content = () => {
                             </div>
                         </div>
                         <img src={ctend03} href="" ></img>
-                        <div className="textrow2" style={{width: '200px', margin: '0 34px' }}>
+                        <div className="textrow2" style={{ width: '200px', margin: '0 34px' }}>
                             <span className="textrow1-head">Phương châm làm nghề</span>
                             <span className="textrow1-body">Phát triển để phục vụ khách hàng</span>
                         </div>
