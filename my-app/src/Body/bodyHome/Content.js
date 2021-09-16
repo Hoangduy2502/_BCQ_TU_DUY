@@ -102,9 +102,9 @@ const Content = () => {
                     </div>
                 </div>
                 <div className="ct-intro-body">
-                    <div className="body-row1">
-                        <div className="col-8" style={{ position: 'relative' }}>
-                            <img src={ctend01} href=""></img>
+                    <div className="body-row1 row flex-nowrap">
+                        <div className="col-7 p-0 m-0" >
+                            <img src={ctend01} style={{ width: '100%' }} href=""></img>
                             <div className="mycarouselimg">
                                 <div id="carouselimg" className="carousel slide" data-ride="carousel">
 
@@ -147,34 +147,57 @@ const Content = () => {
                                 </div>
                             </div>
                         </div>
+                        <div className="col-5 p-0 m-0">
+                            <div className="row flex-nowrap align-items-end p-0 m-0">
 
-                        <div className="col-2">
-                            <img src={ctend02}></img>
-                        </div>
-                        <div className="textrow1 col-2">
-                            <span className="textrow1-head">Từ một <span style={{ font: 'normal normal 600 15px/30px Montserrat-SemiBold' }}>quán nhỏ vỉa hè</span>, giờ đây là</span>
-                            <span className="textrow1-body">Cửa hàng mặt tiền khang trang</span>
-                            <span className="textrow1-foot">Sed ut perspiciatis unde omnis iste na tus error sit voluptatem acc usan tium do lor emque laudantium</span>
-                        </div>
-                    </div>
-                    <div style={{ display: 'flex', alignItems: 'center', flexDirection: 'flex-end', width: '1600px' }}>
-                        <div style={{ width: '724px' }}>
+                                <div className="col-6 p-0 m-0">
+                                    <img style={{ width: '100%' }} src={ctend02}></img>
+                                </div>
+                                <div className="textrow1 col-6 p-0 m-0" style={{ width: '100%' }}>
+                                    <div className="wrap-textrow1">
+                                        <span className="textrow1-head">Từ một <span className="custom-text" style={{ display: 'inline-block' }}>quán nhỏ vỉa hè</span>, giờ đây là</span>
+                                        <span className="textrow1-body">Cửa hàng mặt tiền khang trang</span>
+                                        <span className="textrow1-foot">Sed ut perspiciatis unde omnis iste na tus error sit voluptatem acc usan tium do lor emque laudantium</span>
 
-                            <div style={{ width: "529px", marginLeft: 'auto', textAlign: "right", marginRight: '34px', paddingTop: '10px' }} className="textrow2">
-                                <span className="textrow1-head" style={{ textAlign: 'right' }}>Bánh cuốn Quyên gìn giữ nét truyền thống trong đời sống hiện đại</span>
-                                <span className="textrow1-body" style={{ textAlign: 'left', marginTop: '16px', marginBottom: '12px', width: '523px' }}>Bánh cuốn Quyên mang đến trải nghiệm <span style={{ display: 'block', textAlign: 'right', width: '100%' }}> thưởng thức ẩm thực an toàn</span></span>
-                                <span className="textrow1-foot" style={{ textAlign: 'right', width: '529px' }}>Khách hàng vừa có thể thưởng thức bánh cuốn trong không gian thoải mái, sạch sẽ tại cửa hàng, lại vừa có thể thuận tiện mang về hoặc ăn tại nơi làm việc mà không lo bất tiện nhờ quy cách đóng hàng.</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <img src={ctend03} href="" ></img>
-                        <div className="textrow2" style={{ width: '200px', margin: '0 34px' }}>
-                            <span className="textrow1-head">Phương châm làm nghề</span>
-                            <span className="textrow1-body">Phát triển để phục vụ khách hàng</span>
+
+                    </div>
+                    <div className="body-row2 row flex-nowrap">
+                        <div className="col-7 p-0 m-0 " style={{}} >
+                            <div className="row">
+                                <div className="col-7 p-0 m-0 d-flex align-items-center">
+                                    <div style={{ paddingRight: '30px' }}>
+
+                                        <span className="textrow1-head" style={{ textAlign: 'right' }}>Bánh cuốn Quyên gìn giữ nét truyền thống trong đời sống hiện đại</span>
+                                        <span className="textrow1-body" style={{ textAlign: 'right' }}>Bánh cuốn Quyên mang đến trải nghiệm <span style={{}}> thưởng thức ẩm thực an toàn</span></span>
+                                        <span className="textrow1-foot" style={{ textAlign: 'right' }}>Khách hàng vừa có thể thưởng thức bánh cuốn trong không gian thoải mái, sạch sẽ tại cửa hàng, lại vừa có thể thuận tiện mang về hoặc ăn tại nơi làm việc mà không lo bất tiện nhờ quy cách đóng hàng.</span>
+
+                                    </div>
+                                </div>
+                                <div className="col-5">
+                                    <img src={ctend03} href="" style={{ width: '100%' }}></img>
+                                </div>
+                            </div>
                         </div>
-                        <div>
+                        <div className="col-5 m-0 p-0" style={{}}>
+                            <div className="row d-flex flex-nowrap p-0 m-0">
+                                <div className="col p-0 m-0 d-flex">
+                                    <div className="" style={{margin: 'auto', padding: "25px"}}>
+                                        <span className="textrow1-head">Phương châm làm nghề</span>
+                                        <span className="textrow1-body">Phát triển để phục vụ khách hàng</span>
+                                    </div>
+                                </div>
+
+                                <div className="col p-0 m-0">
+                                    <img src={ctend04} href="" style={{ width: '100%' }}></img>
+                                </div>
+                            </div>
 
                         </div>
-                        <img src={ctend04} href="" style={{ marginRight: '72px' }}></img>
+
                     </div>
                 </div>
                 <div className="ct-intro-footer">
