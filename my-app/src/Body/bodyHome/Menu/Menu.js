@@ -84,7 +84,7 @@ const Menu =(props) => {
                 <img className="Logo" src={Logo}/>
                 <img className="Trayproduct" src={Trayproduct}/>
                 <img className="Banhcuon" onClick={()=>onClick(1)} src={Button} />
-                <div className="duy"> Duy Meo</div>
+                <div className="duy">Bánh Cuốn Chay</div>
                 <img className="Cha" onClick={()=>onClick(2)} src={Button}/>
                 <img className="Nuocham" onClick={()=>onClick(3)} src={Button}/>
                 <img className="Hanh" onClick={()=>onClick(4)} src={Button}/>
