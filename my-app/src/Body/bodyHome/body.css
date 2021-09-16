@@ -64,7 +64,7 @@
         width: 1500px;
         height: 700px;
         opacity: 1;
-        left: 270px;
+        left: 380px;
         right: 303px;
         background-image: url("./img/Path26.png");
         
@@ -78,7 +78,7 @@
         right: 662px;
         width: 1066px;
         height: 655px;
-        box-shadow: -50px 0px 6px #00000014;
+        
         opacity: 1;
     }
     .Logo{
@@ -151,8 +151,8 @@
   }
   .Nav_Tab
    {
-    position: relative;
-    left: 15px;
+        position: relative;
+        left: 100px;
    }
    
     
@@ -368,6 +368,7 @@
     height: 200px;
 	background-color: green;
 }
+
 .Banhcuon:hover ~ .duy{
     display: block;
 }

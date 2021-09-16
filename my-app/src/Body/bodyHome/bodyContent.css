@@ -1,13 +1,10 @@
-@media (max-width:1300px) {
-    .ct-intro-body{
-        width: 1200px;
-    }
-}
+
 .Content{
     background: #FFFAF0 0% 0% no-repeat padding-box;
     width: 100%;
     position: relative;
     margin-bottom: 150px;
+    margin-top: -250px;
 }
 .ct-logo{
     position: absolute;
