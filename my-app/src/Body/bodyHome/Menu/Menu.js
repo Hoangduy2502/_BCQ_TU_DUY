@@ -13,8 +13,6 @@ import Icon79 from "../img/Icon79.png"
 import TabMenu from './TabMenu';
 import Text from './Text';
 
-
-
 const Menu =(props) => {
     const {Product,activeTab1s,activeTab2s,activeTab3s,activeTab4s}=props
     const [link1, setLink1] = useState("nav-link active")
