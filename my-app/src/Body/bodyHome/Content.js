@@ -29,7 +29,6 @@ const Content = () => {
         <div className="Content">
             <div style={{ maxWidth: "1600px", position: 'relative', margin: 'auto' }}>
                 <div className="ct-logo">
-
                     <div>
                         <img className="" src={bcLogo}></img>
                         <img className="logo" src={slLogo}></img>
@@ -93,7 +92,7 @@ const Content = () => {
                     </div>
                 </div>
                 <div className="ct-intro-head">
-                    <span style={{width: "1143px", height: "145px" }}>
+                    <span style={{ width: "1143px", height: "145px" }}>
                         Hơn <span className="upper">70 năm</span> tồn tại và phát triển, Bánh cuốn Quyên tự hào đi cùng lịch sử thành phố Hải Phòng xuyên suốt 3 thế hệ. Gánh bánh cuốn nhỏ mưu sinh ngày ấy nay đã trở thành tiệm ăn khang trang tiếp nối cơ nghiệp của gia đình, và đĩa bánh cuốn ngon miệng ngày nào nay cũng thấm đẫm những câu chuyện về văn hoá, lịch sử. Để rồi người dân Hải Phòng không ai là không biết, hay cả những người yêu ẩm thực từ những vùng miền khác khi đến với Hải Phòng đều ít nhiều từng nghe tới <span className="upper">Bánh cuốn Quyên.</span>
                     </span>
                     <div style={{ position: "relative" }}>
@@ -103,14 +102,14 @@ const Content = () => {
                 </div>
                 <div className="ct-intro-body">
                     <div className="body-row1 row flex-nowrap">
-                        <div className="col-7 p-0 m-0" style={{position: 'relative', top: '6px'}}>
+                        <div className="col-7 p-0 m-0" style={{ position: 'relative', top: '6px',overflow:'hidden'}}>
                             <iframe src='https://www.youtube.com/embed/x4NpBzIlOM8'
-                                width = "100%"
-                                height= "516px"
+                                width="100%"
+                                height="535"
                                 frameborder='0'
-                                allow='autoplay; encrypted-media'
                                 allowfullscreen
                                 title='video'
+                                
                             />
                             {/* <img src={ctend01} style={{ width: '100%' }} href=""></img> */}
                             <div className="mycarouselimg">
@@ -130,7 +129,6 @@ const Content = () => {
                                                     <img src={carimg05} alt="First slide" />
                                                 </div>
                                             </div>
-
                                         </div>
                                         <div className="carousel-item">
                                             <div className="d-none d-lg-block">
