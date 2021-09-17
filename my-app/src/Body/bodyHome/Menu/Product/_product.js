@@ -2,6 +2,7 @@ import Banhcuon1 from "../../img/BC1.png"
 import Cha from "../../img/Cha.png"
 import NuocCham from "../../img/NuocCham.png"
 import Hanh from "../../img/Hanh.png"
+import Rau from "../../img/Rau.png"
 export default {
     1:[
         Banhcuon1,
@@ -30,5 +31,12 @@ export default {
         Hanh,
         Hanh,
         Hanh,
+    ],
+    5:[
+        Rau,
+        Rau,
+        Rau,
+        Rau,
+        Rau,
     ]
 }
