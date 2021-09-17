@@ -35,7 +35,7 @@ const BreakingNews = (props) => {
     console.log("TEST", listItems)
     return (
 
-        <div className="d-flex justify-content-center" style={{flexDirection: 'column'}}>
+        <div className="d-flex justify-content-center" style={{flexDirection: 'column', marginBottom: '20px'}}>
             <span className="tintucmoinhat">Tin tức mới nhất</span>
             <div id="tintucmoinhat" className="carousel slide breaking-news" data-ride="carousel" data-interval="false">
                 <div className="carousel-inner container-fluid">
