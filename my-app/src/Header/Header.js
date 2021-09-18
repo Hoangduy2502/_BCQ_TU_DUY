@@ -5,7 +5,6 @@ import "./Header.css"
 import Carousel from './Carousel';
 import Logo2 from "./img/Logo2.png"
 const Header = () => {
-<<<<<<< HEAD
     // tu meo
     const [navbar, setnavbar] = useState(false);
     const change = () => {
@@ -14,19 +13,11 @@ const Header = () => {
     }
     window.addEventListener('scroll',change)
     //tu meo
-=======
-    
->>>>>>> caba2a4b706f471a83376dcb964973309ed237a4
     return (
         <div className="nen" >
             <div className="color">
             </div>
-<<<<<<< HEAD
             <div className="row d-flex container-fuild p-5 Header">
-=======
-            
-            <div className="row Header d-flex container-fuild p-5 " >
->>>>>>> caba2a4b706f471a83376dcb964973309ed237a4
                     <div className="col-4 pl-5 ml-5">
                         <img src={Logo2} />
                     </div>
