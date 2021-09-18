@@ -32,7 +32,7 @@ function App() {
    
     return check==true?
     <>
-      <iframe style={{width:"500px",height:"850px"}} src="https://menu.banhcuonquyen.vn/"></iframe>
+      <iframe style={{width:"550px",height:"943px"}} src="https://menu.banhcuonquyen.vn/"></iframe>
       <button onClick={Menu}>Thoát</button>
       </>
     :<><img  src={DatHang} onClick={Menu} /> </>
