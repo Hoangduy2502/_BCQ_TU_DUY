@@ -8,14 +8,30 @@
     color: #5c5555;
     opacity: 1;
     z-index:2000;
+    align-items: center ;
+    
     
 }
-.Nav-Home.slidedow{
+.Header.slidedow{
     position: fixed;
     /* top: 0;
     left: 0;
     right: 0; */
-    background-color: yellow;
+    background-color: #EBEDEB;
+    margin-left: 0;
+    align-items: center ;
+    opacity: 0.8;
+    padding-right: 5px;
+    
+    
+}
+.nav-link.show
+{
+    color: black;
+}
+.nav-link
+{
+    color: white;
 }
 .nen{
     position: relative;
@@ -41,13 +57,13 @@
 .Nav-Home
 {
     position: sticky;
-    top: 20px;
     z-index:1000;
     font: normal normal normal 16px/21px SFUFuturaBook;
     color: #FFFFFF;
     opacity: 1;
     font-size: 20px;
-    text-shadow: 0 0 7px #000
+    margin-right: 10px;
+    
 }
 #demo
 {
