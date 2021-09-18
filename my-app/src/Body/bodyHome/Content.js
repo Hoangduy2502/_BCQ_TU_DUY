@@ -112,7 +112,7 @@ const Content = () => {
                                 
                             />
                             {/* <img src={ctend01} style={{ width: '100%' }} href=""></img> */}
-                            <div className="mycarouselimg">
+                            {/* <div className="mycarouselimg">
                                 <div id="carouselimg" className="carousel slide" data-ride="carousel">
 
                                     <div style={{ position: 'absolute', background: '#191200 0% 0% no-repeat padding-box', width: '100%', height: '100%', opacity: '0.61', borderRadius: '5px' }}>
@@ -151,7 +151,7 @@ const Content = () => {
                                         <img src={nextcarimg} href=""></img>
                                     </a>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                         <div className="col-5 p-0 m-0">
                             <div className="row flex-nowrap align-items-end p-0 m-0">
