@@ -11,6 +11,7 @@ const Index = () => {
     const [activeTab2, setActiveTab2] = useState("tab-pane fade")
     const [activeTab3, setActiveTab3] = useState("tab-pane fade")
     const [activeTab4, setActiveTab4] = useState("tab-pane fade")
+    const [activeTab5, setActiveTab5] = useState("tab-pane fade")
     console.log("TEST3",activeTab2)
     
     return (
@@ -22,8 +23,9 @@ const Index = () => {
             activeTab1s={{activeTab1,setActiveTab1}}
             activeTab2s={{activeTab2,setActiveTab2}}
             activeTab3s={{activeTab3,setActiveTab3}}
-            activeTab4s={{activeTab4,setActiveTab4}}/>
-           
+            activeTab4s={{activeTab4,setActiveTab4}}
+            activeTab5s={{activeTab5,setActiveTab5}}/>
+          
         </div>
     );
 }

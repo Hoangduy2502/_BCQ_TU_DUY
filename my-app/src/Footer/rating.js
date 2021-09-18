@@ -19,34 +19,34 @@ const data = [
 
 ]
 const Rating = () => {
-    const list = data.map((book, i) => {
-        return (
-            <div className="carousel-item">
-                <img src={rating01} alt="Los Angeles" width="1100" height="500"/>
-            </div>
-        )
-    })
+    // const list = data.map((book, i) => {
+    //     return (
+    //         <div className="carousel-item">
+    //             <img src={rating01} alt="Los Angeles" width="1100" height="500" />
+    //         </div>
+    //     )
+    // })
     return (
-        
+
         <div id="demo99" className="carousel slide" data-ride="carousel">
-        <div className="carousel-inner rating-card ">
-          <div className="carousel-item active">
-            <img src={rating01} alt="Los Angeles" width="1100" height="500"/>
-          </div>
-          <div className="carousel-item">
-                <img src={rating01} alt="Los Angeles" width="1100" height="500"/>
+            <div className="carousel-inner rating-card ">
+                <div className="carousel-item active">
+                    <img src={rating01} alt="Los Angeles" width="1100" height="500" />
+                </div>
+                <div className="carousel-item">
+                    <img src={rating01} alt="Los Angeles" width="1100" height="500" />
+                </div>
+                <div className="carousel-item">
+                    <img src={rating01} alt="Los Angeles" width="1100" height="500" />
+                </div>
             </div>
-            <div className="carousel-item">
-                <img src={rating01} alt="Los Angeles" width="1100" height="500"/>
-            </div>
+            <a className="carousel-control-prev" href="#demo99" style={{ zIndex: '3' }} data-slide="prev">
+                <img src={prebtn}></img>
+            </a>
+            <a className="carousel-control-next" href="#demo99" style={{ zIndex: '3' }} data-slide="next">
+                <img src={nextbtn}></img>
+            </a>
         </div>
-        <a className="carousel-control-prev" href="#demo99" style={{zIndex: '3'}} data-slide="prev">
-          <img src={prebtn}></img>
-        </a>
-        <a className="carousel-control-next" href="#demo99" style={{zIndex: '3'}} data-slide="next">
-        <img src={nextbtn}></img>
-        </a>
-      </div>
 
     );
 }

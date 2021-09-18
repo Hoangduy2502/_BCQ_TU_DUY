@@ -1,5 +1,5 @@
 /*Màn hính cỡ nhỏ*/
-@media (min-width: 1200px) and (max-width: 1600px) {
+@media (max-width: 1700px) {
     .Gioithieu{
         background-image: url("./img/Nen.png");
         width: 100%;
@@ -55,7 +55,6 @@
         width: 272px;
         height: 421px;
         margin-top:280px
-        
     }
     .test
     {
@@ -77,8 +76,8 @@
         width: 1500px;
         height: 700px;
         opacity: 1;
-        left: 380px;
-        right: 303px;
+        left: 26%;
+        /* right: 303px; */
         background-image: url("./img/Path26.png");
         
         
@@ -178,13 +177,13 @@
   .Nav_Tab
    {
         position: relative;
-        left: 100px;
+        left: 200px;
    }
    
     
 }
 /*Màn hính cỡ to*/
-@media (min-width: 1600px)  {
+@media (min-width: 1700px)  {
     .Gioithieu{
         background-image: url("./img/Nen.png");
         width: 100%;

@@ -1,6 +1,6 @@
 .Header
 {
-    /* position:fixed; */
+    position: fixed;
     width: 100%;
     text-align: left;
     font: normal normal normal 16px/21px SFU Futura;
@@ -8,7 +8,30 @@
     color: #5c5555;
     opacity: 1;
     z-index:2000;
-  
+    align-items: center ;
+    
+    
+}
+.Header.slidedow{
+    position: fixed;
+    /* top: 0;
+    left: 0;
+    right: 0; */
+    background-color: #EBEDEB;
+    margin-left: 0;
+    align-items: center ;
+    opacity: 0.8;
+    padding-right: 5px;
+    
+    
+}
+.nav-link.show
+{
+    color: black;
+}
+.nav-link
+{
+    color: white;
 }
 .nen{
     position: relative;
@@ -33,12 +56,14 @@
 }
 .Nav-Home
 {
-    position: fixed;
+    position: sticky;
     z-index:1000;
     font: normal normal normal 16px/21px SFUFuturaBook;
     color: #FFFFFF;
     opacity: 1;
     font-size: 20px;
+    margin-right: 10px;
+    
 }
 #demo
 {
@@ -67,6 +92,4 @@
     opacity: 1;
     z-index: 100;
 }
-@media (min-width: 1200ox) and (max-width: 1600px) {
-    
- }
+
