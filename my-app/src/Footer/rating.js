@@ -19,13 +19,13 @@ const data = [
 
 ]
 const Rating = () => {
-    const list = data.map((book, i) => {
-        return (
-            <div className="carousel-item">
-                <img src={rating01} alt="Los Angeles" width="1100" height="500" />
-            </div>
-        )
-    })
+    // const list = data.map((book, i) => {
+    //     return (
+    //         <div className="carousel-item">
+    //             <img src={rating01} alt="Los Angeles" width="1100" height="500" />
+    //         </div>
+    //     )
+    // })
     return (
 
         <div id="demo99" className="carousel slide" data-ride="carousel">
