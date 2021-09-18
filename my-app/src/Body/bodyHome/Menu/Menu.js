@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React,{useState,useEffect} from 'react';
 import Path26 from "../img/Path26.png"
 import "../body.css"
 import Trayproduct from "../img/Layer1.png"
@@ -12,7 +12,8 @@ import Ellip from "../img/Ellipse.png"
 import Icon79 from "../img/Icon79.png"
 import TabMenu from './TabMenu';
 import Text from './Text';
-
+import Aos from 'aos';
+import "aos/dist/aos.css"
 const Menu =(props) => {
     const {Product,activeTab1s,activeTab2s,activeTab3s,activeTab4s,activeTab5s}=props
     const [link1, setLink1] = useState("nav-link active")
@@ -20,6 +21,9 @@ const Menu =(props) => {
     const [link3, setLink3] = useState("nav-link")
     const [link4, setLink4] = useState("nav-link")
     const [link5,setLink5] = useState("nav-link")
+    useEffect(() => {
+        Aos.init({duration: 1000});
+    }, []);
     const onClick=async(number)=>
     {
         console.log("TEST")
@@ -93,7 +97,7 @@ const Menu =(props) => {
   
     return (
         <div className="Tong " >
-                <div className="Menu " >
+                <div className="Menu " data-aos="fade-up" >
                     <div className="ElipS">
                         <img className="Elipse" src={Ellip} style={{position:"relative", top:-100+"px", left:550+"px"}}></img>
                         <img className="icon79" src={Icon79} style={{position:"relative", top:-100+"px", left:450+"px"}} />
