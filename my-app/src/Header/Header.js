@@ -39,7 +39,7 @@ const Header = () => {
                     <Carousel />
             </div>y
         </div>
-    );Ư
+    );
 }
 
 export default Header;
