@@ -4,37 +4,13 @@ import "./Header.css"
 import Carousel from './Carousel';
 import Logo2 from "./img/Logo2.png"
 const Header = () => {
-    const [offset, setOffset] = useState(0);
-    const [color,setColor]=useState("")
     
-    const [check,setcheck]=useState(false)
-    const [check1,setcheck1]=useState(false)
-    //   window.scrollTo= () => {
-    //     setOffset(window.pageYOffset)
-        
-    //   }
-      
-    // if(offset>=666 && check==false)
-    // {
-    //     setColor("#840C16")
-    //     setcheck(true)
-    //     console.log('ngao ak');
-    // }
-    // if(offset<666 && check1==false)
-    // {
-    //     setColor("")
-    //     setcheck1(true)
-    //     console.log("HÊ")
-    // }
-    
-    // console.log("TEST",check)
-    // console.log("TEST coloe",color)
     return (
         <div className="nen" >
             <div className="color">
             </div>
             
-            <div className="row Header d-flex container-fuild p-5 " style={{backgroundColor:`${color}`}}>
+            <div className="row Header d-flex container-fuild p-5 " >
                     <div className="col-4 pl-5 ml-5">
                         <img src={Logo2} />
                     </div>

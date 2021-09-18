@@ -23,7 +23,7 @@ const ContactFooter = () => (
                 </div>
             </div>
             <div className="like-facebook">
-                <div class="fb-page" data-href="https://www.facebook.com/banhcuonquyenhaiphong/" data-tabs="timeline" data-width="300" data-height="166" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/banhcuonquyenhaiphong/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/banhcuonquyenhaiphong/">BÁNH CUỐN QUYÊN</a></blockquote></div>
+            <div class="fb-page" data-href="https://www.facebook.com/banhcuonquyenhaiphong/" data-tabs="" data-width="257" data-height="163" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/banhcuonquyenhaiphong/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/banhcuonquyenhaiphong/">BÁNH CUỐN QUYÊN</a></blockquote></div>
             </div>
             <div className="shadow-contact"></div>
         </div>
