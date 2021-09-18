@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,600&display=swap');
 
-.Footer{
-<<<<<<< HEAD
-=======
-    
->>>>>>> 07ce73ac0239abcf0524c9ea02822644933927a5
-}
 .contentfooter{
     background-image: url(./img/backgroundFooter.png);
     background-repeat: no-repeat;
@@ -139,8 +133,6 @@
     height: 166px;
     min-width: 166px;
     border-radius: 5px;
-}
-.my-inner{
 }
 .text-news{
     
