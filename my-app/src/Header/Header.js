@@ -14,7 +14,7 @@ const Header = () => {
     window.addEventListener('scroll',change)
     //tu meo
     return (
-        <div className="nen" style={{}}>
+        <div className="nen" >
             <div className="color">
             </div>
             <div className="row d-flex container-fuild p-5 Header">
@@ -25,22 +25,22 @@ const Header = () => {
                         <ul className={`nav ${navbar ? "Nav-Home slidedow" : "Nav-Home"}`}>
 
                             <li className="nav-item">
-                                <a style={{ color: "white" }} className="nav-link active" href="#">Trang chủ</a>
+                                <a style={{ color: "white" }} className="nav-link " href="/">Trang chủ</a>
                             </li>
                             <li className="nav-item">
-                                <a style={{ color: "white" }} className="nav-link" href="#">Giới thiệu</a>
+                                <a style={{ color: "white" }} className="nav-link" href="/GioiThieu">Giới thiệu</a>
                             </li>
                             <li className="nav-item">
-                                <a style={{ color: "white" }} className="nav-link" href="#">Sản phẩm</a>
+                                <a style={{ color: "white" }} className="nav-link" href="/SanPham">Sản phẩm</a>
                             </li>
                             <li className="nav-item">
-                                <a style={{ color: "white" }} className="nav-link " href="#">Ăn gì hôm nay!</a>
+                                <a style={{ color: "white" }} className="nav-link " href="/LetEat">Ăn gì hôm nay!</a>
                             </li>
                             <li className="nav-item">
-                                <a style={{ color: "white" }} className="nav-link " href="#">Tin tức</a>
+                                <a style={{ color: "white" }} className="nav-link " href="/TinTuc">Tin tức</a>
                             </li>
                             <li className="nav-item">
-                                <a style={{ color: "white" }} className="nav-link " href="#">Liên hệ</a>
+                                <a style={{ color: "white" }} className="nav-link " href="/LienHe">Liên hệ</a>
                             </li>
                         </ul>
                     </div>

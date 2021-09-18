@@ -8,7 +8,7 @@ const Footer = ()=>{
     console.log("TEST",data)
     return(
     <div className="Footer">
-        <Rating />
+        
         <ContentFooter DataTT={data}/>
     </div>)
 }

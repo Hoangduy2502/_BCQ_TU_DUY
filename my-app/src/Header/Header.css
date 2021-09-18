@@ -1,6 +1,6 @@
 .Header
 {
-    /* position:fixed; */
+    position: fixed;
     width: 100%;
     text-align: left;
     font: normal normal normal 16px/21px SFU Futura;
@@ -47,6 +47,7 @@
     color: #FFFFFF;
     opacity: 1;
     font-size: 20px;
+    text-shadow: 0 0 7px #000
 }
 #demo
 {
@@ -75,6 +76,4 @@
     opacity: 1;
     z-index: 100;
 }
-@media (min-width: 1200ox) and (max-width: 1600px) {
-    
- }
+
