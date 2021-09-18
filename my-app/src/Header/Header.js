@@ -47,9 +47,9 @@ const Header = () => {
                 </div>
             <div className="row Carousel">
                     <Carousel />
-            </div>
+            </div>y
         </div>
-    );
+    );Ư
 }
 
 export default Header;
