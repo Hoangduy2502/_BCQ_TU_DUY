@@ -13,14 +13,37 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import react, {useState} from 'react';
 function App() {
+  const [check,setcheck]=useState(false)
   const Menu = () => {
-    window.open("https://menu.banhcuonquyen.vn/");
+    if(check==false)
+
+      setcheck(true)
+    else{
+      setcheck(false)
+    }
+    // window.open("https://menu.banhcuonquyen.vn/");
+  }
+  console.log("TEST",check)
+ 
+  const Items=()=>
+  {
+   
+    return check==true?
+    <>
+      <iframe style={{width:"500px",height:"850px"}} src="https://menu.banhcuonquyen.vn/"></iframe>
+      <button onClick={Menu}>Thoát</button>
+      </>
+    :<><img  src={DatHang} onClick={Menu} /> </>
   }
   return (
     <>
       <Header />
-      <img className="Dathang" src={DatHang} onClick={Menu} />
+      <div className="Dathang" >
+        <Items/>
+      </div>
+      
       <Router>
         <Switch>
           <Route exact path="/">
