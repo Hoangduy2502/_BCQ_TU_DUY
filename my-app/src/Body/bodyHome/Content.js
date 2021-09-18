@@ -24,9 +24,7 @@ import nextcarimg from './img/anh/nextcarimg.png';
 import carimg03 from './img/anh/carimg03.png';
 import carimg04 from './img/anh/carimg04.png';
 import carimg05 from './img/anh/carimg05.png';
-import dataText from './dataText';
 const Content = () => {
-    console.log(dataText);
     return (
         <div className="Content">
             <div style={{ maxWidth: "1600px", position: 'relative', margin: 'auto' }}>
@@ -47,21 +45,23 @@ const Content = () => {
                             <div className="box2hv" style={{ position: 'absolute', bottom: '0', right: '0', width: '41px', height: '33px', borderBottom: '3px solid #FCDE9E', borderRight: '3px solid #FCDE9E' }}></div>
 
                         </div>
-                        <span className="text-title">{dataText.firstP.lowfirstT}<span style={{ font: 'normal normal 600 18px/30px Montserrat-Semibold', color: '#840C16' }}>{dataText.firstP.upfirstT}</span>{dataText.firstP.lowsecondT}</span>
+                        <span className="text-title">Nhắc đến <span style={{ font: 'normal normal 600 18px/30px Montserrat-Semibold', color: '#840C16' }}>Bánh cuốn Quyên</span>, có thể người ta sẽ nghĩ tới một “bà Quyên” nào đó làm chủ gánh bánh cuốn mang tên mình. Nhưng với người dân đất Cảng hay những vị thực khách quen thuộc, nhắc đến Bánh cuốn Quyên là nhắc tới một thương hiệu bánh cuốn gia truyền cùng câu chuyện</span>
                     </div>
-                    <span className="firstP-foot">{dataText.firstP.upperT}</span>
+                    <span className="badoibanhcuon">&nbsp;&nbsp;&nbsp;&nbsp;"Ba đời làm bánh cuốn<br /> đều là đàn ông"</span>
 
                 </div>
                 <div className="wrap-boss">
 
-                    <div className="ct-boss row ml-0">
+                    <div className="ct-boss row">
                         <div className="w" style={{ width: '441px', marginTop: '200px' }}>
-                            <span className="textboss1">{dataText.secondP.lowfirstT}</span>
+                            <span className="textboss1">
+                                Có thể coi Bánh cuốn Quyên là một trong những cửa hàng bánh cuốn lâu đời nhất tại Hải Phòng. Cũng như nhiều món ẩm thực đường phố ngon lành khác nơi đất Cảng, những gánh hàng bánh cuốn thường chỉ chiếm một khoảng diện tích khiêm tốn trên vỉa hè.
+                            </span>
                             <span className="textboss2">
-                                {dataText.secondP.lowsecondT}
+                                Gánh bánh cuốn nhỏ ngày nào nay trở thành tiệm ăn, có thể coi đó như cuộc “cách mạng” về trải nghiệm ẩm thực của khách hàng Bánh cuốn Quyên nói riêng, và của những vị thực khách đam mê ẩm thực tại Hải Phòng nói chung. Một phần bởi con phố Cát Dài nay đã đổi tên thành Hai Bà Trưng, mặt khác anh muốn chuyên nghiệp hoá, mở rộng quy mô để phục vụ khách hàng: Cát Dài có bao nhiêu hàng bánh cuốn nhưng bánh cuốn nhà mình làm từ lâu đời rồi, khách tới ăn cũng đã quen với hình ảnh bố tôi ngồi đón khách tại quán, vậy nên tôi lấy luôn tên bố làm tên thương hiệu. Vừa là để khách dễ nhận diện, vừa để nhớ rằng cơ nghiệp ngày nay các con có được là nhờ một tay bố mẹ với ông bà dựng nên.
                             </span>
                         </div>
-                        <div className="imgboss" style={{  }}>
+                        <div className="imgboss" style={{ paddingLeft: '58px', width: '929px', height: '1065px' }}>
                             <img className="bossbr01" src={ctbrboss0}></img>
                             <img className="bossbr02" src={Ellipse4}></img>
                             <img className="bossshape" src={boss}></img>
@@ -73,10 +73,10 @@ const Content = () => {
                         </div>
                         <div style={{ width: "405px", height: "436px", position: "absolute", top: "180px", left: "264px" }}>
                             <div className="textboxboss">
-                                <span>{dataText.secondP.upperT}</span>
+                                <span>"Ban đầu chỉ là một gánh bánh cuốn nhỏ của ông bà, dần dà được truyền tới đời bố tôi rồi đến đời tôi...Từ gánh hàng nhỏ xíu ấy, ông và bố tôi đã dần phát triển nên cơ đồ khang trang như bây giờ."</span>
                             </div>
                             <div className="borderboxtop"></div>
-                            <div className="borderboxbottom"></div>
+                            <div className="borderboxbottom" style={{ position: 'absolute', bottom: '0', right: '0', width: '57px', height: '46px', borderBottom: '5px solid #840C16', borderRight: '5px solid #840C16', borderBottomRightRadius: '5px 5px' }}></div>
                         </div>
                     </div>
                 </div>
@@ -93,11 +93,11 @@ const Content = () => {
                 </div>
                 <div className="ct-intro-head">
                     <span style={{ width: "1143px", height: "145px" }}>
-                    {dataText.thirdP.lowfirstT}<span className="upper">{dataText.thirdP.upfirstT}</span>{dataText.thirdP.lowsecondT}<span className="upper">{dataText.thirdP.upsecondT}</span>
+                        Hơn <span className="upper">70 năm</span> tồn tại và phát triển, Bánh cuốn Quyên tự hào đi cùng lịch sử thành phố Hải Phòng xuyên suốt 3 thế hệ. Gánh bánh cuốn nhỏ mưu sinh ngày ấy nay đã trở thành tiệm ăn khang trang tiếp nối cơ nghiệp của gia đình, và đĩa bánh cuốn ngon miệng ngày nào nay cũng thấm đẫm những câu chuyện về văn hoá, lịch sử. Để rồi người dân Hải Phòng không ai là không biết, hay cả những người yêu ẩm thực từ những vùng miền khác khi đến với Hải Phòng đều ít nhiều từng nghe tới <span className="upper">Bánh cuốn Quyên.</span>
                     </span>
                     <div style={{ position: "relative" }}>
                         <img src={ctend00} href="" />
-                        <span className="huongvidicung">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Hương vị đi cùng<br/> dư âm năm tháng"</span>
+                        <span className="huongvidicung">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Hương vị đi cùng<br></br> dư âm năm tháng"</span>
                     </div>
                 </div>
                 <div className="ct-intro-body">
@@ -161,9 +161,9 @@ const Content = () => {
                                 </div>
                                 <div className="textrow1 col-6 p-0 m-0" style={{ width: '100%' }}>
                                     <div className="wrap-textrow1">
-                                        <span className="textrow1-head">{dataText.fourthP.lowfirstT}<span className="custom-text"></span></span>
-                                        <span className="textrow1-body">{dataText.fourthP.upfirstT}</span>
-                                        <span className="textrow1-foot">{dataText.fourthP.lowsecondT}</span>
+                                        <span className="textrow1-head">Từ một <span className="custom-text" style={{ display: 'inline-block' }}>quán nhỏ vỉa hè</span>, giờ đây là</span>
+                                        <span className="textrow1-body">Cửa hàng mặt tiền khang trang</span>
+                                        <span className="textrow1-foot">Sed ut perspiciatis unde omnis iste na tus error sit voluptatem acc usan tium do lor emque laudantium</span>
 
                                     </div>
                                 </div>
@@ -172,12 +172,15 @@ const Content = () => {
 
                     </div>
                     <div className="body-row2 row flex-nowrap">
-                        <div className="col-7 row p-0 m-0 " style={{ textAlign: 'end', justifyContent: 'flex-end' }}>
+                        <div className="col-7 row p-0 m-0 " style={{ textAlign: 'end', justifyContent: 'flex-end' }} >
+
                             <div className="col-7 p-0 m-0 d-flex align-items-center" style={{ position: 'relative', left: '18px' }}>
-                                <div style={{ paddingTop: '14px'}}>
-                                    <span className="textrow1-head" style={{ textAlign: 'right' }}>{dataText.fifthP.lowfirstT}</span>
-                                    <span className="textrow1-body" style={{ textAlign: 'right' }}>{dataText.fifthP.upfirstT}</span>
-                                    <span className="textrow1-foot" style={{ textAlign: 'right' }}>{dataText.fifthP.lowsecondT}</span>
+                                <div style={{ paddingTop: '14px' }}>
+
+                                    <span className="textrow1-head" style={{ textAlign: 'right' }}>Bánh cuốn Quyên gìn giữ nét truyền thống trong đời sống hiện đại</span>
+                                    <span className="textrow1-body" style={{ textAlign: 'right' }}>Bánh cuốn Quyên mang đến trải nghiệm <span style={{}}> thưởng thức ẩm thực an toàn</span></span>
+                                    <span className="textrow1-foot" style={{ textAlign: 'right' }}>Khách hàng vừa có thể thưởng thức bánh cuốn trong không gian thoải mái, sạch sẽ tại cửa hàng, lại vừa có thể thuận tiện mang về hoặc ăn tại nơi làm việc mà không lo bất tiện nhờ quy cách đóng hàng.</span>
+
                                 </div>
                             </div>
                             <div className="col-5 p-0 m-0">
@@ -188,9 +191,8 @@ const Content = () => {
 
                             <div className="col p-0 m-0 d-flex">
                                 <div className="" style={{ margin: 'auto', padding: "25px" }}>
-                                    <span className="textrow1-head">{dataText.sixtP.lowfirstT}</span>
-                                    <span className="textrow1-body">{dataText.sixtP.upfirstT}</span>
-                                    <span className="textrow1-foot">{dataText.sixtP.lowsecondT}</span>
+                                    <span className="textrow1-head">Phương châm làm nghề</span>
+                                    <span className="textrow1-body">Phát triển để phục vụ khách hàng</span>
                                 </div>
                             </div>
 
@@ -205,8 +207,8 @@ const Content = () => {
                 </div>
                 <div className="ct-intro-footer">
                     <img src={ctend05} style={{ marginBottom: '39px' }}></img>
-                    <span className="footer-row1">{dataText.seventhP.lowfirstT}<span style={{ font: 'normal normal bold 40px/37px Montserrat-Bold', color: '#FFBE00' }}>{dataText.seventhP.upfirstT}</span></span>
-                    <span className="footer-row2">{dataText.seventhP.lowsecondT}</span>
+                    <span className="footer-row1">"Để làm nên một món bánh cuốn ngon, không chỉ cần nguyên<br /> liệu tốt mà còn cần cả <span style={{ font: 'normal normal bold 40px/37px Montserrat-Bold', color: '#FFBE00' }}>tâm của người làm bánh</span>"</span>
+                    <span className="footer-row2">Bánh cuốn thơm dịu, mềm mướt, không hàn the; nước chấm sánh quyện, đậm đà vị xương; dùng kèm miếng<br /> chả thơm bùi không pha bột, làm từ thịt lợn sạch.</span>
                 </div>
             </div>
         </div>

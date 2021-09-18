@@ -41,16 +41,6 @@
     width: 257px;
     height: 166px;
 }
-.borderboxbottom{
-    position: absolute;
-     bottom: 0;
-     right: 0;
-     width: 57px;
-     height: 46px;
-     border-bottom: 5px solid #840C16;
-     border-right: 5px solid #840C16;
-     border-bottom-right-radius: 5px 5px 
-}
 .shadow-contact{
     position: absolute;
     bottom: -15px;
@@ -108,20 +98,18 @@
     display: flex;
     flex-direction: column;
 }
-.contact-body > span{
-    text-align: left;
-    font: normal normal normal 15px/21px SFUFuturaBook;
-    letter-spacing: 0px;
-    color: #392A00;
-}
 .strong-text{
-    display: inline;
     text-align: left;
     font: normal normal bold 15px/21px SFUFuturaBold;
     letter-spacing: 0px; 
     color: #392A00;
 }
-
+.contact-rowtext {
+    text-align: left;
+    font: normal normal normal 15px/21px SFUFuturaBook;
+    letter-spacing: 0px;
+    color: #392A00;
+}
 .shop2{
     width: 261px;
 }

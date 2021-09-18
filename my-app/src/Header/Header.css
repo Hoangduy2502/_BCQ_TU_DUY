@@ -8,14 +8,7 @@
     color: #5c5555;
     opacity: 1;
     z-index:2000;
-    
-}
-.Nav-Home.slidedow{
-    position: fixed;
-    /* top: 0;
-    left: 0;
-    right: 0; */
-    background-color: yellow;
+  
 }
 .nen{
     position: relative;
@@ -40,8 +33,7 @@
 }
 .Nav-Home
 {
-    position: sticky;
-    top: 20px;
+    position: fixed;
     z-index:1000;
     font: normal normal normal 16px/21px SFUFuturaBook;
     color: #FFFFFF;

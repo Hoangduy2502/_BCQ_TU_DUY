@@ -47,19 +47,21 @@
     letter-spacing: 0px;
     color: #392A00;
 }
-.ct-logo .firstP-foot{
+.ct-logo .badoibanhcuon{
+    position: absolute;
     display: block;
     font: normal normal bold 30px/37px Montserrat-Bold;
     letter-spacing: 0px;
     color: #840C16;
     width: 427px;
     height: 74px;
-    margin-left: auto;
+    bottom: -26px;
+    right: 11px;
 }
 .ct-boss{
     top: 0;
-    /* left: 131px;
-    position: absolute; */
+    left: 131px;
+    position: absolute;
     padding-top: 180px;
     height: 1000px;
     text-align: center;
@@ -68,15 +70,17 @@
 .ct-boss .textboss1{
     display: block;
     width: 252px;
+    height: 327px;
     text-align: left;
     font: normal normal normal 18px/30px Montserrat-Regular;
     letter-spacing: 0px;
     color: #392A00;
-    margin-bottom: 35px;
+    margin-bottom: 15px;
 }
 .ct-boss .textboss2{
     display: block;
     width: 441px;
+    height: 502px;
     text-align: left;
     font: normal normal normal 18px/30px Montserrat-Regular;
     letter-spacing: 0px;
@@ -84,9 +88,6 @@
 }
 .ct-boss .imgboss{
     position: relative;
-    left: 116px;
-     width: 929px;
-     height: 1065px;
 }
 .ct-boss .nameboss{
     display: block;
@@ -150,7 +151,6 @@
     margin: 0px auto;
     height: 1245px;
     overflow: hidden;
-    margin-bottom: 70px;
 }
 .textboxboss{
     background: #FCDE9E 0% 0% no-repeat padding-box;
@@ -277,7 +277,6 @@ span{
     margin-top: 97px;
 }
 .footer-row1{
-    width: 1057px;
     text-align: center;
     font: normal normal 30px/37px Montserrat-Bold;
     font-weight: 900;
@@ -298,7 +297,6 @@ span{
     color: #392A00;
 }
 .footer-row2{
-    width: 733px;
     margin-top: 16px;
 }
 .mycarouselimg{
@@ -347,7 +345,6 @@ span{
 }
 .textrow1-head .custom-text{
     font: normal normal 600 15px/30px Montserrat-SemiBold;
-    display: inline-block;
 }
 .ct-intro-head span{
     display: inline;
