@@ -1,0 +1,24 @@
+.breackcum-introbody{
+    background-color: rgb(132, 12, 22,.54);
+    height: 55px;
+    margin-top: -55px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.breackcum-introbody ul{
+    padding: 0;
+    list-style: none;
+    margin: 0;
+    display: inline;
+}
+.breackcum-introbody li{
+    display: inline;
+    margin-right: 32px;
+    color: #fff;
+    font: normal normal normal 16px/21px SFUFuturaBook;
+}
+.section1-bg{
+    background-color: rgb(132, 12, 22);
+    height: 791px;
+}
