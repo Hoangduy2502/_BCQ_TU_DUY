@@ -371,3 +371,17 @@ span{
     }
     
 }
+@media  (min-width :1200px) and (max-width:1650px) {
+    .ct-intro-body
+    {
+        width:98%;
+        margin-left:10px;
+        padding-left:9px
+    }
+}
+@media (min-width:1650px) {
+    .ct-intro-body
+    {
+        width:100%;
+    }
+}
