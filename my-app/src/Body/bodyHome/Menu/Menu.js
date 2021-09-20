@@ -21,9 +21,7 @@ const Menu =(props) => {
     const [link3, setLink3] = useState("nav-link")
     const [link4, setLink4] = useState("nav-link")
     const [link5,setLink5] = useState("nav-link")
-    useEffect(() => {
-        Aos.init({duration: 1000});
-    }, []);
+   
     const onClick=async(number)=>
     {
         console.log("TEST")
@@ -93,19 +91,20 @@ const Menu =(props) => {
             }
             
     }
-
+    useEffect(() => {
+        Aos.init({duration: 1000});
+    }, []);
   
     return (
         <div className="Tong " >
-                <div className="Menu " data-aos="fade-up" >
+                <div className="Menu " data-aos="fade-zoom-in">
                     <div className="ElipS">
-                        <img className="Elipse" src={Ellip} style={{position:"relative", top:-100+"px", left:550+"px"}}></img>
+                        <img className="Elipse" src={Ellip} style={{position:"relative", top:-100+"px", left:550+"px"}}/>
                         <img className="icon79" src={Icon79} style={{position:"relative", top:-100+"px", left:450+"px"}} />
                     </div>
-                    
                     <img className="Icon70" src={Icon70} style={{position:"relative", top:-300+"px", left:250+"px"}}/>
                     <img className="Logo" src={Logo}/>
-                    <img className="Trayproduct" src={Trayproduct} />
+                    <img className="Trayproduct"   src={Trayproduct} />
                     <div className='Banhcuon' onClick={()=>onClick(1)}>
                         <div className="TextBc row  ">
                         <Text/>   

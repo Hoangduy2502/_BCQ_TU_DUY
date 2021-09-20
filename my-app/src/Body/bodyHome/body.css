@@ -1,5 +1,5 @@
 /*Màn hính cỡ nhỏ*/
-@media (max-width: 1700px) {
+@media  (min-width :1200px) and (max-width:1650px) {
     .Gioithieu{
         background-image: url("./img/Nen.png");
         width: 100%;
@@ -79,6 +79,7 @@
         left: 26%;
         /* right: 303px; */
         background-image: url("./img/Path26.png");
+     
         
         
     }
