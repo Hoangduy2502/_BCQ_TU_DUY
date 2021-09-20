@@ -109,6 +109,7 @@ const Content = () => {
                                 frameborder='0'
                                 allowfullscreen
                                 title='video'
+                                style={{width: '100%'}}
                                 
                             />
                             {/* <img src={ctend01} style={{ width: '100%' }} href=""></img> */}
