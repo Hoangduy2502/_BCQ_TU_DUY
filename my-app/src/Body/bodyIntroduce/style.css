@@ -46,8 +46,132 @@
 }
 .section1-bg .groupimg{
     position: absolute;
-    top: 40%;
+    top: 45%;
     left: 3%;
     width: 439px;
     height: 217px;
+}
+.section2-intro .firstP-section2{
+    
+    width: 100%;
+    text-align: center;
+    font: normal normal normal 20px/30px Montserrat-Regular;
+    color: #707070;
+    padding: 55px 0;
+}
+.section2-intro{
+    position: relative;
+} 
+span .upperBoldText{
+    color: #840C16;
+    display: inline;
+    font: normal normal 600 20px/30px Montserrat-SemiBold;
+}
+.section2-intro .imgcircle{
+    margin-bottom: 15px;
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+    border: 3px solid #FCDE9E;
+}
+.col-section2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.AnhHai{
+    font-family: muli, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #840C16;
+    letter-spacing: 2px;
+    margin-bottom: 6px;
+    font-size: 15px;
+}
+.AnhHai-title{
+    letter-spacing: 0px;
+    color: #840C16;
+    text-transform: uppercase;
+    opacity: 0.57;
+    text-align: right;
+    font: normal normal normal 12px/15px Muli;
+    font-family: muli, sans-serif;
+    font-style: normal;
+    font-size: 12px;
+}
+.secondP-row1 , .secondP-row2, .secondP-row3{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 22px;
+}
+.secondP{
+    width: 75%;
+
+}
+.secondP-section2{
+    font: normal normal normal 18px/30px Montserrat-Regular;
+    color: #392A00;
+}
+.secondP .heading {
+    font: normal normal normal 35px/44px UTMAlterGothic;
+    color: #840C16;
+    padding-bottom: 21px;
+}
+.secondP .bodying, .Montserrat-Regular1830 {
+    font: normal normal normal 18px/30px Montserrat-Regular;
+    color: #392A00;
+}
+.img-ab-section2{
+    z-index: -1;
+    opacity: .9;
+    position: absolute;
+    bottom: 13%;
+    right: -22%;
+}
+
+
+/* section 3 */
+
+
+.section3-intro{
+    margin-top: 61px;
+}
+.headingSection3{
+    width: 100%;
+}
+.firstP-section3{
+    padding-top: 61px;
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.firstP-section3 .normal-text{
+    margin-top: 40px;
+    text-indent: 46px;
+    text-align: center;
+    font: normal normal 30px/37px Montserrat-Bold;
+    font-weight: 900;
+    letter-spacing: 0px;
+    color: #840C16;
+}
+.firstP-section3 .color-text{
+    display: inline;
+    font: bold 40px / 37px Montserrat-Bold;
+    color: rgb(255, 190, 0);
+}
+.secondP-section3{
+    margin-top: 37px;
+}
+.thirdP-section3{
+    margin-top: 37px;
+}
+.fourthP-section3 > span{
+    text-indent: 26px;
+    padding: 0;
+    color: #392A00;
+    font: italic 18px/30px Montserrat-BoldItalic;
+    text-align: right;
 }
