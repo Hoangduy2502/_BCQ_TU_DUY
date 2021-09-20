@@ -5,84 +5,112 @@ export default {
         name:"Mùa lễ Vu Lan - Những phong tục đặc biệt trong văn hóa ẩm thực đầy tinh túy của truyền thống ngàn xưa ",
         comment:"Ut enim ad minima veniam, quis nostrum ex ercita tionem ullam corporis suscipit lab ",
         date:"20/10/2022",
-        img:anchay,
-        id:1
+        img:vulan,
+        id:1,
+        width:"540px",
     },
     2:{
         name:"Bánh Cuốn chay- lựa chọn tuyệt vời cho mâm cúng rằm",
         comment:"Ut enim ad minima veniam, quis nostrum ex ercita tionem ullam corporis suscipit lab ",
         date:"20/10/2022",
         img:anchay,
-        id:2
+        id:2,
+        width:"260px",
     },
     3:{
         name:"Bánh Cuốn chay- lựa chọn tuyệt vời cho mâm cúng rằm",
         comment:"Ut enim ad minima veniam, quis nostrum ex ercita tionem ullam corporis suscipit lab ",
         date:"20/10/2022",
         img:anchay,
-        id:3
+        id:3,
+        width:"260px",
     },
     4:{
         name:"Bánh Cuốn chay- lựa chọn tuyệt vời cho mâm cúng rằm",
         comment:"Ut enim ad minima veniam, quis nostrum ex ercita tionem ullam corporis suscipit lab ",
         date:"20/10/2022",
         img:anchay,
-        id:4
+        id:4,
+        width:"260px",
     },
     5:{
         name:"Bánh Cuốn chay- lựa chọn tuyệt vời cho mâm cúng rằm",
         comment:"Ut enim ad minima veniam, quis nostrum ex ercita tionem ullam corporis suscipit lab ",
         date:"20/10/2022",
         img:anchay,
-        id:5
+        id:5,
+        width:"260px",
     },
     6:{
         name:"Bánh Cuốn chay- lựa chọn tuyệt vời cho mâm cúng rằm",
         comment:"Ut enim ad minima veniam, quis nostrum ex ercita tionem ullam corporis suscipit lab ",
         date:"20/10/2022",
         img:anchay,
-        id:6
+        id:6,
+        width:"260px",
     },
     7:{
         name:"Bánh Cuốn chay- lựa chọn tuyệt vời cho mâm cúng rằm",
         comment:"Ut enim ad minima veniam, quis nostrum ex ercita tionem ullam corporis suscipit lab ",
         date:"20/10/2022",
         img:anchay,
-        id:7
+        id:7,
+        width:"260px",
     },
     8:{
         name:"Bánh Cuốn chay- lựa chọn tuyệt vời cho mâm cúng rằm",
         comment:"Ut enim ad minima veniam, quis nostrum ex ercita tionem ullam corporis suscipit lab ",
         date:"20/10/2022",
         img:anchay,
-        id:8
+        id:8,
+        width:"260px",
     },
     9:{
         name:"Bánh Cuốn chay- lựa chọn tuyệt vời cho mâm cúng rằm",
         comment:"Ut enim ad minima veniam, quis nostrum ex ercita tionem ullam corporis suscipit lab ",
         date:"20/10/2022",
         img:anchay,
-        id:9
+        id:9,
+        width:"260px",
     },
     10:{
         name:"Bánh Cuốn chay- lựa chọn tuyệt vời cho mâm cúng rằm",
         comment:"Ut enim ad minima veniam, quis nostrum ex ercita tionem ullam corporis suscipit lab ",
         date:"20/10/2022",
         img:anchay,
-        id:10
+        id:10,
+        width:"260px",
     },
     11:{
         name:"Bánh Cuốn chay- lựa chọn tuyệt vời cho mâm cúng rằm",
         comment:"Ut enim ad minima veniam, quis nostrum ex ercita tionem ullam corporis suscipit lab ",
         date:"20/10/2022",
         img:anchay,
-        id:11
+        id:11,
+        width:"260px",
     },
     12:{
         name:"Bánh Cuốn chay- lựa chọn tuyệt vời cho mâm cúng rằm",
         comment:"Ut enim ad minima veniam, quis nostrum ex ercita tionem ullam corporis suscipit lab ",
         date:"20/10/2022",
         img:anchay,
-        id:12
+        id:10,
+        width:"260px",
+    },
+    13:{
+        name:"Bánh Cuốn chay- lựa chọn tuyệt vời cho mâm cúng rằm",
+        comment:"Ut enim ad minima veniam, quis nostrum ex ercita tionem ullam corporis suscipit lab ",
+        date:"20/10/2022",
+        img:anchay,
+        id:11,
+        width:"260px",
+    },
+    14:{
+        name:"Bánh Cuốn chay- lựa chọn tuyệt vời cho mâm cúng rằm",
+        comment:"Ut enim ad minima veniam, quis nostrum ex ercita tionem ullam corporis suscipit lab ",
+        date:"20/10/2022",
+        img:vulan,
+        id:12,
+        width:"540px",
     }
 }
