@@ -54,7 +54,7 @@ const News = () => {
                        <label className="Review" >{DataDetail.Reviews}</label>
                    </div>
                    <div className="row container-fuild " >
-                       <img src={DataDetail.img1} />
+                       <img className="img1" src={DataDetail.img1} />
                    </div>
                    <div className="row container-fuild  pt-4" >
                        <label className="Text">{DataDetail.Text1}</label>
@@ -67,12 +67,12 @@ const News = () => {
                             <label className="Text">{DataDetail.Text2}</label>
                        </div>
                    </div>
-                   <div className="row">
+                   <div className="row container-fluid p-0">
                     <label className="Commnet">{DataDetail.Comment}</label>
                    </div>
 
                </div>
-               <div className="col-4 New ml-5 p-0">
+               <div className="col-3 New ml-5 p-0 ">
                    <div className="row d-flex Titile justify-content-center ">
                         <label className="row mt-4">TIN TỨC HOT</label>
                    </div>

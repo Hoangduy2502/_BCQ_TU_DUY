@@ -9,8 +9,8 @@ const Lesteat = () => {
     {
         
         return(
-            <div className="m-2" style={{display: "inline-block"}}>
-                <div className="card " style={{width: "15rem"}}>
+            <div className="p-2 m-0" style={{display: "inline-block"}}>
+                <div className="card m-0" style={{width: `${data.width}`}}>
                     <img className="card-img-top" src={data.img} />
                     <div className="card-body">
                         <p className="card-text-name">{data.name}</p>
@@ -33,8 +33,8 @@ const Lesteat = () => {
                         <li><a>Ăn gì hôm nay</a></li>
                     </ul>
                 </div>
-            </div>
-            <div className="container" style={{marginTop:"70px"}}> 
+            </div> 
+            <div className="container " style={{marginTop:"70px"}}> 
                 {listEat}
             </div>
         </div> 
