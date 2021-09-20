@@ -12,7 +12,16 @@ import groupLogo from "./img/groupLogo.png"
 import bodysection3 from "./img/bodysection3.png"
 import wrapimgboss2 from "./img/wrapimgboss2.png"
 import wrapimgboss1 from "./img/wrapimgboss1.png"
-
+import wrapimgboss3 from "./img/wrapimgboss3.png"
+import csimg01 from "./img/csimg/csimg01.png"
+import csimg02 from "./img/csimg/csimg02.png"
+import csimg03 from "./img/csimg/csimg03.png"
+import csimg04 from "./img/csimg/csimg04.png"
+import csimg05 from "./img/csimg/csimg05.png"
+import csimg06 from "./img/csimg/csimg06.png"
+import csimg07 from "./img/csimg/csimg07.png"
+import csimg08 from "./img/csimg/csimg08.png"
+import csimg09 from "./img/csimg/csimg09.png"
 const BodyIntroduce = () => {
     return (
         <div style={{ marginBottom: '471px' }}>
@@ -104,6 +113,7 @@ const BodyIntroduce = () => {
             </div>
             <div className="container-fluid p-0 section3-intro">
                 <img src={headingSection3} className="headingSection3"></img>
+
                 <div className="container p-0">
                     <div className="firstP-section3">
                         <img src={groupLogo}></img>
@@ -114,7 +124,7 @@ const BodyIntroduce = () => {
                         Similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
                         Temporibus autem quibusdam et aut officiis de bitis aut rerum nec essity atibus saepe even ietdu cimus qui blanditiis pra esenti um voluptatum deleniti atque Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dol ore mque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam vol upta tem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non nu mqu am eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat vol uptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corp oris sus.
                     </span>
-                    <img src={bodysection3} style={{marginTop: '37px'}}></img>
+                    <img src={bodysection3} style={{ marginTop: '37px', width: '100%' }}></img>
                     <span className="thirdP-section3 Montserrat-Regular1830">
                         Similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
                         Temporibus autem quibusdam et aut officiis de bitis aut rerum nec essity atibus saepe even ietdu cimus qui blanditiis pra esenti um voluptatum deleniti atque Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dol ore mque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam vol upta tem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non nu mqu am eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat vol uptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corp oris sus.
@@ -122,12 +132,62 @@ const BodyIntroduce = () => {
                     <span className="row fourthP-section3">
                         <div className="col-4">
                             <div className="wrapimg-sm-boss">
-                                
+                                <img src={wrapimgboss1} alt="" style={{ zIndex: '1' }}></img>
+                                <img src={wrapimgboss2} alt="" style={{ zIndex: '0' }}></img>
+                                <img src={wrapimgboss3} alt="" style={{ top: '-9px', zIndex: '2' }}></img>
+                                <div className="wrap-nameboss">
+                                    <div className="name">Anh Vũ Sơn Hải</div>
+                                    <div className="title">Truyền Nhân đời thứ 3</div>
+                                </div>
                             </div>
                         </div>
                         <span className="col-8">Hơn 70 năm tồn tại và phát triển, Bánh cuốn Quyên tự hào đi cùng lịch sử thành phố Hải Phòng xuyên suốt 3 thế hệ. Gánh bánh cuốn nhỏ mưu sinh ngày ấy nay đã trở thành tiệm ăn khang trang tiếp nối cơ nghiệp của gia đình, và đĩa bánh cuốn ngon miệng ngày nào nay cũng thấm đẫm những câu chuyện về văn hoá, lịch sử. Để rồi người dân Hải Phòng không ai là không biết, hay cả những người yêu ẩm thực từ những vùng miền khác khi đến với Hải Phòng đều ít nhiều từng nghe tới Bánh cuốn Quyên.</span>
                     </span>
                 </div>
+
+                {/* ----------------------------- */}
+                <div>
+                    <div id="carouselimg" className="carousel slide" data-ride="carousel">
+
+                        <div style={{ position: 'absolute', background: '#191200 0% 0% no-repeat padding-box', width: '100%', height: '100%', opacity: '0.61', borderRadius: '5px' }}>
+
+                        </div>
+                        <div className="carousel-inner myinnerimg">
+                            <div className="carousel-item active">
+                                <div className="d-none d-lg-block">
+                                    <div className="slide-box">
+                                        <img src={csimg01} alt="First slide" />
+                                        <img src={csimg02} alt="First slide" />
+                                        <img src={csimg03} alt="First slide" />
+                                        <img src={csimg04} alt="First slide" />
+                                        <img src={csimg05} alt="First slide" />
+                                        <img src={csimg05} alt="First slide" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="carousel-item">
+                                <div className="d-none d-lg-block">
+                                    <div className="slide-box">
+                                        <img src={csimg03} alt="First slide" />
+                                        <img src={csimg03} alt="First slide" />
+                                        <img src={csimg03} alt="First slide" />
+                                        <img src={csimg03} alt="First slide" />
+                                        <img src={csimg03} alt="First slide" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a className="carousel-control-prev" href="#carouselimg" role="button" data-slide="prev">
+                            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                            {/* <img src={precarimg} href=""></img> */}
+                        </a>
+                        <a className="carousel-control-next" href="#carouselimg" role="button" data-slide="next">
+                            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                            {/* <img src={nextcarimg} href=""></img> */}
+                        </a>
+                    </div>
+                </div>
+                {/* ------------------------------------ */}
             </div>
         </div>
 

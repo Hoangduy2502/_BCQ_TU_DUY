@@ -87,13 +87,15 @@ span .upperBoldText{
     letter-spacing: 2px;
     margin-bottom: 6px;
     font-size: 15px;
+    text-align: center;
+
 }
 .AnhHai-title{
     letter-spacing: 0px;
     color: #840C16;
     text-transform: uppercase;
     opacity: 0.57;
-    text-align: right;
+    text-align: center;
     font: normal normal normal 12px/15px Muli;
     font-family: muli, sans-serif;
     font-style: normal;
@@ -128,7 +130,6 @@ span .upperBoldText{
     bottom: 13%;
     right: -22%;
 }
-
 
 /* section 3 */
 
@@ -168,6 +169,9 @@ span .upperBoldText{
 .thirdP-section3{
     margin-top: 37px;
 }
+.fourthP-section3{
+    margin: 61px 0;
+}
 .fourthP-section3 > span{
     text-indent: 26px;
     padding: 0;
@@ -175,3 +179,36 @@ span .upperBoldText{
     font: italic 18px/30px Montserrat-BoldItalic;
     text-align: right;
 }
+
+.wrapimg-sm-boss{
+    position: relative;
+    height: 100%;
+    width: 157px;
+    margin-left: auto;
+}
+.wrapimg-sm-boss > img{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.wrap-nameboss > .name{
+    font: normal normal bold 9px/11px Muli;
+    letter-spacing: 1.75px;
+
+    color: #FCDE9E;
+    text-align: left;
+}
+.wrap-nameboss{
+    z-index: 5;
+    width: 105px;
+    position: absolute;
+    right: -15px;;
+    top: 125px;
+    height: 20px;
+}
+.wrap-nameboss > .title{
+    font: normal normal bold 6px/8px Muli;
+    color: #840C16;
+    text-align: right;
+}
+/* car */
