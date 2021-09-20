@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+@media  (min-width :1200px) and (max-width:1650px) {
+  iframe
+  {
+    width:450px;
+    height:500px
+  }
+}
+@media (min-width:1650px) {
+  iframe
+  {
+    width:450px;
+    height:600px
+  }
+}

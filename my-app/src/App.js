@@ -7,6 +7,9 @@ import "./index.css"
 import GioiThieu from "./Body/bodyIntroduce/index"
 import SanPham from "./Body/bodyProduct/index"
 import Rating from './Footer/rating';
+import Leteats from './Body/bodyLetsEat/index';
+import TinTuc from './Body/bodyNews/index'
+import "./App.css"
 import {
   BrowserRouter as Router,
   Switch,
@@ -14,6 +17,7 @@ import {
   Link
 } from "react-router-dom";
 import react, {useState} from 'react';
+import Lesteats from './Body/bodyLetsEat/index';
 function App() {
   const [check,setcheck]=useState(false)
   const Menu = () => {
@@ -32,7 +36,7 @@ function App() {
    
     return check==true?
     <>
-      <iframe style={{width:"550px",height:"943px"}} src="https://menu.banhcuonquyen.vn/"></iframe>
+      <iframe src="https://menu.banhcuonquyen.vn/"></iframe>
       <button onClick={Menu}>Thoát</button>
       </>
     :<><img  src={DatHang} onClick={Menu} /> </>
@@ -55,6 +59,12 @@ function App() {
           </Route>
           <Route path="/SanPham">
             <SanPham />
+          </Route>
+          <Route path="/LetEat">
+           <Lesteats/>
+          </Route>
+          <Route path="/TinTuc">
+            <TinTuc/>
           </Route>
         </Switch>
       </Router>

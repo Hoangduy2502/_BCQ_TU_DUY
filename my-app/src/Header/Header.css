@@ -48,11 +48,19 @@
    .nen{
     height: 900px;
    }
+   #demo
+    {
+        margin-top: 300px;
+    }
   }
 @media (min-width:1650px) {
 .nen{
     height: 1200px;
 }
+#demo
+    {
+        margin-top: 400px;
+    }
 }
 .color
 {
@@ -77,7 +85,6 @@
 }
 #demo
 {
-    margin-top: 200px;
     left: 230px;
     width: 690px;
     height: 90px;
