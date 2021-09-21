@@ -1,4 +1,8 @@
 import React from 'react';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
+
 import "./style.css";
 import imgSection1 from "./img/section1-01.png"
 import Banhcuon from "./img/Banhcuon.png"
@@ -22,7 +26,44 @@ import csimg06 from "./img/csimg/csimg06.png"
 import csimg07 from "./img/csimg/csimg07.png"
 import csimg08 from "./img/csimg/csimg08.png"
 import csimg09 from "./img/csimg/csimg09.png"
+import preIcon from "./img/pre.png"
+import nexIcon from "./img/nex.png"
+function SampleNextArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <img
+        src={nexIcon}
+        className={className}
+        style={{ ...style, display: "block", width: '13px',position: 'absolute',
+        right: '8%',top: '110%', zIndex: 100000}}
+        onClick={onClick}
+      />
+    );
+  }
+  
+  function SamplePrevArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <img
+         src={preIcon}
+        className={className}
+        style={{ ...style, display: "block", width: '13px',position: 'absolute',
+        left: '8%',top: '110%',zIndex: 100000}}
+        onClick={onClick}
+      />
+    );
+  } 
 const BodyIntroduce = () => {
+    const settings = {
+        className: "slider variable-width",
+        infinite: true,
+        centerMode: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        variableWidth: true,
+      nextArrow: <SampleNextArrow />,
+      prevArrow: <SamplePrevArrow />
+    };
     return (
         <div style={{ marginBottom: '471px' }}>
             <div className="container-fluid p-0 breackcum-introbody">
@@ -147,44 +188,30 @@ const BodyIntroduce = () => {
 
                 {/* ----------------------------- */}
                 <div>
-                    <div id="carouselimg" className="carousel slide" data-ride="carousel">
-
-                        <div style={{ position: 'absolute', background: '#191200 0% 0% no-repeat padding-box', width: '100%', height: '100%', opacity: '0.61', borderRadius: '5px' }}>
-
-                        </div>
-                        <div className="carousel-inner myinnerimg">
-                            <div className="carousel-item active">
-                                <div className="d-none d-lg-block">
-                                    <div className="slide-box">
-                                        <img src={csimg01} alt="First slide" />
-                                        <img src={csimg02} alt="First slide" />
-                                        <img src={csimg03} alt="First slide" />
-                                        <img src={csimg04} alt="First slide" />
-                                        <img src={csimg05} alt="First slide" />
-                                        <img src={csimg05} alt="First slide" />
-                                    </div>
-                                </div>
+                    <div style={{ width: '100%'}}>
+                        <Slider {...settings} style={{height: '526px',display: 'flex', position: 'relative'}} className="row">
+                            <div className="col-2 align-self-center" style={{ width: 300 }}>
+                                <img src={csimg02} alt=""></img>
+                                <img src={csimg06} alt=""></img>
                             </div>
-                            <div className="carousel-item">
-                                <div className="d-none d-lg-block">
-                                    <div className="slide-box">
-                                        <img src={csimg03} alt="First slide" />
-                                        <img src={csimg03} alt="First slide" />
-                                        <img src={csimg03} alt="First slide" />
-                                        <img src={csimg03} alt="First slide" />
-                                        <img src={csimg03} alt="First slide" />
-                                    </div>
-                                </div>
+                            <div className="col-2 align-self-end" style={{ width: 252}}>
+                                <img src={csimg03} alt=""  style={{height: 354 }}></img>
                             </div>
-                        </div>
-                        <a className="carousel-control-prev" href="#carouselimg" role="button" data-slide="prev">
-                            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                            {/* <img src={precarimg} href=""></img> */}
-                        </a>
-                        <a className="carousel-control-next" href="#carouselimg" role="button" data-slide="next">
-                            <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                            {/* <img src={nextcarimg} href=""></img> */}
-                        </a>
+                            <div className="col-2 align-self-center" style={{ width: 300 }}>
+                                <img src={csimg08} alt=""></img>
+                                <img src={csimg04} alt=""></img>
+                            </div>
+                            <div className="col-2 align-self-start" style={{ width: 252}}>
+                                <img src={csimg07} alt=""  style={{height: 354 }}></img>
+                            </div>  
+                            <div className="col-2 align-self-center" style={{ width: 300 }}>
+                                <img src={csimg09} alt=""></img>
+                                <img src={csimg05} alt=""></img>
+                            </div>
+                            <div className="col-2 align-self-end" style={{ width: 252 }}>
+                                <img src={csimg01} alt=""></img>
+                            </div>
+                        </Slider>
                     </div>
                 </div>
                 {/* ------------------------------------ */}

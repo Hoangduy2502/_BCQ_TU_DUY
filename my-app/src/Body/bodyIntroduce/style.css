@@ -212,3 +212,13 @@ span .upperBoldText{
     text-align: right;
 }
 /* car */
+.slick-slide > div{
+    display: flex;
+    height: 100%;
+}
+.slick-list, .slick-track{
+    height: 100%;
+}
+.slick-initialized .slick-slide {
+    margin: 0 7px;
+}
