@@ -1,6 +1,6 @@
 import React from 'react';
 import './footer.css';
-import rating01 from './img/cThuy.jpg'
+import rating01 from './img/cThuy.png'
 import prebtn from './img/preicon.png'
 import nextbtn from './img/nexticon.png'
 const data = [

@@ -6,7 +6,7 @@ import slLogo from './img/ct-logo.png';
 import ctbrboss0 from './img/ct-brboss0.png';
 import Ellipse4 from './img/Ellipse4.png';
 import boss from './img/boss.png';
-import ctlistimg01 from './img/anh/anhCty.jpg';
+import ctlistimg01 from './img/anh/anhCty.png';
 import ctlistimg02 from './img/ct-listimg02.png';
 import ctlistimg03 from './img/ct-listimg03.png';
 import ctlistimg04 from './img/ct-listimg04.png';

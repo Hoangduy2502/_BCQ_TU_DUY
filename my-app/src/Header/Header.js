@@ -41,9 +41,9 @@ const Header = () => {
                             <li className= "nav-items">
                                 <a  className={`${navbar ? "nav-link show": "nav-link"}`} href="/TinTuc">Tin tức</a>
                             </li>
-                            {/* <li className= "nav-items">
-                                <a  className={`${navbar ? "nav-link show": "nav-link"}`}href="/LienHe">Liên hệ</a>
-                            </li> */}
+                            <li className= "nav-items">
+                                <a  className={`${navbar ? "nav-link show": "nav-link"}`}href="#contact">Liên hệ</a>
+                            </li>
                         </ul>
                     </div>
                 </div>

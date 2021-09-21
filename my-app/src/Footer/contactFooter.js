@@ -5,7 +5,7 @@ import facebookfooter from './img/facebookfooter.png'
 import Zalo from './img/Zalo.gif'
 import Youtube from "./img/Youtube.gif"
 const ContactFooter = () => (
-    <div className="contactFooter">
+    <div id="contact" className="contactFooter">
         <div className="infor-contact">
             <img className="logo-footer" src={logocontact} alt="nice" />
             <div className="contact-address">
