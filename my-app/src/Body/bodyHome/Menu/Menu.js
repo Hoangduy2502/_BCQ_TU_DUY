@@ -106,7 +106,7 @@ const Menu =(props) => {
                     </div>
                     <img className="Icon70" src={Icon70} style={{position:"relative", top:-300+"px", left:250+"px"}}/>
                     <img className="Logo" src={Logo}/>
-                    <img className="Trayproduct"   src={Trayproduct} />
+                    <img id="google" className="Trayproduct"   src={Trayproduct} />
                     <div className='Banhcuon' onClick={()=>onClick(1)}>
                         <div className="TextBc row  ">
                         <Text TextData={TextData[0][0]} text={TextData[0][1]} />   

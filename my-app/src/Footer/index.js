@@ -1,15 +1,23 @@
 import React from 'react';
-import ContentFooter from './contentFooter';
-import Rating from './rating';
 import Data1 from '../contant/index';
-import { useState } from 'react';
-const Footer = ()=>{
+import BreakingNews from './breakingNews';
+import ContactFooter from './contactFooter'
+import Logo from './img/Group28.png'
+
+const Footer = (props)=>{
     const data=Data1.Data
-    console.log("TEST",data)
+     const {cus} = props 
+    
     return(
     <div className="Footer">
         
-        <ContentFooter DataTT={data}/>
+        <div className="contentfooter">
+            {cus}
+            {/* <BreakingNews DataTT={data}/> */}
+            <ContactFooter />
+            <img src={Logo} style={{ opacity: '.3', position: 'absolute', bottom: '0', left: '0' }} alt="loi"></img>
+            <div style={{ position: 'absolute', bottom: '0', width: '100%', height: '27px', background: '#840C16 0% 0% no-repeat padding-box' }}></div>
+        </div>
     </div>)
 }
 

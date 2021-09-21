@@ -21,7 +21,7 @@ const Header = () => {
             <div className="color">
             </div>
             <div className={`row d-flex pt-2 pb-2 mt-0 ${navbar ? "Header slidedow": "Header"}`}>
-                    <div className="col-4 pl-5 ml-3 pb-3">
+                    <div className="col-4 d-flex justify-content-center">
                         <img src={navbar? logoshow :Logo2} />
                     </div>
                     <div className="col-7 d-flex justify-content-end">
@@ -33,7 +33,7 @@ const Header = () => {
                                 <a  className={`${navbar ? "nav-link show": "nav-link"}`} href="/GioiThieu">Giới thiệu</a>
                             </li>
                             <li className= "nav-items">
-                                <a  className={`${navbar ? "nav-link show": "nav-link"}`} href="/SanPham">Sản phẩm</a>
+                                <a  className={`${navbar ? "nav-link show": "nav-link"}`} href="#google">Sản phẩm</a>
                             </li>
                             <li className= "nav-items">
                                 <a className={`${navbar ? "nav-link show": "nav-link"}`} href="/LetEat">Ăn gì hôm nay!</a>
@@ -41,9 +41,9 @@ const Header = () => {
                             <li className= "nav-items">
                                 <a  className={`${navbar ? "nav-link show": "nav-link"}`} href="/TinTuc">Tin tức</a>
                             </li>
-                            <li className= "nav-items">
+                            {/* <li className= "nav-items">
                                 <a  className={`${navbar ? "nav-link show": "nav-link"}`}href="/LienHe">Liên hệ</a>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                 </div>

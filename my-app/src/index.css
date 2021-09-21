@@ -68,3 +68,6 @@ code {
     right: 50px;
     z-index: 10000;
 }
+html {
+  scroll-behavior: smooth;
+}

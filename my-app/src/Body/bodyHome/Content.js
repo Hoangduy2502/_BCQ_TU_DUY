@@ -25,6 +25,7 @@ import carimg03 from './img/anh/carimg03.png';
 import carimg04 from './img/anh/carimg04.png';
 import carimg05 from './img/anh/carimg05.png';
 import dataText from './dataText';
+import Footer from '../../Footer';
 const Content = () => {
     console.log(dataText);
     return (

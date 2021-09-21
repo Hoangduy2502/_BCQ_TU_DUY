@@ -27,8 +27,8 @@ const ContactFooter = () => (
             <div className="like-facebook">
                 <div class="fb-page" data-href="https://www.facebook.com/banhcuonquyenhaiphong/" data-tabs="" data-width="300" data-height="250" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/banhcuonquyenhaiphong/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/banhcuonquyenhaiphong/">BÁNH CUỐN QUYÊN</a></blockquote></div>
                 <div className="row d-flex">
-                    <img className="m-2" style={{width:"50px", marginTop:"10px"}} src={Zalo}/>
-                    <img  className="m-2" style={{width:"60px", marginTop:"10px"}} src={Youtube}/>
+                    <img className="m-2" style={{width:"50px"}} src={Zalo}/>
+                    <img  className="m-2" style={{width:"60px", position: 'relative', top: '5px'}} src={Youtube}/>
                 </div>
                 
             </div>
@@ -36,7 +36,7 @@ const ContactFooter = () => (
         </div>
 
         <div className="copyright">
-            --Copyright 2021 The Up Team. All rights reserved--<br/>
+            Copyright 2021 The Up Team. All rights reserved<br/>
             Bản quyền 2021 banhcuonquyen.vn - Công ty CP Ẩm thực VSH<br/>
             Mã số thuế / Mã số doanh nghiệp: 0202104065. Ngày cấp 15/05/2021, Sở KHĐTHP
         </div>

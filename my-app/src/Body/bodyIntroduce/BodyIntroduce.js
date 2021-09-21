@@ -2,7 +2,7 @@ import React from 'react';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-
+import Footer from '../../Footer';
 import "./style.css";
 import imgSection1 from "./img/section1-01.png"
 import Banhcuon from "./img/Banhcuon.png"
@@ -28,31 +28,91 @@ import csimg08 from "./img/csimg/csimg08.png"
 import csimg09 from "./img/csimg/csimg09.png"
 import preIcon from "./img/pre.png"
 import nexIcon from "./img/nex.png"
+import footerimg1 from "./img/footerimg1.png"
+import footerimg2 from "./img/footerimg2.png"
 function SampleNextArrow(props) {
     const { className, style, onClick } = props;
     return (
-      <img
-        src={nexIcon}
-        className={className}
-        style={{ ...style, display: "block", width: '13px',position: 'absolute',
-        right: '8%',top: '110%', zIndex: 100000}}
-        onClick={onClick}
-      />
+        <img
+            src={nexIcon}
+            className={className}
+            style={{
+                ...style, display: "block", width: '13px', position: 'absolute',
+                right: '8%', top: '110%', zIndex: 100000
+            }}
+            onClick={onClick}
+        />
     );
-  }
-  
-  function SamplePrevArrow(props) {
+}
+
+function SamplePrevArrow(props) {
     const { className, style, onClick } = props;
     return (
-      <img
-         src={preIcon}
-        className={className}
-        style={{ ...style, display: "block", width: '13px',position: 'absolute',
-        left: '8%',top: '110%',zIndex: 100000}}
-        onClick={onClick}
-      />
+        <img
+            src={preIcon}
+            className={className}
+            style={{
+                ...style, display: "block", width: '13px', position: 'absolute',
+                left: '8%', top: '110%', zIndex: 100000
+            }}
+            onClick={onClick}
+        />
     );
-  } 
+}
+const introduceFooter = () => {
+    return (
+        <div className="container footer-custom"  style={{ marginTop: '661px'}}>
+            <div className="row d-flex justify-content-between"  style={{ marginBottom: '61px'}}>
+                <span className="title-head">Báo chí và Bánh Cuốn Quyên</span>
+                <span className="title-more">Xem tất cả các tin</span>
+            </div>
+            <div className="row">
+                <div className="col-4 col1-Footer p-0" style={{overflow: 'hidden'}}>
+                    <iframe src='https://www.youtube.com/embed/x4NpBzIlOM8'
+                        width="100%"
+                        height="572"
+                        frameborder='0'
+                        allowfullscreen
+                        title='video'
+                        style={{ width: '100%' }}
+
+                    />
+                    {/* <div>
+                        <span>Banh cuon net am thuc an tuong noi con pho hai ba trung</span>
+                        <span>Banh cuon net am thuc an</span>
+                    </div> */}
+                </div>
+                <div className="col-4">
+                    <div className="col2-Footer">
+
+                        <img src={footerimg2}></img>
+                        <span className="head">Không gian ẩm thực truyền thống thu hút khách sành ăn</span>
+                        <span className="title">Ut enim ad minima veniam, quis nostrum ex ercita tionem ullam corporis suscipit lab </span>
+                        <span className="time">Báo Hải Phòng Số 123 - Ngày 20/10/2022</span>
+                    </div>
+                </div>
+                <div className="col-4 col3-Footer p-0">
+                    <div className="row1">
+                        <span className="head">Đến Hải Phòng ăn gì? Đến ngay Bánh Cuốn Quyên để ăn bánh cuốn Hải Phòng</span>
+                        <span className="title">Ut enim ad minima veniam, quis nostrum ex ercita tionem ullam corporis suscipit lab. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores…<span className="doctiep">Đọc tiếp</span></span>
+                        <span className="time">Báo Hải Phòng Số 123 - Ngày 20/10/2022</span>
+                    </div>
+                    <div className="row2">
+                        <span className="head">Đến Hải Phòng ăn gì? Đến ngay Bánh Cuốn Quyên để ăn bánh cuốn Hải Phòng</span>
+                        <span className="title">Ut enim ad minima veniam, quis nostrum ex ercita tionem ullam corporis suscipit lab. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores…<span className="doctiep">Đọc tiếp</span></span>
+                        <span className="time">Báo Hải Phòng Số 123 - Ngày 20/10/2022</span>
+                    </div>
+                    <div className="row3">
+                        <span className="head">Đến Hải Phòng ăn gì? Đến ngay Bánh Cuốn Quyên để ăn bánh cuốn Hải Phòng</span>
+                        <span className="title">Ut enim ad minima veniam, quis nostrum ex ercita tionem ullam corporis suscipit lab. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores…<span className="doctiep">Đọc tiếp</span></span>
+                        <span className="time">Báo Hải Phòng Số 123 - Ngày 20/10/2022</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    )
+}
 const BodyIntroduce = () => {
     const settings = {
         className: "slider variable-width",
@@ -61,11 +121,11 @@ const BodyIntroduce = () => {
         slidesToShow: 1,
         slidesToScroll: 1,
         variableWidth: true,
-      nextArrow: <SampleNextArrow />,
-      prevArrow: <SamplePrevArrow />
+        nextArrow: <SampleNextArrow />,
+        prevArrow: <SamplePrevArrow />
     };
     return (
-        <div style={{ marginBottom: '471px' }}>
+        <div>
             <div className="container-fluid p-0 breackcum-introbody">
                 <div className="container p-0">
                     <ul>
@@ -152,7 +212,7 @@ const BodyIntroduce = () => {
                     <img src={logoabsolute} className="img-ab-section2"></img>
                 </div>
             </div>
-            <div className="container-fluid p-0 section3-intro">
+            <div className="container-fluid p-0 section3-intro" style={{ marginBottom: '318px' }}>
                 <img src={headingSection3} className="headingSection3"></img>
 
                 <div className="container p-0">
@@ -188,22 +248,22 @@ const BodyIntroduce = () => {
 
                 {/* ----------------------------- */}
                 <div>
-                    <div style={{ width: '100%'}}>
-                        <Slider {...settings} style={{height: '526px',display: 'flex', position: 'relative'}} className="row">
+                    <div style={{ width: '100%' }}>
+                        <Slider {...settings} style={{ height: '526px', display: 'flex', position: 'relative' }} className="row">
                             <div className="col-2 align-self-center" style={{ width: 300 }}>
                                 <img src={csimg02} alt=""></img>
                                 <img src={csimg06} alt=""></img>
                             </div>
-                            <div className="col-2 align-self-end" style={{ width: 252}}>
-                                <img src={csimg03} alt=""  style={{height: 354 }}></img>
+                            <div className="col-2 align-self-end" style={{ width: 252 }}>
+                                <img src={csimg03} alt="" style={{ height: 354 }}></img>
                             </div>
                             <div className="col-2 align-self-center" style={{ width: 300 }}>
                                 <img src={csimg08} alt=""></img>
                                 <img src={csimg04} alt=""></img>
                             </div>
-                            <div className="col-2 align-self-start" style={{ width: 252}}>
-                                <img src={csimg07} alt=""  style={{height: 354 }}></img>
-                            </div>  
+                            <div className="col-2 align-self-start" style={{ width: 252 }}>
+                                <img src={csimg07} alt="" style={{ height: 354 }}></img>
+                            </div>
                             <div className="col-2 align-self-center" style={{ width: 300 }}>
                                 <img src={csimg09} alt=""></img>
                                 <img src={csimg05} alt=""></img>
@@ -216,6 +276,7 @@ const BodyIntroduce = () => {
                 </div>
                 {/* ------------------------------------ */}
             </div>
+            <Footer cus={introduceFooter()} />
         </div>
 
     );

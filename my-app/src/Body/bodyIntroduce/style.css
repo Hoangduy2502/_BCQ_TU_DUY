@@ -222,3 +222,60 @@ span .upperBoldText{
 .slick-initialized .slick-slide {
     margin: 0 7px;
 }
+.col1-Footer{
+    position: relative;
+}
+.col1-Footer > div{
+    color: #FFBE00;
+    padding: 0 20px;
+    bottom: 20px;
+    position: absolute;
+}
+.col2-Footer{
+    height: 100%;
+    padding: 7px;
+     background-color: #FFFAF0;
+}
+.col2-Footer > span {
+    margin: 8px;
+}
+.col3-Footer div{
+    background-color: #FFFAF0;
+    padding: 13px;
+}
+.col3-Footer > .row2{
+    margin: 15px 0;
+}
+.col2-Footer > .head, .col3-Footer .head{
+    font: normal normal normal 20px/25px UTMAlterGothic;
+    color: #840C16;
+}
+.col2-Footer > .title, .col3-Footer .title{
+    font: normal normal normal 13px/20px Montserrat-Regular;
+    color: #392A00;
+}
+.col2-Footer > .time, .col3-Footer .time{
+    font: normal normal normal 10px/20px Montserrat-Regular;
+    color: #FCDE9E;
+}
+.col3-Footer .title{
+    padding: 8px 0;
+}
+.doctiep{
+    display: inline;
+    color: #840C16;
+    font: normal normal bold 13px/18px Montserrat-Bold;
+}
+.col1-Footer,.col2-Footer,.col3-Footer, .row1, .row2, .row3{
+    border-radius: 5px;
+}
+.footer-custom .title-head{
+    font: normal normal normal 53px/66px UTMAlterGothic;
+    color: #840C16;
+}
+.footer-custom .title-more{
+    font: normal normal normal 12px/20px Montserrat-Regular;
+    color: #FFFAF0;
+    line-height: 66px;
+    cursor: pointer;
+}
