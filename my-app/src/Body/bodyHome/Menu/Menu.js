@@ -13,7 +13,9 @@ import Icon79 from "../img/Icon79.png"
 import TabMenu from './TabMenu';
 import Text from './Text';
 import Aos from 'aos';
-import "aos/dist/aos.css"
+import "aos/dist/aos.css";
+import data from "./Product/index.js";
+
 const Menu =(props) => {
     const {Product,activeTab1s,activeTab2s,activeTab3s,activeTab4s,activeTab5s}=props
     const [link1, setLink1] = useState("nav-link active")
@@ -21,7 +23,7 @@ const Menu =(props) => {
     const [link3, setLink3] = useState("nav-link")
     const [link4, setLink4] = useState("nav-link")
     const [link5,setLink5] = useState("nav-link")
-   
+    const TextData=Object.values(data.Textdata)
     const onClick=async(number)=>
     {
         console.log("TEST")
@@ -107,29 +109,29 @@ const Menu =(props) => {
                     <img className="Trayproduct"   src={Trayproduct} />
                     <div className='Banhcuon' onClick={()=>onClick(1)}>
                         <div className="TextBc row  ">
-                        <Text/>   
+                        <Text TextData={TextData[0][0]} text={TextData[0][1]} />   
                         </div>
                     </div>
                     <div className='Cha' onClick={()=>onClick(2)}>
                         <div className="TextCha">
                             
-                            <Text/>  
+                            <Text TextData={TextData[1][0]} text={TextData[1][1]}/>  
                             
                         </div>
                     </div>
                     <div className='Nuocham' onClick={()=>onClick(3)}>
                         <div className="TextMam"> 
-                            <Text/>  
+                            <Text TextData={TextData[2][0]} text={TextData[2][1]}/>  
                         </div>
                     </div>
                     <div className='Hanh' onClick={()=>onClick(4)}>
                         <div className="TextHanh">
-                        <Text/>  
+                        <Text TextData={TextData[3][0]} text={TextData[3][1]}/>  
                         </div>
                     </div>
                     <div className='Rau' onClick={()=>onClick(5)}>
                         <div className="TextRau" >
-                        <Text/> 
+                        <Text TextData={TextData[4][0]} text={TextData[4][1]}/> 
                         </div>
                     </div>
                     <img className="Hoa" src={Hoa}/>

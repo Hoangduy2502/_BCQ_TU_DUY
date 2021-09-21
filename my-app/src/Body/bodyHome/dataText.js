@@ -1,41 +1,41 @@
 var dataText = {
     firstP: {
-        lowfirstT: "Nhắc đến ",
-        upfirstT: "Bánh cuốn Quyên",
-        lowsecondT: ", có thể người ta sẽ nghĩ tới một “bà Quyên” nào đó làm chủ gánh bánh cuốn mang tên mình. Nhưng với người dân đất Cảng hay những vị thực khách quen thuộc, nhắc đến Bánh cuốn Quyên là nhắc tới một thương hiệu bánh cuốn gia truyền cùng câu chuyện",
-        upperT: "Ba đời làm bánh cuốn đều là đàn ông"
+        lowfirstT: " ",
+        upfirstT: "Người Việt Nam luôn dành một tình cảm đặc biệt cho những thứ gọi là “gia truyền”. Họ muốn giữ lấy cái nếp, cái lề, và kỹ tính hơn như ông chủ bánh cuốn Quyên thì “sự gia truyền” còn phải đi cùng với sự đổi thay của thời đại.",
+        lowsecondT: "",
+        upperT: "Đã là đời thứ 3 được truyền nghề đều là đàn ông"
     },
     secondP: {
-        lowfirstT: "Có thể coi Bánh cuốn Quyên là một trong những cửa hàng bánh cuốn lâu đời nhất tại Hải Phòng. Cũng như nhiều món ẩm thực đường phố ngon lành khác nơi đất Cảng, những gánh hàng bánh cuốn thường chỉ chiếm một khoảng diện tích khiêm tốn trên vỉa hè.",
-        lowsecondT: "Gánh bánh cuốn nhỏ ngày nào nay trở thành tiệm ăn, có thể coi đó như cuộc “cách mạng” về trải nghiệm ẩm thực của khách hàng Bánh cuốn Quyên nói riêng, và của những vị thực khách đam mê ẩm thực tại Hải Phòng nói chung. ột phần bởi con phố Cát Dài nay đã đổi tên thành Hai Bà Trưng, mặt khác anh muốn chuyên nghiệp hoá, mở rộng quy mô để phục vụ khách hàng: Cát Dài có bao nhiêu hàng bánh cuốn nhưng bánh cuốn nhà mình làm từ lâu đời rồi, khách tới ăn cũng đã quen với hình ảnh bố tôi ngồi đón khách tại quán, vậy nên tôi lấy luôn tên bố làm tên thương hiệu. Vừa là để khách dễ nhận diện, vừa để nhớ rằng cơ nghiệp ngày nay các con có được là nhờ một tay bố mẹ với ông bà dựng nên.",
+        lowfirstT: "Ăn bánh cuốn Quyên, người ta không chỉ khen ngon mà thường truyền tai nhau những câu nói như: “Tôi đã ăn bánh cuốn Quyên từ nhiều năm trước. Hương vị bánh nhà ấy không thay đổi, vẫn ngon lắm!” hay “Bánh cuốn Quyên sau bao năm dường như chẳng một lần đổi chủ”. Ra đời từ năm 1946, Bánh cuốn Quyên khi đó được mọi người gọi với cái tên quen thuộc là bánh cuốn Cát Dài. ",
+        lowsecondT: "Nếp sống sinh hoạt đời thường của người dân ở đường Cát Dài có lẽ chẳng thể thiếu cảnh người mua kẻ bán tấp nập mỗi sớm mai ở quán bánh cuốn ngay góc đường. Sau này, bánh cuốn Cát Dài đã được đổi tên thành bánh cuốn Quyên. Một phần vì con đường nay đã khoác lên cái tên mới - Hai Bà Trưng, phần khác vì muốn giữ cái gốc gác của gia đình ngay từ cái tên, biển hiệu. ",
         upperT: "Ban đầu chỉ là một gánh bánh cuốn nhỏ của ông bà, dần dà được truyền tới đời bố tôi rồi đến đời tôi...Từ gánh hàng nhỏ xíu ấy, ông và bố tôi đã dần phát triển nên cơ đồ khang trang như bây giờ."
     },
     thirdP: {
-        lowfirstT: "Hơn ",
+        lowfirstT: "Hương vị bánh cuốn suốt 3 đời thì vẫn luôn được cẩn thận giữ gìn và suốt  ",
         upfirstT: "70 năm ",
-        lowsecondT: "tồn tại và phát triển, Bánh cuốn Quyên tự hào đi cùng lịch sử thành phố Hải Phòng xuyên suốt 3 thế hệ. Gánh bánh cuốn nhỏ mưu sinh ngày ấy nay đã trở thành tiệm ăn khang trang tiếp nối cơ nghiệp của gia đình, và đĩa bánh cuốn ngon miệng ngày nào nay cũng thấm đẫm những câu chuyện về văn hoá, lịch sử. Để rồi người dân Hải Phòng không ai là không biết, hay cả những người yêu ẩm thực từ những vùng miền khác khi đến với Hải Phòng đều ít nhiều từng nghe tới",
-        upsecondT: " Bánh cuốn Quyên",
-        upperT: "Hương vị đi cùng dư âm năm tháng"
+        lowsecondT: "qua vẫn chưa hề đổi khác. Bánh cuốn Quyên thơm dịu, mềm ướt và không sử dụng hàn the, đi cùng thì không thể thiếu nước mắm sánh quyện được ninh từ xương và miếng chả thơm bùi không pha với bột. Bánh cuốn Quyên gia truyền không chỉ gói ghém trong đó cái tinh tuý của một món ăn, mà nó còn vững vàng với thời gian, là một phần của nền nếp mà nhiều đời phải gìn giữ. ",
+        upsecondT: " ",
+        upperT: "Hương vị được gìn giữ theo năm tháng"
     },
     fourthP:{
         lowfirstT: "Từ một quán nhỏ vỉa hè, giờ đây là",
-        upfirstT: "Cửa hàng mặt tiền khang trang",
-        lowsecondT: "Sed ut perspiciatis unde omnis iste na tus error sit voluptatem acc usan tium do lor emque laudantium"
+        upfirstT: "Thương hiệu của người Hải Phòng",
+        lowsecondT: "Không dừng lại ở đó,  Bánh cuốn Quyên đang từng bước đổi mới để đưa một thương hiệu Hải Phòng ra toàn quốc."
     },
     fifthP:{
         lowfirstT: "Bánh cuốn Quyên gìn giữ nét truyền thống trong đời sống hiện đại",
-        upfirstT: "Bánh cuốn Quyên mang đến trải nghiệm thưởng thức ẩm thực an toàn",
-        lowsecondT: "Khách hàng vừa có thể thưởng thức bánh cuốn trong không gian thoải mái, sạch sẽ tại cửa hàng, lại vừa có thể thuận tiện mang về hoặc ăn tại nơi làm việc mà không lo bất tiện nhờ quy cách đóng hàng."
+        upfirstT: "Bánh cuốn Quyên hương vị truyền thống và thưởng thức hiện đại",
+        lowsecondT: "Khi mọi thứ đều có thể dễ dàng có được qua một bước click chuột, con người ta có xu hướng quên đi những giá trị cốt lõi ban đầu. Nhưng ở bánh cuốn Quyên, chúng tôi muốn dùng chính những lần click chuột và giao hàng đấy để gửi đi hương vị gia truyền tới từng thực khách."
     },
     sixtP:{
         lowfirstT: "Phương châm làm nghề",
-        upfirstT: "Phát triển để phục vụ khách hàng",
-        lowsecondT: ""
+        upfirstT: "Gìn giữ truyền thống cho tương lai",
+        lowsecondT: "Vẫn luôn tiến về phía trước, ngày càng đáp ứng sự tin yêu của khách hàng"
     },
     seventhP: {
         lowfirstT: "Để làm nên một món bánh cuốn ngon, không chỉ cần nguyên liệu tốt mà còn cần cả ",
         upfirstT:"tâm của người làm bánh",
-        lowsecondT:"Bánh cuốn thơm dịu, mềm mướt, không hàn the; nước chấm sánh quyện, đậm đà vị xương; dùng kèm miếng chả thơm bùi không pha bột, làm từ thịt lợn sạch."
+        lowsecondT:"Bánh cuốn Quyên là công thức gia truyền của một gia đình, nhưng thưởng thức nó, thì từ lâu, có lẽ đã trở thành nền nếp, một thói quen “gia truyền” của nhiều gia đình khác. "
     }
 }
 
