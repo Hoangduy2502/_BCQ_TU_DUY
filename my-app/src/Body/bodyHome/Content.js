@@ -6,7 +6,7 @@ import slLogo from './img/ct-logo.png';
 import ctbrboss0 from './img/ct-brboss0.png';
 import Ellipse4 from './img/Ellipse4.png';
 import boss from './img/boss.png';
-import ctlistimg01 from './img/ct-listimg01.png';
+import ctlistimg01 from './img/anh/anhCty.jpg';
 import ctlistimg02 from './img/ct-listimg02.png';
 import ctlistimg03 from './img/ct-listimg03.png';
 import ctlistimg04 from './img/ct-listimg04.png';
@@ -81,14 +81,14 @@ const Content = () => {
                     </div>
                 </div>
                 <div className="ct-multiRow">
-                    <div className="fisrtimgs">
-                        <img src={ctlistimg01} href="" />
-                        <img src={ctlistimg02} href="" />
-                        <img src={ctlistimg03} href="" />
+                    <div className="fisrtimgs row">
+                        <img className="col-5 pr-2" src={ctlistimg01} href="" />
+                        <img className="col-4 pr-2" src={ctlistimg02} href="" />
+                        <img className="col-3 " src={ctlistimg03} href="" />
                     </div>
-                    <div className="secondimgs">
-                        <img src={ctlistimg04} href="" />
-                        <img src={ctlistimg05} href="" />
+                    <div className="secondimgs row">
+                        <img className="col-3 pr-2" src={ctlistimg04} href="" />
+                        <img className="col-9 " src={ctlistimg05} href="" />
                     </div>
                 </div>
                 <div className="ct-intro-head">
