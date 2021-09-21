@@ -130,7 +130,7 @@
     min-width: 1130px;
 }
 .img-carousel{
-    height: 166px;
+    height: 170px;
     min-width: 166px;
     border-radius: 5px;
 }
@@ -198,4 +198,16 @@
 }
 .contact-rowtext > span{
     display: inline;
+}
+.text-news-body
+{
+    font-size: 9px;
+    
+}
+.text-news{
+    height:220px
+}
+.text-news-date
+{
+    font-size: 8px;
 }

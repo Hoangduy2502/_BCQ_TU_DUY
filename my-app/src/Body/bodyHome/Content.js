@@ -41,13 +41,13 @@ const Content = () => {
                     <div>
                         <div className="logo-huongvi">
                             <div className="contenthv">
-                                <span>Hương vị cổ truyền</span>
+                                <span>Hương vị gia truyền</span>
                             </div>
                             <div className="box1hv" style={{ position: 'absolute', top: '0', left: '0', width: '41px', height: '33px', borderTop: '3px solid #FCDE9E', borderLeft: '3px solid #FCDE9E' }}></div>
                             <div className="box2hv" style={{ position: 'absolute', bottom: '0', right: '0', width: '41px', height: '33px', borderBottom: '3px solid #FCDE9E', borderRight: '3px solid #FCDE9E' }}></div>
 
                         </div>
-                        <span className="text-title">{dataText.firstP.lowfirstT}<span style={{ font: 'normal normal 600 18px/30px Montserrat-Semibold', color: '#840C16' }}>{dataText.firstP.upfirstT}</span>{dataText.firstP.lowsecondT}</span>
+                        <span className="text-title">{dataText.firstP.lowfirstT}<span style={{ font: 'normal normal 600 18px/30px Montserrat-Semibold' }}>{dataText.firstP.upfirstT}</span>{dataText.firstP.lowsecondT}</span>
                     </div>
                     <span className="firstP-foot">{dataText.firstP.upperT}</span>
 

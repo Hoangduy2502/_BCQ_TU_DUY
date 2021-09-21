@@ -6,16 +6,16 @@ const Carousel = () => {
         <div id="demo" className="carousel slide " data-ride="carousel" >
             <div className="carousel-inner">
                 <div class="carousel-item active">
-                    <label className="history">Chặng đường hơn 70 năm tồn tại và <br/>phát triển của Bánh Cuốn Quyên</label>
-                    <label className="text">Bánh cuốn Quyên là một trong những cửa hàng bánh cuốn lâu đời<br/> nhất tại Hải Phòng.</label>
+                    <label className="history">Bánh Cuốn Quyên thương hiệu 70 năm</label>
+                    <label className="text">Một trong những cửa hàng bánh cuốn lâu đời nhất Hải Phòng.</label>
                 </div>
                 <div class="carousel-item">
-                <label className="history">Chặng đường hơn 70 năm tồn tại và <br/> phát triển của Bánh Cuốn Quyên</label>
-                    <label className="text">Bánh cuốn Quyên là một trong những cửa hàng bánh cuốn lâu đời<br/> nhất tại Hải Phòng.</label>
+                    <label className="history">Bánh Cuốn Quyên thương hiệu 70 năm</label>
+                    <label className="text">Một trong những cửa hàng bánh cuốn lâu đời nhất Hải Phòng.</label>
                 </div>
                 <div class="carousel-item">
-                <label className="history">Chặng đường hơn 70 năm tồn tại và phát triển của Bánh Cuốn Quyên</label>
-                    <label className="text">Bánh cuốn Quyên là một trong những cửa hàng bánh cuốn lâu đời<br/> nhất tại Hải Phòng.</label>
+                    <label className="history">Bánh Cuốn Quyên thương hiệu 70 năm</label>
+                    <label className="text">Một trong những cửa hàng bánh cuốn lâu đời nhất Hải Phòng.</label>
                 </div>
             </div>
             {/* <ul className="carousel-indicators ">
