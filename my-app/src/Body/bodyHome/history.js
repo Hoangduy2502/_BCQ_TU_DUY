@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 import "./body.css"
 import maket from "./img/maket.png"
 import tet from "./img/chup-anh-tet.png"
-import street from "./img/Street.png"
+import street from "./img/Banhcuonhoaphuong.jpg"
 import Dathang from "../../Header/img/Dathang.png"
 import Aos from 'aos';
 import "aos/dist/aos.css"
