@@ -45,6 +45,35 @@ const Header = () => {
                                 <a  className={`${navbar ? "nav-link show": "nav-link"}`}href="#contact">Liên hệ</a>
                             </li>
                         </ul>
+                        <div class="pos-f-t Nav-HomePhone">
+                            <div class="collapse" id="navbarToggleExternalContent">
+                                <ul className="nav ">
+                                <li className= "nav-items">
+                                    <a className={`${navbar ? "nav-link show": "nav-link"}`} href="/">Trang chủ</a>
+                                </li>
+                                <li className= "nav-items">
+                                    <a  className={`${navbar ? "nav-link show": "nav-link"}`} href="/GioiThieu">Giới thiệu</a>
+                                </li>
+                                <li className= "nav-items">
+                                    <a  className={`${navbar ? "nav-link show": "nav-link"}`} href="#google">Sản phẩm</a>
+                                </li>
+                                <li className= "nav-items">
+                                    <a className={`${navbar ? "nav-link show": "nav-link"}`} href="/LetEat">Ăn gì hôm nay!</a>
+                                </li>
+                                <li className= "nav-items">
+                                    <a  className={`${navbar ? "nav-link show": "nav-link"}`} href="/TinTuc">Tin tức</a>
+                                </li>
+                                <li className= "nav-items">
+                                    <a  className={`${navbar ? "nav-link show": "nav-link"}`}href="#contact">Liên hệ</a>
+                                </li>
+                            </ul>
+                            </div>
+                            <nav class="navbar navbar-dark bg-dark">
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                                </button>
+                            </nav>
+                            </div>
                     </div>
                 </div>
             <div className="row Carousel">
