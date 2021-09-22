@@ -66,8 +66,8 @@ const Content = () => {
                             <img className="bossbr01" src={ctbrboss0}></img>
                             <img className="bossbr02" src={Ellipse4}></img>
                             <img className="bossshape" src={boss}></img>
-                            <div className="boss1946">1946</div>
-                            <div className="textboss">
+                            <div className="boss1946" data-aos="fade-up">1946</div>
+                            <div className="textboss" data-aos="fade-left">
                                 <span className="nameboss">Anh Vũ Sơn Hải</span>
                                 <span className="titleboss">truyền nhân đời thứ 3</span>
                             </div>

@@ -69,10 +69,10 @@ function App() {
           <Route path="/GioiThieu">
             <GioiThieu/>
           </Route>
-          <Route path="/SanPham">
+          {/* <Route path="/SanPham">
             <SanPham />
             <Footer cus={nullFooter()}/>
-          </Route>
+          </Route> */}
           <Route path="/LetEat">
            <Lesteats/>
            <Footer cus={nullFooter()}/>

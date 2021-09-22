@@ -32,7 +32,7 @@ const Rating = () => {
             <div className="carousel-inner rating-card ">
                 <div className="carousel-item active" style={{position:"relative"}}>
                     <img src={rating01} alt="Los Angeles" width="1100" height="500" />
-                    <div className="CommentCarousel " >
+                    <div data-aos="fade-left" className="CommentCarousel" >
                         <div>Với tôi, Bánh Cuốn Quyên không chỉ là món ăn tuổi thơ mà còn là nới tôi muốn tới cùng gia đình bạn bè...</div>
                        
                     </div>

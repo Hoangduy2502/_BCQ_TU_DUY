@@ -1,30 +1,30 @@
 import React from 'react';
 import "./Header.css"
+import nen from "./img/nen.png"
+import nen01 from "./img/nen01.png"
 const Carousel = () => {
     return (
         <>
-        <div id="demo" className="carousel slide " data-ride="carousel" >
-            <div className="carousel-inner">
-                <div class="carousel-item active">
-                    <label className="history">Bánh Cuốn Quyên thương hiệu 70 năm</label>
-                    <label className="text">Một trong những cửa hàng bánh cuốn lâu đời nhất Hải Phòng.</label>
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src={nen}  className="imgZoom"/>
+                    </div>
+                    <div class="carousel-item">
+                        <img src={nen01} className="imgZoom"/>
+                    </div>
                 </div>
-                <div class="carousel-item">
-                    <label className="history">Bánh Cuốn Quyên thương hiệu 70 năm</label>
-                    <label className="text">Một trong những cửa hàng bánh cuốn lâu đời nhất Hải Phòng.</label>
-                </div>
-                <div class="carousel-item">
-                    <label className="history">Bánh Cuốn Quyên thương hiệu 70 năm</label>
-                    <label className="text">Một trong những cửa hàng bánh cuốn lâu đời nhất Hải Phòng.</label>
-                </div>
+                {/* <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a> */}
             </div>
-            {/* <ul className="carousel-indicators ">
-                <li data-target="#demo" data-slide-to="0" className="active"></li>
-                <li data-target="#demo" data-slide-to="1"></li>
-                <li data-target="#demo" data-slide-to="2"></li>
-            </ul> */}
-        </div>
-       
+           
+
         </>
     );
 }
