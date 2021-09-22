@@ -91,14 +91,16 @@
 }
 .ct-boss .nameboss{
     display: block;
-    font: normal normal bold 25px/31px Muli;
+    font-size: 25px;
+    /* font: normal normal bold 25px/31px Muli; */
     letter-spacing: 3.75px;
     color: #FFFFFF;
     text-align: left;
 }
 .ct-boss .titleboss{
     display: block;
-    font: normal normal normal 20px/25px Muli;
+    /* font: normal normal normal 20px/25px Muli; */
+    font-size: 20px;
     letter-spacing: 0px;
     color: #FFFFFF;
     text-transform: uppercase;

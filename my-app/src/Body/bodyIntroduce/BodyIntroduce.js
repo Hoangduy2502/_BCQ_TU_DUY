@@ -28,6 +28,7 @@ import csimg08 from "./img/csimg/csimg08.png"
 import csimg09 from "./img/csimg/csimg09.png"
 import preIcon from "./img/pre.png"
 import nexIcon from "./img/nex.png"
+import boss from "./img/boss.jpg"
 import footerimg1 from "./img/footerimg1.png"
 import footerimg2 from "./img/footerimg2.png"
 function SampleNextArrow(props) {
@@ -157,17 +158,23 @@ const BodyIntroduce = () => {
                     </div>
                     <div className="row mr-0 ml-0 d-flex justify-content-center">
                         <div className="col-2 col-section2">
-                            <div className="imgcircle"></div>
+                            <div className="imgcircle">
+                                <img src={boss}></img>
+                            </div>
                             <span className="AnhHai">Anh Vũ Sơn Hải</span>
                             <span className="AnhHai-title">truyền nhân đời thứ 3</span>
                         </div>
                         <div className="col-2 col-section2">
-                            <div className="imgcircle"></div>
+                            <div className="imgcircle">
+                            <img src={boss}></img>
+                            </div>
                             <span className="AnhHai">Anh Vũ Sơn Hải</span>
                             <span className="AnhHai-title">truyền nhân đời thứ 3</span>
                         </div>
                         <div className="col-2 col-section2">
-                            <div className="imgcircle"></div>
+                            <div className="imgcircle">
+                            <img src={boss}></img>
+                            </div>
                             <span className="AnhHai">Anh Vũ Sơn Hải</span>
                             <span className="AnhHai-title">truyền nhân đời thứ 3</span>
                         </div>
