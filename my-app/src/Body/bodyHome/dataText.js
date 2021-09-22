@@ -3,7 +3,7 @@ var dataText = {
         lowfirstT: " ",
         upfirstT: "Người Việt Nam luôn dành một tình cảm đặc biệt cho những thứ gọi là “gia truyền”. Họ muốn giữ lấy cái nếp, cái lề, và kỹ tính hơn như ông chủ bánh cuốn Quyên thì “sự gia truyền” còn phải đi cùng với sự đổi thay của thời đại.",
         lowsecondT: "",
-        upperT: "Đã là đời thứ 3 được truyền nghề đều là đàn ông"
+        upperT: "\"Đã là đời thứ 3 được truyền nghề đều là đàn ông\""
     },
     secondP: {
         lowfirstT: "Ăn bánh cuốn Quyên, người ta không chỉ khen ngon mà thường truyền tai nhau những câu nói như: “Tôi đã ăn bánh cuốn Quyên từ nhiều năm trước. Hương vị bánh nhà ấy không thay đổi, vẫn ngon lắm!” hay “Bánh cuốn Quyên sau bao năm dường như chẳng một lần đổi chủ”. Ra đời từ năm 1946, Bánh cuốn Quyên khi đó được mọi người gọi với cái tên quen thuộc là bánh cuốn Cát Dài. ",

@@ -8,6 +8,7 @@
     color: #5c5555;
     opacity: 1;
     z-index:2000;
+    
     align-items: center ;
     
     
@@ -35,7 +36,7 @@
 }
 .nen{
     position: relative;
-    background-image: url("./img/nen.png");
+    /* background-image: url("./img/nen.png"); */
     width: 100%;
     
     background-repeat: no-repeat;
@@ -45,30 +46,22 @@
 
 }
 @media (min-width :1200px) and (max-width:1650px) {
-   .nen{
-    height: 900px;
-   }
-   #demo
+   /* .nen{
+    height: 900px; */
+   
+   /* #demo
     {
         margin-top: 300px;
-    }
-    .Nav-HomePhone
-    {
-        display: none;
-    }
+    } */
   }
 @media (min-width:1650px) {
-.nen{
+/* .nen{
     height: 1200px;
-}
-#demo
+} */
+/* #demo
     {
         margin-top: 400px;
-    }
-    .Nav-HomePhone
-    {
-        display: none;
-    }
+    } */
 }
 .color
 {
@@ -78,7 +71,8 @@
     left: 0;
     right: 0;
     bottom: 0;
-    opacity:0.55
+    opacity:0.55;
+    z-index: 1;
 }
 
 .Nav-Home
@@ -94,9 +88,7 @@
 }
 #demo
 {
-    left: 230px;
-    width: 690px;
-    height: 90px;
+    
 }
 .history{
     font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 33px/50px var(--unnamed-font-family-montserrat);
@@ -118,50 +110,21 @@
     opacity: 1;
     z-index: 100;
 }
-@media (max-width: 767.98px) { 
-    .nen{
-        position: relative;
-        background-image: url("./img/nen.png");
-        width: 100%;
-        height:100vh;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-        background-position: center;
+/* .car-header{
+    po
+} */
+.imgZoom{
+    width: 100%;
+    animation: zoomIn 6s ease-out;
+}
+@keyframes zoomIn {
+    0%{
+          transform: scale(1,1);
+          opacity: .8;
     }
-    .text
-    {
-        margin-top: 50px;
-        text-align: left;
-        font: normal normal normal 15px/30px Montserrat-Regular;
-        letter-spacing: 0px;
-        color: #FFFFFF;
+    100%{
+        transform: scale(1.1,1.1);
         opacity: 1;
-        z-index: 100;
     }
-    .Nav-Home
-    {
-        display: none;
-    }
-    .history{
-        font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 33px/50px var(--unnamed-font-family-montserrat);
-        letter-spacing: var(--unnamed-character-spacing-0);
-        text-align: left;
-        font: normal normal normal 20px/50px Montserrat-Regular;
-        letter-spacing: 0px;
-        color: #FFFFFF;
-        opacity: 1;
-        z-index: 100;
-        margin-top: 300px;
-        padding-right: 100px;
-    }
-    #demo
-    {
-        width: 690px;
-        height: 90px;
-    }
-    /* 
-
-    tu
-     */
- }
+    
+}
