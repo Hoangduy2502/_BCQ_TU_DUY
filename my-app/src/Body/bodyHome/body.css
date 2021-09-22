@@ -180,6 +180,11 @@
    {
         position: relative;
         left: 16px;
+        
+   }
+   .nav-item
+   {
+    cursor: pointer;
    }
    
     
@@ -363,6 +368,10 @@
     position: relative;
     left: 300px;
     
+   }
+   .nav-item
+   {
+    cursor: pointer;
    }
    
 

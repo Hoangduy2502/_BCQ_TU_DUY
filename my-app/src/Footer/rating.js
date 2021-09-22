@@ -38,7 +38,7 @@ const Rating = () => {
                     </div>
                    
                 </div>
-                <div className="carousel-item">
+                {/* <div className="carousel-item">
                     <img src={rating01} alt="Los Angeles" width="1100" height="500" />
                     <div className="CommentCarousel " >
                         <div>Với tôi, Bánh Cuốn Quyên không chỉ là món ăn tuổi thơ mà còn là nới tôi muốn tới cùng gia đình bạn bè...</div>
@@ -51,7 +51,7 @@ const Rating = () => {
                         <div>Với tôi, Bánh Cuốn Quyên không chỉ là món ăn tuổi thơ mà còn là nới tôi muốn tới cùng gia đình bạn bè...</div>
                         
                     </div>
-                </div>
+                </div> */}
             </div>
             <a className="carousel-control-prev" href="#demo99" style={{ zIndex: '3' }} data-slide="prev">
                 <img src={prebtn}></img>

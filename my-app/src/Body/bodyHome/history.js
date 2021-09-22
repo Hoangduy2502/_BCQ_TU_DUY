@@ -4,7 +4,6 @@ import "./body.css"
 import maket from "./img/maket.png"
 import tet from "./img/chup-anh-tet.png"
 import street from "./img/Banhcuonhoaphuong.png"
-import Dathang from "../../Header/img/Dathang.png"
 import Aos from 'aos';
 import "aos/dist/aos.css"
 const History = () => {

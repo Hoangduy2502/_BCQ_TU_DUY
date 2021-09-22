@@ -8,7 +8,7 @@
     opacity: 1;
     background-size: cover;
     position: relative;
-    margin-top: -630px;
+  
     /* top: -471px; */
     display: flex;
     align-items: center;
@@ -223,4 +223,16 @@
     color: #FFFFFF;
     opacity: 1;
     z-index: 100;
+}
+@media (min-width :1200px) and (max-width:1650px)
+{
+    .contentfooter{
+        margin-top: -400px;
+    }
+}
+@media (min-width:1650px)
+{
+    .contentfooter{
+        margin-top: -530px;
+    }
 }
