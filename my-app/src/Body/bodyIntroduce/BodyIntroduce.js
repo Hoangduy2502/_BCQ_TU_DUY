@@ -31,6 +31,7 @@ import nexIcon from "./img/nex.png"
 import boss from "./img/boss.jpg"
 import footerimg1 from "./img/footerimg1.png"
 import footerimg2 from "./img/footerimg2.png"
+import anhCty from "../bodyHome/img/anh/anhCty.png"
 function SampleNextArrow(props) {
     const { className, style, onClick } = props;
     return (
@@ -220,7 +221,7 @@ const BodyIntroduce = () => {
                 </div>
             </div>
             <div className="container-fluid p-0 section3-intro" style={{ marginBottom: '318px' }}>
-                <img src={headingSection3} className="headingSection3"></img>
+                <img src={anhCty} className="headingSection3"></img>
 
                 <div className="container p-0">
                     <div className="firstP-section3">

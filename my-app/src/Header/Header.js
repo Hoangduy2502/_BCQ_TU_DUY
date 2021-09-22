@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import React from 'react';
-import nen from "./img/caousel.png"
+
 import "./Header.css"
 import Carousel from './Carousel';
 import Logo2 from "./img/Logo2.png"
