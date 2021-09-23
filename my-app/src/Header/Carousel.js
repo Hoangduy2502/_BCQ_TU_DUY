@@ -7,11 +7,13 @@ const Carousel = () => {
         <>
             <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
                 <div class="carousel-inner">
-                    <div class="carousel-item active">
+                    <div class="carousel-item active" style={{position:"relative"}}>
                         <img src={nen}  className="imgZoom"/>
+                        
                     </div>
                     <div class="carousel-item">
                         <img src={nen01} className="imgZoom"/>
+                      
                     </div>
                 </div>
                 {/* <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
