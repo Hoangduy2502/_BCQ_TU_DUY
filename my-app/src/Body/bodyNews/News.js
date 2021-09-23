@@ -37,7 +37,7 @@ const News = () => {
                     </ul>
                 </div>
             </div>
-            <div className="container d-flex bodyNews"> 
+            <div className="container d-flex bodyNews p-0"> 
                <div className="col-9">
                    <div className="row">
                         <div className="col-6 p-0">

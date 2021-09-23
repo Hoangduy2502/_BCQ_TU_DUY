@@ -11,7 +11,7 @@ const BreakingNews = (props) => {
     const listItems = list.map((book) => {
         return (
             <div className="row col-4 p-0 m-0 flex-nowrap">
-                <img className="img-carousel col-5 p-0" src={book.img} alt="First slide" />
+                <img className="img-carousel col-5" src={book.img} alt="First slide" />
                 <span className="text-news col-7">
                     <div className="text-news-header">{book.name}</div>
                     <div className="text-news-body">{book.content}</div>
@@ -22,9 +22,9 @@ const BreakingNews = (props) => {
     })
     const listItems2 = list2.map((book) => {
         return (
-            <div className="d-flex">
-                <img className="img-carousel" src={book.img} alt="First slide" />
-                <span className="text-news ">
+            <div className="row col-4 p-0 m-0 flex-nowrap">
+                <img className="img-carousel col-5 " src={book.img} alt="First slide" />
+                <span className="text-news col-7">
                     <div className="text-news-header">{book.name}</div>
                     <div className="text-news-body">{book.content}</div>
                     <div className="text-news-date">{book.date}</div>
@@ -41,14 +41,14 @@ const BreakingNews = (props) => {
                 <div id="tintucmoinhat" className="carousel slide breaking-news container p-0" data-ride="carousel" data-interval="false">
                     <div className="carousel-inner">
                         <div className="carousel-item my-inner active">
-                            <div className="row">
+                            <div className="row ">
 
                                 {listItems}
                             </div>
 
                         </div>
                         <div className="carousel-item my-inner ml-3">
-                            <div className="d-flex ">
+                            <div className="d-flex p-0">
                                 {listItems2}
                             </div>
                         </div>

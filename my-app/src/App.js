@@ -50,7 +50,7 @@ function App() {
       <iframe src="https://menu.banhcuonquyen.vn/"></iframe>
       <button onClick={Menu}>Thoát</button>
       </>
-    :<><img  src={DatHang} onClick={Menu} /> </>
+    :<><img  src={DatHang} onClick={Menu} data-aos="fade-up"/> </>
   }
   return (
     <>

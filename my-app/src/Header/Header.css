@@ -83,7 +83,7 @@
     color: #FFFFFF;
     opacity: 1;
     font-size: 20px;
-    margin-right: 10px;
+    
     
 }
 #demo
@@ -98,7 +98,7 @@
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
-    z-index: 100;
+    z-index: 1000;
 }
 .text
 {

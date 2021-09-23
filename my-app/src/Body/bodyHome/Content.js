@@ -98,7 +98,7 @@ const Content = () => {
                     </span>
                     <div style={{ position: "relative" }}>
                         <img src={ctend00} href="" />
-                        <span className="huongvidicung">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Hương vị đi cùng<br/> dư âm năm tháng"</span>
+                        <span className="huongvidicung">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Hương vị được gìn giữ<br/> theo năm tháng"</span>
                     </div>
                 </div>
                 <div className="ct-intro-body">

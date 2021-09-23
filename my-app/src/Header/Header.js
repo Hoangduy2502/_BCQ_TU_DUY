@@ -48,9 +48,13 @@ const Header = () => {
                     </ul>
                 </div>
             </div>
-            <div className="row">
-                <Carousel />
+            <div style={{position:"absolute" , top:"50vh", left:"10%",zIndex: 9999999999}}>
+                <label className="history">Bánh Cuốn Quyên thương hiệu 70 năm</label><br/>
+                <label className="text">Một trong những cửa hàng bánh cuốn lâu đời nhất Hải Phòng.</label>
             </div>
+            
+                <Carousel />
+         
            
             {/* em */}
         </div>

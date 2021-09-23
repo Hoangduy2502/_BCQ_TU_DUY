@@ -1,15 +1,17 @@
 import Banhcuon1 from "../../img/Banhcuon1.png"
 import Banhcuon2 from "../../img/Banhcuon2.png"
 import Banhcuon3 from "../../img/Banhcuon3.png"
-import Banhcuon4 from "../../img/Banhcuon4.png"
-import Banhcuon5 from "../../img/Banhcuon5.png"
+import Banhcuon4 from "../../img/Banhcuon5.png"
+import Banhcuon5 from "../../img/banhcuon6.png"
 import Cha from "../../img/Cha.png"
+import Cha2 from "../../img/Cha2.png"
 import NuocCham1 from "../../img/Mam.png"
 import NuocCham2 from "../../img/Mam2.png"
 import NuocCham3 from "../../img/Mam3.png"
 import NuocCham4 from "../../img/Mam4.png"
 import Cha1 from "../../img/Cha1.png"
 import Hanh from "../../img/Hanh.png"
+import Hanh2 from "../../img/Hanh2.png"
 import Rau from "../../img/Rau.png"
 export default {
     1:[
@@ -22,7 +24,7 @@ export default {
     2:[
         Cha,
         Cha,
-        Cha1,
+        Cha2,
         Cha1,
         Cha1,
     ],
@@ -36,9 +38,9 @@ export default {
     4:[
         Hanh,
         Hanh,
+        Hanh2,
         Hanh,
-        Hanh,
-        Hanh,
+        Hanh2,
     ],
     5:[
         Rau,
