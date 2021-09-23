@@ -42,10 +42,8 @@ const BreakingNews = (props) => {
                     <div className="carousel-inner">
                         <div className="carousel-item my-inner active">
                             <div className="row">
-
                                 {listItems}
                             </div>
-
                         </div>
                         <div className="carousel-item my-inner ml-3">
                             <div className="d-flex ">
@@ -65,7 +63,7 @@ const BreakingNews = (props) => {
             <div className="slide-mobie-footer">
                 <ul>
                     <li>
-                        <img className="img-carousel p-0" src={imgmb1} alt="First slide" />
+                        <img className="img-carousel p-0" src={imgmb1} alt="First slide" sty/>
                         <span className="text-news">
                             <div className="text-news-header">Bánh cuốn Quyên mở thêm cơ sở số 3</div>
                             <div className="text-news-body">Odit aut fugit, sed quia con se quuntur ma gni dol ores eos qui ratione volup</div>

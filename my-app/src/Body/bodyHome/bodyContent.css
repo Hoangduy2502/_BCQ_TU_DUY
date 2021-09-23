@@ -6,6 +6,13 @@
     margin-bottom: 150px;
     margin-top: -250px;
 }
+.wraptextBoss{
+    width: 405px;
+     height: 436px;
+     position: absolute;
+     top: 180px;
+     left: 264px
+}
 .ct-logo{
     position: absolute;
     height: 482px;
@@ -134,7 +141,7 @@
     position: absolute;
     z-index: 3;
     text-align: left;
-    font: normal normal normal 366px/457px UTM Alter Gothic;
+    font: normal normal normal 366px/457px UTMAlterGothic;
     letter-spacing: -18.3px;
     color: #840C16;
     text-shadow: -50px -50px 0px #00000014;
@@ -170,6 +177,10 @@
     letter-spacing: 0px;
     color: #840C16;
 }
+.ct-intro-head > span{
+     width: 1143px;
+    height: 145px;
+}
 .ct-boss .borderboxtop{
     position: absolute;
      top: 0;
@@ -189,6 +200,11 @@
      border-bottom: 5px solid #840C16;
      border-right: 5px solid #840C16;
     border-bottom-right-radius: 5px 5px;
+}
+.ct-intro-body .col5-custom{
+    align-items: flex-end;
+    padding: 0;
+    margin: 0;
 }
 .ct-multiRow{
     width: 100%;
@@ -252,8 +268,34 @@ span{
 .textrow1 > span ,.textrow2 > span{
     display: block;
 }
-.textrow2{
-    
+.ct-intro-body .col-nth3{
+    padding: 0;
+    margin: 0;
+    text-align: end;
+    justify-content: end;
+}
+.body-row1 > div:nth-child(4){
+    padding: 0;
+    margin: 0;
+}
+.col-nth3 > div:first-child{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.col-nth3-div{
+    padding-top: 14px;
+}
+.col-nth3-1{
+   position: relative;
+    left: 18px;
+}
+.myfiximg-01{
+    align-self: flex-end;
+}
+.myfiximg-01 > img{
+   width: 85.5%;
 }
 .textrow1-head{
     text-align: left;

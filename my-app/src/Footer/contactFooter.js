@@ -11,8 +11,8 @@ const ContactFooter = () => (
             <div className="contact-address col-5">
                 <div className="contact-header" style={{ font: 'normal normal normal 30px/38px UTMAlterGothic' }}>Thông tin liên hệ</div>
                 <div className="contact-body">
-                    <span><span className="strong-text">ĐC</span>:Số 222 Cát dài, Lê Chân, Hải Phòng</span>
-                    <span style={{ margin: '10px 0' }}><span className="strong-text">ĐT </span>0934222788</span>
+                    <span><span className="strong-text">ĐC</span>: Số 222 Cát dài, Lê Chân, Hải Phòng</span>
+                    <span style={{ margin: '10px 0' }}><span className="strong-text">ĐT</span>: 0934222788</span>
                     <span><span className="strong-text">Email</span>: banhcuonquyen@gmail.com</span>
                 </div>
             </div>

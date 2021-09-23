@@ -132,8 +132,9 @@
     position: relative;
 }
 .img-carousel{
-    height: 170px;
+    height: 153px;
     border-radius: 5px;
+    width: 153px;
 }
 .text-news{
     
@@ -236,19 +237,21 @@
     height: 400px;
     background-color: red;
 }
-ul{
+.slide-mobie-footer ul{
     list-style-type: none;
     padding: 0;
     display: flex;
     list-style: none;
     padding-left: 0;
     max-width: 100%;
+    margin-left: 13px;
     overflow-x: auto;
 }
-li{
+.slide-mobie-footer li{
     display: flex;
     flex-shrink: 0;
     padding-right: 8px;
+    width: 350px;
 }
 @media (min-width :1200px) and (max-width:1650px)
 {
@@ -268,5 +271,162 @@ li{
     }
     .slide-mobie-footer{
         display: block;
+    }
+    .wrap-boss{
+        width: unset;
+        height: unset;
+    }
+    .ct-boss{
+        width: unset;
+        height: 731px;
+    }
+    .imgboss{
+        height: 550px;
+        width: 325px;
+    }
+    .ct-boss .bossbr01{
+        width: 500px;
+    }
+    .ct-boss .bossbr02{
+        width: 500px;
+    }
+    .ct-boss .bossshape{
+        
+        top: -51px;
+        left: 0;
+        width: 575px;
+    }
+    .ct-boss .boss1946{
+        left: 4px;
+        bottom: 30px;
+        font: normal normal normal 182px/92px UTMAlterGothic;
+        text-shadow: -31px -31px 0px #00000014;
+    }
+    .ct-boss > .w{
+        display: none;
+    }
+    .ct-boss .imgboss{
+        left: 52px;
+        width: unset;
+        height: unset;
+    }
+    .wraptextBoss{
+        width: 210px;
+        height: 250px;
+       left: 0;
+    }
+    .textboxboss{
+        width: 210px;
+        height: 250px;
+        font: normal normal normal 18px/23px UTMAlterGothic;
+    }
+    .textboxboss > span{
+        padding: 26px;
+        width: unset;
+        height: unset;
+    }
+    .textboxboss{
+        top: unset;
+        left: unset;
+    }
+    .ct-boss .borderboxtop {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 30px;
+        height: 24px;
+        border-top: 3px solid #840C16;
+        border-left: 3px solid #840C16;
+        border-top-left-radius: 3px 3px;
+    }
+    .ct-boss .borderboxbottom {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        width: 30px;
+        height: 24px;
+        border-bottom:3px solid #840C16;
+        border-right:3px solid #840C16;
+        border-bottom-right-radius:3px 3px;
+    }
+    .ct-boss .textboss {
+        width: 256px;
+        position: absolute;
+        top: 329px;
+        left: 65px;
+        z-index: 3;
+    }
+    .fisrtimgs{
+        margin: 0 5px;
+    }
+    .fisrtimgs img:first-child{
+        padding: 0;
+        padding-right: 5px;
+    }
+    .fisrtimgs img:nth-child(2){
+        padding: 0;
+    }
+    .fisrtimgs img:nth-child(3){
+        padding: 0;
+        padding-top: 5px;
+        padding-right: 5px;
+    }
+    .fisrtimgs img:nth-child(4){
+        
+        padding: 0;
+        padding-top: 5px;
+    }
+    .fisrtimgs img:nth-child(5){
+        
+        padding: 0;
+        padding-top: 5px;
+    }
+    .ct-intro-head > span{
+        width: 358px;
+       height: 329px;
+       font-size: 15px;
+   }
+   .ct-intro-head > div{
+        left: -38px;
+        top: 20px;
+   }
+   .ct-intro-head .huongvidicung{
+       font-size: 22px;
+   }
+   .textrow1-head{
+       line-height: 17px;
+   }
+   .textrow1-body {
+    font-size: 25px;
+    line-height: 31px;
+    }
+    .wrap-textrow1 {
+        padding: 0 13px 13px;
+    }
+    .ct-intro-body .col5-custom{
+        align-items: flex-start;
+    }
+    .ct-intro-body .col-nth3{
+        padding: 0;
+        margin: 0;
+        text-align: end;
+        justify-content: end;
+        flex-direction: column-reverse;
+    }
+    .col-nth3-div{
+        padding: 0 24px;
+    }
+    .col-nth3 > div:first-child{
+        left: 0;
+        margin-top: 22px;
+    }
+    .myfiximg-01 > img{
+        width: 100%;
+     }
+     .ct-intro-body .col5-custom{
+         margin-top: 22px;
+     }
+     .body-row1 > div:nth-child(4){
+        margin-top: 22px;
     }
 }
