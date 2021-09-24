@@ -1,5 +1,5 @@
 import React,{useState,useEffect} from 'react';
-import Path26 from "../img/Path26.png"
+import Path26 from "../img/Group158.png"
 import "../body.css"
 import Trayproduct from "../img/Layer1.png"
 import Logo from "../img/Logo.png"
@@ -98,8 +98,9 @@ const Menu =(props) => {
     }, []);
   
     return (
-        <div className="Tong " >
-                <div className="Menu " data-aos="fade-zoom-in">
+        <div className="Tong "  >
+                <div className="Menu container-fuild" data-aos="fade-zoom-in">
+                    {/* <img style={{position:"absolute", width:"100%"}} src={Path26}/> */}
                     <div className="ElipS">
                         <img className="Elipse" src={Ellip} style={{position:"relative", top:-100+"px", left:550+"px"}}/>
                         <img className="icon79" src={Icon79} style={{position:"relative", top:-100+"px", left:450+"px"}} />

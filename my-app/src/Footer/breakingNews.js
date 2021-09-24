@@ -41,12 +41,7 @@ const BreakingNews = (props) => {
                 <div id="tintucmoinhat" className="carousel slide breaking-news container p-0" data-ride="carousel" data-interval="false">
                     <div className="carousel-inner">
                         <div className="carousel-item my-inner active">
-<<<<<<< HEAD
                             <div className="row">
-=======
-                            <div className="row ">
-
->>>>>>> d885d13fdc0451023785d42fbbf22aa89c2f1c10
                                 {listItems}
                             </div>
                         </div>
