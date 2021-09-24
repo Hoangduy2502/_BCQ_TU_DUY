@@ -4,16 +4,26 @@ import nen from "./img/nen.png"
 import nen01 from "./img/nen01.png"
 const Carousel = () => {
     return (
-        <>
+        <div>
+
             <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
                 <div class="carousel-inner">
-                    <div class="carousel-item active" style={{position:"relative"}}>
-                        <img src={nen}  className="imgZoom"/>
+                    <div class="carousel-item active">
+                        <img src={nen} className="imgZoom" />
+                        <div className="myText-carousel">
+                            <label className="history">Bánh Cuốn Quyên thương hiệu 70 năm</label><br />
+                            <label className="text">Một trong những cửa hàng bánh cuốn lâu đời nhất Hải Phòng.</label>
+                        </div>
+                        <div className="color"></div>
                         
                     </div>
-                    <div class="carousel-item" style={{position:"relative"}}>
-                        <img src={nen01} className="imgZoom"/>
-                      
+                    <div class="carousel-item">
+                        <img src={nen01} className="imgZoom" />
+                        <div className="myText-carousel">
+                            <label className="history">Bánh Cuốn Quyên thương hiệu 70 năm</label><br />
+                            <label className="text">Một trong những cửa hàng bánh cuốn lâu đời nhất Hải Phòng.</label>
+                        </div>
+                        <div className="color"></div>
                     </div>
                 </div>
                 {/* <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
@@ -25,9 +35,9 @@ const Carousel = () => {
                     <span class="sr-only">Next</span>
                 </a> */}
             </div>
-           
 
-        </>
+
+        </div>
     );
 }
 

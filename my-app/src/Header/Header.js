@@ -18,8 +18,7 @@ const Header = () => {
     //tu meo
     return (
         <div className="nen">
-            <div className="color">
-            </div>
+            <div className="color-no-touch"></div>
             <div className={`row d-flex pt-2 pb-2 mt-0 container-fuild ${navbar ? "Header slidedow" : "Header"}`}>
 
                 <div className="col-4 d-flex justify-content-start pl-5" style={{ alignSelf: "start" }} >

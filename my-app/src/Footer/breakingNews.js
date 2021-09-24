@@ -3,6 +3,7 @@ import './footer.css'
 import prebtn from './img/preicon.png'
 import nextbtn from './img/nexticon.png'
 import imgmb1 from './img/1.png'
+import imgsupport from './img/imgsupport.png'
 const BreakingNews = (props) => {
     const { DataTT } = props
     var list = []
@@ -63,6 +64,9 @@ const BreakingNews = (props) => {
             </div>
 
             <div className="slide-mobie-footer">
+                <img src={imgsupport} className="fix-imgFooter" alt=""></img>
+            <span className="tintucmoinhat container">Tin tức mới nhất</span>
+            
                 <ul>
                     <li>
                         <img className="img-carousel p-0" src={imgmb1} alt="First slide" sty/>
