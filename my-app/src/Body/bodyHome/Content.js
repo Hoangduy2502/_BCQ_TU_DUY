@@ -83,11 +83,11 @@ const Content = () => {
                 </div>
                 <div className="ct-multiRow">
                     <div className="fisrtimgs row">
-                        <img className="col-xl-5 col-7" src={ctlistimg01} href="" />
-                        <img className="col-xl-4 col-5" src={ctlistimg02} href="" />
-                        <img className="col-xl-3 col-5" src={ctlistimg03} href="" />
-                        <img className="col-xl-3 col-7" src={ctlistimg04} href="" />
-                        <img className="col-xl-9 col-12" src={ctlistimg05} href="" />
+                        <img className="col-xl-5 col-7" src={ctlistimg01} alt="" />
+                        <img className="col-xl-4 col-5" src={ctlistimg02} alt="" />
+                        <img className="col-xl-3 col-5" src={ctlistimg03} alt="" />
+                        <img className="col-xl-3 col-7" src={ctlistimg04} alt="" />
+                        <img className="col-xl-9 col-12" src={ctlistimg05} alt="" />
                     </div>
                     {/* <div className="secondimgs row">
                         <img className="col-3 pr-2" src={ctlistimg04} href="" />

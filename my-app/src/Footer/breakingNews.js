@@ -6,6 +6,7 @@ import imgmb1 from './img/1.png'
 const BreakingNews = (props) => {
     const { DataTT } = props
     var list = []
+    
     list = Object.values(DataTT).slice(0, 3)
     var list2 = Object.values(DataTT).slice(3, 6)
     const listItems = list.map((book) => {

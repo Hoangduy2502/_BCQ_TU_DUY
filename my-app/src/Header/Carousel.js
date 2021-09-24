@@ -11,7 +11,7 @@ const Carousel = () => {
                         <img src={nen}  className="imgZoom"/>
                         
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel-item" style={{position:"relative"}}>
                         <img src={nen01} className="imgZoom"/>
                       
                     </div>

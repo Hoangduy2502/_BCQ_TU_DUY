@@ -43,25 +43,28 @@
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
+   
 
 }
 @media (min-width :1200px) and (max-width:1650px) {
-   /* .nen{
-    height: 900px; */
-   
-   /* #demo
+    .Nav-Phone
     {
-        margin-top: 300px;
-    } */
+        display: none;
+    }
+    .icon
+    {
+        display: none;
+    }
   }
 @media (min-width:1650px) {
-/* .nen{
-    height: 1200px;
-} */
-/* #demo
+    .Nav-Phone
     {
-        margin-top: 400px;
-    } */
+        display: none;
+    }
+    .icon
+    {
+        display: none;
+    }
 }
 .color
 {
@@ -116,6 +119,7 @@
 .imgZoom{
     width: 100%;
     animation: zoomIn 6s ease-out;
+   
 }
 @keyframes zoomIn {
     0%{
@@ -127,4 +131,10 @@
         opacity: 1;
     }
     
+}
+@media (max-width:768px) {
+    .Nav-Home
+    {
+        display: none;
+    }
 }

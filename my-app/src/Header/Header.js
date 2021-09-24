@@ -17,16 +17,17 @@ const Header = () => {
     window.addEventListener('scroll', change)
     //tu meo
     return (
-        <div className="nen" >
-            
+        <div className="nen">
             <div className="color">
             </div>
-            <div className={`row d-flex pt-2 pb-2 mt-0 ${navbar ? "Header slidedow" : "Header"}`}>
-                <div className="col-4 d-flex justify-content-center">
-                    <img src={navbar ? logoshow : Logo2} />
+            <div className={`row d-flex pt-2 pb-2 mt-0 container-fuild ${navbar ? "Header slidedow" : "Header"}`}>
+
+                <div className="col-4 d-flex justify-content-start pl-5" style={{ alignSelf: "start" }} >
+                    <img  src={navbar ? logoshow : Logo2} />
                 </div>
-                <div className="col-7 d-flex justify-content-end">
-                    <ul className="nav Nav-Home">
+                <div className="col-8 d-flex justify-content-end align-items-center">
+
+                    <ul className="nav Nav-Home " id="navbarToggleExternalContent">
                         <li className="nav-items">
                             <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="/">Trang chủ</a>
                         </li>
@@ -46,17 +47,46 @@ const Header = () => {
                             <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="#contact">Liên hệ</a>
                         </li>
                     </ul>
+                    <div className="Nav-Phone ">
+                        <nav class="navbar navbar-dark  icon ">
+                            <button class="navbar-toggler" style={{ marginLeft: "auto" }} type="button" data-toggle="collapse" data-target="#NavPhone" aria-controls="NavPhone" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                        </nav>
+                        <ul className="nav collapse justify-content-end " id="NavPhone">
+                            <li className="nav-items ">
+                                <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="/">Trang chủ</a>
+                            </li>
+                            <li className="nav-items">
+                                <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="/GioiThieu">Giới thiệu</a>
+                            </li>
+                            <li className="nav-items ">
+                                <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="#google">Sản phẩm</a>
+                            </li>
+                            <li className="nav-items ">
+                                <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="/TinTuc">Tin tức</a>
+                            </li>
+
+                            <li className="nav-items ">
+                                <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="#contact">Liên hệ</a>
+                            </li>
+                            <li className="nav-items ">
+                                <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="/LetEat">Ăn gì hôm nay!</a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+
                 </div>
+               
             </div>
-            <div style={{position:"absolute" , top:"50vh", left:"10%",zIndex: 9999999999}}>
-                <label className="history">Bánh Cuốn Quyên thương hiệu 70 năm</label><br/>
+            {/* <div style={{ position: "absolute", top: "50vh", left: "10%" }}>
+                <label className="history">Bánh Cuốn Quyên thương hiệu 70 năm</label><br />
                 <label className="text">Một trong những cửa hàng bánh cuốn lâu đời nhất Hải Phòng.</label>
-            </div>
-            
-                <Carousel />
-         
-           
-            {/* em */}
+            </div> */}
+            <Carousel />
+
         </div>
     );
 }
