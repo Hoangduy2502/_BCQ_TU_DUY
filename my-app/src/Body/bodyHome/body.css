@@ -8,6 +8,10 @@
     
     
 }
+.my-imgMenu{
+    width: 215px;
+    height: 316px;
+}
 @media  (min-width :1200px) and (max-width:1649px) {
     .Gioithieu{
         background-image: url("./img/Nen.png");
@@ -39,6 +43,9 @@
      
         
        
+    }
+    .my-imgMenu{
+        width: 215px;
     }
     .anhtet
     {
@@ -610,6 +617,6 @@
     border-bottom: 3px solid #FFBE00; 
     border-right: 3px solid #FFBE00;
     /* border-bottom-right-radius: 3px 3px; */
-    margin-right:12px
+    /* margin-right:12px */
    }
 }

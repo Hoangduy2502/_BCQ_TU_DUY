@@ -258,6 +258,9 @@
     border-top: 3px solid rgb(252, 222, 158);
     border-left: 3px solid rgb(252, 222, 158);
 }
+.myfix-padding-mobile{
+    padding: 25px;
+}
 .box2hv{
     position: absolute;
     bottom: 0px;

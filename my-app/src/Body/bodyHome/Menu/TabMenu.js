@@ -15,31 +15,31 @@ const TabMenu = (props) => {
     var Rau=Object.values(Object.values(Product)[0])[4];
     const listBanhs=banhcuon.map((list)=>{
         return(
-         <img className="d-block mt-4 mb-4 pr-2 mr-2" src={list} style={{width:"215px", height:"316px"}} alt="First slide"/>
+         <img className="d-block mt-4 mb-4 pr-2 mr-2 my-imgMenu" src={list} alt="First slide"/>
         )
     })
     const Listchas=cha.map((list)=>
     {
         return(
-            <img className="d-block mt-4 mb-4 pr-2 mr-2" src={list} style={{width:"215px", height:"316px"}} alt="First slide"/>
+            <img className="d-block mt-4 mb-4 pr-2 mr-2 my-imgMenu" src={list} alt="First slide"/>
            )
     })
     const ListNuocMam=nuocmam.map((list)=>
     {
         return(
-            <img className="d-block mt-4 mb-4 pr-2 mr-2" src={list} style={{width:"215px", height:"316px"}} alt="First slide"/>
+            <img className="d-block mt-4 mb-4 pr-2 mr-2 my-imgMenu" src={list} alt="First slide"/>
            )
     })
     const ListHanh=Hanh.map((list1)=>
     {
         return(
-            <img className="d-block mt-4 mb-4 pr-2 mr-2" src={list1} style={{width:"215px", height:"316px"}} alt="First slide"/>
+            <img className="d-block mt-4 mb-4 pr-2 mr-2 my-imgMenu" src={list1} alt="First slide"/>
            )
     })
     const ListRau=Rau.map((list1)=>
     {
         return(
-            <img className="d-block mt-4 mb-4 pr-2 mr-2" src={list1} style={{width:"215px", height:"316px"}} alt="First slide"/>
+            <img className="d-block mt-4 mb-4 pr-2 mr-2 my-imgMenu" src={list1} alt="First slide"/>
            )
     })
     return (

@@ -7,7 +7,7 @@ import imgsupport from './img/imgsupport.png'
 const BreakingNews = (props) => {
     const { DataTT } = props
     var list = []
-    
+
     list = Object.values(DataTT).slice(0, 3)
     var list2 = Object.values(DataTT).slice(3, 6)
     const listItems = list.map((book) => {
@@ -35,8 +35,21 @@ const BreakingNews = (props) => {
             </div>
         )
     })
+    const listItemsMobile = Object.values(DataTT).map((book) => {
+        return (
+            <li>
+                <img className="img-carousel p-0" src={book.img} alt="First slide" sty />
+                <span className="text-news">
+                    <div className="text-news-header">{book.name}</div>
+                    <div className="text-news-body">{book.content}</div>
+                    <div className="text-news-date">{book.date}</div>
+                </span>
+            </li>
+        )
+    })
+    console.log(listItemsMobile);
     return (
-        <div style={{width: '100%'}}>
+        <div style={{ width: '100%' }}>
 
             <div className="wrap-tintucmoinhat">
                 <span className="tintucmoinhat container p-0">Tin tức mới nhất</span>
@@ -65,11 +78,12 @@ const BreakingNews = (props) => {
 
             <div className="slide-mobie-footer">
                 <img src={imgsupport} className="fix-imgFooter" alt=""></img>
-            <span className="tintucmoinhat container">Tin tức mới nhất</span>
-            
+                <span className="tintucmoinhat container">Tin tức mới nhất</span>
+
                 <ul>
-                    <li>
-                        <img className="img-carousel p-0" src={imgmb1} alt="First slide" sty/>
+                {listItemsMobile}
+                    {/* <li>
+                        <img className="img-carousel p-0" src={imgmb1} alt="First slide" sty />
                         <span className="text-news">
                             <div className="text-news-header">Bánh cuốn Quyên mở thêm cơ sở số 3</div>
                             <div className="text-news-body">Odit aut fugit, sed quia con se quuntur ma gni dol ores eos qui ratione volup</div>
@@ -107,8 +121,8 @@ const BreakingNews = (props) => {
                             <div className="text-news-body">Odit aut fugit, sed quia con se quuntur ma gni dol ores eos qui ratione volup</div>
                             <div className="text-news-date">Ngày 20/10/2022</div>
                         </span>
-                    </li>
-                    
+                    </li> */}
+
                 </ul>
             </div>
         </div>

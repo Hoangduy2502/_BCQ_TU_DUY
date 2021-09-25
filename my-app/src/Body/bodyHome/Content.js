@@ -107,7 +107,7 @@ const Content = () => {
                     <div className="body-row1 row">
                         <div className="col-xl-7 col-12 p-0 m-0" style={{ position: 'relative', top: '6px',overflow:'hidden'}}>
                             <iframe src='https://www.youtube.com/embed/x4NpBzIlOM8'
-                                width="100%"
+                                width="80%"
                                 height="535"
                                 frameborder='0'
                                 allowfullscreen
@@ -189,7 +189,7 @@ const Content = () => {
                         <div className="col-xl-5 col-12 row">
 
                             <div className="col p-0 m-0 d-flex">
-                                <div className="" style={{padding: "25px" }}>
+                                <div className="myfix-padding-mobile">
                                     <span className="textrow1-head">{dataText.sixtP.lowfirstT}</span>
                                     <span className="textrow1-body">{dataText.sixtP.upfirstT}</span>
                                     <span className="textrow1-foot">{dataText.sixtP.lowsecondT}</span>
