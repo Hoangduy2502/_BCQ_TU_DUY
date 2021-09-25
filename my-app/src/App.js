@@ -12,6 +12,7 @@ import TinTuc from './Body/bodyNews/index'
 import "./App.css"
 import BreakingNews from './Footer/breakingNews';
 import Data1 from './contant/index';
+import Dathangphone from "./Header/img/Dathangphone.png"
 import './Footer/footer.css'
 import {
   BrowserRouter as Router,
@@ -47,17 +48,27 @@ function App() {
    
     return check==true?
     <>
+    
       <iframe src="https://menu.banhcuonquyen.vn/"></iframe>
-      <button onClick={Menu}>Thoát</button>
-      </>
-    :<><img  src={DatHang} onClick={Menu} data-aos="fade-up"/> </>
+          <button onClick={Menu}>Thoát</button>
+    </>
+    :<> 
+    <img className="DathangPC" src={DatHang} onClick={Menu} data-aos="fade-up"/>
+    <img className="Dathangphone " src={Dathangphone} style={{width:"100%"}} onClick={Menu} data-aos="fade-up"/> 
+    
+   
+   
+    </>
+    
   }
   return (
     <>
       <Header />
-      <div className="Dathang" >
+     <div className="Dathang">
         <Items/>
-      </div>
+     </div>
+        
+   
       
       <Router>
         <Switch>

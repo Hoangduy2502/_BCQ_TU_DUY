@@ -132,7 +132,8 @@ const Menu = (props) => {
                 activeTab3s={activeTab3s}
                 activeTab4s={activeTab4s}
                 activeTab5s={activeTab5s}
-                link1={link1} link2={link2} link3={link3} link4={link4} link5={link5} onClick={onClick} />
+                link1={link1} link2={link2} link3={link3} link4={link4} link5={link5} onClick={onClick} 
+                TextData={TextData} />
         </div>
     );
 }

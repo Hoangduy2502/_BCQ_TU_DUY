@@ -163,14 +163,24 @@
   .Nav_Tab
    {
         position: relative;
-        left: 16px;
+       
         
    }
    .nav-item
    {
     cursor: pointer;
    }
-   
+   .KhungHinh2
+   {
+    border-bottom: 3px solid #FFBE00; 
+    border-right: 3px solid #FFBE00;
+    /* border-bottom-right-radius: 3px 3px; */
+    margin-right:-5px
+   }
+   .Textphone
+   {
+       display: none;
+   }
     
 }
 /*Màn hính cỡ to*/
@@ -312,15 +322,25 @@
    .Nav_Tab
    {
     position: relative;
-    left: 300px;
+   
     
    }
    .nav-item
    {
     cursor: pointer;
    }
-   
-
+   .KhungHinh2
+   {
+    border-bottom: 3px solid #FFBE00; 
+    border-right: 3px solid #FFBE00;
+    /* border-bottom-right-radius: 3px 3px; */
+    margin-right:-5px;
+    margin-bottom:3px
+   }
+.Textphone
+   {
+       display: none;
+   }
 }
 
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
@@ -573,11 +593,23 @@
   .Nav_Tab
    {
         position: relative;
-        left: 16px;
+        padding: 2px;
         
+   }
+   .nav-tabs
+   {
+    font-size:8px;
    }
    .nav-item
    {
     cursor: pointer;
+    
+   }
+   .KhungHinh2
+   {
+    border-bottom: 3px solid #FFBE00; 
+    border-right: 3px solid #FFBE00;
+    /* border-bottom-right-radius: 3px 3px; */
+    margin-right:12px
    }
 }
