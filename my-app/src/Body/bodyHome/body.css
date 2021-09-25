@@ -1,6 +1,14 @@
+
 /*Màn hính cỡ nhỏ*/
-@media  (min-width :1200px) and (max-width:1649px) {
+.Menu
+{
+    position: relative;
+    background-repeat: no-repeat;
+    opacity: 1;
     
+    
+}
+@media  (min-width :1200px) and (max-width:1649px) {
     .Gioithieu{
         background-image: url("./img/Nen.png");
         width: 100%;
@@ -15,7 +23,6 @@
         position:relative;
         width: 100%;
         height: 1067px;
-        
     }
     .maket
     {
@@ -63,54 +70,43 @@
         margin-bottom: -100px;
         margin-left: 625px;
     }
-    .banhcuon
+    /* .banhcuon
     {
         width: 200px;
         height: 30px;
         opacity: 1;
         margin-top: -1100px;
-    }
+    } */
     
     .Menu
     {
-        position: relative;
-        background-repeat: no-repeat;
-        width: 1500px;
-        height: 700px;
-        opacity: 1;
-        left: 21%;
-        /* right: 303px; */
-        background-image: url("./img/Path26.png");
-        zoom:100%
-        
-        
+        height: 800px;
     }
     
-    .Trayproduct
+    /* .Trayproduct
     {
         position: absolute;
-        /* margin-left: 185px; */
+        margin-left: 185px;
         top:40px;
         right: 662px;
         width: 1066px;
         height: 655px;
        
         opacity: 1;
-    }
-    .Logo{
+    } */
+    /* .Logo{
         position: absolute;
         top:50px;
         left: 600px;
         width: 390px;
         height: 390px;
         opacity: 1;
-    }
+    } */
    .Banhcuon
    {
         position: relative;
-        top:-240px;
-        /* right: 20px; */
-        left: 75px;
+        top:370px;
+        left: 275px;
         width: 27px;
         height: 27px;
         opacity: 1;
@@ -118,12 +114,11 @@
         cursor: pointer;
         
    }
- 
    .Cha
    {
         position: relative;
-        top:-400px;
-        left: 250px;
+        top:200px;
+        left: 470px;
         width: 27px;
         height: 27px;
         opacity: 1;
@@ -133,8 +128,8 @@
    .Nuocham
    {
         position: relative;
-        top :-200px;
-        left: 380px;
+        top :450px;
+        left: 580px;
         width: 27px;
         height: 27px;
         opacity: 1;
@@ -144,9 +139,8 @@
    .Hanh
    {
         position: relative;
-        top :-90px;
-        /* left: 360px; */
-        left: 400px;
+        top :490px;
+        left: 630px;
         width: 27px;
         height: 27px;
         opacity: 1;
@@ -157,26 +151,15 @@
    .Rau
    {
         position: relative;
-        top:-500px;
-        left: 500px;
+        top:130px;
+        left: 650px;
         width: 27px;
         height: 27px;
         opacity: 1;
         background-image: url("./img/Button.png");
         cursor: pointer;
    }
-  .Hoa{
-      position: relative;
-      top:-205px;
-      left:-46px
-     
-  }
-  .Icon
-  {
-    position: relative;
-    top:-215px;
-    left:-50px
-  }
+
   .Nav_Tab
    {
         position: relative;
@@ -205,6 +188,11 @@
         width: 100%;
         height: 1067px;
     }
+    .Menu
+    {
+        /* height: 900px; */
+        margin-bottom: 700px;
+    }
     .maket
     {
         background:  0% 0% no-repeat padding-box;
@@ -220,6 +208,7 @@
         
        
     }
+ 
     .anhtet
     {
         z-index: 2;
@@ -258,47 +247,14 @@
         opacity: 1;
         margin-top: -1200px;
     }
-    .Menu
-    {
-        position: relative;
-        background-repeat: no-repeat;
-        width: 1500px;
-        height: 700px;
-        opacity: 1;
-        left: 550px;
-        right: 303px;
-        background-image: url("./img/Path26.png");
-        
-    }
+   
 
-    .Trayproduct
-    {
-        position: absolute;
-        /* margin-left: 185px; */
-        top:40px;
-        right: 662px;
-        width: 1066px;
-        height: 655px;
-        /* box-shadow: -50px 0px 6px #00000014; */
-        opacity: 1;
-    }
-    /* .Trayproduct:hover{
-        display: none;
-    } */
-    .Logo{
-        position: absolute;
-        top:60px;
-        left: 550px;
-        width: 390px;
-        height: 390px;
-        opacity: 1;
-    }
     .Banhcuon
     {
          position: relative;
-         top:-240px;
+         top:400px;
          /* right: 20px; */
-         left: 30px;
+         left: 270px;
          width: 27px;
          height: 27px;
          opacity: 1;
@@ -310,8 +266,8 @@
     .Cha
     {
          position: relative;
-         top:-400px;
-         left: 250px;
+         top:200px;
+         left: 500px;
          width: 27px;
          height: 27px;
          opacity: 1;
@@ -321,8 +277,8 @@
     .Nuocham
     {
          position: relative;
-         top :-200px;
-         left: 380px;
+         top :450px;
+         left: 580px;
          width: 27px;
          height: 27px;
          opacity: 1;
@@ -332,9 +288,8 @@
     .Hanh
     {
          position: relative;
-         top :-90px;
-         /* left: 360px; */
-         left: 400px;
+         top :530px;
+         left: 650px;
          width: 27px;
          height: 27px;
          opacity: 1;
@@ -345,26 +300,15 @@
     .Rau
     {
          position: relative;
-         top:-500px;
-         left: 500px;
+         top:150px;
+         left: 650px;
          width: 27px;
          height: 27px;
          opacity: 1;
          background-image: url("./img/Button.png");
          cursor: pointer;
     }
-    .Hoa{
-        position: relative;
-        top:-205px;
-        left:-46px
-       
-    }
-    .Icon
-    {
-      position: relative;
-      top:-215px;
-      left:-50px
-    }
+   
    .Nav_Tab
    {
     position: relative;
@@ -407,8 +351,6 @@
     width: 100%;
     height: auto;
     background: #EFE5D4 0% 0% no-repeat padding-box;
-    
-    
 }
 .TextBc{ 
     display: none;
@@ -529,7 +471,7 @@
         background-image: url("./img/Nen.png");
         width: 100%;
         z-index: -1;
-        height: 1067px;
+        height: 870px;
         opacity: 0.36;
         position: absolute;
         background-attachment: fixed;
@@ -538,7 +480,7 @@
     .GT{
         position:relative;
         width: 100%;
-        height: 1067px;
+        height: 870px;
         
     }
     .maket
@@ -547,12 +489,12 @@
         box-shadow: 0px 3px 6px #00000029;
         border-radius: 10px;
         opacity: 1;
-        left: 250px;
-        width: 418px;
-        height: 275px;
+        left: 10px;
+        width: 173px;
+        /* height: 275px; */
         z-index: 1;
         position: absolute;
-        top: -130px;
+        top: -60px;
      
         
        
@@ -561,10 +503,8 @@
     {
         z-index: 2;
         position: absolute;
-        top: -130px;
-        left: 670px;
-        width: 650px;
-        height: 463px;
+        left: 140px;
+        width: 251px;
         background:  0% 0% no-repeat padding-box;
         box-shadow: 0px 3px 6px #00000029;
         border-radius: 10px;
@@ -577,10 +517,10 @@
         box-shadow: -5px 5px 0px #00000012;
         border-radius: 10px;
         opacity: 1;
-        margin-left: 200px;
-        width: 272px;
-        height: 421px;
-        margin-top:280px
+        width: 120px;
+        top:80px;
+        left: 10px;
+        
     }
     .test
     {
@@ -599,105 +539,37 @@
     {
         position: relative;
         background-repeat: no-repeat;
-        width: 200px;
-        height: 242px;
+        width: 380px;
+        height: 300px;
         opacity: 1;
-        left:24%;
-        /* background-image: url("./img/Path26.png"); */
         
     }
     
-    .Trayproduct
-    {
-        position: absolute;
-        margin-left: 185px;
-        top:40px;
-        right: 662px;
-        width: 100px;
-        height: 100px;
-        
-        opacity: 1;
-    }
-    .Logo{
-        position: absolute;
-        top:50px;
-        left: 600px;
-        width: 390px;
-        height: 390px;
-        opacity: 1;
-    }
+  
    .Banhcuon
    {
-        position: relative;
-        top:-240px;
-        /* right: 20px; */
-        left: 75px;
-        width: 27px;
-        height: 27px;
-        opacity: 1;
-        background-image: url("./img/Button.png");
-        cursor: pointer;
+       display: none;
         
    }
  
    .Cha
    {
-        position: relative;
-        top:-400px;
-        left: 250px;
-        width: 27px;
-        height: 27px;
-        opacity: 1;
-        background-image: url("./img/Button.png");
-        cursor: pointer;
+    display: none;
    }
    .Nuocham
    {
-        position: relative;
-        top :-200px;
-        left: 380px;
-        width: 27px;
-        height: 27px;
-        opacity: 1;
-        background-image: url("./img/Button.png");
-        cursor: pointer;
+       display: none;
    }
    .Hanh
    {
-        position: relative;
-        top :-90px;
-        /* left: 360px; */
-        left: 400px;
-        width: 27px;
-        height: 27px;
-        opacity: 1;
-        background-image: url("./img/Button.png");
-        cursor: pointer;
+    display: none;
 
    }
    .Rau
    {
-        position: relative;
-        top:-500px;
-        left: 500px;
-        width: 27px;
-        height: 27px;
-        opacity: 1;
-        background-image: url("./img/Button.png");
-        cursor: pointer;
+    display: none;
    }
-  .Hoa{
-      position: relative;
-      top:-205px;
-      left:-46px
-     
-  }
-  .Icon
-  {
-    position: relative;
-    top:-215px;
-    left:-50px
-  }
+
   .Nav_Tab
    {
         position: relative;
