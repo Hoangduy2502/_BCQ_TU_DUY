@@ -5,7 +5,7 @@ import "./Header.css"
 import Carousel from './Carousel';
 import Logo2 from "./img/Logo2.png"
 import logoshow from "./img/logoshow.png"
-
+import iconNav from "./img/iconNav.png"
 const Header = () => {
 
     // tu meo
@@ -22,7 +22,7 @@ const Header = () => {
             <div className={`row d-flex pt-2 pb-2 mt-0 container-fuild ${navbar ? "Header slidedow" : "Header"}`}>
 
                 <div className="col-4 d-flex justify-content-start pl-5" style={{ alignSelf: "start" }} >
-                    <img  src={navbar ? logoshow : Logo2} />
+                    <img className="logo"  src={navbar ? logoshow : Logo2} />
                 </div>
                 <div className="col-8 d-flex justify-content-end align-items-center">
 
@@ -49,7 +49,8 @@ const Header = () => {
                     <div className="Nav-Phone ">
                         <nav class="navbar navbar-dark  icon ">
                             <button class="navbar-toggler" style={{ marginLeft: "auto" }} type="button" data-toggle="collapse" data-target="#NavPhone" aria-controls="NavPhone" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
+                                {/* <span class="navbar-toggler-icon"></span> */}
+                                <img src={iconNav}/>
                             </button>
                         </nav>
                         <ul className="nav collapse justify-content-end " id="NavPhone">

@@ -12,7 +12,7 @@
     width: 215px;
     height: 316px;
 }
-@media  (min-width :1200px) and (max-width:1649px) {
+@media  (min-width :1100px) and (max-width:1649px) {
     .Gioithieu{
         background-image: url("./img/Nen.png");
         width: 100%;
@@ -392,7 +392,7 @@
     border: 3px solid #840C16;
     border-radius: 10px 10px 0px 10px;
     opacity: 0.9;
-    
+    font: normal normal normal 13px/24px Montserrat Regular;
 }
 .TextCha{ 
     display: none;
@@ -406,7 +406,7 @@
     border: 3px solid #840C16;
     border-radius: 10px 10px 0px 10px;
     opacity: 0.9;
-    
+    font: normal normal normal 13px/24px Montserrat Regular;
 }
 .TextHanh{ 
     display: none;
@@ -420,6 +420,7 @@
     border: 3px solid #840C16;
     border-radius: 10px 10px 0px 10px;
     opacity: 0.9;
+    font: normal normal normal 12px/24px Montserrat Regular;
 }
 .TextRau{ 
     display: none;
@@ -433,6 +434,7 @@
     border: 3px solid #840C16;
     border-radius: 10px 10px 0px 10px;
     opacity: 0.9;
+    font: normal normal normal 13px/24px Montserrat Regular;
 }
 .TextMam{ 
     display: none;
@@ -446,6 +448,7 @@
     border: 3px solid #840C16;
     border-radius: 10px 10px 0px 10px;
     opacity: 0.9;
+    font: normal normal normal 13px/24px Montserrat Regular;
 }
 .Banhcuon:hover .TextBc{
     display: block;
@@ -474,15 +477,14 @@
 {
     width: 104px;
     height: 141px;
-    background: var(--unnamed-color-ffbe00) 0% 0% no-repeat padding-box;
+
     background: #FFBE00 0% 0% no-repeat padding-box;
     border-radius: 10px;
     padding: 5px;
     color: #840C16;
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--unnamed-color-840c16);
+
     text-align: left;
-    font: normal normal normal 20px/25px UTM Alter Gothic;
+    font: normal normal normal 20px/25px UTM Alter Gothic Regular;
     letter-spacing: 0px;
     color: #840C16;
     opacity: 1;
@@ -616,7 +618,8 @@
    {
     border-bottom: 3px solid #FFBE00; 
     border-right: 3px solid #FFBE00;
-    /* border-bottom-right-radius: 3px 3px; */
-    /* margin-right:12px */
+    
+    margin-right :12px;
    }
+   
 }
