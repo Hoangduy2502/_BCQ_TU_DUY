@@ -33,8 +33,8 @@ var dataText = {
         lowsecondT: "Vẫn luôn tiến về phía trước, ngày càng đáp ứng sự tin yêu của khách hàng"
     },
     seventhP: {
-        lowfirstT: "Để làm nên một món bánh cuốn ngon, không chỉ cần nguyên liệu tốt mà còn cần cả ",
-        upfirstT:"tâm của người làm bánh",
+        lowfirstT: "\"Để làm nên một món bánh cuốn ngon, không chỉ cần nguyên liệu tốt mà còn cần cả ",
+        upfirstT:"tâm của người làm bánh\"",
         lowsecondT:"Bánh cuốn Quyên là công thức gia truyền của một gia đình, nhưng thưởng thức nó, thì từ lâu, có lẽ đã trở thành nền nếp, một thói quen “gia truyền” của nhiều gia đình khác. "
     }
 }

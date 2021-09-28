@@ -68,11 +68,7 @@
 }
 @media (max-width :755px) 
 {
-  iframe
-  {
-    width: 100%;
-    height: 100vh;
-  }
+  
   .DathangPC
   {
     display:none
