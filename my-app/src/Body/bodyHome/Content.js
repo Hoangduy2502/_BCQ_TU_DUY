@@ -44,11 +44,11 @@ const Content = () => {
                             <div className="contenthv">
                                 <span>Hương vị gia truyền</span>
                             </div>
-                            <div className="box1hv" style={{ position: 'absolute', top: '0', left: '0', width: '41px', height: '33px', borderTop: '3px solid #FCDE9E', borderLeft: '3px solid #FCDE9E' }}></div>
-                            <div className="box2hv" style={{ position: 'absolute', bottom: '0', right: '0', width: '41px', height: '33px', borderBottom: '3px solid #FCDE9E', borderRight: '3px solid #FCDE9E' }}></div>
+                            <div className="box1hv" ></div>
+                            <div className="box2hv" ></div>
 
                         </div>
-                        <span className="text-title">{dataText.firstP.lowfirstT}<span style={{ font: 'normal normal 600 18px/30px Montserrat-Semibold' }}>{dataText.firstP.upfirstT}</span>{dataText.firstP.lowsecondT}</span>
+                        <span className="text-title">{dataText.firstP.lowfirstT}<span>{dataText.firstP.upfirstT}</span>{dataText.firstP.lowsecondT}</span>
                     </div>
                     <span className="firstP-foot">{dataText.firstP.upperT}</span>
 
@@ -83,11 +83,11 @@ const Content = () => {
                 </div>
                 <div className="ct-multiRow">
                     <div className="fisrtimgs row">
-                        <img className="col-xl-5 col-7" src={ctlistimg01} href="" />
-                        <img className="col-xl-4 col-5" src={ctlistimg02} href="" />
-                        <img className="col-xl-3 col-5" src={ctlistimg03} href="" />
-                        <img className="col-xl-3 col-7" src={ctlistimg04} href="" />
-                        <img className="col-xl-9 col-12" src={ctlistimg05} href="" />
+                        <img className="col-xl-5 col-7" src={ctlistimg01} alt="" />
+                        <img className="col-xl-4 col-5" src={ctlistimg02} alt="" />
+                        <img className="col-xl-3 col-5" src={ctlistimg03} alt="" />
+                        <img className="col-xl-3 col-7" src={ctlistimg04} alt="" />
+                        <img className="col-xl-9 col-12" src={ctlistimg05} alt="" />
                     </div>
                     {/* <div className="secondimgs row">
                         <img className="col-3 pr-2" src={ctlistimg04} href="" />
@@ -100,15 +100,15 @@ const Content = () => {
                     </span>
                     <div style={{ position: "relative" }}>
                         <img src={ctend00} href="" />
-                        <span className="huongvidicung">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Hương vị được gìn giữ<br/> theo năm tháng"</span>
+                        <span className="huongvidicung">"Hương vị được gìn giữ theo năm tháng"</span>
                     </div>
                 </div>
                 <div className="ct-intro-body">
                     <div className="body-row1 row">
                         <div className="col-xl-7 col-12 p-0 m-0" style={{ position: 'relative', top: '6px',overflow:'hidden'}}>
                             <iframe src='https://www.youtube.com/embed/x4NpBzIlOM8'
-                                width="100%"
-                                height="535"
+                                width="80%"
+                                height="199px"
                                 frameborder='0'
                                 allowfullscreen
                                 title='video'
@@ -189,7 +189,7 @@ const Content = () => {
                         <div className="col-xl-5 col-12 row">
 
                             <div className="col p-0 m-0 d-flex">
-                                <div className="" style={{padding: "25px" }}>
+                                <div className="myfix-padding-mobile">
                                     <span className="textrow1-head">{dataText.sixtP.lowfirstT}</span>
                                     <span className="textrow1-body">{dataText.sixtP.upfirstT}</span>
                                     <span className="textrow1-foot">{dataText.sixtP.lowsecondT}</span>
@@ -207,8 +207,8 @@ const Content = () => {
                     </div>
                 </div>
                 <div className="ct-intro-footer">
-                    <img src={ctend05} style={{ marginBottom: '39px' }}></img>
-                    <span className="footer-row1">{dataText.seventhP.lowfirstT}<span style={{ font: 'normal normal bold 40px/37px Montserrat-Bold', color: '#FFBE00' }}>{dataText.seventhP.upfirstT}</span></span>
+                    <img src={ctend05}></img>
+                    <span className="footer-row1">{dataText.seventhP.lowfirstT}<span>{dataText.seventhP.upfirstT}</span></span>
                     <span className="footer-row2">{dataText.seventhP.lowsecondT}</span>
                 </div>
             </div>

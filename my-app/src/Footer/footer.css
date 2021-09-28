@@ -16,7 +16,7 @@
     flex-direction: column;
 }
 .contactFooter{
-
+    padding: 0;
     z-index: 1;
     display: flex;
     justify-content: center;
@@ -34,8 +34,7 @@
 .like-facebook{
     position: relative;
     top: 39px;
-
-    width: 270px;
+    width: 300px;
     height: 166px;
     display: flex;
     justify-content: center;
@@ -72,7 +71,6 @@
     left: 15px; */
     text-align: center;
     position: relative;
-    width: 1140px;
     height: 287px;
     background: #FCDE9E 0% 0% no-repeat padding-box;
     border-radius: 10px;
@@ -194,6 +192,7 @@
     letter-spacing: 0px;
     color: #840C16;
     opacity: 1;
+    padding: 0;
     margin-bottom: 77px;
 }
 
@@ -234,8 +233,6 @@
 }
 .slide-mobie-footer{
     display: none;
-    height: 400px;
-    background-color: red;
 }
 .slide-mobie-footer ul{
     list-style-type: none;
@@ -243,15 +240,37 @@
     display: flex;
     list-style: none;
     padding-left: 0;
+    position: relative;
     max-width: 100%;
     margin-left: 13px;
     overflow-x: auto;
+    /* overflow-y: hidden; */
+    height: 170px;
 }
 .slide-mobie-footer li{
     display: flex;
     flex-shrink: 0;
     padding-right: 8px;
     width: 350px;
+}
+.fisrtimgs img:nth-child(1){
+        
+    padding-bottom: 30px;
+}
+.fisrtimgs img:nth-child(2){
+    
+    padding-bottom: 30px;
+}
+.fisrtimgs img:nth-child(3){
+    
+    padding-bottom: 30px;
+}
+.fix-imgFooter{
+    display: none;
+    position: absolute;
+    width: 900px;
+    top: -117px;
+    height: 463px;
 }
 @media (min-width :1200px) and (max-width:1650px)
 {
@@ -265,11 +284,16 @@
         margin-top: -530px;
     }
 }
-@media (max-width: 700px) {
+@media (max-width: 755px) {
+    .fix-imgFooter{
+        display: block;
+        
+    }
     .wrap-tintucmoinhat{
         display: none;
     }
     .slide-mobie-footer{
+        position: relative;
         display: block;
     }
     .wrap-boss{
@@ -278,7 +302,11 @@
     }
     .ct-boss{
         width: unset;
-        height: 731px;
+        height: 600px;
+        padding-top: 36px;
+    }
+    .Content{
+        background: unset;
     }
     .imgboss{
         height: 550px;
@@ -297,6 +325,7 @@
         width: 575px;
     }
     .ct-boss .boss1946{
+        top: 438px;
         left: 4px;
         bottom: 30px;
         font: normal normal normal 182px/92px UTMAlterGothic;
@@ -314,6 +343,7 @@
         width: 210px;
         height: 250px;
        left: 0;
+       top: 30px;
     }
     .textboxboss{
         width: 210px;
@@ -372,7 +402,6 @@
         padding-right: 5px;
     }
     .fisrtimgs img:nth-child(4){
-        
         padding: 0;
         padding-top: 5px;
     }
@@ -380,6 +409,9 @@
         
         padding: 0;
         padding-top: 5px;
+    }
+    .ct-intro-head{
+        margin-top: 15px;
     }
     .ct-intro-head > span{
         width: 358px;
@@ -428,5 +460,187 @@
      }
      .body-row1 > div:nth-child(4){
         margin-top: 22px;
+    }
+    .infor-contact{
+        height: unset;
+        flex-direction: column;
+    }
+    
+    .contact-address {
+        align-self: flex-start;
+    }
+    .icon-ytb-zalo{
+        width: 200px;
+        align-items: flex-start;
+        justify-content: center;
+        height: 115px;
+    }
+    .contact-address > .contact-header, .contact-body{
+        width: 267px;
+    }
+    .copyright{
+        font: normal normal 600 13px/27px Montserrat-Regular;
+        margin-top: 30px;
+    margin-bottom: 41px;
+    }
+    .logo-footer {
+        margin-bottom: 30px;
+    }
+    .tintucmoinhat{
+        font: normal normal normal 30px/38px UTMAlterGothic;
+        margin-left: 13px;
+        margin-bottom: 32px;
+        position: relative;
+        padding-top: 41px;
+    }
+    .CommentCarousel{
+        width: 105px;
+        font: normal normal normal 12px/22px Montserrat-Regular;
+    }
+    .footer-row1, .footer-row2{
+        width: unset;
+    }
+    .footer-row1{
+        font: normal normal 18px/27px Montserrat-Bold;
+    }
+    .footer-row1 span{
+        display: inline;
+        font: normal normal bold 22px/27px Montserrat-Bold;
+        color: #FFBE00;
+    }
+    .ct-intro-footer > img{
+        margin-bottom: 20px;
+    }
+    .ct-intro-footer{
+        margin-top: 20px;
+    }
+    .Content{
+        margin-bottom: 30px;
+    }
+    .ct-intro-head .huongvidicung{
+        width: 284px;
+        left: 28px;
+        font: normal normal bold 22px/27px Montserrat-Bold;
+    }
+    .ct-intro-body {
+        margin-top: 50px;
+    }
+    .wrap-boss {
+        margin-bottom: 30px;
+    }
+    .ct-logo{
+        display: flex;
+        flex-direction: column;
+    }
+    .ct-logo .contenthv > span {
+        font: normal normal normal 28px/35px UTMAlterGothic;
+        padding: 0 18px;
+    }
+    .ct-logo .logo-huongvi {
+        width: 231px;
+        height: unset;
+        margin-top: 20px;
+        margin-left: 15%;
+    }
+    .ct-logo .contenthv{
+        border-radius: 5px;
+        height: 41px;
+    }
+    .box1hv{
+        top: -7px;
+        left: -7px;
+        width: 27px;
+        height: 21px;
+    }
+    .box2hv{
+        bottom: -7px;
+        right: -7px;
+        width: 27px;
+        height: 21px;
+    }
+    .ct-logo{
+        right: 0;
+        width: unset;
+    }
+    .ct-logo .text-title{
+        font: normal normal normal 12px/22px Montserrat-Regular;
+        align-self: center;
+        max-width: 340px;
+    }
+    .ct-logo .firstP-foot{
+        max-width: 340px;
+        margin-top: -2px;
+        font: normal normal bold 20px/27px Montserrat-Bold;
+    }
+    .ct-logo > div:first-child > img:first-child{
+        width: 134px;
+    }
+    .ct-logo > div:first-child{
+        align-self: flex-end;
+        margin-right: 6px;
+    }
+    .ct-logo > div:nth-child(2){
+        align-self: flex-end;
+        margin-right: 6px;
+    }
+    .ct-logo > div:nth-child(3){
+        display: flex;
+        flex-direction: column;
+    }
+    .ct-logo .logo {
+        width: 45px;
+        margin-left: 31px;
+    }
+    .ct-logo .logo-quyen {
+        width: 234px;
+    }
+    .ct-logo .firstP-foo{
+        margin-left: 0;
+    }
+    .ct-intro-footer > img{
+        width: 118px;
+    }
+    .myfix-padding-mobile{
+        padding-top: 0;
+    }
+    .my-imgMenu{
+        width: 164px;
+        height: 243px;
+    }
+    .nav-tabs{
+        overflow-x: auto;
+        max-width: 100%;
+        flex-wrap: nowrap;
+        overflow-y: hidden;
+    }
+    .nav-item{
+        flex-shrink: 0;
+        padding: 11px 0;
+    }
+    .scroll-mobile{
+        overflow-x: auto;
+        max-width: 100%;
+    }
+    .myText-carousel {
+        top: 40%;
+        left: 5%;
+        z-index: 2;
+    }
+    .history{
+        font: normal normal normal 30px/45px Montserrat-Regular;
+    }
+    .text{
+        font: normal normal normal 12px/25px Montserrat-Regular;
+        margin-top: unset;
+    }
+    .imgZoom{
+        height: 100vh;
+    }
+}
+@media (min-width :701px) and (max-width:1180px)
+{
+    
+    .fisrtimgs img:nth-child(4){
+        padding-bottom: 30px;
     }
 }

@@ -1,6 +1,18 @@
+
 /*Màn hính cỡ nhỏ*/
-@media  (min-width :1200px) and (max-width:1649px) {
+.Menu
+{
+    position: relative;
+    background-repeat: no-repeat;
+    opacity: 1;
     
+    
+}
+.my-imgMenu{
+    width: 215px;
+    height: 316px;
+}
+@media  (min-width :1100px) and (max-width:1649px) {
     .Gioithieu{
         background-image: url("./img/Nen.png");
         width: 100%;
@@ -15,7 +27,6 @@
         position:relative;
         width: 100%;
         height: 1067px;
-        
     }
     .maket
     {
@@ -32,6 +43,9 @@
      
         
        
+    }
+    .my-imgMenu{
+        width: 215px;
     }
     .anhtet
     {
@@ -63,54 +77,43 @@
         margin-bottom: -100px;
         margin-left: 625px;
     }
-    .banhcuon
+    /* .banhcuon
     {
         width: 200px;
         height: 30px;
         opacity: 1;
         margin-top: -1100px;
-    }
+    } */
     
     .Menu
     {
-        position: relative;
-        background-repeat: no-repeat;
-        width: 1500px;
-        height: 700px;
-        opacity: 1;
-        left: 21%;
-        /* right: 303px; */
-        background-image: url("./img/Path26.png");
-        zoom:100%
-        
-        
+        height: 800px;
     }
     
-    .Trayproduct
+    /* .Trayproduct
     {
         position: absolute;
-        /* margin-left: 185px; */
+        margin-left: 185px;
         top:40px;
         right: 662px;
         width: 1066px;
         height: 655px;
        
         opacity: 1;
-    }
-    .Logo{
+    } */
+    /* .Logo{
         position: absolute;
         top:50px;
         left: 600px;
         width: 390px;
         height: 390px;
         opacity: 1;
-    }
+    } */
    .Banhcuon
    {
         position: relative;
-        top:-240px;
-        /* right: 20px; */
-        left: 75px;
+        top:370px;
+        left: 275px;
         width: 27px;
         height: 27px;
         opacity: 1;
@@ -118,12 +121,11 @@
         cursor: pointer;
         
    }
- 
    .Cha
    {
         position: relative;
-        top:-400px;
-        left: 250px;
+        top:200px;
+        left: 470px;
         width: 27px;
         height: 27px;
         opacity: 1;
@@ -133,8 +135,8 @@
    .Nuocham
    {
         position: relative;
-        top :-200px;
-        left: 380px;
+        top :450px;
+        left: 580px;
         width: 27px;
         height: 27px;
         opacity: 1;
@@ -144,9 +146,8 @@
    .Hanh
    {
         position: relative;
-        top :-90px;
-        /* left: 360px; */
-        left: 400px;
+        top :490px;
+        left: 630px;
         width: 27px;
         height: 27px;
         opacity: 1;
@@ -157,37 +158,36 @@
    .Rau
    {
         position: relative;
-        top:-500px;
-        left: 500px;
+        top:130px;
+        left: 650px;
         width: 27px;
         height: 27px;
         opacity: 1;
         background-image: url("./img/Button.png");
         cursor: pointer;
    }
-  .Hoa{
-      position: relative;
-      top:-205px;
-      left:-46px
-     
-  }
-  .Icon
-  {
-    position: relative;
-    top:-215px;
-    left:-50px
-  }
+
   .Nav_Tab
    {
         position: relative;
-        left: 16px;
+       
         
    }
    .nav-item
    {
     cursor: pointer;
    }
-   
+   .KhungHinh2
+   {
+    border-bottom: 3px solid #FFBE00; 
+    border-right: 3px solid #FFBE00;
+    /* border-bottom-right-radius: 3px 3px; */
+    margin-right:-5px
+   }
+   .Textphone
+   {
+       display: none;
+   }
     
 }
 /*Màn hính cỡ to*/
@@ -205,6 +205,11 @@
         width: 100%;
         height: 1067px;
     }
+    .Menu
+    {
+        /* height: 900px; */
+        margin-bottom: 700px;
+    }
     .maket
     {
         background:  0% 0% no-repeat padding-box;
@@ -220,6 +225,7 @@
         
        
     }
+ 
     .anhtet
     {
         z-index: 2;
@@ -258,47 +264,14 @@
         opacity: 1;
         margin-top: -1200px;
     }
-    .Menu
-    {
-        position: relative;
-        background-repeat: no-repeat;
-        width: 1500px;
-        height: 700px;
-        opacity: 1;
-        left: 550px;
-        right: 303px;
-        background-image: url("./img/Path26.png");
-        
-    }
+   
 
-    .Trayproduct
-    {
-        position: absolute;
-        /* margin-left: 185px; */
-        top:40px;
-        right: 662px;
-        width: 1066px;
-        height: 655px;
-        /* box-shadow: -50px 0px 6px #00000014; */
-        opacity: 1;
-    }
-    /* .Trayproduct:hover{
-        display: none;
-    } */
-    .Logo{
-        position: absolute;
-        top:60px;
-        left: 550px;
-        width: 390px;
-        height: 390px;
-        opacity: 1;
-    }
     .Banhcuon
     {
          position: relative;
-         top:-240px;
+         top:400px;
          /* right: 20px; */
-         left: 30px;
+         left: 270px;
          width: 27px;
          height: 27px;
          opacity: 1;
@@ -310,8 +283,8 @@
     .Cha
     {
          position: relative;
-         top:-400px;
-         left: 250px;
+         top:200px;
+         left: 500px;
          width: 27px;
          height: 27px;
          opacity: 1;
@@ -321,8 +294,8 @@
     .Nuocham
     {
          position: relative;
-         top :-200px;
-         left: 380px;
+         top :450px;
+         left: 580px;
          width: 27px;
          height: 27px;
          opacity: 1;
@@ -332,9 +305,8 @@
     .Hanh
     {
          position: relative;
-         top :-90px;
-         /* left: 360px; */
-         left: 400px;
+         top :530px;
+         left: 650px;
          width: 27px;
          height: 27px;
          opacity: 1;
@@ -345,38 +317,37 @@
     .Rau
     {
          position: relative;
-         top:-500px;
-         left: 500px;
+         top:150px;
+         left: 650px;
          width: 27px;
          height: 27px;
          opacity: 1;
          background-image: url("./img/Button.png");
          cursor: pointer;
     }
-    .Hoa{
-        position: relative;
-        top:-205px;
-        left:-46px
-       
-    }
-    .Icon
-    {
-      position: relative;
-      top:-215px;
-      left:-50px
-    }
+   
    .Nav_Tab
    {
     position: relative;
-    left: 300px;
+   
     
    }
    .nav-item
    {
     cursor: pointer;
    }
-   
-
+   .KhungHinh2
+   {
+    border-bottom: 3px solid #FFBE00; 
+    border-right: 3px solid #FFBE00;
+    /* border-bottom-right-radius: 3px 3px; */
+    margin-right:-5px;
+    margin-bottom:3px
+   }
+.Textphone
+   {
+       display: none;
+   }
 }
 
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
@@ -407,8 +378,6 @@
     width: 100%;
     height: auto;
     background: #EFE5D4 0% 0% no-repeat padding-box;
-    
-    
 }
 .TextBc{ 
     display: none;
@@ -423,7 +392,7 @@
     border: 3px solid #840C16;
     border-radius: 10px 10px 0px 10px;
     opacity: 0.9;
-    
+    font: normal normal normal 13px/24px Montserrat Regular;
 }
 .TextCha{ 
     display: none;
@@ -437,7 +406,7 @@
     border: 3px solid #840C16;
     border-radius: 10px 10px 0px 10px;
     opacity: 0.9;
-    
+    font: normal normal normal 13px/24px Montserrat Regular;
 }
 .TextHanh{ 
     display: none;
@@ -451,6 +420,7 @@
     border: 3px solid #840C16;
     border-radius: 10px 10px 0px 10px;
     opacity: 0.9;
+    font: normal normal normal 12px/24px Montserrat Regular;
 }
 .TextRau{ 
     display: none;
@@ -464,6 +434,7 @@
     border: 3px solid #840C16;
     border-radius: 10px 10px 0px 10px;
     opacity: 0.9;
+    font: normal normal normal 13px/24px Montserrat Regular;
 }
 .TextMam{ 
     display: none;
@@ -477,6 +448,7 @@
     border: 3px solid #840C16;
     border-radius: 10px 10px 0px 10px;
     opacity: 0.9;
+    font: normal normal normal 13px/24px Montserrat Regular;
 }
 .Banhcuon:hover .TextBc{
     display: block;
@@ -505,15 +477,14 @@
 {
     width: 104px;
     height: 141px;
-    background: var(--unnamed-color-ffbe00) 0% 0% no-repeat padding-box;
+
     background: #FFBE00 0% 0% no-repeat padding-box;
     border-radius: 10px;
     padding: 5px;
     color: #840C16;
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--unnamed-color-840c16);
+
     text-align: left;
-    font: normal normal normal 20px/25px UTM Alter Gothic;
+    font: normal normal normal 20px/25px UTM Alter Gothic Regular;
     letter-spacing: 0px;
     color: #840C16;
     opacity: 1;
@@ -529,7 +500,7 @@
         background-image: url("./img/Nen.png");
         width: 100%;
         z-index: -1;
-        height: 1067px;
+        height: 870px;
         opacity: 0.36;
         position: absolute;
         background-attachment: fixed;
@@ -538,7 +509,7 @@
     .GT{
         position:relative;
         width: 100%;
-        height: 1067px;
+        height: 870px;
         
     }
     .maket
@@ -547,12 +518,12 @@
         box-shadow: 0px 3px 6px #00000029;
         border-radius: 10px;
         opacity: 1;
-        left: 250px;
-        width: 418px;
-        height: 275px;
+        left: 10px;
+        width: 173px;
+        /* height: 275px; */
         z-index: 1;
         position: absolute;
-        top: -130px;
+        top: -60px;
      
         
        
@@ -561,10 +532,8 @@
     {
         z-index: 2;
         position: absolute;
-        top: -130px;
-        left: 670px;
-        width: 650px;
-        height: 463px;
+        left: 140px;
+        width: 251px;
         background:  0% 0% no-repeat padding-box;
         box-shadow: 0px 3px 6px #00000029;
         border-radius: 10px;
@@ -577,10 +546,10 @@
         box-shadow: -5px 5px 0px #00000012;
         border-radius: 10px;
         opacity: 1;
-        margin-left: 200px;
-        width: 272px;
-        height: 421px;
-        margin-top:280px
+        width: 120px;
+        top:80px;
+        left: 10px;
+        
     }
     .test
     {
@@ -599,113 +568,69 @@
     {
         position: relative;
         background-repeat: no-repeat;
-        width: 200px;
-        height: 242px;
+        width: 380px;
+        height: 300px;
         opacity: 1;
-        left:24%;
-        /* background-image: url("./img/Path26.png"); */
         
     }
     
-    .Trayproduct
-    {
-        position: absolute;
-        margin-left: 185px;
-        top:40px;
-        right: 662px;
-        width: 100px;
-        height: 100px;
-        
-        opacity: 1;
-    }
-    .Logo{
-        position: absolute;
-        top:50px;
-        left: 600px;
-        width: 390px;
-        height: 390px;
-        opacity: 1;
-    }
+  
    .Banhcuon
    {
-        position: relative;
-        top:-240px;
-        /* right: 20px; */
-        left: 75px;
-        width: 27px;
-        height: 27px;
-        opacity: 1;
-        background-image: url("./img/Button.png");
-        cursor: pointer;
+       display: none;
         
    }
  
    .Cha
    {
-        position: relative;
-        top:-400px;
-        left: 250px;
-        width: 27px;
-        height: 27px;
-        opacity: 1;
-        background-image: url("./img/Button.png");
-        cursor: pointer;
+    display: none;
    }
    .Nuocham
    {
-        position: relative;
-        top :-200px;
-        left: 380px;
-        width: 27px;
-        height: 27px;
-        opacity: 1;
-        background-image: url("./img/Button.png");
-        cursor: pointer;
+       display: none;
    }
    .Hanh
    {
-        position: relative;
-        top :-90px;
-        /* left: 360px; */
-        left: 400px;
-        width: 27px;
-        height: 27px;
-        opacity: 1;
-        background-image: url("./img/Button.png");
-        cursor: pointer;
+    display: none;
 
    }
    .Rau
    {
-        position: relative;
-        top:-500px;
-        left: 500px;
-        width: 27px;
-        height: 27px;
-        opacity: 1;
-        background-image: url("./img/Button.png");
-        cursor: pointer;
+    display: none;
    }
-  .Hoa{
-      position: relative;
-      top:-205px;
-      left:-46px
-     
-  }
-  .Icon
-  {
-    position: relative;
-    top:-215px;
-    left:-50px
-  }
+
   .Nav_Tab
    {
         position: relative;
-        left: 16px;
+        padding: 2px;
         
+   }
+   .nav-tabs
+   {
+    font-size:8px;
    }
    .nav-item
    {
     cursor: pointer;
+    
    }
+   .KhungHinh2
+   {
+    border-bottom: 3px solid #FFBE00; 
+    border-right: 3px solid #FFBE00;
+    
+    margin-right :12px;
+   }
+   
+}
+@media (max-width: 400px) {
+    .maket{
+        width: 200px;
+    }
+    .anhtet{
+        width: 55%;
+    }
+    .Street{
+        width: 36%;
+    }
 }

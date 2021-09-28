@@ -36,17 +36,34 @@
     transform: rotate(360deg);
   }
 }
-@media  (min-width :1200px) and (max-width:1650px) {
+@media  (min-width :1000px) and (max-width:1649px) {
   iframe
   {
-    width:450px;
+    width:550px;
     height:500px
   }
+  .Dathangphone
+  {
+    display: none;
+  }
+  
 }
 @media (min-width:1650px) {
   iframe
   {
-    width:450px;
+    width:550px;
     height:600px
+  }
+   .Dathangphone
+  {
+    display: none;
+  }
+}
+@media (max-width :755px) 
+{
+  
+  .DathangPC
+  {
+    display:none
   }
 }

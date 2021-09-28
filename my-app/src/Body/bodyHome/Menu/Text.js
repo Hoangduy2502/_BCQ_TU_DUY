@@ -13,11 +13,7 @@ const Text = (props) => {
                     marginLeft:"10px"
                     }}></div>
                     <div className="KhungHinh2 " style={{ position: 'absolute', bottom: '0', right: '0', width: '41px', height: '34px',
-                    borderBottom: '3px solid #FFBE00', 
-                    borderRight: '3px solid #FFBE00',
-                    borderBottomRightRadius: '3px 3px',
-                    marginBottom:"3px",
-                    marginRight:"-5px"}}></div>
+                   }}></div>
             </div>
             <div className="col-7 mt-2 " style={{textAlign: "left",Font: "normal normal normal 13px/20px Montserrat",color: "#392A00",opacity: 1}}>
                 <label>{text}</label>

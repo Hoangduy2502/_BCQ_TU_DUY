@@ -2,18 +2,19 @@ import React from 'react';
 import './footer.css';
 import logocontact from './img/logocontact.png'
 import facebookfooter from './img/facebookfooter.png'
+import imgsupport from './img/imgsupport.png'
 import Zalo from './img/Zalo.gif'
 import Youtube from "./img/Youtube.gif"
 const ContactFooter = () => (
-    <div id="contact" className="contactFooter">
+    <div id="contact" className="contactFooter container">
         <div className="infor-contact container row">
-            <img className="logo-footer col-2" src={logocontact} alt="nice" />
-            <div className="contact-address col-5">
+            <img className="logo-footer col-5 col-xl-2" src={logocontact} alt="nice" />
+            <div className="contact-address col-5 col-xl-5">
                 <div className="contact-header" style={{ font: 'normal normal normal 30px/38px UTMAlterGothic' }}>Thông tin liên hệ</div>
                 <div className="contact-body">
-                    <span><span className="strong-text">ĐC</span>:Số 222 Cát dài, Lê Chân, Hải Phòng</span>
-                    <span style={{ margin: '10px 0' }}><span className="strong-text">ĐT </span>0934222788</span>
-                    <span><span className="strong-text">Email</span>: banhcuonquyen1946@gmail.com</span>
+                    <span><span className="strong-text">ĐC</span>: Số 222 Cát dài, Lê Chân, Hải Phòng</span>
+                    <span style={{ margin: '10px 0' }}><span className="strong-text">ĐT</span>: 0934222788</span>
+                    <span><span className="strong-text">Email</span>: banhcuonquyen@gmail.com</span>
                 </div>
             </div>
             {/* <div className="shop2">
@@ -24,9 +25,9 @@ const ContactFooter = () => (
                     <span><span className="strong-text">Email</span>: banhcuonquyen2@gmail.com</span>
                 </div>
             </div> */}
-            <div className="like-facebook col-5">
-                <div class="fb-page" data-href="https://www.facebook.com/banhcuonquyenhaiphong/" data-tabs="" data-width="300" data-height="250" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/banhcuonquyenhaiphong/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/banhcuonquyenhaiphong/">BÁNH CUỐN QUYÊN</a></blockquote></div>
-                <div className="row d-flex">
+            <div className="like-facebook col-2 col-xl-5">
+                <div class="fb-page" data-href="https://www.facebook.com/banhcuonquyenhaiphong/" data-tabs="" data-width="300px" data-height="100%" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/banhcuonquyenhaiphong/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/banhcuonquyenhaiphong/">BÁNH CUỐN QUYÊN</a></blockquote></div>
+                <div className="row d-flex icon-ytb-zalo">
                     <img className="m-2" style={{width:"50px"}} src={Zalo}/>
                     <img  className="m-2" style={{width:"60px", position: 'relative', top: '5px'}} src={Youtube}/>
                 </div>
