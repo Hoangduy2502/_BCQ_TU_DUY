@@ -6,6 +6,7 @@ import Carousel from './Carousel';
 import Logo2 from "./img/Logo2.png"
 import logoshow from "./img/logoshow.png"
 import iconNav from "./img/iconNav.png"
+import iconShow from "./img/iconShow.png"
 const Header = () => {
 
     // tu meo
@@ -50,7 +51,7 @@ const Header = () => {
                         <nav class="navbar navbar-dark  icon ">
                             <button class="navbar-toggler" style={{ marginLeft: "auto" }} type="button" data-toggle="collapse" data-target="#NavPhone" aria-controls="NavPhone" aria-expanded="false" aria-label="Toggle navigation">
                                 {/* <span class="navbar-toggler-icon"></span> */}
-                                <img src={iconNav}/>
+                                <img src={navbar ? iconShow : iconNav}/>
                             </button>
                         </nav>
                         <ul className="nav collapse justify-content-end " id="NavPhone">

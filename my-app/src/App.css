@@ -46,7 +46,10 @@
   {
     display: none;
   }
-  
+  .iconBack
+  {
+    width:100px
+  }
 }
 @media (min-width:1650px) {
   iframe
@@ -57,6 +60,10 @@
    .Dathangphone
   {
     display: none;
+  }
+  .iconBack
+  {
+    width:150px
   }
 }
 @media (max-width :755px) 
@@ -69,5 +76,9 @@
   .DathangPC
   {
     display:none
+  }
+  .iconBack
+  {
+    width:100px
   }
 }

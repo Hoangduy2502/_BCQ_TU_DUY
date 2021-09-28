@@ -14,6 +14,7 @@ import BreakingNews from './Footer/breakingNews';
 import Data1 from './contant/index';
 import Dathangphone from "./Header/img/Dathangphone.png"
 import './Footer/footer.css'
+import iconBack from "../src/Header/img/iconBack.png"
 import {
   BrowserRouter as Router,
   Switch,
@@ -50,7 +51,7 @@ function App() {
     <>
     
       <iframe src="https://menu.banhcuonquyen.vn/"></iframe>
-          <button onClick={Menu}>Thoát</button>
+      <img className="iconBack" onClick={Menu} src={iconBack}/>
     </>
     :<> 
     <img className="DathangPC" src={DatHang} onClick={Menu} data-aos="fade-up"/>
@@ -68,8 +69,6 @@ function App() {
         <Items/>
      </div>
         
-   
-      
       <Router>
         <Switch>
           <Route exact path="/">
