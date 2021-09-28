@@ -108,7 +108,7 @@ const Content = () => {
                         <div className="col-xl-7 col-12 p-0 m-0" style={{ position: 'relative', top: '6px',overflow:'hidden'}}>
                             <iframe src='https://www.youtube.com/embed/x4NpBzIlOM8'
                                 width="80%"
-                                height="199px"
+                                height="535px"
                                 frameborder='0'
                                 allowfullscreen
                                 title='video'

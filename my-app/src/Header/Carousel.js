@@ -9,7 +9,8 @@ const Carousel = () => {
             <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src={nen} className="imgZoom" />
+                        <div className="imgZoom nen"></div>
+                        {/* <img src={nen} className="imgZoom" /> */}
                         <div className="myText-carousel">
                             <label className="history">Bánh Cuốn Quyên thương hiệu 70 năm</label><br />
                             <label className="text">Một trong những cửa hàng bánh cuốn lâu đời nhất Hải Phòng.</label>
@@ -18,7 +19,8 @@ const Carousel = () => {
                         
                     </div>
                     <div class="carousel-item">
-                        <img src={nen01} className="imgZoom" />
+                    <div className="imgZoom nen01"></div>
+                        {/* <img src={nen01} className="imgZoom" /> */}
                         <div className="myText-carousel">
                             <label className="history">Bánh Cuốn Quyên thương hiệu 70 năm</label><br />
                             <label className="text">Một trong những cửa hàng bánh cuốn lâu đời nhất Hải Phòng.</label>

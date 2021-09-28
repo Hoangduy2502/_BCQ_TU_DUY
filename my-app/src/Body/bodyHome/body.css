@@ -113,7 +113,7 @@
    {
         position: relative;
         top:370px;
-        left: 275px;
+        left: 310px;
         width: 27px;
         height: 27px;
         opacity: 1;
@@ -182,7 +182,8 @@
     border-bottom: 3px solid #FFBE00; 
     border-right: 3px solid #FFBE00;
     /* border-bottom-right-radius: 3px 3px; */
-    margin-right:-5px
+    margin-right:-10px;
+    margin-bottom:3px
    }
    .Textphone
    {
@@ -341,7 +342,7 @@
     border-bottom: 3px solid #FFBE00; 
     border-right: 3px solid #FFBE00;
     /* border-bottom-right-radius: 3px 3px; */
-    margin-right:-5px;
+    margin-right:-10px;
     margin-bottom:3px
    }
 .Textphone
@@ -494,7 +495,7 @@
     color:white
 }
 /*Màn hính mobile*/
-@media (max-width:755px)
+@media (min-width: 400px) and (max-width:767px)
 {
     .Gioithieu{
         background-image: url("./img/Nen.png");
@@ -619,18 +620,301 @@
     border-bottom: 3px solid #FFBE00; 
     border-right: 3px solid #FFBE00;
     
-    margin-right :12px;
+    margin-right :10px;
    }
    
 }
-@media (max-width: 400px) {
-    .maket{
-        width: 200px;
+@media (min-width:325px) and (max-width: 400px) {
+    .Gioithieu{
+        background-image: url("./img/Nen.png");
+        width: 100%;
+        z-index: -1;
+        height: 870px;
+        opacity: 0.36;
+        position: absolute;
+        background-attachment: fixed;
+        background-position: center;
     }
-    .anhtet{
-        width: 55%;
+    .GT{
+        position:relative;
+        width: 100%;
+        height: 870px;
+        
+    }
+    .maket
+    {
+        background:  0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 6px #00000029;
+        border-radius: 10px;
+        opacity: 1;
+        left: 10px;
+        width: 160px;
+        /* height: 275px; */
+        z-index: 1;
+        position: absolute;
+        top: -60px;
+     
+        
+       
+    }
+    .anhtet
+    {
+        z-index: 2;
+        position: absolute;
+        left: 130px;
+        width: 230px;
+        background:  0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 6px #00000029;
+        border-radius: 10px;
+        opacity: 1;
+   
     }
     .Street{
-        width: 36%;
+        position: absolute;
+        background:  0% 0% no-repeat padding-box;
+        box-shadow: -5px 5px 0px #00000012;
+        border-radius: 10px;
+        opacity: 1;
+        width: 110px;
+        top:80px;
+        left: 10px;
+        
+    }
+    .test
+    {
+        margin-bottom: -100px;
+        margin-left: 625px;
+    }
+    .banhcuon
+    {
+        width: 200px;
+        height: 30px;
+        opacity: 1;
+        margin-top: -1100px;
+    }
+    
+    .Menu
+    {
+        position: relative;
+        background-repeat: no-repeat;
+        width: 380px;
+        height: 300px;
+        opacity: 1;
+        
+    }
+    
+  
+   .Banhcuon
+   {
+       display: none;
+        
+   }
+ 
+   .Cha
+   {
+    display: none;
+   }
+   .Nuocham
+   {
+       display: none;
+   }
+   .Hanh
+   {
+    display: none;
+
+   }
+   .Rau
+   {
+    display: none;
+   }
+
+  .Nav_Tab
+   {
+        position: relative;
+        padding: 2px;
+        
+   }
+   .nav-tabs
+   {
+    font-size:8px;
+   }
+   .nav-item
+   {
+    cursor: pointer;
+    
+   }
+    .KhungHinh2
+    {
+     border-bottom: 3px solid #FFBE00; 
+     border-right: 3px solid #FFBE00;
+     left:72%
+     
+    }
+    .txt
+{
+    width: 104px;
+    height: 141px;
+
+    background: #FFBE00 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    padding: 5px;
+    color: #840C16;
+
+    text-align: left;
+    font: normal normal normal 15px/25px UTM Alter Gothic Regular;
+    letter-spacing: 0px;
+    color: #840C16;
+    opacity: 1;
+}
+.Textphone
+{
+    font-size: 13px;
+}
+}
+@media (max-width:325px){
+    .Gioithieu{
+        background-image: url("./img/Nen.png");
+        width: 100%;
+        z-index: -1;
+        height: 870px;
+        opacity: 0.36;
+        position: absolute;
+        background-attachment: fixed;
+        background-position: center;
+    }
+    .GT{
+        position:relative;
+        width: 100%;
+        height: 870px;
+        
+    }
+    .maket
+    {
+        background:  0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 6px #00000029;
+        border-radius: 10px;
+        opacity: 1;
+        left: 10px;
+        width: 140px;
+        /* height: 275px; */
+        z-index: 1;
+        position: absolute;
+        top: -60px;
+     
+        
+       
+    }
+    .anhtet
+    {
+        z-index: 2;
+        position: absolute;
+        left: 120px;
+        width: 200px;
+        background:  0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 6px #00000029;
+        border-radius: 10px;
+        opacity: 1;
+   
+    }
+    .Street{
+        position: absolute;
+        background:  0% 0% no-repeat padding-box;
+        box-shadow: -5px 5px 0px #00000012;
+        border-radius: 10px;
+        opacity: 1;
+        width: 100px;
+        top:80px;
+        left: 10px;
+        
+    }
+    .test
+    {
+        margin-bottom: -100px;
+        margin-left: 625px;
+    }
+    .banhcuon
+    {
+        width: 200px;
+        height: 30px;
+        opacity: 1;
+        margin-top: -1100px;
+    }
+    
+    .Menu
+    {
+        position: relative;
+        background-repeat: no-repeat;
+        width: 380px;
+        height: 300px;
+        opacity: 1;
+        
+    }
+    
+  
+   .Banhcuon
+   {
+       display: none;
+        
+   }
+ 
+   .Cha
+   {
+    display: none;
+   }
+   .Nuocham
+   {
+       display: none;
+   }
+   .Hanh
+   {
+    display: none;
+
+   }
+   .Rau
+   {
+    display: none;
+   }
+
+  .Nav_Tab
+   {
+        position: relative;
+        padding: 2px;
+        
+   }
+   .nav-tabs
+   {
+    font-size:8px;
+   }
+   .nav-item
+   {
+    cursor: pointer;
+    
+   }
+    .KhungHinh2
+    {
+     border-bottom: 3px solid #FFBE00; 
+     border-right: 3px solid #FFBE00;
+     left:87%
+     
+    }
+    .txt
+    {
+    width: 104px;
+    height: 141px;
+
+    background: #FFBE00 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    padding: 5px;
+    color: #840C16;
+
+    text-align: left;
+    font: normal normal normal 15px/25px UTM Alter Gothic Regular;
+    letter-spacing: 0px;
+    color: #840C16;
+    opacity: 1;
+    }
+    .Textphone
+    {
+        font-size: 12px;
     }
 }

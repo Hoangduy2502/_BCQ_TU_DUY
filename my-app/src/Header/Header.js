@@ -22,7 +22,7 @@ const Header = () => {
             <div className={`row d-flex pt-2 pb-2 mt-0 container-fuild ${navbar ? "Header slidedow" : "Header"}`}>
 
                 <div className="col-4 d-flex justify-content-start pl-5" style={{ alignSelf: "start" }} >
-                    <img className="logo"  src={navbar ? logoshow : Logo2} />
+                    <img className="logoHeader"  src={navbar ? logoshow : Logo2} />
                 </div>
                 <div className="col-8 d-flex justify-content-end align-items-center">
 
