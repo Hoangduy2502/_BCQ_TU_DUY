@@ -15,27 +15,35 @@ import Data1 from './contant/index';
 import Dathangphone from "./Header/img/Dathangphone.png"
 import './Footer/footer.css'
 import UpPost from './AD';
+import iconBack from "../src/Header/img/iconBack.png"
 import {
   BrowserRouter as Router,
   Switch,
   Route,
   Link
 } from "react-router-dom";
-import react, {useState} from 'react';
+import react, {useState,useEffect} from 'react';
 import Lesteats from './Body/bodyLetsEat/index';
 function App() {
   const data=Data1.Data
-
+ 
   const [check,setcheck]=useState(false)
-  const Menu = () => {
-    if(check==false)
 
-      setcheck(true)
+    
+  const Menu = async() => {
+    if(check==false)
+    {
+        setcheck(true)
+      
+
+    }
+ 
     else{
       setcheck(false)
     }
     // window.open("https://menu.banhcuonquyen.vn/");
   }
+  
   console.log("TEST",check)
  const nullFooter = () => {
    return (
@@ -49,12 +57,11 @@ function App() {
    
     return check==true?
     <>
-    
-      <iframe src="https://menu.banhcuonquyen.vn/"></iframe>
-          <button onClick={Menu}>Thoát</button>
+      <iframe className="MenuiFrame" src="https://menu.banhcuonquyen.vn/" frameborder="0" type="text/html"></iframe>
+      <img className="iconBack" onClick={Menu} src={iconBack}/>
     </>
     :<> 
-    <img className="DathangPC" src={DatHang} onClick={Menu} data-aos="fade-up"/>
+    <img className="DathangPC"  src={DatHang} onClick={Menu} data-aos="fade-up"/>
     <img className="Dathangphone " src={Dathangphone} style={{width:"100%"}} onClick={Menu} data-aos="fade-up"/> 
     
    
@@ -62,6 +69,8 @@ function App() {
     </>
     
   }
+
+
   return (
     <>
       <Header />
@@ -70,8 +79,6 @@ function App() {
         <Items/>
      </div>
         
-   
-      
       <Router>
         <Switch>
           <Route exact path="/">

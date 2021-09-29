@@ -46,7 +46,10 @@
   {
     display: none;
   }
-  
+  .iconBack
+  {
+    width:100px
+  }
 }
 @media (min-width:1650px) {
   iframe
@@ -58,12 +61,24 @@
   {
     display: none;
   }
+  .iconBack
+  {
+    width:150px
+  }
 }
 @media (max-width :755px) 
 {
-  
+  .MenuiFrame
+  {
+    height: 370px;
+    width: 100%;
+  }
   .DathangPC
   {
     display:none
+  }
+  .iconBack
+  {
+    width:100px
   }
 }
