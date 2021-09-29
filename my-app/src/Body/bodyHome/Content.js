@@ -26,10 +26,12 @@ import carimg04 from './img/anh/carimg04.png';
 import carimg05 from './img/anh/carimg05.png';
 import dataText from './dataText';
 import Footer from '../../Footer';
+
 const Content = () => {
     console.log(dataText);
     return (
         <div className="Content">
+           
             <div style={{ maxWidth: "1600px", position: 'relative', margin: 'auto' }}>
                 <div className="ct-logo">
                     <div>
@@ -62,7 +64,7 @@ const Content = () => {
                                 {dataText.secondP.lowsecondT}
                             </span>
                         </div>
-                        <div className="imgboss" style={{  }}>
+                        <div className="imgboss" style={{}}>
                             <img className="bossbr01" src={ctbrboss0}></img>
                             <img className="bossbr02" src={Ellipse4}></img>
                             <img className="bossshape" src={boss}></img>
@@ -96,7 +98,7 @@ const Content = () => {
                 </div>
                 <div className="ct-intro-head">
                     <span>
-                    {dataText.thirdP.lowfirstT}<span className="upper">{dataText.thirdP.upfirstT}</span>{dataText.thirdP.lowsecondT}<span className="upper">{dataText.thirdP.upsecondT}</span>
+                        {dataText.thirdP.lowfirstT}<span className="upper">{dataText.thirdP.upfirstT}</span>{dataText.thirdP.lowsecondT}<span className="upper">{dataText.thirdP.upsecondT}</span>
                     </span>
                     <div style={{ position: "relative" }}>
                         <img src={ctend00} href="" />
@@ -105,15 +107,15 @@ const Content = () => {
                 </div>
                 <div className="ct-intro-body">
                     <div className="body-row1 row">
-                        <div className="col-xl-7 col-12 p-0 m-0" style={{ position: 'relative', top: '6px',overflow:'hidden'}}>
+                        <div className="col-xl-7 col-12 p-0 m-0" style={{ position: 'relative', top: '6px', overflow: 'hidden' }}>
                             <iframe src='https://www.youtube.com/embed/x4NpBzIlOM8'
                                 width="80%"
                                 height="535px"
                                 frameborder='0'
                                 allowfullscreen
                                 title='video'
-                                style={{width: '100%'}}
-                                
+                                style={{ width: '100%' }}
+
                             />
                             {/* <img src={ctend01} style={{ width: '100%' }} href=""></img> */}
                             {/* <div className="mycarouselimg">
@@ -203,7 +205,7 @@ const Content = () => {
 
                         </div>
 
-                    
+
                     </div>
                 </div>
                 <div className="ct-intro-footer">

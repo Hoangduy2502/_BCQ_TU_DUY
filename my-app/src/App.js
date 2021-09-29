@@ -14,6 +14,7 @@ import BreakingNews from './Footer/breakingNews';
 import Data1 from './contant/index';
 import Dathangphone from "./Header/img/Dathangphone.png"
 import './Footer/footer.css'
+import UpPost from './AD';
 import {
   BrowserRouter as Router,
   Switch,
@@ -64,6 +65,7 @@ function App() {
   return (
     <>
       <Header />
+      
      <div className="Dathang">
         <Items/>
      </div>
@@ -74,10 +76,11 @@ function App() {
         <Switch>
           <Route exact path="/">
             <Index />
+            <UpPost/>
             <Rating/>
             <Footer cus={<BreakingNews DataTT={data}/>}/>
           </Route>
-          <Route path="/GioiThieu">
+          <Route path="/Introduction">
             <GioiThieu/>
           </Route>
           {/* <Route path="/SanPham">
@@ -88,7 +91,7 @@ function App() {
            <Lesteats/>
            <Footer cus={nullFooter()}/>
           </Route>
-          <Route path="/TinTuc">
+          <Route path="/News">
             <TinTuc/>
             <Footer cus={nullFooter()}/>
           </Route>

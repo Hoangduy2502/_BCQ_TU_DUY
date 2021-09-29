@@ -97,7 +97,7 @@ const Menu = (props) => {
     }, []);
 
     return (
-        <div className="Tong "  >
+        <div id="Product" className="Tong"  >
             <div className="Menu container p-0 " data-aos="fade-zoom-in">
                 <img style={{ position: "absolute", width: "100%" }} src={Path26} />
                 <div className='Banhcuon' onClick={() => onClick(1)}>

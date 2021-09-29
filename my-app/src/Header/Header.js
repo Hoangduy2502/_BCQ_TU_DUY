@@ -31,19 +31,19 @@ const Header = () => {
                             <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="/">Trang chủ</a>
                         </li>
                         <li className="nav-items">
-                            <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="/GioiThieu">Giới thiệu</a>
+                            <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="/Introduction">Giới thiệu</a>
                         </li>
                         <li className="nav-items">
-                            <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="#google">Sản phẩm</a>
+                            <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="/#Product">Sản phẩm</a>
                         </li>
                         <li className="nav-items">
                             <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="/LetEat">Ăn gì hôm nay!</a>
                         </li>
                         <li className="nav-items">
-                            <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="/TinTuc">Tin tức</a>
+                            <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="/News">Tin tức</a>
                         </li>
                         <li className="nav-items">
-                            <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="#contact">Liên hệ</a>
+                            <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="#Contact">Liên hệ</a>
                         </li>
                     </ul>
                     <div className="Nav-Phone ">
