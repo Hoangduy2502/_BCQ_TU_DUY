@@ -7,6 +7,12 @@ import Logo2 from "./img/Logo2.png"
 import logoshow from "./img/logoshow.png"
 import iconNav from "./img/iconNav.png"
 import iconShow from "./img/iconShow.png"
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+} from "react-router-dom";
 const Header = () => {
 
     // tu meo
@@ -16,14 +22,16 @@ const Header = () => {
         else setnavbar(false)
     }
     window.addEventListener('scroll', change)
-    //tu meo
+    const Home = () => {
+        window.location.href = "/"
+    }
     return (
         <div className="nen">
             <div className="color-no-touch"></div>
             <div className={`row d-flex pt-2 pb-2 mt-0 container-fuild ${navbar ? "Header slidedow" : "Header"}`}>
 
                 <div className="col-4 d-flex justify-content-start pl-5" style={{ alignSelf: "start" }} >
-                    <img className="logoHeader"  src={navbar ? logoshow : Logo2} />
+                    <Link to={'/'}> <img className="logoHeader" src={navbar ? logoshow : Logo2} onClick={() => Home()} /></Link>
                 </div>
                 <div className="col-8 d-flex justify-content-end align-items-center">
 
@@ -32,13 +40,13 @@ const Header = () => {
                             <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="/">Trang chủ</a>
                         </li>
                         <li className="nav-items">
-                            <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="/Introduction">Giới thiệu</a>
+                            <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="/">Giới thiệu</a>
                         </li>
                         <li className="nav-items">
                             <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="/#Product">Sản phẩm</a>
                         </li>
                         <li className="nav-items">
-                            <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="/LetEat">Ăn gì hôm nay!</a>
+                            <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="">Ăn gì hôm nay!</a>
                         </li>
                         <li className="nav-items">
                             <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="/News">Tin tức</a>
@@ -51,7 +59,7 @@ const Header = () => {
                         <nav class="navbar navbar-dark  icon ">
                             <button class="navbar-toggler" style={{ marginLeft: "auto" }} type="button" data-toggle="collapse" data-target="#NavPhone" aria-controls="NavPhone" aria-expanded="false" aria-label="Toggle navigation">
                                 {/* <span class="navbar-toggler-icon"></span> */}
-                                <img src={navbar ? iconShow : iconNav}/>
+                                <img src={navbar ? iconShow : iconNav} />
                             </button>
                         </nav>
                         <ul className="nav collapse justify-content-end " id="NavPhone">
@@ -62,7 +70,7 @@ const Header = () => {
                                 <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="/GioiThieu">Giới thiệu</a>
                             </li>
                             <li className="nav-items ">
-                                <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="#google">Sản phẩm</a>
+                                <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="/#Product">Sản phẩm</a>
                             </li>
                             <li className="nav-items ">
                                 <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="/TinTuc">Tin tức</a>
@@ -80,7 +88,7 @@ const Header = () => {
 
 
                 </div>
-               
+
             </div>
             {/* <div style={{ position: "absolute", top: "50vh", left: "10%" }}>
                 <label className="history">Bánh Cuốn Quyên thương hiệu 70 năm</label><br />
