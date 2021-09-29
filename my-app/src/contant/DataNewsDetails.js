@@ -1,13 +1,15 @@
-import anh1 from "../Body/bodyNews/img/ImgFamily.png"
-import anh2 from "../Body/bodyNews/img/ImgTuong.png"
+import anh1 from "../Body/bodyNews/img/shipnhanh.png"
+import anh2 from "../Body/bodyNews/img/postup.png"
+var space="\n"
+
 export default
     {
-        Title:"Bánh cuốn Quyên đưa ra dịch vụ ship hàng tận nơi - kế hoạch phục vụ khách hàng mùa dịch.",
-        Reviews:"Mục tiêu đưa Bánh cuốn Quyên vừa là nơi thường thức ẩm thực, vừa là nơi đến quen thuộc với các món ăn cổ truyền đặc sắc",
-        Text1:"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi,",
-        Text2:"Explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti",
-        Comment:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        Title:"💪 THÁCH CẢ HẢI PHÒNG ĂN BÁNH CUỐN \" MIÊN PHÍ \"- BẠN DÁM THỬ KHÔNG ?",
+        Reviews:"👏 👏 𝗕𝗮́𝗻𝗵 𝗖𝘂𝗼̂́𝗻 𝗤𝘂𝘆𝗲̂𝗻 khao cả Hải Phòng ăn bánh cuốn miễn phí với #thách_thức_đúng_giờ chưa từng có.⏰ Canh giờ ship đúng giờ có ngay 𝒃𝒂́𝒏𝒉 𝒄𝒖𝒐̂́𝒏 𝒎𝒊𝒆̂̃𝒏 𝒑𝒉𝒊́",
+        Text1:"Từ 30/09 đến 09/10, tất cả khách hàng đặt ship bánh cuốn tại #Bánh_Cuốn_Quyên sẽ được hoàn tiền 100% đơn hàng cùng với phí ship khi shipper đến chậm #1_phút so với thời gian đã đặt trước.⏰Thời gian nhận ship: 6h->22h hàng này🛵 Giá ship vẫn đồng giá 7k trong bán kính 5km",
+        Text2:"✅ CÁCH THỨC tham gia thử thách:\n• Bước 1: Tag tên 2 người bạn và c.o.m.m.e.n.t\n từ khóa \" Thách thức đúng giờ \"\n• Bước 2: Bánh Cuốn Quyên sẽ i.b cho bạn ngay\nvà làm theo hướng dẫn trong inbox của page.\n• Bước 3: Nếu shipper giao hàng đến chậm 1 phút,\n bạn chụp lại chứng minh và gửi cho page để\n xác nhận và được hoàn tiền cho đơn hàng đó\n📍 Thử thách này chỉ áp dụng cho bánh cuốn chay\nchả và khách hàng đặt hàng trước tối thiểu 1 giờ\n👉 Ngồi thảnh thơi bấm giờ đợi chờ ship tới được ăn\n#bánh cuốn miễn phí ngại gì mà không đăng kí\ntham gia thử thách\n ngay thôi !!!\n📝 Thời gian thử thách bắt đầu:\nTừ ngày 30/9 đến ngày 9/10",
+        Comment:"📍 Bánh cuốn Quyên \n🏪 Số 208 & 222 Hai Bà Trưng, Lê Chân Hải Phòng. \n📲 0934222788",
         img1:anh1,
         img2:anh2,
-        date:"20/10/20022"
+        date:"29/9/2021",
     }

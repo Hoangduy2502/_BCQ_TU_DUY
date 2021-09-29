@@ -73,13 +73,14 @@ function App() {
 
   return (
     <>
+    <Router>
       <Header />
       
      <div className="Dathang">
         <Items/>
      </div>
         
-      <Router>
+      
         <Switch>
           <Route exact path="/">
             <Index />

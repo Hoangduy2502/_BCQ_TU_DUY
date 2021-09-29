@@ -11,11 +11,16 @@
     
 }
 .main-img{
-    width: 348px;
+    width: 428px;
      position: relative;
      border-radius: 5px ;
      animation: pulse 2s infinite;
      cursor: pointer;
+}
+@media (max-width: 700px) {
+    .main-img{
+        width: 250px;
+    }
 }
 .ADgrid > div{
     position: relative;
@@ -29,7 +34,7 @@
      right: -30px ;   
      cursor: pointer;
 }
- .ADgrid > div >div{
+ .ADgrid .linkbt{
     position: absolute;
      width: 170px;
      height: 37px;
