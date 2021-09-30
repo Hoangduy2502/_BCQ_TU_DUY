@@ -17,9 +17,10 @@ const UpPost = () => {
     const go = (e) => {
         e.stopPropagation()
         document.body.style.overflow = 'unset'
-
-        console.log("vao luon tin tuc")
     }
+    
+
+    console.log("tao la render")
     const Dodal = () =>
         <div className="ADgrid">
             <div>
@@ -34,7 +35,7 @@ const UpPost = () => {
     return (
         <div>
 
-            {show ? <Dodal /> : null}
+            {show ? <Dodal /> : <></>}
         </div>
 
 

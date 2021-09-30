@@ -16,92 +16,91 @@ import Dathangphone from "./Header/img/Dathangphone.png"
 import './Footer/footer.css'
 import UpPost from './AD';
 import iconBack from "../src/Header/img/iconBack.png"
+import Hotline from './Hotline';
 import {
   BrowserRouter as Router,
   Switch,
   Route,
   Link
 } from "react-router-dom";
-import react, {useState,useEffect} from 'react';
+import react, { useState, useEffect } from 'react';
 import Lesteats from './Body/bodyLetsEat/index';
 function App() {
-  const data=Data1.Data
- 
-  const [check,setcheck]=useState(false)
+  const data = Data1.Data
 
-    
-  const Menu = async() => {
-    if(check==false)
-    {
-        setcheck(true)
-      
+  const [check, setcheck] = useState(false)
+
+
+  const Menu = async () => {
+    if (check == false) {
+      setcheck(true)
+
 
     }
- 
-    else{
+
+    else {
       setcheck(false)
     }
     // window.open("https://menu.banhcuonquyen.vn/");
   }
-  
-  console.log("TEST",check)
- const nullFooter = () => {
-   return (
-     <div style={{height: '429px'}}>
 
-     </div>
-   )
- }
-  const Items=()=>
-  {
-   
-    return check==true?
-    <>
-      <iframe className="MenuiFrame" src="https://menu.banhcuonquyen.vn/" frameborder="0" type="text/html"></iframe>
-      <img className="iconBack" onClick={Menu} src={iconBack}/>
-    </>
-    :<> 
-    <img className="DathangPC"  src={DatHang} onClick={Menu} data-aos="fade-up"/>
-    <img className="Dathangphone " src={Dathangphone} style={{width:"100%"}} onClick={Menu} data-aos="fade-up"/> 
-    
-   
-   
-    </>
-    
+  console.log("TEST", check)
+  const nullFooter = () => {
+    return (
+      <div style={{ height: '429px' }}>
+
+      </div>
+    )
+  }
+  const Items = () => {
+
+    return check == true ?
+      <>
+        <iframe className="MenuiFrame" src="https://menu.banhcuonquyen.vn/" frameborder="0" type="text/html"></iframe>
+        <img className="iconBack" onClick={Menu} src={iconBack} />
+      </>
+      : <>
+        <img className="DathangPC" src={DatHang} onClick={Menu} data-aos="fade-up" />
+        <img className="Dathangphone " src={Dathangphone} style={{ width: "100%" }} onClick={Menu} data-aos="fade-up" />
+
+
+
+      </>
+
   }
 
 
   return (
     <>
-    <Router>
-      <Header />
-      
-     <div className="Dathang">
-        <Items/>
-     </div>
-        
-      
+      <Router>
+        <Header />
+
+        <div className="Dathang">
+          <Items />
+        </div>
+        <Hotline/>
+
         <Switch>
           <Route exact path="/">
             <Index />
-            <UpPost/>
-            <Rating/>
-            <Footer cus={<BreakingNews DataTT={data}/>}/>
+            <UpPost />
+            <Rating />
+            <Footer cus={<BreakingNews DataTT={data} />} />
           </Route>
           <Route path="/Introduction">
-            <GioiThieu/>
+            <GioiThieu />
           </Route>
           {/* <Route path="/SanPham">
             <SanPham />
             <Footer cus={nullFooter()}/>
           </Route> */}
           <Route path="/LetEat">
-           <Lesteats/>
-           <Footer cus={nullFooter()}/>
+            <Lesteats />
+            <Footer cus={nullFooter()} />
           </Route>
           <Route path="/News">
-            <TinTuc/>
-            <Footer cus={nullFooter()}/>
+            <TinTuc />
+            <Footer cus={nullFooter()} />
           </Route>
         </Switch>
       </Router>
