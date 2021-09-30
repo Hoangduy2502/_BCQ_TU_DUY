@@ -270,6 +270,17 @@
         margin-top: -400px;
     }
 }
+@media (min-width: 1200px) and (max-width: 1482px) {
+    
+    .wrap-container{
+        padding-left: 30px;
+    }
+    .ct-logo{
+        right: 0;
+    }
+    
+    
+}
 @media (min-width: 1649px) {
     .contentfooter {
         margin-top: -530px;

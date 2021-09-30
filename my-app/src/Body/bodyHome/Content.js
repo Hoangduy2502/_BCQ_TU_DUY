@@ -32,7 +32,7 @@ const Content = () => {
     return (
         <div className="Content">
            
-            <div style={{ maxWidth: "1600px", position: 'relative', margin: 'auto' }}>
+            <div className="wrap-container">
                 <div className="ct-logo">
                     <div>
                         <img className="" src={bcLogo}></img>
