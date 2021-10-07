@@ -4,23 +4,25 @@ import iconX from '../Body/bodyHome/img/iconX.png';
 import { Link } from 'react-router-dom'
 
 import './style.css'
-const UpPost = () => {
-    const [show, setshow] = useState(true);
-    if(show) 
+const UpPost = (props) => {
+   const {shows}=props
+    if(shows.show1) 
     document.body.style.overflow = 'hidden'
 
     const Show = () => {
-        console.log("false", show);
+        shows.setShow1(false)
         document.body.style.overflow = 'unset'
-        setshow(false)
+       
     }   
+    
     const go = (e) => {
         e.stopPropagation()
         document.body.style.overflow = 'unset'
+        shows.setShow1(false)
     }
     
 
-    console.log("tao la render")
+
     const Dodal = () =>
         <div className="ADgrid">
             <div>
@@ -35,7 +37,7 @@ const UpPost = () => {
     return (
         <div>
 
-            {show ? <Dodal /> : <></>}
+            {(shows.show1) ? <Dodal /> : <></>}
         </div>
 
 

@@ -1,19 +1,18 @@
-
 /*Màn hính cỡ nhỏ*/
-.Menu
-{
+
+.Menu {
     position: relative;
     background-repeat: no-repeat;
     opacity: 1;
-    
-    
 }
-.my-imgMenu{
+
+.my-imgMenu {
     width: 215px;
     height: 316px;
 }
-@media  (min-width :1100px) and (max-width:1649px) {
-    .Gioithieu{
+
+@media (min-width :1100px) and (max-width:1649px) {
+    .Gioithieu {
         background-image: url("./img/Nen.png");
         width: 100%;
         z-index: -1;
@@ -23,14 +22,13 @@
         background-attachment: fixed;
         background-position: center;
     }
-    .GT{
-        position:relative;
+    .GT {
+        position: relative;
         width: 100%;
         height: 1067px;
     }
-    .maket
-    {
-        background:  0% 0% no-repeat padding-box;
+    .maket {
+        background: 0% 0% no-repeat padding-box;
         box-shadow: 0px 3px 6px #00000029;
         border-radius: 10px;
         opacity: 1;
@@ -40,40 +38,34 @@
         z-index: 1;
         position: absolute;
         top: -130px;
-     
-        
-       
     }
-    .my-imgMenu{
+    .my-imgMenu {
         width: 215px;
     }
-    .anhtet
-    {
+    .anhtet {
         z-index: 2;
         position: absolute;
         top: -130px;
         left: 670px;
         width: 650px;
         height: 463px;
-        background:  0% 0% no-repeat padding-box;
+        background: 0% 0% no-repeat padding-box;
         box-shadow: 0px 3px 6px #00000029;
         border-radius: 10px;
         opacity: 1;
-   
     }
-    .Street{
+    .Street {
         position: absolute;
-        background:  0% 0% no-repeat padding-box;
+        background: 0% 0% no-repeat padding-box;
         box-shadow: -5px 5px 0px #00000012;
         border-radius: 10px;
         opacity: 1;
         margin-left: 200px;
         width: 272px;
         height: 421px;
-        margin-top:280px
+        margin-top: 280px
     }
-    .test
-    {
+    .test {
         margin-bottom: -100px;
         margin-left: 625px;
     }
@@ -84,12 +76,9 @@
         opacity: 1;
         margin-top: -1100px;
     } */
-    
-    .Menu
-    {
+    .Menu {
         height: 800px;
     }
-    
     /* .Trayproduct
     {
         position: absolute;
@@ -109,91 +98,79 @@
         height: 390px;
         opacity: 1;
     } */
-   .Banhcuon
-   {
+    .Banhcuon {
         position: relative;
-        top:370px;
+        top: 370px;
         left: 310px;
         width: 27px;
         height: 27px;
         opacity: 1;
         background-image: url("./img/Button.png");
         cursor: pointer;
-        
-   }
-   .Cha
-   {
+    }
+    .Cha {
         position: relative;
-        top:200px;
+        top: 200px;
         left: 470px;
         width: 27px;
         height: 27px;
         opacity: 1;
         background-image: url("./img/Button.png");
         cursor: pointer;
-   }
-   .Nuocham
-   {
+    }
+    .Nuocham {
         position: relative;
-        top :450px;
+        top: 450px;
         left: 580px;
         width: 27px;
         height: 27px;
         opacity: 1;
         background-image: url("./img/Button.png");
         cursor: pointer;
-   }
-   .Hanh
-   {
+    }
+    .Hanh {
         position: relative;
-        top :490px;
+        top: 490px;
         left: 630px;
         width: 27px;
         height: 27px;
         opacity: 1;
         background-image: url("./img/Button.png");
         cursor: pointer;
-
-   }
-   .Rau
-   {
+    }
+    .Rau {
         position: relative;
-        top:130px;
+        top: 130px;
         left: 650px;
         width: 27px;
         height: 27px;
         opacity: 1;
         background-image: url("./img/Button.png");
         cursor: pointer;
-   }
-
-  .Nav_Tab
-   {
+    }
+    .Nav_Tab {
         position: relative;
-       
-        
-   }
-   .nav-item
-   {
-    cursor: pointer;
-   }
-   .KhungHinh2
-   {
-    border-bottom: 3px solid #FFBE00; 
-    border-right: 3px solid #FFBE00;
-    /* border-bottom-right-radius: 3px 3px; */
-    margin-right:-10px;
-    margin-bottom:3px
-   }
-   .Textphone
-   {
-       display: none;
-   }
-    
+    }
+    .nav-item {
+        cursor: pointer;
+    }
+    .KhungHinh2 {
+        border-bottom: 3px solid #FFBE00;
+        border-right: 3px solid #FFBE00;
+        /* border-bottom-right-radius: 3px 3px; */
+        margin-right: -10px;
+        margin-bottom: 3px
+    }
+    .Textphone {
+        display: none;
+    }
 }
+
+
 /*Màn hính cỡ to*/
-@media (min-width: 1650px)  {
-    .Gioithieu{
+
+@media (min-width: 1650px) {
+    .Gioithieu {
         background-image: url("./img/Nen.png");
         width: 100%;
         z-index: -1;
@@ -201,19 +178,17 @@
         opacity: 0.36;
         position: absolute;
     }
-    .GT{
-        position:relative;
+    .GT {
+        position: relative;
         width: 100%;
         height: 1067px;
     }
-    .Menu
-    {
+    .Menu {
         /* height: 900px; */
         margin-bottom: 700px;
     }
-    .maket
-    {
-        background:  0% 0% no-repeat padding-box;
+    .maket {
+        background: 0% 0% no-repeat padding-box;
         box-shadow: 0px 3px 6px #00000029;
         border-radius: 10px;
         opacity: 1;
@@ -223,281 +198,265 @@
         z-index: 1;
         position: absolute;
         top: -130px;
-        
-       
     }
- 
-    .anhtet
-    {
+    .anhtet {
         z-index: 2;
         position: absolute;
         top: -130px;
         left: 1000px;
         width: 650px;
         height: 463px;
-        background:  0% 0% no-repeat padding-box;
+        background: 0% 0% no-repeat padding-box;
         box-shadow: 0px 3px 6px #00000029;
         border-radius: 10px;
         opacity: 1;
-   
     }
-    .Street{
+    .Street {
         position: absolute;
-        background:  0% 0% no-repeat padding-box;
+        background: 0% 0% no-repeat padding-box;
         box-shadow: -5px 5px 0px #00000012;
         border-radius: 10px;
         opacity: 1;
         margin-left: 350px;
         width: 272px;
         height: 421px;
-        margin-top:280px
-        
+        margin-top: 280px
     }
-    .test
-    {
+    .test {
         margin-bottom: -200px;
         margin-left: 700px;
     }
-    .banhcuon
-    {
+    .banhcuon {
         width: 250px;
         height: 38px;
         opacity: 1;
         margin-top: -1200px;
     }
-   
-
-    .Banhcuon
-    {
-         position: relative;
-         top:400px;
-         /* right: 20px; */
-         left: 270px;
-         width: 27px;
-         height: 27px;
-         opacity: 1;
-         background-image: url("./img/Button.png");
-         cursor: pointer;
-         
+    .Banhcuon {
+        position: relative;
+        top: 400px;
+        /* right: 20px; */
+        left: 270px;
+        width: 27px;
+        height: 27px;
+        opacity: 1;
+        background-image: url("./img/Button.png");
+        cursor: pointer;
     }
-  
-    .Cha
-    {
-         position: relative;
-         top:200px;
-         left: 500px;
-         width: 27px;
-         height: 27px;
-         opacity: 1;
-         background-image: url("./img/Button.png");
-         cursor: pointer;
+    .Cha {
+        position: relative;
+        top: 200px;
+        left: 500px;
+        width: 27px;
+        height: 27px;
+        opacity: 1;
+        background-image: url("./img/Button.png");
+        cursor: pointer;
     }
-    .Nuocham
-    {
-         position: relative;
-         top :450px;
-         left: 580px;
-         width: 27px;
-         height: 27px;
-         opacity: 1;
-         background-image: url("./img/Button.png");
-         cursor: pointer;
+    .Nuocham {
+        position: relative;
+        top: 450px;
+        left: 580px;
+        width: 27px;
+        height: 27px;
+        opacity: 1;
+        background-image: url("./img/Button.png");
+        cursor: pointer;
     }
-    .Hanh
-    {
-         position: relative;
-         top :530px;
-         left: 650px;
-         width: 27px;
-         height: 27px;
-         opacity: 1;
-         background-image: url("./img/Button.png");
-         cursor: pointer;
- 
+    .Hanh {
+        position: relative;
+        top: 530px;
+        left: 650px;
+        width: 27px;
+        height: 27px;
+        opacity: 1;
+        background-image: url("./img/Button.png");
+        cursor: pointer;
     }
-    .Rau
-    {
-         position: relative;
-         top:150px;
-         left: 650px;
-         width: 27px;
-         height: 27px;
-         opacity: 1;
-         background-image: url("./img/Button.png");
-         cursor: pointer;
+    .Rau {
+        position: relative;
+        top: 150px;
+        left: 650px;
+        width: 27px;
+        height: 27px;
+        opacity: 1;
+        background-image: url("./img/Button.png");
+        cursor: pointer;
     }
-   
-   .Nav_Tab
-   {
-    position: relative;
-   
-    
-   }
-   .nav-item
-   {
-    cursor: pointer;
-   }
-   .KhungHinh2
-   {
-    border-bottom: 3px solid #FFBE00; 
-    border-right: 3px solid #FFBE00;
-    /* border-bottom-right-radius: 3px 3px; */
-    margin-right:-10px;
-    margin-bottom:3px
-   }
-.Textphone
-   {
-       display: none;
-   }
+    .Nav_Tab {
+        position: relative;
+    }
+    .nav-item {
+        cursor: pointer;
+    }
+    .KhungHinh2 {
+        border-bottom: 3px solid #FFBE00;
+        border-right: 3px solid #FFBE00;
+        /* border-bottom-right-radius: 3px 3px; */
+        margin-right: -10px;
+        margin-bottom: 3px
+    }
+    .Textphone {
+        display: none;
+    }
 }
 
-.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-    background-color:#FFBE00 ;
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    background-color: #FFBE00;
     border-color: #FFCB08;
     text-align: left;
-    font: normal normal normal 25px/31px UTM Alter Gothic Regular;
+    font: normal normal normal 25px/31px UTMAlterGothic;
     letter-spacing: 0px;
     color: #840C16;
     opacity: 1;
     border-radius: 5px;
-    
 }
-.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link
-{
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link {
     color: var(--unnamed-color-392a00);
     text-align: left;
     font: normal normal normal 25px/31px UTMAlterGothic;
     letter-spacing: 0px;
     color: #392A00;
     opacity: 1;
-    
 }
-.Tab
-{
+
+.Tab {
     position: relative;
     left: 0px;
     width: 100%;
     height: auto;
     background: #EFE5D4 0% 0% no-repeat padding-box;
 }
-.TextBc{ 
+
+.TextBc {
     display: none;
     top: -190px;
     left: -330px;
     position: absolute;
-	width: 347px;
+    width: 347px;
     height: 193px;
-	background-color: green;
+    background-color: green;
     border: 3px solid var(--unnamed-color-840c16);
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 3px solid #840C16;
     border-radius: 10px 10px 0px 10px;
     opacity: 0.9;
-    font: normal normal normal 13px/24px Montserrat Regular;
+    font: normal normal normal 13px/24px Montserrat-Regular;
 }
-.TextCha{ 
+
+.TextCha {
     display: none;
     top: -190px;
     left: -340px;
     position: absolute;
-	width: 347px;
+    width: 347px;
     height: 193px;
-	border: 3px solid var(--unnamed-color-840c16);
+    border: 3px solid var(--unnamed-color-840c16);
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 3px solid #840C16;
     border-radius: 10px 10px 0px 10px;
     opacity: 0.9;
-    font: normal normal normal 13px/24px Montserrat Regular;
+    font: normal normal normal 13px/24px Montserrat-Regular;
 }
-.TextHanh{ 
+
+.TextHanh {
     display: none;
     top: -180px;
     left: 25px;
     position: absolute;
-	width: 347px;
+    width: 347px;
     height: 193px;
-	border: 3px solid var(--unnamed-color-840c16);
+    border: 3px solid var(--unnamed-color-840c16);
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 3px solid #840C16;
     border-radius: 10px 10px 0px 10px;
     opacity: 0.9;
-    font: normal normal normal 12px/24px Montserrat Regular;
+    font: normal normal normal 12px/24px Montserrat-Regular;
 }
-.TextRau{ 
+
+.TextRau {
     display: none;
     top: 30px;
     left: 15px;
     position: absolute;
-	width: 347px;
+    width: 347px;
     height: 193px;
-	border: 3px solid var(--unnamed-color-840c16);
+    border: 3px solid var(--unnamed-color-840c16);
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 3px solid #840C16;
     border-radius: 10px 10px 0px 10px;
     opacity: 0.9;
-    font: normal normal normal 13px/24px Montserrat Regular;
+    font: normal normal normal 13px/24px Montserrat-Regular;
 }
-.TextMam{ 
+
+.TextMam {
     display: none;
     top: -180px;
     left: 25px;
     position: absolute;
-	width: 347px;
+    width: 347px;
     height: 193px;
-	border: 3px solid var(--unnamed-color-840c16);
+    border: 3px solid var(--unnamed-color-840c16);
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 3px solid #840C16;
     border-radius: 10px 10px 0px 10px;
     opacity: 0.9;
-    font: normal normal normal 13px/24px Montserrat Regular;
+    font: normal normal normal 13px/24px Montserrat-Regular;
 }
-.Banhcuon:hover .TextBc{
+
+.Banhcuon:hover .TextBc {
     display: block;
 }
-.Cha:hover .TextCha{
+
+.Cha:hover .TextCha {
     display: block;
 }
-.Hanh:hover .TextHanh
-{
+
+.Hanh:hover .TextHanh {
     display: block;
 }
-.Rau:hover .TextRau{
+
+.Rau:hover .TextRau {
     display: block;
 }
-.Nuocham:hover .TextMam{
+
+.Nuocham:hover .TextMam {
     display: block;
 }
-.KhungHinh1
-{
+
+.KhungHinh1 {
     width: 41px;
     height: 34px;
     transform: matrix(-1, 0, 0, -1, 0, 0);
     opacity: 1;
 }
-.txt
-{
+
+.txt {
     width: 104px;
     height: 141px;
-
     background: #FFBE00 0% 0% no-repeat padding-box;
     border-radius: 10px;
     padding: 5px;
     color: #840C16;
-
     text-align: left;
-    font: normal normal normal 20px/25px UTM Alter Gothic Regular;
+    font: normal normal normal 20px/25px UTMAlterGothic;
     letter-spacing: 0px;
     color: #840C16;
     opacity: 1;
 }
-.color2
-{
-    color:white
+
+.color2 {
+    color: white
 }
+
+
 /*Màn hính mobile*/
-@media (min-width: 400px) and (max-width:767px)
-{
-    .Gioithieu{
+
+@media (min-width: 400px) and (max-width:767px) {
+    .Gioithieu {
         background-image: url("./img/Nen.png");
         width: 100%;
         z-index: -1;
@@ -507,15 +466,13 @@
         background-attachment: fixed;
         background-position: center;
     }
-    .GT{
-        position:relative;
+    .GT {
+        position: relative;
         width: 100%;
         height: 870px;
-        
     }
-    .maket
-    {
-        background:  0% 0% no-repeat padding-box;
+    .maket {
+        background: 0% 0% no-repeat padding-box;
         box-shadow: 0px 3px 6px #00000029;
         border-radius: 10px;
         opacity: 1;
@@ -525,107 +482,78 @@
         z-index: 1;
         position: absolute;
         top: -60px;
-     
-        
-       
     }
-    .anhtet
-    {
+    .anhtet {
         z-index: 2;
         position: absolute;
         left: 140px;
         width: 251px;
-        background:  0% 0% no-repeat padding-box;
+        background: 0% 0% no-repeat padding-box;
         box-shadow: 0px 3px 6px #00000029;
         border-radius: 10px;
         opacity: 1;
-   
     }
-    .Street{
+    .Street {
         position: absolute;
-        background:  0% 0% no-repeat padding-box;
+        background: 0% 0% no-repeat padding-box;
         box-shadow: -5px 5px 0px #00000012;
         border-radius: 10px;
         opacity: 1;
         width: 120px;
-        top:80px;
+        top: 80px;
         left: 10px;
-        
     }
-    .test
-    {
+    .test {
         margin-bottom: -100px;
         margin-left: 625px;
     }
-    .banhcuon
-    {
+    .banhcuon {
         width: 200px;
         height: 30px;
         opacity: 1;
         margin-top: -1100px;
     }
-    
-    .Menu
-    {
+    .Menu {
         position: relative;
         background-repeat: no-repeat;
         width: 380px;
         height: 300px;
         opacity: 1;
-        
     }
-    
-  
-   .Banhcuon
-   {
-       display: none;
-        
-   }
- 
-   .Cha
-   {
-    display: none;
-   }
-   .Nuocham
-   {
-       display: none;
-   }
-   .Hanh
-   {
-    display: none;
-
-   }
-   .Rau
-   {
-    display: none;
-   }
-
-  .Nav_Tab
-   {
+    .Banhcuon {
+        display: none;
+    }
+    .Cha {
+        display: none;
+    }
+    .Nuocham {
+        display: none;
+    }
+    .Hanh {
+        display: none;
+    }
+    .Rau {
+        display: none;
+    }
+    .Nav_Tab {
         position: relative;
         padding: 2px;
-        
-   }
-   .nav-tabs
-   {
-    font-size:8px;
-   }
-   .nav-item
-   {
-    cursor: pointer;
-    
-   }
-   .KhungHinh2
-   {
-    border-bottom: 3px solid #FFBE00; 
-    border-right: 3px solid #FFBE00;
-    
-    margin-right :10px;
-   }
-   
+    }
+    .nav-tabs {
+        font-size: 8px;
+    }
+    .nav-item {
+        cursor: pointer;
+    }
+    .KhungHinh2 {
+        border-bottom: 3px solid #FFBE00;
+        border-right: 3px solid #FFBE00;
+        margin-right: 10px;
+    }
 }
+
 @media (min-width:325px) and (max-width: 400px) {
-    .Gioithieu{
+    .Gioithieu {
         background-image: url("./img/Nen.png");
         width: 100%;
         z-index: -1;
@@ -635,15 +563,13 @@
         background-attachment: fixed;
         background-position: center;
     }
-    .GT{
-        position:relative;
+    .GT {
+        position: relative;
         width: 100%;
         height: 870px;
-        
     }
-    .maket
-    {
-        background:  0% 0% no-repeat padding-box;
+    .maket {
+        background: 0% 0% no-repeat padding-box;
         box-shadow: 0px 3px 6px #00000029;
         border-radius: 10px;
         opacity: 1;
@@ -653,126 +579,94 @@
         z-index: 1;
         position: absolute;
         top: -60px;
-     
-        
-       
     }
-    .anhtet
-    {
+    .anhtet {
         z-index: 2;
         position: absolute;
         left: 130px;
         width: 230px;
-        background:  0% 0% no-repeat padding-box;
+        background: 0% 0% no-repeat padding-box;
         box-shadow: 0px 3px 6px #00000029;
         border-radius: 10px;
         opacity: 1;
-   
     }
-    .Street{
+    .Street {
         position: absolute;
-        background:  0% 0% no-repeat padding-box;
+        background: 0% 0% no-repeat padding-box;
         box-shadow: -5px 5px 0px #00000012;
         border-radius: 10px;
         opacity: 1;
         width: 110px;
-        top:80px;
+        top: 80px;
         left: 10px;
-        
     }
-    .test
-    {
+    .test {
         margin-bottom: -100px;
         margin-left: 625px;
     }
-    .banhcuon
-    {
+    .banhcuon {
         width: 200px;
         height: 30px;
         opacity: 1;
         margin-top: -1100px;
     }
-    
-    .Menu
-    {
+    .Menu {
         position: relative;
         background-repeat: no-repeat;
         width: 380px;
         height: 300px;
         opacity: 1;
-        
     }
-    
-  
-   .Banhcuon
-   {
-       display: none;
-        
-   }
- 
-   .Cha
-   {
-    display: none;
-   }
-   .Nuocham
-   {
-       display: none;
-   }
-   .Hanh
-   {
-    display: none;
-
-   }
-   .Rau
-   {
-    display: none;
-   }
-
-  .Nav_Tab
-   {
+    .Banhcuon {
+        display: none;
+    }
+    .Cha {
+        display: none;
+    }
+    .Nuocham {
+        display: none;
+    }
+    .Hanh {
+        display: none;
+    }
+    .Rau {
+        display: none;
+    }
+    .Nav_Tab {
         position: relative;
         padding: 2px;
-        
-   }
-   .nav-tabs
-   {
-    font-size:8px;
-   }
-   .nav-item
-   {
-    cursor: pointer;
-    
-   }
-    .KhungHinh2
-    {
-     border-bottom: 3px solid #FFBE00; 
-     border-right: 3px solid #FFBE00;
-     left:72%
-     
     }
-    .txt
-{
-    width: 104px;
-    height: 141px;
+    .nav-tabs {
+        font-size: 8px;
+    }
+    .nav-item {
+        cursor: pointer;
+    }
+    .KhungHinh2 {
+        border-bottom: 3px solid #FFBE00;
+        border-right: 3px solid #FFBE00;
+        left: 72%
+    }
+    .txt {
+        width: 104px;
+        height: 141px;
+        background: #FFBE00 0% 0% no-repeat padding-box;
+        border-radius: 10px;
+        padding: 5px;
+        color: #840C16;
+        text-align: left;
+        font: normal normal normal 15px/25px UTMAlterGothic;
+        letter-spacing: 0px;
+        color: #840C16;
+        opacity: 1;
+    }
+    .Textphone {
+        font-size: 13px;
+    }
+}
 
-    background: #FFBE00 0% 0% no-repeat padding-box;
-    border-radius: 10px;
-    padding: 5px;
-    color: #840C16;
-
-    text-align: left;
-    font: normal normal normal 15px/25px UTM Alter Gothic Regular;
-    letter-spacing: 0px;
-    color: #840C16;
-    opacity: 1;
-}
-.Textphone
-{
-    font-size: 13px;
-}
-}
-@media (max-width:325px){
-    .Gioithieu{
+@media (max-width:325px) {
+    .Gioithieu {
         background-image: url("./img/Nen.png");
         width: 100%;
         z-index: -1;
@@ -782,15 +676,13 @@
         background-attachment: fixed;
         background-position: center;
     }
-    .GT{
-        position:relative;
+    .GT {
+        position: relative;
         width: 100%;
         height: 870px;
-        
     }
-    .maket
-    {
-        background:  0% 0% no-repeat padding-box;
+    .maket {
+        background: 0% 0% no-repeat padding-box;
         box-shadow: 0px 3px 6px #00000029;
         border-radius: 10px;
         opacity: 1;
@@ -800,121 +692,88 @@
         z-index: 1;
         position: absolute;
         top: -60px;
-     
-        
-       
     }
-    .anhtet
-    {
+    .anhtet {
         z-index: 2;
         position: absolute;
         left: 120px;
         width: 200px;
-        background:  0% 0% no-repeat padding-box;
+        background: 0% 0% no-repeat padding-box;
         box-shadow: 0px 3px 6px #00000029;
         border-radius: 10px;
         opacity: 1;
-   
     }
-    .Street{
+    .Street {
         position: absolute;
-        background:  0% 0% no-repeat padding-box;
+        background: 0% 0% no-repeat padding-box;
         box-shadow: -5px 5px 0px #00000012;
         border-radius: 10px;
         opacity: 1;
         width: 100px;
-        top:80px;
+        top: 80px;
         left: 10px;
-        
     }
-    .test
-    {
+    .test {
         margin-bottom: -100px;
         margin-left: 625px;
     }
-    .banhcuon
-    {
+    .banhcuon {
         width: 200px;
         height: 30px;
         opacity: 1;
         margin-top: -1100px;
     }
-    
-    .Menu
-    {
+    .Menu {
         position: relative;
         background-repeat: no-repeat;
         width: 380px;
         height: 300px;
         opacity: 1;
-        
     }
-    
-  
-   .Banhcuon
-   {
-       display: none;
-        
-   }
- 
-   .Cha
-   {
-    display: none;
-   }
-   .Nuocham
-   {
-       display: none;
-   }
-   .Hanh
-   {
-    display: none;
-
-   }
-   .Rau
-   {
-    display: none;
-   }
-
-  .Nav_Tab
-   {
+    .Banhcuon {
+        display: none;
+    }
+    .Cha {
+        display: none;
+    }
+    .Nuocham {
+        display: none;
+    }
+    .Hanh {
+        display: none;
+    }
+    .Rau {
+        display: none;
+    }
+    .Nav_Tab {
         position: relative;
         padding: 2px;
-        
-   }
-   .nav-tabs
-   {
-    font-size:8px;
-   }
-   .nav-item
-   {
-    cursor: pointer;
-    
-   }
-    .KhungHinh2
-    {
-     border-bottom: 3px solid #FFBE00; 
-     border-right: 3px solid #FFBE00;
-     left:87%
-     
     }
-    .txt
-    {
-    width: 104px;
-    height: 141px;
-
-    background: #FFBE00 0% 0% no-repeat padding-box;
-    border-radius: 10px;
-    padding: 5px;
-    color: #840C16;
-
-    text-align: left;
-    font: normal normal normal 15px/25px UTM Alter Gothic Regular;
-    letter-spacing: 0px;
-    color: #840C16;
-    opacity: 1;
+    .nav-tabs {
+        font-size: 8px;
     }
-    .Textphone
-    {
+    .nav-item {
+        cursor: pointer;
+    }
+    .KhungHinh2 {
+        border-bottom: 3px solid #FFBE00;
+        border-right: 3px solid #FFBE00;
+        left: 87%
+    }
+    .txt {
+        width: 104px;
+        height: 141px;
+        background: #FFBE00 0% 0% no-repeat padding-box;
+        border-radius: 10px;
+        padding: 5px;
+        color: #840C16;
+        text-align: left;
+        font: normal normal normal 15px/25px UTMAlterGothic;
+        letter-spacing: 0px;
+        color: #840C16;
+        opacity: 1;
+    }
+    .Textphone {
         font-size: 12px;
     }
 }

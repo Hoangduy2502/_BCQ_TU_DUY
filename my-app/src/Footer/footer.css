@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,600&display=swap");
-
 .contentfooter {
     background-image: url(./img/backgroundFooter.png);
     background-repeat: no-repeat;
@@ -8,13 +7,13 @@
     opacity: 1;
     background-size: cover;
     position: relative;
-
     /* top: -471px; */
     display: flex;
     align-items: center;
     justify-content: flex-end;
     flex-direction: column;
 }
+
 .contactFooter {
     padding: 0;
     z-index: 1;
@@ -28,10 +27,12 @@
     right: 0;
     padding: 0 13px;
 }
+
 .contact-address {
     padding-left: 8%;
     width: 244px;
 }
+
 .like-facebook {
     position: relative;
     top: 39px;
@@ -42,6 +43,7 @@
     flex-direction: column;
     align-items: center;
 }
+
 .borderboxbottom {
     position: absolute;
     bottom: 0;
@@ -52,6 +54,7 @@
     border-right: 5px solid #840c16;
     border-bottom-right-radius: 5px 5px;
 }
+
 .shadow-contact {
     position: absolute;
     bottom: -15px;
@@ -63,6 +66,7 @@
     opacity: 0.78;
     z-index: -1;
 }
+
 .infor-contact {
     margin-top: 69px;
     display: flex;
@@ -87,7 +91,8 @@
     color: #840c16;
     opacity: 1;
 }
-.contact-address > .contact-header {
+
+.contact-address>.contact-header {
     text-align: left;
     font: normal normal normal 30px/38px UTMAlterGothic;
     letter-spacing: 0px;
@@ -95,7 +100,8 @@
     opacity: 1;
     margin-bottom: 21px;
 }
-.shop2 > .contact-header {
+
+.shop2>.contact-header {
     height: 37px;
     text-align: left;
     font: normal normal normal 20px/25px UTMAlterGothic;
@@ -103,17 +109,20 @@
     color: #840c16;
     opacity: 1;
 }
+
 .contact-body {
     margin-top: 24px;
     display: flex;
     flex-direction: column;
 }
-.contact-body > span {
+
+.contact-body>span {
     text-align: left;
     font: normal normal normal 15px/21px SFUFuturaBook;
     letter-spacing: 0px;
     color: #392a00;
 }
+
 .strong-text {
     display: inline;
     text-align: left;
@@ -125,16 +134,19 @@
 .shop2 {
     width: 261px;
 }
-.logo-footer {
-}
+
+.logo-footer {}
+
 .breaking-news {
     position: relative;
 }
+
 .img-carousel {
     height: 153px;
     border-radius: 5px;
     width: 153px;
 }
+
 .text-news {
     padding: 0 10px;
     display: block;
@@ -147,21 +159,25 @@
     letter-spacing: 0px;
     color: #392a00;
 }
+
 .mybtn-pre {
     width: 19px;
     position: absolute;
     left: -81px;
 }
+
 .mybtn-next {
     width: 19px;
     position: absolute;
     right: -81px;
 }
+
 .text-news-header {
     font: normal normal normal 20px/25px UTMAlterGothic;
     letter-spacing: 0px;
     color: #840c16;
 }
+
 .text-news-body {
     margin-top: 6px;
     margin-bottom: 9px;
@@ -169,22 +185,28 @@
     letter-spacing: 0px;
     color: #392a00;
 }
+
 .text-news-date {
     font: normal normal bold 13px/20px Montserrat-Bold;
     letter-spacing: 0px;
     color: #fcde9e;
 }
+
+
 /* rating */
+
 .rating {
     background-image: url(./img/rating01.png);
     width: 100%;
     height: 100%;
     position: absolute;
 }
+
 .rating-card img {
     width: 100%;
     height: 100%;
 }
+
 .tintucmoinhat {
     color: var(--unnamed-color-840c16);
     text-align: left;
@@ -196,18 +218,22 @@
     margin-bottom: 77px;
 }
 
-.contact-rowtext > span {
+.contact-rowtext>span {
     display: inline;
 }
+
 .text-news-body {
     font-size: 9px;
 }
+
 .text-news {
     height: 220px;
 }
+
 .text-news-date {
     font-size: 8px;
 }
+
 .CommentCarousel {
     width: 400px;
     position: absolute;
@@ -220,6 +246,7 @@
     opacity: 1;
     z-index: 100;
 }
+
 .wrap-tintucmoinhat {
     display: flex;
     justify-content: center;
@@ -227,9 +254,11 @@
     margin-bottom: 20px;
     margin-top: 477px;
 }
+
 .slide-mobie-footer {
     display: none;
 }
+
 .slide-mobie-footer ul {
     list-style-type: none;
     padding: 0;
@@ -240,24 +269,29 @@
     max-width: 100%;
     margin-left: 13px;
     overflow-x: auto;
-    /* overflow-y: hidden; */
-    height: 170px;
+    overflow-y: hidden;
+    height: 220px;
 }
+
 .slide-mobie-footer li {
     display: flex;
     flex-shrink: 0;
     padding-right: 8px;
     width: 350px;
 }
+
 .fisrtimgs img:nth-child(1) {
     padding-bottom: 30px;
 }
+
 .fisrtimgs img:nth-child(2) {
     padding-bottom: 30px;
 }
+
 .fisrtimgs img:nth-child(3) {
     padding-bottom: 30px;
 }
+
 .fix-imgFooter {
     display: none;
     position: absolute;
@@ -265,27 +299,28 @@
     top: -117px;
     height: 463px;
 }
+
 @media (min-width: 1200px) and (max-width: 1650px) {
     .contentfooter {
         margin-top: -400px;
     }
 }
+
 @media (min-width: 1200px) and (max-width: 1482px) {
-    
-    .wrap-container{
+    .wrap-container {
         padding-left: 30px;
     }
-    .ct-logo{
+    .ct-logo {
         right: 0;
     }
-    
-    
 }
+
 @media (min-width: 1649px) {
     .contentfooter {
         margin-top: -530px;
     }
 }
+
 @media (max-width: 755px) {
     .news-re-mobile {
         flex-direction: column-reverse;
@@ -297,13 +332,13 @@
     .Text {
         font-size: 13px !important;
     }
-    .Commnet{
+    .Commnet {
         line-height: 20px !important;
     }
     .TitileNews {
-        font: normal normal normal 34px/51px UTM Alter Gothic !important;
+        font: normal normal normal 34px/51px UTMAlterGothic !important;
     }
-    .news-re-mobile > div:nth-child(2) {
+    .news-re-mobile>div:nth-child(2) {
         padding-left: 0;
     }
     .news-re-mobile pre {
@@ -361,7 +396,7 @@
         font: normal normal normal 182px/92px UTMAlterGothic;
         text-shadow: -31px -31px 0px #00000014;
     }
-    .ct-boss > .w {
+    .ct-boss>.w {
         display: none;
     }
     .ct-boss .imgboss {
@@ -383,7 +418,7 @@
         height: 250px;
         font: normal normal normal 18px/23px UTMAlterGothic;
     }
-    .textboxboss > span {
+    .textboxboss>span {
         padding: 26px;
         width: unset;
         height: unset;
@@ -445,12 +480,12 @@
     .ct-intro-head {
         margin-top: 15px;
     }
-    .ct-intro-head > span {
+    .ct-intro-head>span {
         width: 94%;
         height: 100%;
         font-size: 15px;
     }
-    .ct-intro-head > div {
+    .ct-intro-head>div {
         left: -38px;
         top: 20px;
     }
@@ -478,24 +513,23 @@
     .col-nth3-div {
         padding: 0 24px;
     }
-    .col-nth3 > div:first-child {
+    .col-nth3>div:first-child {
         left: 0;
         margin-top: 22px;
     }
-    .myfiximg-01 > img {
+    .myfiximg-01>img {
         width: 100%;
     }
     .ct-intro-body .col5-custom {
         margin-top: 22px;
     }
-    .body-row1 > div:nth-child(4) {
+    .body-row1>div:nth-child(4) {
         margin-top: 22px;
     }
     .infor-contact {
         height: unset;
         flex-direction: column;
     }
-
     .contact-address {
         align-self: flex-start;
     }
@@ -505,7 +539,7 @@
         justify-content: center;
         height: 115px;
     }
-    .contact-address > .contact-header,
+    .contact-address>.contact-header,
     .contact-body {
         width: 267px;
     }
@@ -542,7 +576,7 @@
         font: normal normal bold 22px/27px Montserrat-Bold;
         color: #ffbe00;
     }
-    .ct-intro-footer > img {
+    .ct-intro-footer>img {
         margin-bottom: 20px;
     }
     .ct-intro-footer {
@@ -571,7 +605,7 @@
         display: flex;
         flex-direction: column;
     }
-    .ct-logo .contenthv > span {
+    .ct-logo .contenthv>span {
         font: normal normal normal 28px/35px UTMAlterGothic;
         padding: 0 18px;
     }
@@ -612,18 +646,18 @@
         margin-top: -2px;
         font: normal normal bold 20px/27px Montserrat-Bold;
     }
-    .ct-logo > div:first-child > img:first-child {
+    .ct-logo>div:first-child>img:first-child {
         width: 134px;
     }
-    .ct-logo > div:first-child {
+    .ct-logo>div:first-child {
         align-self: flex-end;
         margin-right: 6px;
     }
-    .ct-logo > div:nth-child(2) {
+    .ct-logo>div:nth-child(2) {
         align-self: flex-end;
         margin-right: 6px;
     }
-    .ct-logo > div:nth-child(3) {
+    .ct-logo>div:nth-child(3) {
         display: flex;
         flex-direction: column;
     }
@@ -637,7 +671,7 @@
     .ct-logo .firstP-foo {
         margin-left: 0;
     }
-    .ct-intro-footer > img {
+    .ct-intro-footer>img {
         width: 118px;
     }
     .myfix-padding-mobile {
@@ -677,11 +711,13 @@
         height: 100vh;
     }
 }
+
 @media (min-width: 701px) and (max-width: 1180px) {
     .fisrtimgs img:nth-child(4) {
         padding-bottom: 30px;
     }
 }
+
 @media (max-width: 375px) {
     .news-re-mobile pre {
         letter-spacing: 0.5px;

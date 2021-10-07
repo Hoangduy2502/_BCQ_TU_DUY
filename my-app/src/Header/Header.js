@@ -13,9 +13,9 @@ import {
     Route,
     Link
 } from "react-router-dom";
-const Header = () => {
+const Header = (props) => {
 
-    // tu meo
+    const {shows}=props
     const [navbar, setnavbar] = useState(false);
     const change = () => {
         if (window.scrollY >= 300) setnavbar(true)
@@ -25,6 +25,22 @@ const Header = () => {
     const Home = () => {
         window.location.href = "/"
     }
+    
+    var url_string = window.location.href;
+    var url = new URL(url_string);
+    React.useLayoutEffect(() => {
+        if(url.hash.toString()!="#Product")
+        {
+            shows.setShow1(true)
+        }
+        else{
+            shows.setShow1(false)
+        }
+        return () => {
+            
+        }
+    },[])
+   
     return (
         <div className="nen">
             <div className="color-no-touch"></div>
@@ -58,7 +74,7 @@ const Header = () => {
                     <div className="Nav-Phone ">
                         <nav class="navbar navbar-dark  icon ">
                             <button class="navbar-toggler" style={{ marginLeft: "auto" }} type="button" data-toggle="collapse" data-target="#NavPhone" aria-controls="NavPhone" aria-expanded="false" aria-label="Toggle navigation">
-                                {/* <span class="navbar-toggler-icon"></span> */}
+{/* <span class="navbar-toggler-icon"></span> */}
                                 <img src={navbar ? iconShow : iconNav} />
                             </button>
                         </nav>
@@ -73,14 +89,14 @@ const Header = () => {
                                 <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="/#Product">Sản phẩm</a>
                             </li>
                             <li className="nav-items ">
-                                <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="/TinTuc">Tin tức</a>
+                                <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="/News">Tin tức</a>
                             </li>
 
                             <li className="nav-items ">
                                 <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="#contact">Liên hệ</a>
                             </li>
                             <li className="nav-items ">
-                                <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="/LetEat">Ăn gì hôm nay!</a>
+                                <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="/">Ăn gì hôm nay!</a>
                             </li>
 
                         </ul>

@@ -19,12 +19,17 @@
         padding-left: 36px;
     }
 }
-
+@media (max-width: 755px)
+{
+    .img1{
+        height:269px
+    }
+}
 .TitileNews
 {
     margin-top: 30px;
     text-align: left;
-    font: normal normal normal 53px/66px UTM Alter Gothic;
+    font: normal normal normal 53px/66px UTMAlterGothic;
     letter-spacing: 0px;
     color: #840C16;
     opacity: 1
@@ -32,7 +37,7 @@
 .Review
 {
     text-align: left;
-    font: normal normal normal 25px/31px UTM Alter Gothic;
+    font: normal normal normal 25px/31px UTMAlterGothic;
     letter-spacing: 0px;
     color: #840C16;
     opacity: 1;
@@ -61,7 +66,7 @@
 .NameNews
 {
     text-align: left;
-    font: normal normal normal 15px/19px UTM Alter Gothic;
+    font: normal normal normal 15px/19px UTMAlterGothic;
     letter-spacing: 0px;
     color: #FFBE00;
     opacity: 1;

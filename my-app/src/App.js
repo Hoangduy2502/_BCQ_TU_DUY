@@ -29,22 +29,33 @@ function App() {
   const data = Data1.Data
 
   const [check, setcheck] = useState(false)
-
+  const [show, setshow] = useState(true);
+  const [show1, setShow1] = useState(true);
 
   const Menu = async () => {
     if (check == false) {
       setcheck(true)
-
+      setshow(false)
 
     }
 
     else {
       setcheck(false)
+      setshow(true)
     }
     // window.open("https://menu.banhcuonquyen.vn/");
+    
   }
+  if(!show && document.documentElement.clientWidth<=755)
+  {
+  
+    document.body.style.overflow = 'hidden'
+   
+  }
+  else
+    document.body.style.overflow = 'unset'
 
-  console.log("TEST", check)
+  console.log("TEST", document.documentElement.clientWidth)
   const nullFooter = () => {
     return (
       <div style={{ height: '429px' }}>
@@ -52,13 +63,17 @@ function App() {
       </div>
     )
   }
+  
   const Items = () => {
-
+     
     return check == true ?
-      <>
-        <iframe className="MenuiFrame" src="https://menu.banhcuonquyen.vn/" frameborder="0" type="text/html"></iframe>
-        <img className="iconBack" onClick={Menu} src={iconBack} />
-      </>
+      <div className="modal-menu" style={{width:"100%"}}>
+        <div className="modaliframe">
+          <iframe className="MenuiFrame" src="https://menu.banhcuonquyen.vn/" frameborder="0" type="text/html"></iframe>
+          <img className="iconBack" onClick={Menu} src={iconBack} />
+        </div>
+        
+      </div>
       : <>
         <img className="DathangPC" src={DatHang} onClick={Menu} data-aos="fade-up" />
         <img className="Dathangphone " src={Dathangphone} style={{ width: "100%" }} onClick={Menu} data-aos="fade-up" />
@@ -73,8 +88,7 @@ function App() {
   return (
     <>
       <Router>
-        <Header />
-
+        <Header shows={{show1,setShow1}}/>
         <div className="Dathang">
           <Items />
         </div>
@@ -83,17 +97,17 @@ function App() {
         <Switch>
           <Route exact path="/">
             <Index />
-            <UpPost />
+            <UpPost shows={{show1,setShow1}}/>
             <Rating />
             <Footer cus={<BreakingNews DataTT={data} />} />
           </Route>
           <Route path="/Introduction">
             <GioiThieu />
           </Route>
-          {/* <Route path="/SanPham">
+          <Route path="/SanPham">
             <SanPham />
             <Footer cus={nullFooter()}/>
-          </Route> */}
+          </Route>
           <Route path="/LetEat">
             <Lesteats />
             <Footer cus={nullFooter()} />
