@@ -68,6 +68,42 @@
 }
 @media (max-width :755px) 
 {
+   .DatHangNhanh{
+     width: 230px;
+     height: 53px;
+     color: #FCDE9E;
+     font: normal normal normal 24px/32px UTMAlterGothic;
+     background-color: #840C16;
+     border-radius: 5px;
+     text-align: center;
+     line-height: 53px;
+     position: relative;
+     bottom: 20px;
+     right: 9px;
+     
+   }
+   .DatHangNhanh span{
+    animation: pulse 2s infinite,shake 1s linear infinite;
+
+   }
+   .box-first{
+     position: absolute;
+     width: 28px;
+     height: 23px;
+     border-top: 2px solid #FFBE00;
+     border-left: 2px solid #FFBE00;
+     top: 8px;
+     left: 15px;
+   }
+   .box-last{
+    position: absolute;
+    width: 28px;
+    height: 23px;
+    border-bottom: 2px solid #FFBE00;
+    border-right: 2px solid #FFBE00;
+    bottom: 8px;
+    right: 15px;
+  }
   .MenuiFrame
   {
     height: 450px;
@@ -99,4 +135,40 @@
     bottom:0;
     width: 100%;
   }
+}
+@keyframes shake{
+  0% {
+      transform: translate(3px,0);
+  }
+  5% {
+     transform: translate(-3px,0);
+ }
+ 10% {
+     transform: translate(0,0);
+ }
+}
+@-webkit-keyframes pulse {
+ 0% {
+   -webkit-box-shadow: 0 0 0 0 rgba(255,190,0, 0.4);
+ }
+ 70% {
+     -webkit-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+ }
+ 100% {
+     -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+ }
+}
+@keyframes pulse {
+ 0% {
+   -moz-box-shadow: 0 0 0 0 rgba(255,190,0, 0.4);
+   box-shadow: 0 0 0 0 rgba(255,190,0, 0.4);
+ }
+ 70% {
+     -moz-box-shadow: 0 0 0 10px rgba(255,190,0, 0);
+     box-shadow: 0 0 0 10px rgba(255,190,0, 0);
+ }
+ 100% {
+     -moz-box-shadow: 0 0 0 0 rgba(255,190,0, 0);
+     box-shadow: 0 0 0 0 rgba(255,190,0, 0);
+ }
 }

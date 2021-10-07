@@ -44,13 +44,12 @@ function App() {
       setshow(true)
     }
     // window.open("https://menu.banhcuonquyen.vn/");
-    
+
   }
-  if(!show && document.documentElement.clientWidth<=755)
-  {
-  
+  if (!show && document.documentElement.clientWidth <= 755) {
+
     document.body.style.overflow = 'hidden'
-   
+
   }
   else
     document.body.style.overflow = 'unset'
@@ -63,21 +62,26 @@ function App() {
       </div>
     )
   }
-  
+
   const Items = () => {
-     
+
     return check == true ?
-      <div className="modal-menu" style={{width:"100%"}}>
+      <div className="modal-menu" style={{ width: "100%" }}>
         <div className="modaliframe">
           <iframe className="MenuiFrame" src="https://menu.banhcuonquyen.vn/" frameborder="0" type="text/html"></iframe>
           <img className="iconBack" onClick={Menu} src={iconBack} />
+
         </div>
-        
+
       </div>
       : <>
         <img className="DathangPC" src={DatHang} onClick={Menu} data-aos="fade-up" />
-        <img className="Dathangphone " src={Dathangphone} style={{ width: "100%" }} onClick={Menu} data-aos="fade-up" />
-
+        {/* <img className="Dathangphone " src={Dathangphone} style={{ width: "100%" }} onClick={Menu} data-aos="fade-up" /> */}
+        <div className="DatHangNhanh" onClick={Menu} data-aos="fade-up">
+          <div className="box-first"></div>
+          <span >Đặt hàng nhanh</span>
+          <div className="box-last"></div>
+        </div>
 
 
       </>
@@ -88,16 +92,16 @@ function App() {
   return (
     <>
       <Router>
-        <Header shows={{show1,setShow1}}/>
+        <Header shows={{ show1, setShow1 }} />
         <div className="Dathang">
           <Items />
         </div>
-        <Hotline/>
+        <Hotline />
 
         <Switch>
           <Route exact path="/">
             <Index />
-            <UpPost shows={{show1,setShow1}}/>
+            <UpPost shows={{ show1, setShow1 }} />
             <Rating />
             <Footer cus={<BreakingNews DataTT={data} />} />
           </Route>
@@ -106,7 +110,7 @@ function App() {
           </Route>
           <Route path="/SanPham">
             <SanPham />
-            <Footer cus={nullFooter()}/>
+            <Footer cus={nullFooter()} />
           </Route>
           <Route path="/LetEat">
             <Lesteats />
