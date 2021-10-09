@@ -36,7 +36,7 @@
     transform: rotate(360deg);
   }
 }
-@media  (min-width :1000px) and (max-width:1649px) {
+@media  (min-width :756px) and (max-width:1649px) {
   iframe
   {
     width:550px;
@@ -49,6 +49,10 @@
   .iconBack
   {
     width:100px
+  }
+  .DatHangNhanh
+  {
+    display: none;
   }
 }
 @media (min-width:1650px) {
@@ -64,6 +68,10 @@
   .iconBack
   {
     width:150px
+  }
+  .DatHangNhanh
+  {
+    display: none;
   }
 }
 @media (max-width :755px) 

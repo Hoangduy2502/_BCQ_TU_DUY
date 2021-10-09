@@ -52,7 +52,7 @@
     /* background-attachment: fixed; */
     background-position: center;
 }
-@media (min-width :1000px) and (max-width:1650px) {
+@media (min-width :756px) and (max-width:1650px) {
     .Nav-Phone
     {
         display: none;
@@ -164,7 +164,7 @@
     }
     
 }
-@media (max-width:768px) {
+@media (max-width:755px) {
     .Nav-Home
     {
         display: none;
