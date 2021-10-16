@@ -23,6 +23,8 @@
     background-color: rgb(132, 12, 22);
     height: 791px;
     overflow: hidden;
+    position: relative;
+    top: -1px;
 }
 .img-section1{
     display: flex;
@@ -152,7 +154,7 @@ span .upperBoldText{
 .firstP-section3{
     padding-top: 61px;
     margin: 0 auto;
-    width: 90%;
+    /* width: 90%; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -191,9 +193,11 @@ span .upperBoldText{
 
 .wrapimg-sm-boss{
     position: relative;
-    height: 100%;
+    height: 157px;
     width: 157px;
     margin-left: auto;
+    overflow: hidden;
+    border-radius: 50%;
 }
 .wrapimg-sm-boss > img{
     position: absolute;
@@ -211,7 +215,7 @@ span .upperBoldText{
     z-index: 5;
     width: 105px;
     position: absolute;
-    right: -15px;;
+    right: 11px;;
     top: 125px;
     height: 20px;
 }

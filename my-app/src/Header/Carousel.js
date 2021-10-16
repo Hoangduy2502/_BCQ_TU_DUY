@@ -6,9 +6,9 @@ const Carousel = () => {
     return (
         <div>
 
-            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
+            <div id="carouselExampleFade" className="carousel slide carousel-fade" data-ride="carousel">
+                <div className="carousel-inner">
+                    <div className="carousel-item active">
                         <div className="imgZoom nen"></div>
                         {/* <img src={nen} className="imgZoom" /> */}
                         <div className="myText-carousel">
@@ -18,7 +18,7 @@ const Carousel = () => {
                         <div className="color"></div>
                         
                     </div>
-                    <div class="carousel-item">
+                    <div className="carousel-item">
                     <div className="imgZoom nen01"></div>
                         {/* <img src={nen01} className="imgZoom" /> */}
                         <div className="myText-carousel">

@@ -180,7 +180,7 @@
 
 .text-news-body {
     margin-top: 6px;
-    margin-bottom: 9px;
+    /* margin-bottom: 9px; */
     font: normal normal normal 13px/20px Montserrat-Regular;
     letter-spacing: 0px;
     color: #392a00;
@@ -302,7 +302,7 @@
 
 @media (min-width: 1200px) and (max-width: 1650px) {
     .contentfooter {
-        margin-top: -400px;
+        margin-top: -420px;
     }
 }
 
@@ -351,6 +351,9 @@
     .ct-intro-body .body-row1 {
         margin: 0;
         padding: 0 3px;
+    }
+    .wrap-nameboss{
+        right: 100px !important;
     }
     .fix-imgFooter {
         display: block;
@@ -580,7 +583,7 @@
         margin-bottom: 20px;
     }
     .ct-intro-footer {
-        margin-top: 20px;
+        margin: 20px 5px 0;
     }
     .Content {
         margin-bottom: 30px;

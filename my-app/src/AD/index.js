@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import postup from '../Body/bodyHome/img/postup.png';
 import iconX from '../Body/bodyHome/img/iconX.png';
 import { Link } from 'react-router-dom'

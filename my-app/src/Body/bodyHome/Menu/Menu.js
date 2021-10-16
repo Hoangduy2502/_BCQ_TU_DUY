@@ -1,15 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Path26 from "../img/Group158.png"
 import "../body.css"
-import Trayproduct from "../img/Layer1.png"
-import Logo from "../img/Logo.png"
-import Path207 from "../img/Path207.png"
-import Button from "../img/Button.png"
-import Hoa from "../img/Hoa.png"
-import Icon from "../img/icon78.png"
-import Icon70 from "../img/Icon70.png"
-import Ellip from "../img/Ellipse.png"
-import Icon79 from "../img/Icon79.png"
+
 import TabMenu from './TabMenu';
 import Text from './Text';
 import Aos from 'aos';
@@ -25,7 +17,6 @@ const Menu = (props) => {
     const [link5, setLink5] = useState("nav-link")
     const TextData = Object.values(data.Textdata)
     const onClick = async (number) => {
-        console.log("TEST")
         switch (number) {
             case 1:
                 await activeTab1s.setActiveTab1("tab-pane fade active show")

@@ -12,12 +12,11 @@ const CarouselMenu = (props) => {
         slidesToShow: 3,
         slidesToScroll: 1
       };
-      console.log('tumeo',list);
     return (
       
-            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active d-flex scroll-mobile">
+            <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
+                            <div className="carousel-inner">
+                                <div className="carousel-item active d-flex scroll-mobile">
                                     {list}
                                 </div>
                                 {/* <div class="carousel-item">

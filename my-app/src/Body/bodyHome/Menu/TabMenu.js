@@ -1,13 +1,11 @@
 import React from 'react';
 import "../body.css"
-import product from "./Product/index"
 import CarouselMenu from './CarouselMenu';
-import Banhcuon1 from "../img/BC1.png"
 
 import Text from './Text';
 const TabMenu = (props) => {
     const {Product,activeTab1s,activeTab2s,activeTab3s,activeTab4s,activeTab5s,onClick,link1,link2,link3,link4,link5,TextData}=props
-    console.log("TEST2",Object.values(Object.values(Product)[0])[0])
+    
     var banhcuon=Object.values(Object.values(Product)[0])[0];
     var cha=Object.values(Object.values(Product)[0])[1];
     var nuocmam=Object.values(Object.values(Product)[0])[2];

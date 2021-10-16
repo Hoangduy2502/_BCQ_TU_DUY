@@ -12,34 +12,24 @@ import ctlistimg03 from './img/ct-listimg03.png';
 import ctlistimg04 from './img/ct-listimg04.png';
 import ctlistimg05 from './img/ct-listimg05.png';
 import ctend00 from './img/anh/ct-end00.png';
-import ctend01 from './img/anh/ct-end01.png';
 import ctend02 from './img/anh/ct-end02.png';
 import ctend03 from './img/anh/ct-end03.png';
 import ctend04 from './img/anh/ct-end04.png';
 import ctend05 from './img/anh/ct-end05.png';
-import carimg01 from './img/anh/carimg01.png';
-import carimg02 from './img/anh/carimg02.png';
-import precarimg from './img/anh/precarimg.png';
-import nextcarimg from './img/anh/nextcarimg.png';
-import carimg03 from './img/anh/carimg03.png';
-import carimg04 from './img/anh/carimg04.png';
-import carimg05 from './img/anh/carimg05.png';
 import dataText from './dataText';
-import Footer from '../../Footer';
 
 const Content = () => {
-    console.log(dataText);
     return (
         <div className="Content">
            
             <div className="wrap-container">
                 <div className="ct-logo">
                     <div>
-                        <img className="" src={bcLogo}></img>
-                        <img className="logo" src={slLogo}></img>
+                        <img className="" src={bcLogo} alt="error img"></img>
+                        <img className="logo" src={slLogo} alt="error img"></img>
                     </div>
                     <div>
-                        <img className="logo-quyen" src={quyenLogo}></img>
+                        <img className="logo-quyen" src={quyenLogo} alt="error img"></img>
                     </div>
                     <div>
                         <div className="logo-huongvi">
@@ -65,9 +55,9 @@ const Content = () => {
                             </span>
                         </div>
                         <div className="imgboss" style={{}}>
-                            <img className="bossbr01" src={ctbrboss0}></img>
-                            <img className="bossbr02" src={Ellipse4}></img>
-                            <img className="bossshape" src={boss}></img>
+                            <img className="bossbr01" src={ctbrboss0} alt="error img"></img>
+                            <img className="bossbr02" src={Ellipse4} alt="error img"></img>
+                            <img className="bossshape" src={boss} alt="error img"></img>
                             <div className="boss1946" data-aos="fade-up">1946</div>
                             <div className="textboss" data-aos="fade-left">
                                 <span className="nameboss">Anh Vũ Sơn Hải</span>
@@ -101,7 +91,7 @@ const Content = () => {
                         {dataText.thirdP.lowfirstT}<span className="upper">{dataText.thirdP.upfirstT}</span>{dataText.thirdP.lowsecondT}<span className="upper">{dataText.thirdP.upsecondT}</span>
                     </span>
                     <div style={{ position: "relative" }}>
-                        <img src={ctend00} href="" />
+                        <img src={ctend00} alt="error img" />
                         <span className="huongvidicung">"Hương vị được gìn giữ theo năm tháng"</span>
                     </div>
                 </div>
@@ -111,8 +101,8 @@ const Content = () => {
                             <iframe src='https://www.youtube.com/embed/x4NpBzIlOM8'
                                 width="80%"
                                 height="535px"
-                                frameborder='0'
-                                allowfullscreen
+                                frameBorder='0'
+                                allowFullScreen
                                 title='video'
                                 style={{ width: '100%' }}
 
@@ -163,7 +153,7 @@ const Content = () => {
                             <div className="row flex-nowrap col5-custom">
 
                                 <div className="col-6 p-0 m-0">
-                                    <img style={{ width: '100%' }} src={ctend02}></img>
+                                    <img style={{ width: '100%' }} src={ctend02} alt="error img"></img>
                                 </div>
                                 <div className="textrow1 col-6 p-0 m-0" style={{ width: '100%' }}>
                                     <div className="wrap-textrow1">
@@ -185,7 +175,7 @@ const Content = () => {
                                 </div>
                             </div>
                             <div className="col-xl-5 col-12 p-0 m-0 myfiximg-01">
-                                <img src={ctend03} href=""></img>
+                                <img src={ctend03} alt="error img"></img>
                             </div>
                         </div>
                         <div className="col-xl-5 col-12 row">
@@ -199,7 +189,7 @@ const Content = () => {
                             </div>
 
                             <div className="col p-0 m-0">
-                                <img src={ctend04} href="" style={{ width: '100%' }}></img>
+                                <img src={ctend04} alt="error img" style={{ width: '100%' }}></img>
                             </div>
 
 
@@ -209,7 +199,7 @@ const Content = () => {
                     </div>
                 </div>
                 <div className="ct-intro-footer">
-                    <img src={ctend05}></img>
+                    <img src={ctend05} alt="error img"></img>
                     <span className="footer-row1">{dataText.seventhP.lowfirstT}<span>{dataText.seventhP.upfirstT}</span></span>
                     <span className="footer-row2">{dataText.seventhP.lowsecondT}</span>
                 </div>
