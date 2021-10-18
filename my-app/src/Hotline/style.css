@@ -1,7 +1,7 @@
 .hotline{
     display: none;
     position: fixed;
-    z-index: 9999;
+    z-index: 99999;
     bottom: 15%
 }
 @media (max-width: 700px) {

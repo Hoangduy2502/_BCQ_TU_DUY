@@ -12,7 +12,6 @@ const Index = () => {
     const [activeTab3, setActiveTab3] = useState("tab-pane fade")
     const [activeTab4, setActiveTab4] = useState("tab-pane fade")
     const [activeTab5, setActiveTab5] = useState("tab-pane fade")
-    console.log("TEST3",activeTab2)
     
     return (
         <div className="body">

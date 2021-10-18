@@ -66,7 +66,7 @@
     font: normal normal bold 30px/37px Montserrat-Bold;
     letter-spacing: 0px;
     color: #840C16;
-    width: 478px;
+    width: 480px;
     height: 74px;
     margin-left: auto;
 }
@@ -101,6 +101,11 @@
     left: 116px;
      width: 929px;
      height: 1065px;
+}
+@media (max-width: 1333px) {
+    .ct-boss .imgboss{
+        left: 0;
+    }
 }
 .ct-boss .nameboss{
     display: block;
@@ -304,7 +309,8 @@ span{
 .body-row1 > div:nth-child(4){
     padding: 0;
     margin: 0;
-}
+    align-self: flex-start;
+}   
 .col-nth3 > div:first-child{
     display: flex;
     align-items: center;
@@ -319,10 +325,13 @@ span{
     left: 18px;
 }
 .myfiximg-01{
-    align-self: flex-end;
+    /* align-self: flex-end; */
 }
 .myfiximg-01 > img{
    width: 85.7%;
+}
+.footer-custom{
+    background-color: #ffb300;
 }
 .textrow1-head{
     text-align: left;

@@ -3,7 +3,6 @@ import data from "./Product/index.js"
 const Text = (props) => {
    
     const {TextData,text}=props
-    console.log("TEST2",TextData)
     return (
         <div className="row container-fuild p-2 ">
             <div className="col-4 mt-2 " style={{alignSelf: "center"}}>

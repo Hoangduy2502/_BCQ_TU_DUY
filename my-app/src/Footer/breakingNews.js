@@ -10,9 +10,9 @@ const BreakingNews = (props) => {
 
     list = Object.values(DataTT).slice(0, 3)
     var list2 = Object.values(DataTT).slice(3, 6)
-    const listItems = list.map((book) => {
+    const listItems = list.map((book, index) => {
         return (
-            <div className="row col-4 p-0 m-0 flex-nowrap">
+            <div key={index} className="row col-4 p-0 m-0 flex-nowrap">
                 <img className="img-carousel col-5" src={book.img} alt="First slide" />
                 <span className="text-news col-7">
                     <div className="text-news-header">{book.name}</div>
@@ -22,22 +22,21 @@ const BreakingNews = (props) => {
             </div>
         )
     })
-    const listItems2 = list2.map((book) => {
+    const listItems2 = list2.map((book, index) => {
         return (
-            <div className="row col-4 p-0 m-0 flex-nowrap">
+            <div key={index}  className="row col-4 p-0 m-0 flex-nowrap">
                 <img className="img-carousel col-5 " src={book.img} alt="First slide" />
                 <span className="text-news col-7">
                     <div className="text-news-header">{book.name}</div>
                     <div className="text-news-body">{book.content}</div>
                     <div className="text-news-date">{book.date}</div>
                 </span>
-
             </div>
         )
     })
-    const listItemsMobile = Object.values(DataTT).map((book) => {
+    const listItemsMobile = Object.values(DataTT).map((book, index) => {
         return (
-            <li>
+            <li key={index}>
                 <img className="img-carousel p-0" src={book.img} alt="First slide" sty />
                 <span className="text-news">
                     <div className="text-news-header">{book.name}</div>
@@ -47,7 +46,6 @@ const BreakingNews = (props) => {
             </li>
         )
     })
-    console.log(listItemsMobile);
     return (
         <div style={{ width: '100%' }}>
 
@@ -56,12 +54,12 @@ const BreakingNews = (props) => {
                 <div id="tintucmoinhat" className="carousel slide breaking-news container p-0" data-ride="carousel" data-interval="false">
                     <div className="carousel-inner">
                         <div className="carousel-item my-inner active">
-                            <div className="row ">
+                            <div className="row m-0">
 
                                 {listItems}
                             </div>
                         </div>
-                        <div className="carousel-item my-inner ml-3">
+                        <div className="carousel-item my-inner m-0">
                             <div className="d-flex p-0">
                                 {listItems2}
                             </div>

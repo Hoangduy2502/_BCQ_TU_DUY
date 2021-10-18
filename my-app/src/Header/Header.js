@@ -72,8 +72,8 @@ const Header = (props) => {
                         </li>
                     </ul>
                     <div className="Nav-Phone ">
-                        <nav class="navbar navbar-dark  icon ">
-                            <button class="navbar-toggler" style={{ marginLeft: "auto" }} type="button" data-toggle="collapse" data-target="#NavPhone" aria-controls="NavPhone" aria-expanded="false" aria-label="Toggle navigation">
+                        <nav className="navbar navbar-dark  icon ">
+                            <button className="navbar-toggler" style={{ marginLeft: "auto" }} type="button" data-toggle="collapse" data-target="#NavPhone" aria-controls="NavPhone" aria-expanded="false" aria-label="Toggle navigation">
 {/* <span class="navbar-toggler-icon"></span> */}
                                 <img src={navbar ? iconShow : iconNav} />
                             </button>
