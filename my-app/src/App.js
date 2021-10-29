@@ -11,7 +11,7 @@ import "./App.css"
 import BreakingNews from './Footer/breakingNews';
 import Data1 from './contant/index';
 import './Footer/footer.css'
-import UpPost from './AD';
+// import UpPost from './AD';
 import iconBack from "../src/Header/img/iconBack.png"
 import Hotline from './Hotline';
 import {
@@ -60,7 +60,7 @@ function App() {
     return check === true ?
       <div className="modal-menu" style={{ width: "100%" }}>
         <div className="modaliframe">
-          <iframe className="MenuiFrame" src="https://menu.banhcuonquyen.vn/" frameborder="0" type="text/html"></iframe>
+          <iframe className="MenuiFrame" src="http://192.168.1.6:3001" frameborder="0" type="text/html"></iframe>
           <img className="iconBack" onClick={Menu} src={iconBack} alt="error img"/>
 
         </div>
@@ -93,7 +93,7 @@ function App() {
         <Switch>
           <Route exact path="/">
             <Index />
-            <UpPost shows={{ show1, setShow1 }} />
+            {/* <UpPost shows={{ show1, setShow1 }} /> */}
             <Rating />
             <Footer cus={<BreakingNews DataTT={data} />} />
           </Route>

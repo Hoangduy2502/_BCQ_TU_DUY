@@ -68,7 +68,7 @@ const Header = (props) => {
                             <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="/News">Tin tức</a>
                         </li>
                         <li className="nav-items">
-                            <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="#Contact">Liên hệ</a>
+                            <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="#c                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ontact">Liên hệ</a>
                         </li>
                     </ul>
                     <div className="Nav-Phone ">
