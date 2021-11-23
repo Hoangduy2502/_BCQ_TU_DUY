@@ -1,16 +1,16 @@
 import { GraphQLClient, gql } from 'graphql-request'
 import GrapQlClient from './GrapQlClient'
-export default async (id)=> {
+export default async ()=> {
 
     const query = gql`
     {
-        getBlogs(where:{id:${id}}){
+       
+        getBlogs(limit:4){
             id
             title
             content
             created_at
             description
-            small_title
             image_link
         }
     }

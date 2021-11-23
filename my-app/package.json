@@ -22,7 +22,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy:dev": "bash ./EXCUTE_ENV.sh dev && react-scripts start",
+    "deploy:prod": "bash ./EXCUTE_ENV.sh prod && react-scripts start",
+    "build:dev": "bash ./EXCUTE_ENV.sh dev && react-scripts build",
+    "build:prod": "bash ./EXCUTE_ENV.sh prod && react-scripts build"
   },
   "eslintConfig": {
     "extends": [

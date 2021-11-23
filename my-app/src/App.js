@@ -61,7 +61,7 @@ function App() {
     
     async function test()
     {
-      const news= await ContanstGraphSql.getBlogs()
+      const news= await ContanstGraphSql.getBlogLimit()
       setIsnewsData(news)
     }
     test()
@@ -107,7 +107,7 @@ function App() {
             <Index />
             {/* <UpPost shows={{ show1, setShow1 }} /> */}
             <Rating />
-            <Footer  cus={<BreakingNews DataTT={data} isnewsData={isnewsData} />}/>
+            <Footer  cus={<BreakingNews DataTT={data} isnewsData={isnewsData} setIsnewsData={setIsnewsData}/>}/>
           </Route>
           <Route path="/Introduction">
             <GioiThieu />
@@ -121,7 +121,7 @@ function App() {
             <Footer cus={nullFooter()} />
           </Route>
           <Route path="/News">
-            <TinTuc isnewsData={isnewsData}/>
+            <TinTuc isnewsData={isnewsData} setIsnewsData={setIsnewsData}/>
             <Footer cus={nullFooter()} />
           </Route>
         </Switch>

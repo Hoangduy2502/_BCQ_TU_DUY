@@ -11,8 +11,8 @@ const BreakingNews = (props) => {
         return (
             <div key={book.id} className="row col-4 p-0 m-0 flex-nowrap" >
                 <img className="img-carousel col-5" src={imgmb1} alt="First slide" />
-                <span className="text-news col-7">
-                    <div className="text-news-header">{book.title}</div>
+                <span className="text-news col-7" >
+                    <a className="text-news-header" href={`/News?id=${book.id}#challenge`}>{book.title}</a>
                     <div className="text-news-body">{book.description}</div>
                     <div className="text-news-date">{book.created_at}</div>
                 </span>
@@ -20,19 +20,18 @@ const BreakingNews = (props) => {
         )
     })
     console.log("TEST12345678", listItems)
-    const listItemsMobile = Object.values(DataTT).map((book, index) => {
+    const listItemsMobile = isnewsData != null && isnewsData.getBlogs.map((book, index) => {
         return (
             <li key={index}>
-                <img className="img-carousel p-0" src={book.img} alt="First slide" sty />
+                <img className="img-carousel p-0" src={book.imgmb1} alt="First slide" />
                 <span className="text-news">
-                    <div className="text-news-header">{book.name}</div>
-                    <div className="text-news-body">{book.content}</div>
-                    <div className="text-news-date">{book.date}</div>
+                    <a className="text-news-header" href={`/News?id=${book.id}`}>{book.title}</a>
+                    <div className="text-news-body">{book.description}</div>
+                    <div className="text-news-date">{book.created_at}</div>
                 </span>
             </li>
         )
     })
-
     const scroll = (direction, Element) => {
         if (Element != undefined && Element.childNodes != null && Element.childNodes.length > 0) {
 
@@ -60,12 +59,11 @@ const BreakingNews = (props) => {
                     <img src={prebtn} onClick={() => {
                         scroll(false, element.current)
                     }
-
-                    }></img>
+                    } style={{marginLeft:"20px"}}></img>
                     <ul ref={element}>
                         {listItems}
                     </ul>
-                    <img src={nextbtn} onClick={()=>scroll(true, element.current)} ></img>
+                    <img src={nextbtn} onClick={()=>scroll(true, element.current)} style={{marginRight:"20px"}}></img>
                 </div>
 
             </div>
@@ -73,7 +71,6 @@ const BreakingNews = (props) => {
             <div className="slide-mobie-footer">
                 <img src={imgsupport} className="fix-imgFooter" alt=""></img>
                 <span className="tintucmoinhat container">Tin tức mới nhất</span>
-
                 <ul>
                     {listItemsMobile}
                 </ul>
