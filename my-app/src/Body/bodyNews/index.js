@@ -1,9 +1,10 @@
 import React from 'react';
 import News from './News';
-const index = () => {
+const index = (props) => {
+    const {isnewsData}=props
     return (
         <div>
-            <News></News>
+            <News isnewsData={isnewsData}></News>
         </div>
     );
 }

@@ -226,9 +226,7 @@
     justify-content: space-between;
     margin-bottom: 20px;
 }
-.ct-multiRow .fisrtimgs img{
-    height: 140px;
-}
+
 .ct-multiRow .secondimgs{
     display: flex;
     justify-content: space-between;

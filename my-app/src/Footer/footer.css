@@ -300,6 +300,32 @@
     height: 463px;
 }
 
+.slide-pc-footer
+{
+    margin-top: 400px;
+}
+.slideFooter ul{
+    padding: 0;
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    position: relative;
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: 200px;
+    width: 100%;
+    align-items: center;
+    margin:0 auto;
+    margin-left: 70px;
+}
+.slideFooter ul::-webkit-scrollbar{
+    display: none;
+}
+.slideFooter
+{
+    display: flex;
+    align-items: center;
+}
 @media (min-width: 1200px) and (max-width: 1650px) {
     .contentfooter {
         margin-top: -420px;
@@ -322,6 +348,9 @@
 }
 
 @media (max-width: 755px) {
+    .ct-multiRow .fisrtimgs img{
+        height: 140px;
+    }
     .news-re-mobile {
         flex-direction: column-reverse;
     }

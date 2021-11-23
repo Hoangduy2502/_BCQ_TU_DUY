@@ -2,25 +2,34 @@ import React from 'react';
 import data from "../../contant/index"
 import "./new.css"
 import iconFB from "./img/IconFB.png"
-const News = () => {
-    const dataTTNews = Object.values(data.Data)
+import test from "./img/2.png"
+import ContanstGraphSql from '../../ContanstGraphSql';
+const News = (props) => {
+    
     const DataDetail = data.DataDetail
-    const listNews = dataTTNews.map((list) => {
+    const {isnewsData} = props
+    const [isDetailNews,setIsDetailNews]=React.useState({})
+    const onClickgetDetail=async(id)=>
+    {
+        const detail= await ContanstGraphSql.getDetailBlogs(id)
+        setIsDetailNews(detail.getBlogs[0])
+    }
+    console.log("TEST",isDetailNews)
+    const listNews = isnewsData != null && isnewsData.getBlogs.map((list) => {
         return (
-            <div className="justify-content-center container" >
+            <div className="justify-content-center container" onClick={()=>{onClickgetDetail(parseInt(list.id))}}>
                 <div className="d-flex NewHot justify-content-center container " >
-                    <img className="pt-3 mb-4 " src={list.img2} />
-                    <span className="col-6 pt-4">
-                        <label className="NameNews" >{list.name}</label>
-                        <label className="DateNew" >{list.date}</label>
+                    <img className="pt-3 mb-4 " src={test}/>
+                    <span className="col-6 pt-4 ">
+                        <label className="NameNews" >{list.description}</label><br/>
+                        <label className="DateNew" >{list.created_at}</label>
                     </span>
                 </div>
                 <hr width="80%" color="black" align="center" size="2px"></hr>
             </div>
-
         )
-
     })
+    console.log("TEST",listNews)
     const onClickLink = () => {
         window.open("https://www.facebook.com/banhcuonquyenhaiphong")
     }
@@ -46,7 +55,7 @@ const News = () => {
                         </div>
                     </div>
                     <div className="row">
-                        <label className="TitileNews"> {DataDetail.Title}</label>
+                        <label className="TitileNews"> {isDetailNews.title}</label>
                     </div>
                     <div className="row container p-5 reviews" >
                         <label className="Review" >{DataDetail.Reviews}</label>
@@ -54,19 +63,14 @@ const News = () => {
                     <div className="row container-fuild " >
                         <img className="img1" src={DataDetail.img1} style={{ width: "100%" }} />
                     </div>
-                    <div className="row container-fuild  pt-4" >
-                        <label className="Text">{DataDetail.Text1}</label>
-                    </div>
-                    <div className="row pt-4 news-re-mobile" >
-                        <div className="col-sm-5 col-12 p-0">
-                            <img src={DataDetail.img2} style={{ width: "100%" }} />
-                        </div>
-                        <div className="col-sm-7 col-12 news-pl">
-                            <label><pre className="Text">{DataDetail.Text2}</pre></label>
-                        </div>
+                    <div className="row pt-4  container-fuild" >
+                        <label className="Text" style={{ width: "100%", whiteSpace: "pre-line" }}>{DataDetail.Text2}</label>
+                        <label className="Text" style={{ width: "100%", whiteSpace: "pre-line" }}>{DataDetail.Text1}</label>
+                        <label className="Text" style={{ width: "100%", whiteSpace: "pre-line" }}>{DataDetail.Text3}</label>
                     </div>
                     <div className="row container-fluid" style={{ paddingLeft: '0px', paddingTop: '36px' }}>
-                        <label className="Commnet"><pre>{DataDetail.Comment}</pre></label>
+                        <label style={{ width: "100%", whiteSpace: "pre-line" }} className="Commnet">{DataDetail.Comment}</label>
+                        <a href="tel:0977586799" className="call"><span>Số điện thoại: 0977586799</span></a>
                     </div>
 
                 </div>

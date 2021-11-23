@@ -1,14 +1,15 @@
-import anh1 from "../Body/bodyNews/img/shipnhanh.png"
+import anh1 from "../Body/bodyNews/img/news.jpg"
 import anh2 from "../Body/bodyNews/img/postup.png"
 var space="\n"
 
 export default
     {
-        Title:"💪 THÁCH CẢ HẢI PHÒNG ĂN BÁNH CUỐN \" MIÊN PHÍ \"- BẠN DÁM THỬ KHÔNG ?",
-        Reviews:"👏 👏 𝗕𝗮́𝗻𝗵 𝗖𝘂𝗼̂́𝗻 𝗤𝘂𝘆𝗲̂𝗻 khao cả Hải Phòng ăn bánh cuốn miễn phí với #thách_thức_đúng_giờ chưa từng có.⏰ Canh giờ ship đúng giờ có ngay 𝒃𝒂́𝒏𝒉 𝒄𝒖𝒐̂́𝒏 𝒎𝒊𝒆̂̃𝒏 𝒑𝒉𝒊́",
-        Text1:"Từ 30/09 đến 09/10, tất cả khách hàng đặt ship bánh cuốn tại #Bánh_Cuốn_Quyên sẽ được hoàn tiền 100% đơn hàng cùng với phí ship khi shipper đến chậm #1_phút so với thời gian đã đặt trước.⏰Thời gian nhận ship: 6h->22h hàng này🛵 Giá ship vẫn đồng giá 7k trong bán kính 5km",
-        Text2:"✅ CÁCH THỨC tham gia thử thách:\n• Bước 1: Tag tên 2 người bạn và c.o.m.m.e.n.t\n từ khóa \" Thách thức đúng giờ \"\n• Bước 2: Bánh Cuốn Quyên sẽ i.b cho bạn ngay\nvà làm theo hướng dẫn trong inbox của page.\n• Bước 3: Nếu shipper giao hàng đến chậm 1 phút,\n bạn chụp lại chứng minh và gửi cho page để\n xác nhận và được hoàn tiền cho đơn hàng đó\n📍 Thử thách này chỉ áp dụng cho bánh cuốn chay\nchả và khách hàng đặt hàng trước tối thiểu 1 giờ\n👉 Ngồi thảnh thơi bấm giờ đợi chờ ship tới được ăn\n#bánh cuốn miễn phí ngại gì mà không đăng kí\ntham gia thử thách\n ngay thôi !!!\n📝 Thời gian thử thách bắt đầu:\nTừ ngày 30/9 đến ngày 9/10",
-        Comment:"📍 Bánh cuốn Quyên \n🏪 Số 208 & 222 Hai Bà Trưng, Lê Chân Hải Phòng. \n📲 0934222788",
+        Title:"💪 Bánh Cuốn Quyên tuyển dụng nhiều vị trí nhân sự!",
+        Reviews:"👏 👏 Bánh Cuốn Quyên tuyển dụng nhiều vị trí nhân sự!",
+        Text1:"✅2/ Thu ngân:\n Số lượng 2 người, nữ.\nFull time: 2 ca chính: từ 6g đến 14g và 13h30 đến 21g30.\n Lương cứng 4,5 triệu (30 công) + 300k chuyên cần (đủ 28 công) + 200k trách nhiệm, bao ăn tại cửa hàng.\nYêu cầu: có bằng kế toán hoặc kinh nghiệm thu ngân tại nhà hàng. Công việc chính: thu ngân, ghi order cho khách, nhập dữ liệu và báo cáo doanh thu cuối ca; hỗ trợ cửa hàng.",
+        Text2:"✅1/ Tuyển nhân viên phục vụ:\nSố lượng 3 người, nữ Full- time: \n2 ca chính: 6g đến 14g và 13h30 đến 21g30\n Lương cứng: 4,3 triệu (30 công) + 300k chuyên cần (chỉ cần đủ 28 công), bao ăn tại CH + đạt doanh số cửa hàng. Tăng lương sau 2 tháng khi thạo việc. \nPart-time: 20k/giờ. Thời gian: 17g30 đến 21g30 hàng ngày, hoặc ca sáng thứ 7 - CN.\n Yêu cầu: chăm chỉ, nhiệt tình và có tinh thần học hỏi; chấp nhận sinh viên, mới ra trường hoặc phụ nữ lớn tuổi, không có kinh nghiệm được đào tạo. Công việc chính: phục vụ bàn, ghi đơn, đóng gói hàng online, đảm bảo vệ sinh khu vực phục vụ khách. ",
+        Text3:"✅3/ Nhân viên hành chính nhân sự:\nSố lượng 1 người, lương thỏa thuận.\nYêu cầu: có kinh nghiệm quản lý nhà hàng, quản lý nhân sự.\n Công việc chính: làm bảng lương, chấm công, tuyển dụng và đào tạo nhân viên mới theo quy trình, theo dõi và hỗ trợ hoạt động của cửa hàng.",
+        Comment:"Liên hệ phỏng vấn: Ms Thủy",
         img1:anh1,
         img2:anh2,
         date:"29/9/2021",

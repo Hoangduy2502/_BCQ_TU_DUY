@@ -14,6 +14,7 @@ import './Footer/footer.css'
 // import UpPost from './AD';
 import iconBack from "../src/Header/img/iconBack.png"
 import Hotline from './Hotline';
+import ContanstGraphSql from './ContanstGraphSql';
 import {
   BrowserRouter as Router,
   Switch,
@@ -21,13 +22,13 @@ import {
 } from "react-router-dom";
 import react, { useState } from 'react';
 import Lesteats from './Body/bodyLetsEat/index';
+import React from 'react';
 function App() {
   const data = Data1.Data
-
   const [check, setcheck] = useState(false)
   const [show, setshow] = useState(true);
   const [show1, setShow1] = useState(true);
-
+  const [isnewsData,setIsnewsData] =useState(null)
   const Menu = async () => {
     if (check === false) {
       setcheck(true)
@@ -55,12 +56,23 @@ function App() {
     )
   }
 
+  React.useEffect(async()=>
+  {
+    
+    async function test()
+    {
+      const news= await ContanstGraphSql.getBlogs()
+      setIsnewsData(news)
+    }
+    test()
+  
+  },[])
   const Items = () => {
 
     return check === true ?
       <div className="modal-menu" style={{ width: "100%" }}>
         <div className="modaliframe">
-          <iframe className="MenuiFrame" src="http://192.168.1.6:3001" frameborder="0" type="text/html"></iframe>
+          <iframe className="MenuiFrame" src="http://menu.banhcuonquyen.vn" frameborder="0" type="text/html"></iframe>
           <img className="iconBack" onClick={Menu} src={iconBack} alt="error img"/>
 
         </div>
@@ -95,7 +107,7 @@ function App() {
             <Index />
             {/* <UpPost shows={{ show1, setShow1 }} /> */}
             <Rating />
-            <Footer cus={<BreakingNews DataTT={data} />} />
+            <Footer  cus={<BreakingNews DataTT={data} isnewsData={isnewsData} />}/>
           </Route>
           <Route path="/Introduction">
             <GioiThieu />
@@ -109,7 +121,7 @@ function App() {
             <Footer cus={nullFooter()} />
           </Route>
           <Route path="/News">
-            <TinTuc />
+            <TinTuc isnewsData={isnewsData}/>
             <Footer cus={nullFooter()} />
           </Route>
         </Switch>
