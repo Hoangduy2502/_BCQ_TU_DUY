@@ -65,7 +65,7 @@ const Header = (props) => {
                             <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="">Ăn gì hôm nay!</a>
                         </li>
                         <li className="nav-items">
-                            <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="/News?id=1">Tin tức</a>
+                            <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="/News#challenge">Tin tức</a>
                         </li>
                         <li className="nav-items">
                             <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="#c                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ontact">Liên hệ</a>
@@ -89,7 +89,7 @@ const Header = (props) => {
                                 <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="/#Product">Sản phẩm</a>
                             </li>
                             <li className="nav-items ">
-                                <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="/News">Tin tức</a>
+                                <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="/News#challenge">Tin tức</a>
                             </li>
 
                             <li className="nav-items ">

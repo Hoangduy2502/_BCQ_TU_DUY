@@ -29,6 +29,7 @@ function App() {
   const [show, setshow] = useState(true);
   const [show1, setShow1] = useState(true);
   const [isnewsData,setIsnewsData] =useState(null)
+  const [datanews,setDatanews] = useState(null)
   const Menu = async () => {
     if (check === false) {
       setcheck(true)
@@ -59,20 +60,27 @@ function App() {
   React.useEffect(async()=>
   {
     
-    async function test()
+    async function getBlogs()
     {
-      const news= await ContanstGraphSql.getBlogLimit()
+      const news= await ContanstGraphSql.getBlogLimit(6)
+      // const newsLimit= await ContanstGraphSql.getBlogLimit(4)
       setIsnewsData(news)
+      
     }
-    test()
-  
+    async function getBlogs2()
+    {
+      const news= await ContanstGraphSql.getBlogLimit(4)
+      setDatanews(news)
+    }
+    getBlogs()
+    getBlogs2()
   },[])
   const Items = () => {
 
     return check === true ?
       <div className="modal-menu" style={{ width: "100%" }}>
         <div className="modaliframe">
-          <iframe className="MenuiFrame" src="http://menu.banhcuonquyen.vn" frameborder="0" type="text/html"></iframe>
+          <iframe className="MenuiFrame" src="http://menu.banhcuonquyen.vn/" frameborder="0" type="text/html"></iframe>
           <img className="iconBack" onClick={Menu} src={iconBack} alt="error img"/>
 
         </div>
@@ -121,7 +129,7 @@ function App() {
             <Footer cus={nullFooter()} />
           </Route>
           <Route path="/News">
-            <TinTuc isnewsData={isnewsData} setIsnewsData={setIsnewsData}/>
+            <TinTuc isnewsData={datanews} setIsnewsData={setDatanews}/>
             <Footer cus={nullFooter()} />
           </Route>
         </Switch>

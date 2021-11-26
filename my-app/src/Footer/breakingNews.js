@@ -10,7 +10,10 @@ const BreakingNews = (props) => {
     const listItems = isnewsData != null && isnewsData.getBlogs.map((book) => {
         return (
             <div key={book.id} className="row col-4 p-0 m-0 flex-nowrap" >
-                <img className="img-carousel col-5" src={imgmb1} alt="First slide" />
+                  {
+                    book.thumbnail != null &&
+                    <img className="img-carousel p-0" src={process.env.REACT_APP_API_IMG + book.thumbnail.formats.thumbnail.url} alt="First slide" />
+                }
                 <span className="text-news col-7" >
                     <a className="text-news-header" href={`/News?id=${book.id}#challenge`}>{book.title}</a>
                     <div className="text-news-body">{book.description}</div>
@@ -23,7 +26,10 @@ const BreakingNews = (props) => {
     const listItemsMobile = isnewsData != null && isnewsData.getBlogs.map((book, index) => {
         return (
             <li key={index}>
-                <img className="img-carousel p-0" src={book.imgmb1} alt="First slide" />
+                 {
+                    book.thumbnail != null &&
+                    <img className="img-carousel p-0" src={process.env.REACT_APP_API_IMG + book.thumbnail.formats.thumbnail.url} alt="First slide" />
+                }
                 <span className="text-news">
                     <a className="text-news-header" href={`/News?id=${book.id}`}>{book.title}</a>
                     <div className="text-news-body">{book.description}</div>
