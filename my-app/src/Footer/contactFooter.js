@@ -1,10 +1,10 @@
 import React from 'react';
 import './footer.css';
 import logocontact from './img/logocontact.png'
-import facebookfooter from './img/facebookfooter.png'
-import imgsupport from './img/imgsupport.png'
+// import facebookfooter from './img/facebookfooter.png'
+// import imgsupport from './img/imgsupport.png'
 import Zalo from './img/Zalo.gif'
-import Youtube from "./img/Youtube.gif"
+import Youtube from "./img/Youtube.webp"
 const ContactFooter = () => {
     const onClickZalo = () => {
         window.location.href = "https://zalo.me/4256600821482246309?gidzl=KbCW1pTAXLzHJ2G5D5U1K59990KgKOSBI4WX1dy6XGWR625TBmY40niKSLSk189O7Kvm0ZLMA91iDKc0Mm"

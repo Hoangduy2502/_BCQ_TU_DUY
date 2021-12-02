@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import React  from 'react';
 import './footer.css'
-import prebtn from './img/preicon.png'
-import nextbtn from './img/nexticon.png'
-import imgmb1 from './img/1.png'
+import prebtn from './img/preicon.webp'
+import nextbtn from './img/nexticon.webp'
+// import imgmb1 from './img/1.webp'
 import imgsupport from './img/imgsupport.png'
 const BreakingNews = (props) => {
     const { DataTT, isnewsData } = props
@@ -61,7 +61,7 @@ const BreakingNews = (props) => {
         <div style={{ width: '100%' }}>
             <div className='slide-pc-footer'>
                 <span className="tintucmoinhat container p-0">Tin tức mới nhất</span>
-                <div className="slideFooter">
+                <div className="slideFooter container">
                     <img src={prebtn} onClick={() => {
                         scroll(false, element.current)
                     }
@@ -69,7 +69,7 @@ const BreakingNews = (props) => {
                     <ul ref={element}>
                         {listItems}
                     </ul>
-                    <img src={nextbtn} onClick={()=>scroll(true, element.current)} style={{marginRight:"20px"}}></img>
+                    <img src={nextbtn} onClick={()=>scroll(true, element.current)} style={{marginLeft:"30px"}}></img>
                 </div>
 
             </div>

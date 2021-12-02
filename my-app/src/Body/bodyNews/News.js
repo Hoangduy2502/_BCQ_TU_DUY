@@ -1,44 +1,31 @@
 import React, { useRef } from 'react';
-import data from "../../contant/index"
 import "./new.css"
 import iconFB from "./img/IconFB.png"
-import test from "./img/2.png"
 import ContanstGraphSql from '../../ContanstGraphSql';
 import LoadingScreen from 'react-loading-screen';
-import BreakingNews from '../../Footer/breakingNews';
 const News = (props) => {
-    const { marked } = require('marked');
-
-    const DataDetail = data.DataDetail
-    const { isnewsData, setIsnewsData } = props
+    const { isnewsData, setIsnewsData  } = props
   
     const [isDetailNews, setIsDetailNews] = React.useState({})
     const [isLoading, setIsLoading] = React.useState(false)
     const [newmobile,setNewmobile]= React.useState(null)
-    
     var url_string = window.location.href;
     var url = new URL(url_string);
     var client_id = React.useRef(url.searchParams.get("id") ? url.searchParams.get("id") : null);
-    // var checkLoad=React.useRef(0)
     React.useEffect(() => {
         const onClickgetDetail = async () => {
             if(client_id.current == null )
             {
                 const data= await ContanstGraphSql.getBlogs()
                     setIsDetailNews(data.getBlogs[0])
-                
-
             }
             else {
                 const detail = await ContanstGraphSql.getDetailBlogs(parseInt(client_id.current))
                 setIsDetailNews(detail.getBlogs[0])
             }
-            
-
         }
         onClickgetDetail()
     }, [client_id.current])
-  
     const listNews = isnewsData != null && isnewsData.getBlogs.map((list) => {
         return (
             <a href={`/News?id=${list.id}#challenge`}>
@@ -48,14 +35,11 @@ const News = (props) => {
                             {
 
                                 list.thumbnail != null &&
-                                < img className="pt-3 mb-4 w-100 h-100" src={process.env.REACT_APP_API_IMG + list.thumbnail.formats.thumbnail.url} />
+                                < img className="pt-3 mb-4 w-100" src={process.env.REACT_APP_API_IMG + list.thumbnail.formats.thumbnail.url} />
                             }
-
-
                         </div>
-
-                        <span className="col-6 pt-4 ">
-                            <label className="NameNews" >{list.title}</label><br />
+                        <span className="col-6 pt-2 ">
+                            <label className="NameNews" >{list.small_title}</label><br />
                             <label className="DateNew" >{list.created_at}</label>
                         </span>
                     </div>
@@ -74,7 +58,6 @@ const News = (props) => {
         await ContanstGraphSql.getBlogs().then((val) => {
             setIsnewsData(val);
             setIsLoading(false)
-
         }
         ).catch((err) => {
             console.log("LỖI", err)
@@ -91,7 +74,7 @@ const News = (props) => {
     }
     React.useEffect(()=>{
         async function getAllmobile(){
-            const data= await ContanstGraphSql.getBlogs().then((val)=>
+            await ContanstGraphSql.getBlogs().then((val)=>
             setNewmobile(val)
             )
             
@@ -123,6 +106,7 @@ const News = (props) => {
                         <li><a>Trang chủ</a></li>
                         <li>/</li>
                         <li><a>Tin Tức</a></li>
+                        <li>/{isDetailNews.title}</li>
                     </ul>
                 </div>
             </div>
@@ -140,14 +124,10 @@ const News = (props) => {
                         <label className="TitileNews"> {isDetailNews.title}</label>
                     </div>
                     <div className="row container p-5 reviews" >
-                        <label className="Review" >{isDetailNews.small_title}</label>
+                        <label className="Review" >{isDetailNews.description}</label>
                     </div>
-                    {/* <div className="row container-fuild " >
-                        <img className="img1" src={isDetailNews.image_link} style={{ width: "100%" }} />
-                    </div> */}
                     <div className="row pt-4  container-fuild" >
                         <div style={{ width: "100%", whiteSpace: "pre-line" }} className="Commnet" dangerouslySetInnerHTML={createMarkup(isDetailNews.content)}></div>
-                        {/* {console.log(isDetailNews.content.replaceAll('src="','src="https://up-dev.banhcuonquyen.vn'))} */}
                     </div>
 
                 </div>
@@ -177,11 +157,9 @@ const News = (props) => {
                             <div className="row d-flex allNew justify-content-center " style={{ cursor: "pointer" }} onClick={Reset}>
                                 <a className="row mt-4" >Quay Lại</a>
                             </div>
-
                     }
 
                 </div>
-                
             </div>
             <div className='slide-mobie-footer'>
             <ul>

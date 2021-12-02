@@ -1,7 +1,7 @@
 import Header from './Header/Header';
 import Index from './Body/bodyHome/index';
 import Footer from './Footer';
-import DatHang from "./Header/img/Dathang.png"
+import DatHang from "./Header/img/Dathang.webp"
 import "./index.css"
 import GioiThieu from "./Body/bodyIntroduce/index"
 import SanPham from "./Body/bodyProduct/index"
@@ -12,7 +12,7 @@ import BreakingNews from './Footer/breakingNews';
 import Data1 from './contant/index';
 import './Footer/footer.css'
 // import UpPost from './AD';
-import iconBack from "../src/Header/img/iconBack.png"
+import iconBack from "../src/Header/img/iconBack.webp"
 import Hotline from './Hotline';
 import ContanstGraphSql from './ContanstGraphSql';
 import {
@@ -20,9 +20,8 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-import react, { useState } from 'react';
 import Lesteats from './Body/bodyLetsEat/index';
-import React from 'react';
+import React,{useState} from 'react';
 function App() {
   const data = Data1.Data
   const [check, setcheck] = useState(false)
@@ -36,7 +35,6 @@ function App() {
       setshow(false)
 
     }
-
     else {
       setcheck(false)
       setshow(true)
@@ -80,11 +78,9 @@ function App() {
     return check === true ?
       <div className="modal-menu" style={{ width: "100%" }}>
         <div className="modaliframe">
-          <iframe className="MenuiFrame" src="http://menu.banhcuonquyen.vn/" frameborder="0" type="text/html"></iframe>
+          <iframe className="MenuiFrame" src="https://menu.banhcuonquyen.vn" frameborder="0" type="text/html"></iframe>
           <img className="iconBack" onClick={Menu} src={iconBack} alt="error img"/>
-
         </div>
-
       </div>
       : <>
         <img className="DathangPC" src={DatHang} onClick={Menu} data-aos="fade-up" alt="error img"/>
@@ -109,7 +105,6 @@ function App() {
           <Items />
         </div>
         <Hotline />
-
         <Switch>
           <Route exact path="/">
             <Index />

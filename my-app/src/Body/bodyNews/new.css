@@ -110,4 +110,8 @@
 .Commnet img{
     width: 100%;
 }
+.Commnet
+{
+    font: inherit;
+}
 

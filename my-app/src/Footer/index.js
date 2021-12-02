@@ -1,8 +1,8 @@
 import React from 'react';
 import Data1 from '../contant/index';
-import BreakingNews from './breakingNews';
+// import BreakingNews from './breakingNews';
 import ContactFooter from './contactFooter'
-import Logo from './img/Group28.png'
+import Logo from './img/Group28.webp'
 
 const Footer = (props)=>{
     const data=Data1.Data

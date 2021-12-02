@@ -1,10 +1,10 @@
-import img from "../Footer/img/carousel01.png"
+import img from "../Footer/img/carousel01.webp"
 import img2 from "../Body/bodyNews/img/2.png"
 import ThuongHieu from "../Footer/img/Thuonghieu.png"
 import Trainghiem from "../Footer/img/Trainghiem.png"
-import ship6h from "../Footer/img/ship6h.png"
+import ship6h from "../Footer/img/ship6h.webp"
 import NuocCham from "../Footer/img/Nuocham.png"
-import Giaohang from "../Footer/img/Giaohang.png"
+import Giaohang from "../Footer/img/Giaohang.webp"
 export default {
     1:{
         name:"Bánh cuốn quyên ra mắt thương hiệu mới ",

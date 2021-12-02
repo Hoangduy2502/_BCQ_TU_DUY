@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import Path26 from "../img/Group158.png"
+import Path26 from "../img/Group158.webp"
 import "../body.css"
-
 import TabMenu from './TabMenu';
 import Text from './Text';
 import Aos from 'aos';

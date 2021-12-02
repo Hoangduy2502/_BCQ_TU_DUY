@@ -34,7 +34,7 @@
 }
 .nen{
     position: relative;
-    background-image: url("./img/nen.png");
+    background-image: url("./img/nen.webp");
     width: 100%;
     height: calc(100vh + 100px);
     background-repeat: no-repeat;
@@ -44,7 +44,7 @@
 }
 .nen01{
     position: relative;
-    background-image: url("./img/nen01.png");
+    background-image: url("./img/nen01.webp");
     width: 100%;
     height: calc(100vh + 100px);
     background-repeat: no-repeat;

@@ -18,7 +18,7 @@ import wrapimgboss3 from "./img/boss-nobg.png"
 import preIcon from "./img/pre.png"
 import nexIcon from "./img/nex.png"
 import footerimg2 from "./img/footerimg2.png"
-import anhCty from "../bodyHome/img/anh/anhCty.png"
+import anhCty from "../bodyHome/img/anh/anhCty.webp"
 import family from "./img/family.png"
 
 function SampleNextArrow(props) {

@@ -1,5 +1,5 @@
 import React from 'react';
-import data from "./Product/index.js"
+// import data from "./Product/index.js"
 const Text = (props) => {
    
     const {TextData,text}=props

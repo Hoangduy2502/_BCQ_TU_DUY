@@ -1,21 +1,18 @@
 import { useState } from 'react';
 import React from 'react';
-import nen from "./img/nen.png"
 import "./Header.css"
 import Carousel from './Carousel';
-import Logo2 from "./img/Logo2.png"
-import logoshow from "./img/logoshow.png"
-import iconNav from "./img/iconNav.png"
-import iconShow from "./img/iconShow.png"
+import Logo2 from "./img/Logo2.webp"
+import logoshow from "./img/logoshow.webp"
+import iconNav from "./img/iconNav.webp"
+import iconShow from "./img/iconShow.webp"
 import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
+    BrowserRouter as
+        Link
 } from "react-router-dom";
 const Header = (props) => {
 
-    const {shows}=props
+    const { shows } = props
     const [navbar, setnavbar] = useState(false);
     const change = () => {
         if (window.scrollY >= 300) setnavbar(true)
@@ -25,22 +22,21 @@ const Header = (props) => {
     const Home = () => {
         window.location.href = "/"
     }
-    
+
     var url_string = window.location.href;
     var url = new URL(url_string);
     React.useLayoutEffect(() => {
-        if(url.hash.toString()!="#Product")
-        {
+        if (url.hash.toString() != "#Product") {
             shows.setShow1(true)
         }
-        else{
+        else {
             shows.setShow1(false)
         }
         return () => {
-            
+
         }
-    },[])
-   
+    }, [])
+
     return (
         <div className="nen">
             <div className="color-no-touch"></div>
@@ -56,25 +52,25 @@ const Header = (props) => {
                             <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="/">Trang chủ</a>
                         </li>
                         <li className="nav-items">
-                            <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="/">Giới thiệu</a>
+                            <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="/Introduction">Giới thiệu</a>
                         </li>
                         <li className="nav-items">
                             <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="/#Product">Sản phẩm</a>
                         </li>
                         <li className="nav-items">
-                            <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="">Ăn gì hôm nay!</a>
+                            <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="/LetEat">Ăn gì hôm nay!</a>
                         </li>
                         <li className="nav-items">
                             <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="/News#challenge">Tin tức</a>
                         </li>
-                        <li className="nav-items">
-                            <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="#c                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ontact">Liên hệ</a>
+                        <li className="nav-items ">
+                            <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="#contact">Liên hệ</a>
                         </li>
                     </ul>
                     <div className="Nav-Phone ">
                         <nav className="navbar navbar-dark  icon ">
                             <button className="navbar-toggler" style={{ marginLeft: "auto" }} type="button" data-toggle="collapse" data-target="#NavPhone" aria-controls="NavPhone" aria-expanded="false" aria-label="Toggle navigation">
-{/* <span class="navbar-toggler-icon"></span> */}
+                                {/* <span class="navbar-toggler-icon"></span> */}
                                 <img src={navbar ? iconShow : iconNav} />
                             </button>
                         </nav>

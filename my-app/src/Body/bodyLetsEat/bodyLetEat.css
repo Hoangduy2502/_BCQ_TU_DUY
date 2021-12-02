@@ -21,6 +21,13 @@
     letter-spacing: 0px;
     color: #392A00;
     opacity: 1;
+ 
+    line-height: 1.5rem;
+    height: 4.5rem;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
   
 }
 .card{

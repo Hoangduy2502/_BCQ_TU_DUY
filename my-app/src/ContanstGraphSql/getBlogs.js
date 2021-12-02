@@ -11,6 +11,7 @@ export default async () => {
             content
             created_at
             description
+            small_title
             thumbnail{
             formats
             

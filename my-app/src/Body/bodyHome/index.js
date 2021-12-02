@@ -1,11 +1,8 @@
 import React, { useState } from 'react';
 import History from './history';
 import Content from './Content';
-
 import Menu from './Menu/Menu';
-import TabMenu from './Menu/TabMenu';
 import Product from './Menu/Product/index';
-import DatHang from "../../Header/img/Dathang.png"
 const Index = () => {
     const [activeTab1, setActiveTab1] = useState("tab-pane fade show active")
     const [activeTab2, setActiveTab2] = useState("tab-pane fade")

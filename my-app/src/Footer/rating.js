@@ -1,17 +1,17 @@
 import React from 'react';
 import './footer.css';
-import rating01 from './img/cThuy.png'
-import prebtn from './img/preicon.png'
-import nextbtn from './img/nexticon.png'
+import rating01 from './img/cThuy.webp'
+import prebtn from './img/preicon.webp'
+import nextbtn from './img/nexticon.webp'
 const data = [
     {
-        img: './img/rating01.png',
+        img: './img/rating01.webp',
         rating: 'Với tôi, Bánh quốn Quyên không chỉ là món ăn tuổi thơ mà còn là nơi mà tôi luôn muốn tới cùng gia đình bạn bè...',
         name: 'Chị Bùi Thu Thủy',
         address: 'Tiểu thường tại chợ Đổ'
     },
     {
-        img: './img/rating01.png',
+        img: './img/rating01.webp',
         rating: 'Với tôi, Bánh quốn Quyên không chỉ là món ăn tuổi thơ mà còn là nơi mà tôi luôn muốn tới cùng gia đình bạn bè...',
         name: 'Chị Bùi Thu Thủy',
         address: 'Tiểu thường tại chợ Đổ'

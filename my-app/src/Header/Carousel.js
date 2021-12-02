@@ -1,7 +1,5 @@
 import React from 'react';
 import "./Header.css"
-import nen from "./img/nen.png"
-import nen01 from "./img/nen01.png"
 const Carousel = () => {
     return (
         <div>
