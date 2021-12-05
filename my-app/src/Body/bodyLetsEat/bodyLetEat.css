@@ -40,3 +40,15 @@
     height: 100%;
  
 }
+.pagination
+{
+    position: absolute;
+    left: 50%;
+  
+    transform: translateX(-50%);
+}
+.hjFLZP
+{
+    top:50% !important;
+    height:0
+}

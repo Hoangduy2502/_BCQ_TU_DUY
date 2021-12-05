@@ -1,10 +1,10 @@
 import React, { useRef } from 'react';
-import "./new.css"
-import iconFB from "./img/IconFB.png"
+// import "./new.css"
+// import iconFB from "./img/IconFB.png"
 import ContanstGraphSql from '../../ContanstGraphSql';
 import LoadingScreen from 'react-loading-screen';
-const News = (props) => {
-    const { isnewsData} = props
+const DetailBlogLeastEat = (props) => {
+    const { isnewsData, setIsnewsData } = props
 
     const [isDetailNews, setIsDetailNews] = React.useState({})
     const [isLoading, setIsLoading] = React.useState(false)
@@ -23,7 +23,7 @@ const News = (props) => {
 
     const listNews = isnewsData != null && isnewsData.getBlog.content.map((list) => {
         return (
-            <a href={`/News?id=${list.id}#challenge`}>
+            <a href={`/LetEat?id=${list.id}#challenge`}>
                 <div className="justify-content-center container" >
                     <div className="d-flex NewHot justify-content-center container " >
                         <div className='col-6'>
@@ -43,22 +43,18 @@ const News = (props) => {
             </a>
         )
     })
-    const onClickLink = () => {
-        window.open("https://www.facebook.com/banhcuonquyenhaiphong")
-    }
     function createMarkup(htmlString) {
         return { __html: htmlString }
     }
     React.useEffect(() => {
         async function getAllmobile() {
-            await ContanstGraphSql.getBlogs(1, 1, 6).then((val) =>
+            await ContanstGraphSql.getBlogs(2, 1, 6).then((val) =>
                 setNewmobile(val)
             )
 
         }
         getAllmobile()
     }, [])
-
     const listItemsMobile = newmobile != null && newmobile.getBlog.content.map((book, index) => {
         return (
             <li key={index}>
@@ -68,7 +64,7 @@ const News = (props) => {
                 }
 
                 <span className="text-news">
-                    <a className="text-news-header" href={`/News?id=${book.id}`}>{book.title}</a>
+                    <a className="text-news-header" href={`/LetEat?id=${book.id}`}>{book.title}</a>
                     <div className="text-news-body">{book.description}</div>
                     <div className="text-news-date">{book.created_at}</div>
                 </span>
@@ -82,7 +78,7 @@ const News = (props) => {
                     <ul>
                         <li><a>Trang chủ</a></li>
                         <li>/</li>
-                        <li><a>Tin Tức</a></li>
+                        <li><a>Ăn gì hôm nay</a></li>
                         <li>/{isDetailNews.title}</li>
                     </ul>
                 </div>
@@ -94,7 +90,7 @@ const News = (props) => {
                             <label>{isDetailNews.created_at} - Admin</label>
                         </div>
                         <div className="col-6 d-flex justify-content-end">
-                            <img src={iconFB} onClick={onClickLink} />
+                            {/* <img src={iconFB} onClick={onClickLink} /> */}
                         </div>
                     </div>
                     <div className="row">
@@ -110,26 +106,19 @@ const News = (props) => {
                 </div>
                 <div className="col-sm-3 col-0 New ml-5 p-0 ">
                     <div className="row d-flex Titile justify-content-center ">
-                        <label className="row mt-4">TIN TỨC HOT</label>
+                        <label className="row mt-4">Ăn gì hôm nay</label>
                     </div>
-                    <LoadingScreen
-                        loading={isLoading}
-                        bgColor='#f1f1f1'
-                        spinnerColor='#ffbe00'
-                        textColor='#676767'
-                        // logoSrc={logoLoad}
-                        text='Bạn đợi chút!!!'
-                        style={{ margin: "0 auto" }}
-                    >
-                        <div className='slideNewsDetail'>
-                            {listNews}
-                        </div>
-                    </LoadingScreen>
+
+                    <div className='slideNewsDetail'>
+                        {listNews}
+                    </div>
 
 
                     <div className="row d-flex allNew justify-content-center " style={{ cursor: "pointer" }} >
-                        <a className="row mt-4" href="/News?#challenge">Xem tất cả các tin</a>
+                        <a className="row mt-4" href="/LetEat?#challenge" >Xem tất cả các tin</a>
                     </div>
+
+
                 </div>
             </div>
             <div className='slide-mobie-footer'>
@@ -142,4 +131,4 @@ const News = (props) => {
     );
 }
 
-export default News;
+export default DetailBlogLeastEat;

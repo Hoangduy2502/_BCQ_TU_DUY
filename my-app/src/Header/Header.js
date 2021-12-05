@@ -11,7 +11,6 @@ import {
         Link
 } from "react-router-dom";
 const Header = (props) => {
-
     const { shows } = props
     const [navbar, setnavbar] = useState(false);
     const change = () => {
@@ -58,10 +57,10 @@ const Header = (props) => {
                             <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="/#Product">Sản phẩm</a>
                         </li>
                         <li className="nav-items">
-                            <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="/LetEat">Ăn gì hôm nay!</a>
+                            <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="/LetEat?#challenge">Ăn gì hôm nay!</a>
                         </li>
                         <li className="nav-items">
-                            <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="/News#challenge">Tin tức</a>
+                            <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="/News?#challenge">Tin tức</a>
                         </li>
                         <li className="nav-items ">
                             <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="#contact">Liên hệ</a>
@@ -79,20 +78,20 @@ const Header = (props) => {
                                 <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="/">Trang chủ</a>
                             </li>
                             <li className="nav-items">
-                                <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="/GioiThieu">Giới thiệu</a>
+                                <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="/Introduction">Giới thiệu</a>
                             </li>
                             <li className="nav-items ">
                                 <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="/#Product">Sản phẩm</a>
                             </li>
                             <li className="nav-items ">
-                                <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="/News#challenge">Tin tức</a>
+                                <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="/News?#challenge">Tin tức</a>
                             </li>
 
                             <li className="nav-items ">
                                 <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="#contact">Liên hệ</a>
                             </li>
                             <li className="nav-items ">
-                                <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="/">Ăn gì hôm nay!</a>
+                                <a className={`${navbar ? "nav-link show" : "nav-link"}`} href="/LetEat?#challenge">Ăn gì hôm nay!</a>
                             </li>
 
                         </ul>

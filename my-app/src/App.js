@@ -60,15 +60,16 @@ function App() {
     
     async function getBlogs()
     {
-      const news= await ContanstGraphSql.getBlogLimit(6)
-      // const newsLimit= await ContanstGraphSql.getBlogLimit(4)
+      const news= await ContanstGraphSql.getBlogLimit(1,1,6)
+      
       setIsnewsData(news)
       
     }
     async function getBlogs2()
     {
-      const news= await ContanstGraphSql.getBlogLimit(4)
+      const news= await ContanstGraphSql.getBlogLimit(1,1,4)
       setDatanews(news)
+      console.log("TESTDATANEWS",news)
     }
     getBlogs()
     getBlogs2()

@@ -7,7 +7,7 @@ import imgsupport from './img/imgsupport.png'
 const BreakingNews = (props) => {
     const { DataTT, isnewsData } = props
     
-    const listItems = isnewsData != null && isnewsData.getBlogs.map((book) => {
+    const listItems = isnewsData != null && isnewsData.getBlog.content.map((book) => {
         return (
             <div key={book.id} className="row col-4 p-0 m-0 flex-nowrap" >
                   {
@@ -23,7 +23,7 @@ const BreakingNews = (props) => {
         )
     })
     console.log("TEST12345678", listItems)
-    const listItemsMobile = isnewsData != null && isnewsData.getBlogs.map((book, index) => {
+    const listItemsMobile = isnewsData != null && isnewsData.getBlog.content.map((book, index) => {
         return (
             <li key={index}>
                  {

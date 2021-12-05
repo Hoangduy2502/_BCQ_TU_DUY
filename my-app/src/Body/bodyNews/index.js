@@ -7,11 +7,12 @@ const TinTuc = (props) => {
     var url_string = window.location.href;
     var url = new URL(url_string);
     var client_id = React.useRef(url.searchParams.get("id") ? url.searchParams.get("id") : null);
+    const [page,setPage]=React.useState(1)
     return (
         <div>
             {
                 client_id.current==null?
-                <PageAllNews />:
+                <PageAllNews page={page} setPage={setPage}/>:
                 <News isnewsData={isnewsData} setIsnewsData={setIsnewsData} client_id={client_id.current}></News>
             }
         </div>
