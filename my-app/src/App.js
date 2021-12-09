@@ -21,14 +21,18 @@ import {
   Route
 } from "react-router-dom";
 import Lesteats from './Body/bodyLetsEat/index';
-import React,{useState} from 'react';
-function App() {
+import React, { useState } from 'react';
+import packageJson from "../package.json";
+import withClearCache from "./ClearCache";
+import moment from 'moment';
+
+function MainApp() {
   const data = Data1.Data
   const [check, setcheck] = useState(false)
   const [show, setshow] = useState(true);
   const [show1, setShow1] = useState(true);
-  const [isnewsData,setIsnewsData] =useState(null)
-  const [datanews,setDatanews] = useState(null)
+  const [isnewsData, setIsnewsData] = useState(null)
+  const [datanews, setDatanews] = useState(null)
   const Menu = async () => {
     if (check === false) {
       setcheck(true)
@@ -55,36 +59,33 @@ function App() {
     )
   }
 
-  React.useEffect(async()=>
-  {
-    
-    async function getBlogs()
-    {
-      const news= await ContanstGraphSql.getBlogLimit(1,1,6)
-      
+  React.useEffect(async () => {
+
+    async function getBlogs() {
+      const news = await ContanstGraphSql.getBlogLimit(1, 1, 6)
+
       setIsnewsData(news)
-      
+
     }
-    async function getBlogs2()
-    {
-      const news= await ContanstGraphSql.getBlogLimit(1,1,4)
+    async function getBlogs2() {
+      const news = await ContanstGraphSql.getBlogLimit(1, 1, 4)
       setDatanews(news)
-      console.log("TESTDATANEWS",news)
+      console.log("TESTDATANEWS", news)
     }
     getBlogs()
     getBlogs2()
-  },[])
+  }, [])
   const Items = () => {
 
     return check === true ?
       <div className="modal-menu" style={{ width: "100%" }}>
         <div className="modaliframe">
           <iframe className="MenuiFrame" src="https://menu.banhcuonquyen.vn" frameborder="0" type="text/html"></iframe>
-          <img className="iconBack" onClick={Menu} src={iconBack} alt="error img"/>
+          <img className="iconBack" onClick={Menu} src={iconBack} alt="error img" />
         </div>
       </div>
       : <>
-        <img className="DathangPC" src={DatHang} onClick={Menu} data-aos="fade-up" alt="error img"/>
+        <img className="DathangPC" src={DatHang} onClick={Menu} data-aos="fade-up" alt="error img" />
         {/* <img className="Dathangphone " src={Dathangphone} style={{ width: "100%" }} onClick={Menu} data-aos="fade-up" /> */}
         <div className="DatHangNhanh" onClick={Menu} data-aos="fade-up">
           <div className="box-first"></div>
@@ -100,6 +101,7 @@ function App() {
 
   return (
     <>
+      
       <Router>
         <Header shows={{ show1, setShow1 }} />
         <div className="Dathang">
@@ -111,7 +113,7 @@ function App() {
             <Index />
             {/* <UpPost shows={{ show1, setShow1 }} /> */}
             <Rating />
-            <Footer  cus={<BreakingNews DataTT={data} isnewsData={isnewsData} setIsnewsData={setIsnewsData}/>}/>
+            <Footer cus={<BreakingNews DataTT={data} isnewsData={isnewsData} setIsnewsData={setIsnewsData} />} />
           </Route>
           <Route path="/Introduction">
             <GioiThieu />
@@ -125,14 +127,19 @@ function App() {
             <Footer cus={nullFooter()} />
           </Route>
           <Route path="/News">
-            <TinTuc isnewsData={datanews} setIsnewsData={setDatanews}/>
+            <TinTuc isnewsData={datanews} setIsnewsData={setDatanews} />
             <Footer cus={nullFooter()} />
           </Route>
         </Switch>
       </Router>
+      
     </>
   );
 }
+const ClearCacheComponent = withClearCache(MainApp);
 
+function App() {
+  return <ClearCacheComponent />;
+}
 
 export default App;

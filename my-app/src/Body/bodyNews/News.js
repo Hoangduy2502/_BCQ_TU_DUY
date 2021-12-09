@@ -3,23 +3,33 @@ import "./new.css"
 import iconFB from "./img/IconFB.png"
 import ContanstGraphSql from '../../ContanstGraphSql';
 import LoadingScreen from 'react-loading-screen';
+import EmbedContainer from 'react-oembed-container';
 const News = (props) => {
-    const { isnewsData} = props
+    const { isnewsData } = props
 
-    const [isDetailNews, setIsDetailNews] = React.useState({})
+    const [isDetailNews, setIsDetailNews] = React.useState({
+        content: "<script> </script>"
+    })
     const [isLoading, setIsLoading] = React.useState(false)
     const [newmobile, setNewmobile] = React.useState(null)
+    const isFirst = React.useRef(true)
     var url_string = window.location.href;
     var url = new URL(url_string);
     var client_id = React.useRef(url.searchParams.get("id") ? url.searchParams.get("id") : null);
     React.useEffect(() => {
         const onClickgetDetail = async () => {
             const detail = await ContanstGraphSql.getDetailBlogs(parseInt(client_id.current))
-            setIsDetailNews(detail.getBlog.content[0])
 
+            setIsDetailNews(detail.getBlog.content[0])
         }
-        onClickgetDetail()
+        if (isFirst.current) {
+            isFirst.current = false;// có nhiều cách,vs lại code này còn phải sửa nhiều lắm
+            onClickgetDetail() //?vl bạn tôi gọiietstate trong useEffect có cách nào ngon hơn k chỉ với
+        }
+
+
     }, [client_id.current])
+
 
     const listNews = isnewsData != null && isnewsData.getBlog.content.map((list) => {
         return (
@@ -104,7 +114,13 @@ const News = (props) => {
                         <label className="Review" >{isDetailNews.description}</label>
                     </div>
                     <div className="row pt-4  container-fuild" >
-                        <div style={{ width: "100%", whiteSpace: "pre-line" }} className="Commnet" dangerouslySetInnerHTML={createMarkup(isDetailNews.content)}></div>
+                        
+                            <div
+                                style={{ width: "100%", whiteSpace: "pre-line" }}
+                                className="Commnet"
+                                dangerouslySetInnerHTML={createMarkup(isDetailNews.content)}
+                            ></div>
+                        
                     </div>
 
                 </div>

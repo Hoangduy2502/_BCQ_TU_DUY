@@ -40,6 +40,9 @@ export default async (id) => {
         if (data.getBlog.content[i].content!= null)
         {
             data.getBlog.content[i].content = data.getBlog.content[i].content.replaceAll('src="', 'src="' + process.env.REACT_APP_API_IMG)
+            data.getBlog.content[i].content = data.getBlog.content[i].content.replaceAll('div data-oembed-url', 'iframe id="video"  width="100% !impontant" src')
+            // data.getBlog.content[i].content = data.getBlog.content[i].content.replaceAll('oembed ', 'iframe ')
+            // data.getBlog.content[i].content = data.getBlog.content[i].content.replaceAll('url', 'src')
             
         }
            

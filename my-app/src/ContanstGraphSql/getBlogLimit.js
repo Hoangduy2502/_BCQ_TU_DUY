@@ -41,6 +41,8 @@ export default async (id,page,per_page) => {
         if (data.getBlog.content[i].content!= null)
         {
             data.getBlog.content[i].content = data.getBlog.content[i].content.replaceAll('src="', 'src="' + process.env.REACT_APP_API_IMG)
+            data.getBlog.content[i].content = data.getBlog.content[i].content.replaceAll('div data-oembed-url',  'iframe width="100%" src')
+            // data.getBlog.content[i].content = data.getBlog.content[i].content.replaceAll('url ', 'src')
             
         }
            
